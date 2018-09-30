@@ -1,6 +1,5 @@
 @startuml
 
-!include ../../../plantuml-ae-style.iuml
 
 
 (*)  --> "Generate all current command Regular Expressions\nby running java -jar plantuml -patterns\n\n//where planuml is the current planuml.jar file//\n//You may need to specify the full path.//"

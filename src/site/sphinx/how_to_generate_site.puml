@@ -1,6 +1,5 @@
 @startuml
 
-!include ../../../plantuml-ae-style.iuml
 
 title
    Use maven to generate the site with the **""maven site""** command;

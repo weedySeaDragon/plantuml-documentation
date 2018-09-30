@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to PlantUML's documentation!
+Ashley's Info on PlantUML!
 ====================================
 
 Contents:
@@ -11,7 +11,6 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   advanced_usage
    language_reference
    all_skin_params
    how_this_doc_is_generated

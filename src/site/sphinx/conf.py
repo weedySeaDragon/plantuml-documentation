@@ -53,7 +53,9 @@ extensions = [
 # This will provide support for all '..uml' directives.
 #   @see https://trustin.github.io/sphinx-maven-plugin/configuration.html#using-plantuml
 #   @see https://pypi.python.org/pypi/sphinxcontrib-plantuml
-plantuml = 'java -jar /Users/ashleyengelund/dev/java-libraries/plantuml.1.2018.11.jar'
+
+plantuml = 'java -jar /Users/ashleyengelund/github/ae/plantuml-documentation/src/main/resources/plantuml.jar'
+
 
 # recommonMark
 
@@ -329,7 +331,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'PlantUML.tex', u'PlantUML Documentation',
-     u'Arnaud Roques', 'manual'),
+     u'Ashley Engeund', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
