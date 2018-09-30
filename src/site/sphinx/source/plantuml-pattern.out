@@ -1,0 +1,405 @@
+
+SequenceDiagram
+(?i)^[\s ]*$
+(?i)^[\s ]*(['‘’].*||/['‘’].*['‘’]/[\s ]*)$
+START: (?i)^[\s ]*/['‘’]([^'‘’]|['‘’][^/])*$
+END: (?i)^([^%q]|[%q][^/])*[%q]/[%s]*$
+(?i)^!pragma[\s ]+([A-Za-z_][A-Za-z_0-9]*)(?:[\s ]+(.*))?$
+(?i)^title(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+(?i)^caption(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+START: (?i)^title$
+END: (?i)^end[%s]?title$
+START: ^legend(?:[\s ]+(top|bottom))?(?:[\s ]+(left|right|center))?$
+END: (?i)^end[%s]?legend$
+(?i)^(?:(left|right|center)?[\s ]*)footer(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+START: (?i)^(?:(left|right|center)?[\s ]*)footer$
+END: (?i)^end[%s]?footer$
+(?i)^(?:(left|right|center)?[\s ]*)header(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+START: (?i)^(?:(left|right|center)?[\s ]*)header$
+END: (?i)^end[%s]?header$
+(?i)^(skinparam|skinparamlocked)[\s ]+([\w.]*(?:\<\<.*\>\>)?[\w.]*)[\s ]+([^{}]*)$
+BRACKET: (?i)^skinparam[\s ]*(?:[\s ]+([\w.]*(?:\<\<.*\>\>)?[\w.]*))?[\s ]*\{$
+(?i)^minwidth[\s ]+(\d+)$
+(?i)^rotate$
+(?i)^scale[\s ]+([0-9.]+)(?:[\s ]*/[\s ]*([0-9.]+))?$
+(?i)^scale[\s ]+([0-9.]+)[\s ]*[*x][\s ]*([0-9.]+)$
+(?i)^scale[\s ]+([0-9.]+)[\s ]+(width|height)$
+(?i)^scale[\s ]+max[\s ]+([0-9.]+)[\s ]+width$
+(?i)^scale[\s ]+max[\s ]+([0-9.]+)[\s ]+height$
+(?i)^scale[\s ]+max[\s ]+([0-9.]+)[\s ]*[*x][\s ]*([0-9.]+)$
+(?i)^!transformation[\s ]+([^{}]*)$
+START: (?i)^!transformation[\s ]+\{[\s ]*$
+END: (?i)^[%s]*!\}[%s]*$
+(?i)^(hide|show)[\s ]+unlinked$
+START: ^sprite[\s ]+\$?([\p{L}0-9_]+)[\s ]*(?:\[(\d+)x(\d+)/(\d+)(z)?\])?[\s ]*\{$
+END: (?i)^end[%s]?sprite|\}$
+^sprite[\s ]+\$?([\p{L}0-9_]+)[\s ]*(?:\[(\d+)x(\d+)/(\d+)(z)\])?[\s ]+([-_A-Za-z0-9]+)$
+^sprite[\s ]+\$?([\p{L}0-9_]+)[\s ]*[\s ]+(.*)$
+^(hide|show)[\s ]+((?:public|private|protected|package)?(?:[,\s ]+(?:public|private|protected|package))*)[\s ]+(members?|attributes?|fields?|methods?)$
+^(hide|show)[\s ]+(?:(class|object|interface|enum|annotation|abstract|[\p{L}0-9_.]+|["“”«»][^"“”«»]+["“”«»]|\<\<.*\>\>)[\s ]+)*?(?:(empty)[\s ]+)?(members?|attributes?|fields?|methods?|circle\w*|stereotypes?)$
+(?i)^(activate|deactivate|destroy|create)[\s ]+([\p{L}0-9_.@]+|["“”«»][^"“”«»]+["“”«»])[\s ]*(#\w+)?(?:[\s ]+(#\w+))?$
+^(?:(participant|actor|create|boundary|control|entity|queue|database|collections)|create[\s ](participant|actor|boundary|control|entity|queue|database|collections))[\s ]+(?:["“”«»]([^"“”«»]+)["“”«»][\s ]+as[\s ]+)?([\p{L}0-9_.@]+)[\s ]*(\<\<.*\>\>)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+^(?:(participant|actor|create|boundary|control|entity|queue|database|collections)|create[\s ](participant|actor|boundary|control|entity|queue|database|collections))[\s ]+([\p{L}0-9_.@]+)[\s ]+as[\s ]+["“”«»]([^"“”«»]+)["“”«»][\s ]*(\<\<.*\>\>)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+^(?:(participant|actor|create|boundary|control|entity|queue|database|collections)|create[\s ](participant|actor|boundary|control|entity|queue|database|collections))[\s ]+([\p{L}0-9_.@]+)[\s ]+as[\s ]+([\p{L}0-9_.@]+)[\s ]*(\<\<.*\>\>)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+^(?:(participant|actor|create|boundary|control|entity|queue|database|collections)|create[\s ](participant|actor|boundary|control|entity|queue|database|collections))[\s ]+["“”«»]([^"“”«»]+)["“”«»][\s ]*(\<\<.*\>\>)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+^(&\s *)?(([\p{L}0-9_.@]+)|["“”«»]([^"“”«»]+)["“”«»]|["“”«»]([^"“”«»]+)["“”«»][\s ]*as[\s ]+([\p{L}0-9_.@]+)|([\p{L}0-9_.@]+)[\s ]+as[\s ]*["“”«»]([^"“”«»]+)["“”«»])[\s ]*([\s ][ox]|(?:[\s ][ox])?<<?|(?:[\s ][ox])?//?|(?:[\s ][ox])?\\\\?)?(?:(-+)(?:\[((?:#\w+|dotted|dashed|plain|bold|hidden)(?:,#\w+|,dotted|,dashed|,plain|,bold|,hidden)*)\])?(-*)|(-*)(?:\[((?:#\w+|dotted|dashed|plain|bold|hidden)(?:,#\w+|,dotted|,dashed|,plain|,bold|,hidden)*)\])?(-+))(>>?(?:[ox][\s ])?|//?(?:[ox][\s ])?|\\\\?(?:[ox][\s ])?|[ox][\s ])?[\s ]*(([\p{L}0-9_.@]+)|["“”«»]([^"“”«»]+)["“”«»]|["“”«»]([^"“”«»]+)["“”«»][\s ]*as[\s ]+([\p{L}0-9_.@]+)|([\p{L}0-9_.@]+)[\s ]+as[\s ]*["“”«»]([^"“”«»]+)["“”«»])[\s ]*(?:([+*!-]+)?)[\s ]*(?:(#\w+)?)[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*(?::[\s ]*(.*))?$
+^([?\[\]][ox]?)?(?:(<<?|//?|\\\\?)?(-+)(?:\[((?:#\w+|dotted|dashed|plain|bold|hidden)(?:,#\w+|,dotted|,dashed|,plain|,bold|,hidden)*)\])?(-*)(>>?|//?|\\\\?)|(<<?|//?|\\\\?)(-*)(?:\[((?:#\w+|dotted|dashed|plain|bold|hidden)(?:,#\w+|,dotted|,dashed|,plain|,bold|,hidden)*)\])?(-+))([ox][\s ]+)?[\s ]*([\p{L}0-9_.@]+|["“”«»][^"“”«»]+["“”«»])[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*(?::[\s ]*(.*))?$
+^([\p{L}0-9_.@]+|["“”«»][^"“”«»]+["“”«»])[\s ]*([\s ]+[ox])?(?:(<<?|//?|\\\\?)?(-+)(?:\[((?:#\w+|dotted|dashed|plain|bold|hidden)(?:,#\w+|,dotted|,dashed|,plain|,bold|,hidden)*)\])?(-*)(>>?|//?|\\\\?)|(<<?|//?|\\\\?)(-*)(?:\[((?:#\w+|dotted|dashed|plain|bold|hidden)(?:,#\w+|,dotted|,dashed|,plain|,bold|,hidden)*)\])?(-+))([ox]?[?\]\[])?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*(?::[\s ]*(.*))?$
+^(/)?[\s ]*(note|hnote|rnote)[\s ]*(\<{2}.*\>{2})?[\s ]*(right|left|over)[\s ]+(?:of[\s ])?([\p{L}0-9_.@]+|["“”«»][^"“”«»]+["“”«»])[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*:[\s ]*(.*)$
+^(/)?[\s ]*(note|hnote|rnote)[\s ]+over[\s ]+([\p{L}0-9_.@]+|["“”«»][^"“”«»]+["“”«»])[\s ]*\,[\s ]*([\p{L}0-9_.@]+|["“”«»][^"“”«»]+["“”«»])[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*:[\s ]*(.*)$
+(?i)^box(?:[\s ]+["“”«»]([^"“”«»]+)["“”«»])?(?:[\s ]+(#\w+))?$
+(?i)^end[\s ]?box$
+^(opt|alt|loop|par|par2|break|critical|else|end|also|group)((?<!else)(?<!also)(?<!end)#\w+)?(?:[\s ]+(#\w+))?(?:[\s ]+(.*?))?$
+(?i)^([\p{L}0-9_.@]+)[\s ]*(\+\+|--)[\s ]*(#\w+)?$
+(?i)^return[\s ]*(.*)$
+^[\s ]*(note|hnote|rnote)[\s ]+(right|left)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*:[\s ]*(.*)$
+START: ^(/)?[\s ]*(note|hnote|rnote)[\s ]*(\<{2}.*\>{2})?[\s ]*(right|left|over)[\s ]+(?:of[\s ]+)?([\p{L}0-9_.@]+|["“”«»][^"“”«»]+["“”«»])[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?$
+END: (?i)^end[%s]?(note|hnote|rnote)$
+START: ^(/)?[\s ]*(note|hnote|rnote)[\s ]+over[\s ]+([\p{L}0-9_.@]+|["“”«»][^"“”«»]+["“”«»])[\s ]*\,[\s ]*([\p{L}0-9_.@]+|["“”«»][^"“”«»]+["“”«»])[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?$
+END: (?i)^end[%s]?(note|hnote|rnote)$
+START: ^[\s ]*(note|hnote|rnote)[\s ]+(right|left)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?$
+END: (?i)^[%s]*end[%s]?note$
+(?i)^@?newpage(?:(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*))?$
+(?i)^ignore[\s ]*newpage$
+(?i)^autonewpage[\s ]+(\d+)$
+(?i)^==[\s ]*(.*)[\s ]*==$
+(?i)^\|\|(\d+)?\|+$
+^ref(#\w+)?[\s ]+over[\s ]+(([\p{L}0-9_.@]+|["“”«»][^"“”«»]+["“”«»])([\s ]*,[\s ]*([\p{L}0-9_.@]+|["“”«»][^"“”«»]+["“”«»]))*)[\s ]*:[\s ]*(?:\[\[([^|]*)(?:\|([^|]*))?\]\])?(.*)$
+START: (?i)^ref(#\w+)?[\s ]+over[\s ]+((?:[\p{L}0-9_.@]+|["“”«»][^"“”«»]+["“”«»])(?:[\s ]*,[\s ]*(?:[\p{L}0-9_.@]+|["“”«»][^"“”«»]+["“”«»]))*)[\s ]*(#\w+)?$
+END: (?i)^end[%s]?(ref)?$
+(?i)^skin[\s ]+([\w.]+)$
+^autonumber[\s ]*(\d(?:(?:[^\p{L}0-9\s ]+|\d+)*\d)?)?(?:[\s ]+(\d+))?(?:[\s ]+["“”«»]([^"“”«»]+)["“”«»])?[\s ]*$
+(?i)^autonumber[\s ]+stop[\s ]*$
+^autonumber[\s ]+resume[\s ]*(?:[\s ]+(\d+))?(?:[\s ]+["“”«»]([^"“”«»]+)["“”«»])?$
+^autonumber[\s ]+inc(?:[\s ]+([A-Za-z]))?[\s ]*$
+(?i)^autoactivate[\s ]+(off|on)*$
+(?i)^(hide|show)?[\s ]*footbox$
+(?i)^(?:\.{3}|…)(?:(.*)(?:\.{3}|…))?$
+(?i)^footbox[\s ]*(on|off)?[\s ]*$
+(?i)^url[\s ]*(?:of|for)?[\s ]+([\p{L}0-9_.@]+|["“”«»][^"“”«»]+["“”«»])[\s ]+(?:is)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])$
+
+ClassDiagram
+(?i)^(hide|show)?[\s ]*footbox$
+(?i)^[\s ]*$
+(?i)^[\s ]*(['‘’].*||/['‘’].*['‘’]/[\s ]*)$
+START: (?i)^[\s ]*/['‘’]([^'‘’]|['‘’][^/])*$
+END: (?i)^([^%q]|[%q][^/])*[%q]/[%s]*$
+(?i)^!pragma[\s ]+([A-Za-z_][A-Za-z_0-9]*)(?:[\s ]+(.*))?$
+(?i)^title(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+(?i)^caption(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+START: (?i)^title$
+END: (?i)^end[%s]?title$
+START: ^legend(?:[\s ]+(top|bottom))?(?:[\s ]+(left|right|center))?$
+END: (?i)^end[%s]?legend$
+(?i)^(?:(left|right|center)?[\s ]*)footer(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+START: (?i)^(?:(left|right|center)?[\s ]*)footer$
+END: (?i)^end[%s]?footer$
+(?i)^(?:(left|right|center)?[\s ]*)header(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+START: (?i)^(?:(left|right|center)?[\s ]*)header$
+END: (?i)^end[%s]?header$
+(?i)^(skinparam|skinparamlocked)[\s ]+([\w.]*(?:\<\<.*\>\>)?[\w.]*)[\s ]+([^{}]*)$
+BRACKET: (?i)^skinparam[\s ]*(?:[\s ]+([\w.]*(?:\<\<.*\>\>)?[\w.]*))?[\s ]*\{$
+(?i)^minwidth[\s ]+(\d+)$
+(?i)^rotate$
+(?i)^scale[\s ]+([0-9.]+)(?:[\s ]*/[\s ]*([0-9.]+))?$
+(?i)^scale[\s ]+([0-9.]+)[\s ]*[*x][\s ]*([0-9.]+)$
+(?i)^scale[\s ]+([0-9.]+)[\s ]+(width|height)$
+(?i)^scale[\s ]+max[\s ]+([0-9.]+)[\s ]+width$
+(?i)^scale[\s ]+max[\s ]+([0-9.]+)[\s ]+height$
+(?i)^scale[\s ]+max[\s ]+([0-9.]+)[\s ]*[*x][\s ]*([0-9.]+)$
+(?i)^!transformation[\s ]+([^{}]*)$
+START: (?i)^!transformation[\s ]+\{[\s ]*$
+END: (?i)^[%s]*!\}[%s]*$
+(?i)^(hide|show)[\s ]+unlinked$
+START: ^sprite[\s ]+\$?([\p{L}0-9_]+)[\s ]*(?:\[(\d+)x(\d+)/(\d+)(z)?\])?[\s ]*\{$
+END: (?i)^end[%s]?sprite|\}$
+^sprite[\s ]+\$?([\p{L}0-9_]+)[\s ]*(?:\[(\d+)x(\d+)/(\d+)(z)\])?[\s ]+([-_A-Za-z0-9]+)$
+^sprite[\s ]+\$?([\p{L}0-9_]+)[\s ]*[\s ]+(.*)$
+^(hide|show)[\s ]+((?:public|private|protected|package)?(?:[,\s ]+(?:public|private|protected|package))*)[\s ]+(members?|attributes?|fields?|methods?)$
+^(hide|show)[\s ]+(?:(class|object|interface|enum|annotation|abstract|[\p{L}0-9_.]+|["“”«»][^"“”«»]+["“”«»]|\<\<.*\>\>)[\s ]+)*?(?:(empty)[\s ]+)?(members?|attributes?|fields?|methods?|circle\w*|stereotypes?)$
+(?i)^(left[\s ]to[\s ]right|top[\s ]to[\s ]bottom)[\s ]+direction$
+^newpage$
+^(hide|show)[\s ]+(\<\<.*\>\>)$
+(?i)^page[\s ]+(\d+)[\s ]*x[\s ]*(\d+)$
+(?i)^([\p{L}0-9_.]+|["“”«»][^"“”«»]+["“”«»])[\s ]+:[\s ]+(.*)$
+^(interface|enum|annotation|abstract[\s ]+class|abstract|class|entity|circle)[\s ]+(?:["“”«»](.+?)(?:\<([^\<\>/](?:[^\<\>/]|\<(?:[^\<\>/]|\<(?:[^\<\>/]|\<(?:[^\<\>/]|\<(?:[^\<\>/]|\<\>)*\>)*\>)*\>)*\>)*)\>)?["“”«»][\s ]+as[\s ]+([^\s {}"“”«»<>]+)|([^\s {}"“”«»<>]+)[\s ]+as[\s ]+["“”«»](.+?)(?:\<([^\<\>/](?:[^\<\>/]|\<(?:[^\<\>/]|\<(?:[^\<\>/]|\<(?:[^\<\>/]|\<(?:[^\<\>/]|\<\>)*\>)*\>)*\>)*\>)*)\>)?["“”«»]|([^\s {}"“”«»<>]+)|["“”«»]([^"“”«»]+)["“”«»])(?:[\s ]*\<([^\<\>/](?:[^\<\>/]|\<(?:[^\<\>/]|\<(?:[^\<\>/]|\<(?:[^\<\>/]|\<(?:[^\<\>/]|\<\>)*\>)*\>)*\>)*\>)*)\>)?[\s ]*(\<{2}.*\>{2})?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(?:##(?:\[(dotted|dashed|bold)\])?(\w+)?)?([\s ]+(extends)[\s ]+((?:\.|::|\\|\\\\)?[\p{L}0-9_]+(?:(?:\.|::|\\|\\\\)[\p{L}0-9_]+)*(?:\s*,\s*(?:\.|::|\\|\\\\)?[\p{L}0-9_]+(?:(?:\.|::|\\|\\\\)[\p{L}0-9_]+)*)*))?([\s ]+(implements)[\s ]+((?:\.|::|\\|\\\\)?[\p{L}0-9_]+(?:(?:\.|::|\\|\\\\)[\p{L}0-9_]+)*(?:\s*,\s*(?:\.|::|\\|\\\\)?[\p{L}0-9_]+(?:(?:\.|::|\\|\\\\)[\p{L}0-9_]+)*)*))?$
+^(object)[\s ]+(?:["“”«»]([^"“”«»]+)["“”«»][\s ]+as[\s ]+)?([\p{L}0-9_.]+)[\s ]*(\<\<.+\>\>)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+^allow_mixing$
+^layout_new_line$
+^(?:(state|artifact|actor|folder|card|file|package|rectangle|node|frame|cloud|database|queue|stack|storage|agent|usecase|component|boundary|control|entity|interface|circle)[\s ]+)[\s ]*(?:([\p{L}0-9_.]+|\(\)[\s ]*[\p{L}0-9_.]+|\(\)[\s ]*["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\]|["“”«»][^"“”«»]+["“”«»])|(["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\])(?:[\s ]+(\<\<.+\>\>))?[\s ]*as[\s ]+([\p{L}0-9_.]+|\(\)[\s ]*[\p{L}0-9_.]+|\(\)[\s ]*["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\]))(?:[\s ]*(\<\<.+\>\>))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+^mix_(?:(state|artifact|actor|folder|card|file|package|rectangle|node|frame|cloud|database|queue|stack|storage|agent|usecase|component|boundary|control|entity|interface|circle)[\s ]+)[\s ]*(?:([\p{L}0-9_.]+|\(\)[\s ]*[\p{L}0-9_.]+|\(\)[\s ]*["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\]|["“”«»][^"“”«»]+["“”«»])|(["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\])(?:[\s ]+(\<\<.+\>\>))?[\s ]*as[\s ]+([\p{L}0-9_.]+|\(\)[\s ]*[\p{L}0-9_.]+|\(\)[\s ]*["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\]))(?:[\s ]*(\<\<.+\>\>))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+^[\s ]*note[\s ]+["“”«»]([^"“”«»]+)["“”«»][\s ]+as[\s ]+([\p{L}0-9_.]+)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+^(package|together)[\s ]+(["“”«»][^"“”«»]+["“”«»]|[^#\s {}]*)(?:[\s ]+as[\s ]+([\p{L}0-9_.]+))?[\s ]*(\<\<.*\>\>)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*\{$
+(?i)^\}$
+(?i)^package[\s ]+(["“”«»][^"“”«»]+["“”«»]|[^#\s {}]*)(?:[\s ]+as[\s ]+([\p{L}0-9_.]+))?[\s ]*(#[0-9a-fA-F]{6}|#?\w+)?[\s ]*\{[\s ]*\}$
+^namespace[\s ]+([\p{L}0-9_][\p{L}0-9_.:\\]*)[\s ]*(\<\<.*\>\>)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*\{$
+(?i)^([\p{L}0-9_.]+|["“”«»][^"“”«»]+["“”«»])[\s ]*(\<\<.*\>\>)$
+^(?:@([\d.]+)[\s ]+)?(?:((?:\.|::|\\|\\\\)?[\p{L}0-9_$]+(?:(?:\.|::|\\|\\\\)[\p{L}0-9_$]+)*|["“”«»][^"“”«»]+["“”«»])|\([\s ]*([.\\]{0,2}[\p{L}0-9_]+(?:[.\\]{1,2}[\p{L}0-9_]+)*)[\s ]*,[\s ]*([.\\]{0,2}[\p{L}0-9_]+(?:[.\\]{1,2}[\p{L}0-9_]+)*)[\s ]*\))[\s ]*(?:["“”«»]([^"“”«»]+)["“”«»])?[\s ]*([\s ]+[ox]|[)#\[<*+^}]|[<\[]\||\}o|\}\||\|o|\|\|)?([-=.]+)(?:\[((?:#\w+|dotted|dashed|plain|bold|hidden|norank)(?:,#\w+|,dotted|,dashed|,plain|,bold|,hidden|,norank)*)\])?(left|right|up|down|le?|ri?|up?|do?)?(?:(0|\(0\)|\(0|0\))(?=[-=.~]))?(?:\[((?:#\w+|dotted|dashed|plain|bold|hidden|norank)(?:,#\w+|,dotted|,dashed|,plain|,bold|,hidden|,norank)*)\])?([-=.]*)([ox][\s ]+|[(#\]>*+^\{]|\|[>\]]|o\{|\|\{|o\||\|\|)?[\s ]*(?:["“”«»]([^"“”«»]+)["“”«»])?[\s ]*(?:((?:\.|::|\\|\\\\)?[\p{L}0-9_$]+(?:(?:\.|::|\\|\\\\)[\p{L}0-9_$]+)*|["“”«»][^"“”«»]+["“”«»])|\([\s ]*([.\\]{0,2}[\p{L}0-9_]+(?:[.\\]{1,2}[\p{L}0-9_]+)*)[\s ]*,[\s ]*([.\\]{0,2}[\p{L}0-9_]+(?:[.\\]{1,2}[\p{L}0-9_]+)*)[\s ]*\))[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*(?::[\s ]*(.+))?$
+^(?:@([\d.]+)[\s ]+)?(?:(interface|enum|annotation|abstract[\s ]+class|abstract|class|entity)[\s ]+)?(\.?[\p{L}0-9_]+(?:\.[\p{L}0-9_]+)*|["“”«»][^"“”«»]+["“”«»])[\s ]*(\<\<.*\>\>)?[\s ]*(?:["“”«»]([^"“”«»]+)["“”«»])?[\s ]*(?:\(\)([-=.]+)|([-=.]+)\(\))[\s ]*(?:["“”«»]([^"“”«»]+)["“”«»])?[\s ]*(?:(interface|enum|annotation|abstract[\s ]+class|abstract|class|entity)[\s ]+)?(\.?[\p{L}0-9_]+(?:\.[\p{L}0-9_]+)*|["“”«»][^"“”«»]+["“”«»])[\s ]*(\<\<.*\>\>)?[\s ]*(?::[\s ]*(.+))?$
+(?i)^import[\s ]+["“”«»]?([^"“”«»]+)["“”«»]?$
+START: ^[\s ]*note[\s ]+(right|left)[\s ]+of[\s ]+([^\s {}"“”«»<>:]+|["“”«»][^"“”«»]+["“”«»])::(["“”«»][^"“”«»]+["“”«»]|[^\s ]+)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*\{$
+END: (?i)^(\})$
+START: ^[\s ]*note[\s ]+(right|left)[\s ]+of[\s ]+([^\s {}"“”«»<>:]+|["“”«»][^"“”«»]+["“”«»])::(["“”«»][^"“”«»]+["“”«»]|[^\s ]+)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*$
+END: (?i)^[%s]*(end[%s]?note)$
+^[\s ]*note[\s ]+(right|left|top|bottom)(?:[\s ]+of[\s ]+([^\s {}"“”«»<>]+|["“”«»][^"“”«»]+["“”«»])|)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*:[\s ]*(.*)$
+(?i)^url[\s ]*(?:of|for)?[\s ]+([\p{L}0-9_.]+|["“”«»][^"“”«»]+["“”«»])[\s ]+(?:is)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])$
+START: ^[\s ]*note[\s ]+(right|left|top|bottom)(?:[\s ]+of[\s ]+([^\s {}"“”«»<>]+|["“”«»][^"“”«»]+["“”«»])|)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*\{$
+END: (?i)^(\})$
+START: ^[\s ]*note[\s ]+(right|left|top|bottom)(?:[\s ]+of[\s ]+([^\s {}"“”«»<>]+|["“”«»][^"“”«»]+["“”«»])|)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*$
+END: (?i)^[%s]*(end[%s]?note)$
+START: ^[\s ]*(note)[\s ]+as[\s ]+([\p{L}0-9_.]+)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+END: (?i)^[%s]*end[%s]?note$
+START: ^([-#+~])?(interface|enum|abstract[\s ]+class|abstract|class|entity)[\s ]+(?:["“”«»](.+?)(?:\<([^\<\>/](?:[^\<\>/]|\<(?:[^\<\>/]|\<(?:[^\<\>/]|\<(?:[^\<\>/]|\<(?:[^\<\>/]|\<\>)*\>)*\>)*\>)*\>)*)\>)?["“”«»][\s ]+as[\s ]+([^\s {}"“”«»<>]+)|([^\s {}"“”«»<>]+)[\s ]+as[\s ]+["“”«»](.+?)(?:\<([^\<\>/](?:[^\<\>/]|\<(?:[^\<\>/]|\<(?:[^\<\>/]|\<(?:[^\<\>/]|\<(?:[^\<\>/]|\<\>)*\>)*\>)*\>)*\>)*)\>)?["“”«»]|([^\s {}"“”«»<>]+)|["“”«»]([^"“”«»]+)["“”«»])(?:[\s ]*\<([^\<\>/](?:[^\<\>/]|\<(?:[^\<\>/]|\<(?:[^\<\>/]|\<(?:[^\<\>/]|\<(?:[^\<\>/]|\<\>)*\>)*\>)*\>)*\>)*)\>)?[\s ]*(\<\<.+\>\>)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(?:##(?:\[(dotted|dashed|bold)\])?(\w+)?)?([\s ]+(extends)[\s ]+((?:\.|::|\\|\\\\)?[\p{L}0-9_]+(?:(?:\.|::|\\|\\\\)[\p{L}0-9_]+)*(?:\s*,\s*(?:\.|::|\\|\\\\)?[\p{L}0-9_]+(?:(?:\.|::|\\|\\\\)[\p{L}0-9_]+)*)*))?([\s ]+(implements)[\s ]+((?:\.|::|\\|\\\\)?[\p{L}0-9_]+(?:(?:\.|::|\\|\\\\)[\p{L}0-9_]+)*(?:\s*,\s*(?:\.|::|\\|\\\\)?[\p{L}0-9_]+(?:(?:\.|::|\\|\\\\)[\p{L}0-9_]+)*)*))?[\s ]*\{[\s ]*$
+END: (?i)^[%s]*\}[%s]*$
+START: ^(object)[\s ]+(?:["“”«»]([^"“”«»]+)["“”«»][\s ]+as[\s ]+)?([\p{L}0-9_.]+)[\s ]*(\<\<.+\>\>)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*\{[\s ]*$
+END: (?i)^[%s]*\}[%s]*$
+^[\s ]*note[\s ]+(right|left|top|bottom)?[\s ]*on[\s ]+link[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*:[\s ]*(.*)$
+START: ^[\s ]*note[\s ]+(right|left|top|bottom)?[\s ]*on[\s ]+link[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+END: (?i)^[%s]*end[%s]?note$
+(?i)^\<\>[\s ]*([\p{L}0-9_.]+)$
+^(hide|show)[\s ]+([^\s {}"“”«»<>]+)$
+(?i)^set[\s ]namespaceseparator[\s ](\S+)$
+
+ActivityDiagram
+(?i)^(hide|show)?[\s ]*footbox$
+(?i)^[\s ]*$
+(?i)^[\s ]*(['‘’].*||/['‘’].*['‘’]/[\s ]*)$
+START: (?i)^[\s ]*/['‘’]([^'‘’]|['‘’][^/])*$
+END: (?i)^([^%q]|[%q][^/])*[%q]/[%s]*$
+(?i)^!pragma[\s ]+([A-Za-z_][A-Za-z_0-9]*)(?:[\s ]+(.*))?$
+(?i)^title(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+(?i)^caption(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+START: (?i)^title$
+END: (?i)^end[%s]?title$
+START: ^legend(?:[\s ]+(top|bottom))?(?:[\s ]+(left|right|center))?$
+END: (?i)^end[%s]?legend$
+(?i)^(?:(left|right|center)?[\s ]*)footer(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+START: (?i)^(?:(left|right|center)?[\s ]*)footer$
+END: (?i)^end[%s]?footer$
+(?i)^(?:(left|right|center)?[\s ]*)header(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+START: (?i)^(?:(left|right|center)?[\s ]*)header$
+END: (?i)^end[%s]?header$
+(?i)^(skinparam|skinparamlocked)[\s ]+([\w.]*(?:\<\<.*\>\>)?[\w.]*)[\s ]+([^{}]*)$
+BRACKET: (?i)^skinparam[\s ]*(?:[\s ]+([\w.]*(?:\<\<.*\>\>)?[\w.]*))?[\s ]*\{$
+(?i)^minwidth[\s ]+(\d+)$
+(?i)^rotate$
+(?i)^scale[\s ]+([0-9.]+)(?:[\s ]*/[\s ]*([0-9.]+))?$
+(?i)^scale[\s ]+([0-9.]+)[\s ]*[*x][\s ]*([0-9.]+)$
+(?i)^scale[\s ]+([0-9.]+)[\s ]+(width|height)$
+(?i)^scale[\s ]+max[\s ]+([0-9.]+)[\s ]+width$
+(?i)^scale[\s ]+max[\s ]+([0-9.]+)[\s ]+height$
+(?i)^scale[\s ]+max[\s ]+([0-9.]+)[\s ]*[*x][\s ]*([0-9.]+)$
+(?i)^!transformation[\s ]+([^{}]*)$
+START: (?i)^!transformation[\s ]+\{[\s ]*$
+END: (?i)^[%s]*!\}[%s]*$
+(?i)^(hide|show)[\s ]+unlinked$
+START: ^sprite[\s ]+\$?([\p{L}0-9_]+)[\s ]*(?:\[(\d+)x(\d+)/(\d+)(z)?\])?[\s ]*\{$
+END: (?i)^end[%s]?sprite|\}$
+^sprite[\s ]+\$?([\p{L}0-9_]+)[\s ]*(?:\[(\d+)x(\d+)/(\d+)(z)\])?[\s ]+([-_A-Za-z0-9]+)$
+^sprite[\s ]+\$?([\p{L}0-9_]+)[\s ]*[\s ]+(.*)$
+^(hide|show)[\s ]+((?:public|private|protected|package)?(?:[,\s ]+(?:public|private|protected|package))*)[\s ]+(members?|attributes?|fields?|methods?)$
+^(hide|show)[\s ]+(?:(class|object|interface|enum|annotation|abstract|[\p{L}0-9_.]+|["“”«»][^"“”«»]+["“”«»]|\<\<.*\>\>)[\s ]+)*?(?:(empty)[\s ]+)?(members?|attributes?|fields?|methods?|circle\w*|stereotypes?)$
+(?i)^(left[\s ]to[\s ]right|top[\s ]to[\s ]bottom)[\s ]+direction$
+^partition[\s ]+(["“”«»][^"“”«»]+["“”«»]|\S+)[\s ]*(?:((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?|(#[0-9a-fA-F]{6}|#?\w+)?)[\s ]*\{?$
+(?i)^(end[\s ]?partition|\})$
+START: ^(?:((\(\*(top)?\))|([\p{L}0-9][\p{L}0-9_.]*)|(?:==+)[\s ]*([\p{L}0-9_.]+)[\s ]*(?:==+)|["“”«»]([^"“”«»]+)["“”«»](?:[\s ]+as[\s ]+([\p{L}0-9_.]+))?))?[\s ]*(\<\<.*\>\>)?[\s ]*(#\w+)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?([-.]+)(?:\[((?:#\w+|dotted|dashed|plain|bold|hidden)(?:,#\w+|,dotted|,dashed|,plain|,bold|,hidden)*)\])?(\*|left|right|up|down|le?|ri?|up?|do?)?(?:\[((?:#\w+|dotted|dashed|plain|bold|hidden)(?:,#\w+|,dotted|,dashed|,plain|,bold|,hidden)*)\])?([-.]*)\>[\s ]*(?:\[([^\]*]+[^\]]*)\])?[\s ]*["“”«»]([^"“”«»]*?)[\s ]*$
+END: (?i)^[%s]*([^%g]*)[%g](?:[%s]+as[%s]+([\p{L}0-9][\p{L}0-9_.]*))?[%s]*(\<\<.*\>\>)?[%s]*(?:in[%s]+([%g][^%g]+[%g]|\S+))?[%s]*(#\w+)?$
+^[\s ]*note[\s ]+(right|left|top|bottom)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*:[\s ]*(.*)$
+START: ^[\s ]*note[\s ]+(right|left|top|bottom)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*$
+END: (?i)^[%s]*end[%s]?note$
+^[\s ]*note[\s ]+(right|left|top|bottom)?[\s ]*on[\s ]+link[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*:[\s ]*(.*)$
+START: ^[\s ]*note[\s ]+(right|left|top|bottom)?[\s ]*on[\s ]+link[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+END: (?i)^[%s]*end[%s]?note$
+^(?:((\(\*(top)?\))|([\p{L}0-9_.]+)|(?:==+)[\s ]*([\p{L}0-9_.]+)[\s ]*(?:==+)|["“”«»]([^"“”«»]+)["“”«»](?:[\s ]+as[\s ]+([\p{L}0-9_.]+))?))?[\s ]*([=-]+(?:(left|right|up|down|le?|ri?|up?|do?)(?=[-=.]))?[=-]*\>)?[\s ]*(?:\[([^\]*]+[^\]]*)\])?[\s ]*(?:if[\s ]*["“”«»]([^"“”«»]*)["“”«»][\s ]*(?:as[\s ]+([\p{L}0-9_.]+)[\s ]+)?|if[\s ]+(.+?)[\s ]*)(?:then)?$
+(?i)^else$
+(?i)^end[\s ]?if$
+^(?:((\(\*(top)?\))|([\p{L}0-9][\p{L}0-9_.]*)|(?:==+)[\s ]*([\p{L}0-9_.]+)[\s ]*(?:==+)|["“”«»]([^"“”«»]+)["“”«»](?:[\s ]+as[\s ]+([\p{L}0-9_.]+))?))?[\s ]*(\<\<.*\>\>)?[\s ]*(#\w+[-\\|/]?\w+)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?([-.]+)(?:\[((?:#\w+|dotted|dashed|plain|bold|hidden)(?:,#\w+|,dotted|,dashed|,plain|,bold|,hidden)*)\])?(\*|left|right|up|down|le?|ri?|up?|do?)?(?:\[((?:#\w+|dotted|dashed|plain|bold|hidden)(?:,#\w+|,dotted|,dashed|,plain|,bold|,hidden)*)\])?([-.]*)\>[\s ]*(?:\[([^\]*]+[^\]]*)\])?[\s ]*((\(\*(top|\d+)?\))|(\{)|([\p{L}0-9][\p{L}0-9_.]*)|(?:==+)[\s ]*([\p{L}0-9_.]+)[\s ]*(?:==+)|["“”«»]([^"“”«»]+)["“”«»](?:[\s ]+as[\s ]+([\p{L}0-9][\p{L}0-9_.]*))?|(\w.*?))[\s ]*(\<\<.*\>\>)?[\s ]*(?:in[\s ]+(["“”«»][^"“”«»]+["“”«»]|\S+))?[\s ]*(#\w+[-\\|/]?\w+)?$
+
+DescriptionDiagram
+(?i)^(hide|show)?[\s ]*footbox$
+(?i)^set[\s ]namespaceseparator[\s ](\S+)$
+(?i)^(left[\s ]to[\s ]right|top[\s ]to[\s ]bottom)[\s ]+direction$
+^newpage$
+(?i)^[\s ]*$
+(?i)^[\s ]*(['‘’].*||/['‘’].*['‘’]/[\s ]*)$
+START: (?i)^[\s ]*/['‘’]([^'‘’]|['‘’][^/])*$
+END: (?i)^([^%q]|[%q][^/])*[%q]/[%s]*$
+(?i)^!pragma[\s ]+([A-Za-z_][A-Za-z_0-9]*)(?:[\s ]+(.*))?$
+(?i)^title(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+(?i)^caption(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+START: (?i)^title$
+END: (?i)^end[%s]?title$
+START: ^legend(?:[\s ]+(top|bottom))?(?:[\s ]+(left|right|center))?$
+END: (?i)^end[%s]?legend$
+(?i)^(?:(left|right|center)?[\s ]*)footer(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+START: (?i)^(?:(left|right|center)?[\s ]*)footer$
+END: (?i)^end[%s]?footer$
+(?i)^(?:(left|right|center)?[\s ]*)header(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+START: (?i)^(?:(left|right|center)?[\s ]*)header$
+END: (?i)^end[%s]?header$
+(?i)^(skinparam|skinparamlocked)[\s ]+([\w.]*(?:\<\<.*\>\>)?[\w.]*)[\s ]+([^{}]*)$
+BRACKET: (?i)^skinparam[\s ]*(?:[\s ]+([\w.]*(?:\<\<.*\>\>)?[\w.]*))?[\s ]*\{$
+(?i)^minwidth[\s ]+(\d+)$
+(?i)^rotate$
+(?i)^scale[\s ]+([0-9.]+)(?:[\s ]*/[\s ]*([0-9.]+))?$
+(?i)^scale[\s ]+([0-9.]+)[\s ]*[*x][\s ]*([0-9.]+)$
+(?i)^scale[\s ]+([0-9.]+)[\s ]+(width|height)$
+(?i)^scale[\s ]+max[\s ]+([0-9.]+)[\s ]+width$
+(?i)^scale[\s ]+max[\s ]+([0-9.]+)[\s ]+height$
+(?i)^scale[\s ]+max[\s ]+([0-9.]+)[\s ]*[*x][\s ]*([0-9.]+)$
+(?i)^!transformation[\s ]+([^{}]*)$
+START: (?i)^!transformation[\s ]+\{[\s ]*$
+END: (?i)^[%s]*!\}[%s]*$
+(?i)^(hide|show)[\s ]+unlinked$
+START: ^sprite[\s ]+\$?([\p{L}0-9_]+)[\s ]*(?:\[(\d+)x(\d+)/(\d+)(z)?\])?[\s ]*\{$
+END: (?i)^end[%s]?sprite|\}$
+^sprite[\s ]+\$?([\p{L}0-9_]+)[\s ]*(?:\[(\d+)x(\d+)/(\d+)(z)\])?[\s ]+([-_A-Za-z0-9]+)$
+^sprite[\s ]+\$?([\p{L}0-9_]+)[\s ]*[\s ]+(.*)$
+^(hide|show)[\s ]+((?:public|private|protected|package)?(?:[,\s ]+(?:public|private|protected|package))*)[\s ]+(members?|attributes?|fields?|methods?)$
+^(hide|show)[\s ]+(?:(class|object|interface|enum|annotation|abstract|[\p{L}0-9_.]+|["“”«»][^"“”«»]+["“”«»]|\<\<.*\>\>)[\s ]+)*?(?:(empty)[\s ]+)?(members?|attributes?|fields?|methods?|circle\w*|stereotypes?)$
+(?i)^page[\s ]+(\d+)[\s ]*x[\s ]*(\d+)$
+^([\p{L}0-9_.]+|\(\)[\s ]*[\p{L}0-9_.]+|\(\)[\s ]*["“”«»][^"“”«»]+["“”«»]|:[^:]+:|(?!\[\*\])\[[^\[\]]+\]|\((?!\*\))[^)]+\))[\s ]*(?:["“”«»]([^"“”«»]+)["“”«»])?[\s ]*(0\)|<<|[<^*+#0)]|<\||[\s ]+o)?([-=.~]+)(?:\[((?:#\w+|dotted|dashed|plain|bold|hidden|norank)(?:,#\w+|,dotted|,dashed|,plain|,bold|,hidden|,norank)*)\])?(?:(left|right|up|down|le?|ri?|up?|do?)(?=[-=.~0()]))?(?:(0|\(0\)|\(0|0\))(?=[-=.~]))?(?:\[((?:#\w+|dotted|dashed|plain|bold|hidden|norank)(?:,#\w+|,dotted|,dashed|,plain|,bold|,hidden|,norank)*)\])?([-=.~]*)(\(0|>>|[>^*+#0(]|\|>|o[\s ]+)?[\s ]*(?:["“”«»]([^"“”«»]+)["“”«»])?[\s ]*([\p{L}0-9_.]+|\(\)[\s ]*[\p{L}0-9_.]+|\(\)[\s ]*["“”«»][^"“”«»]+["“”«»]|:[^:]+:|(?!\[\*\])\[[^\[\]]+\]|\((?!\*\))[^)]+\))[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\<\<.*\>\>)?[\s ]*(?::[\s ]*(.+))?$
+^(package|rectangle|node|artifact|folder|file|frame|cloud|database|storage|component|card|together)[\s ]+(?:(["“”«»][^"“”«»]+["“”«»])(?:[\s ]+(\<\<.+\>\>))?[\s ]*as[\s ]+([^#\s {}]+)|([^#\s {}"“”«»]+)(?:[\s ]+(\<\<.+\>\>))?[\s ]*as[\s ]+(["“”«»][^"“”«»]+["“”«»])|([^#\s {}"“”«»]+)(?:[\s ]+(\<\<.+\>\>))?[\s ]*as[\s ]+([^#\s {}"“”«»]+)|(["“”«»][^"“”«»]+["“”«»])|([^#\s {}"“”«»]*))[\s ]*(\<\<.*\>\>)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*\{$
+(?i)^\}$
+START: ^[\s ]*(note)[\s ]+as[\s ]+([\p{L}0-9_.]+)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+END: (?i)^[%s]*end[%s]?note$
+^[\s ]*note[\s ]+(right|left|top|bottom)(?:[\s ]+of[\s ]+([\p{L}0-9_.]+|\(\)[\s ]*[\p{L}0-9_.]+|\(\)[\s ]*["“”«»][^"“”«»]+["“”«»]|\[[^\]*]+[^\]]*\]|\((?!\*\))[^\)]+\)|:[^:]+:|["“”«»][^"“”«»]+["“”«»])|)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*:[\s ]*(.*)$
+^[\s ]*note[\s ]+["“”«»]([^"“”«»]+)["“”«»][\s ]+as[\s ]+([\p{L}0-9_.]+)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+(?i)^url[\s ]*(?:of|for)?[\s ]+([\p{L}0-9_.]+|["“”«»][^"“”«»]+["“”«»])[\s ]+(?:is)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])$
+^(?:(artifact|actor|folder|card|file|package|rectangle|node|frame|cloud|database|queue|stack|storage|agent|usecase|component|boundary|control|entity|interface|circle|\(\))[\s ]+)?((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(?:([\p{L}0-9_.]+|\(\)[\s ]*[\p{L}0-9_.]+|\(\)[\s ]*["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\]|["“”«»][^"“”«»]+["“”«»])|(["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\])(?:[\s ]+(\<\<.+\>\>))?[\s ]*as[\s ]+([\p{L}0-9_.]+|\(\)[\s ]*[\p{L}0-9_.]+|\(\)[\s ]*["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\])|([\p{L}0-9_.]+|\(\)[\s ]*[\p{L}0-9_.]+|\(\)[\s ]*["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\])(?:[\s ]+(\<\<.+\>\>))?[\s ]+as[\s ]*(["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\])|(["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\]|[\p{L}0-9_.]+)(?:[\s ]+(\<\<.+\>\>))?[\s ]*as[\s ]+([\p{L}0-9_.]+|\(\)[\s ]*[\p{L}0-9_.]+|\(\)[\s ]*["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\]))(?:[\s ]*(\<\<.+\>\>))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+START: ^(artifact|actor|folder|card|file|package|rectangle|node|frame|cloud|database|queue|stack|storage|agent|usecase|component|boundary|control|entity|interface|circle)[\s ]+([\p{L}0-9_.]+)[\s ]*(\<\<.+\>\>)?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*as[\s ]*["“”«»](.*)$
+END: (?i)^(.*)[%g]$
+START: ^(artifact|actor|folder|card|file|package|rectangle|node|frame|cloud|database|queue|stack|storage|agent|usecase|component|boundary|control|entity|interface|circle)[\s ]+([\p{L}0-9_.]+)[\s ]*(\<\<.+\>\>)?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*\[(.*)$
+END: (?i)^(.*)\]$
+START: ^[\s ]*note[\s ]+(right|left|top|bottom)(?:[\s ]+of[\s ]+([\p{L}0-9_.]+|\(\)[\s ]*[\p{L}0-9_.]+|\(\)[\s ]*["“”«»][^"“”«»]+["“”«»]|\[[^\]*]+[^\]]*\]|\((?!\*\))[^\)]+\)|:[^:]+:|["“”«»][^"“”«»]+["“”«»])|)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*\{$
+END: (?i)^(\})$
+START: ^[\s ]*note[\s ]+(right|left|top|bottom)(?:[\s ]+of[\s ]+([\p{L}0-9_.]+|\(\)[\s ]*[\p{L}0-9_.]+|\(\)[\s ]*["“”«»][^"“”«»]+["“”«»]|\[[^\]*]+[^\]]*\]|\((?!\*\))[^\)]+\)|:[^:]+:|["“”«»][^"“”«»]+["“”«»])|)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*$
+END: (?i)^[%s]*(end[%s]?note)$
+START: ^[\s ]*(note)[\s ]+as[\s ]+([\p{L}0-9_.]+)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+END: (?i)^[%s]*end[%s]?note$
+^[\s ]*note[\s ]+(right|left|top|bottom)?[\s ]*on[\s ]+link[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*:[\s ]*(.*)$
+START: ^[\s ]*note[\s ]+(right|left|top|bottom)?[\s ]*on[\s ]+link[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+END: (?i)^[%s]*end[%s]?note$
+^(hide|show)[\s ]+([^\s {}"“”«»<>]+)$
+^archimate[\s ]+((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]+(?:([\p{L}0-9_.]+|\(\)[\s ]*[\p{L}0-9_.]+|\(\)[\s ]*["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\]|["“”«»][^"“”«»]+["“”«»])|(["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\])(?:[\s ]+(?:\<\<([-\w]+)\>\>))?[\s ]*as[\s ]+([\p{L}0-9_.]+|\(\)[\s ]*[\p{L}0-9_.]+|\(\)[\s ]*["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\])|([\p{L}0-9_.]+|\(\)[\s ]*[\p{L}0-9_.]+|\(\)[\s ]*["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\])(?:[\s ]+(?:\<\<([-\w]+)\>\>))?[\s ]+as[\s ]*(["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\])|(["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\]|[\p{L}0-9_.]+)(?:[\s ]+(?:\<\<([-\w]+)\>\>))?[\s ]*as[\s ]+([\p{L}0-9_.]+|\(\)[\s ]*[\p{L}0-9_.]+|\(\)[\s ]*["“”«»][^"“”«»]+["“”«»]|:[^:]+:|\([^()]+\)|\[[^\[\]]+\]))[\s ]*(?:[\s ]*(?:\<\<([-\w]+)\>\>))?$
+
+StateDiagram
+(?i)^(hide|show)?[\s ]*footbox$
+(?i)^(left[\s ]to[\s ]right|top[\s ]to[\s ]bottom)[\s ]+direction$
+^(?:state[\s ]+)(?:([\p{L}0-9_.]+)[\s ]+as[\s ]+["“”«»]([^"“”«»]+)["“”«»]|["“”«»]([^"“”«»]+)["“”«»][\s ]+as[\s ]+([\p{L}0-9_.]+)|([\p{L}0-9_.]+)|["“”«»]([^"“”«»]+)["“”«»])[\s ]*(\<\<.*\>\>)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(?:##(?:\[(dotted|dashed|bold)\])?(\w+)?)?[\s ]*(?::[\s ]*(.*))?$
+^([\p{L}0-9_.]+|[\p{L}0-9_.]+\[H\]|\[\*\]|\[H\]|(?:==+)(?:[\p{L}0-9_.]+)(?:==+))[\s ]*(\<\<.*\>\>)?[\s ]*(#\w+)?[\s ]*(x)?(-+)(?:\[((?:#\w+|dotted|dashed|plain|bold|hidden)(?:,#\w+|,dotted|,dashed|,plain|,bold|,hidden)*)\])?(left|right|up|down|le?|ri?|up?|do?)?(?:\[((?:#\w+|dotted|dashed|plain|bold|hidden)(?:,#\w+|,dotted|,dashed|,plain|,bold|,hidden)*)\])?(-*)\>(o[\s ]+)?[\s ]*([\p{L}0-9_.]+|[\p{L}0-9_.]+\[H\]|\[\*\]|\[H\]|(?:==+)(?:[\p{L}0-9_.]+)(?:==+))[\s ]*(\<\<.*\>\>)?[\s ]*(#\w+)?[\s ]*(?::[\s ]*(.+))?$
+^state[\s ]+(?:([\p{L}0-9_.]+)[\s ]+as[\s ]+["“”«»]([^"“”«»]+)["“”«»]|(?:["“”«»]([^"“”«»]+)["“”«»][\s ]+as[\s ]+)?([\p{L}0-9_.]+))[\s ]*(\<\<.*\>\>)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(?:##(?:\[(dotted|dashed|bold)\])?(\w+)?)?(?:[\s ]*\{|[\s ]+begin)$
+(?i)^(end[\s ]?state|\})$
+^(?:([\p{L}0-9_.]+)|["“”«»]([^"“”«»]+)["“”«»])[\s ]*:[\s ]*(.*)$
+(?i)^(--+|\|\|+)$
+START: ^[\s ]*note[\s ]+(right|left|top|bottom)(?:[\s ]+of[\s ]+([\p{L}0-9_.]+|["“”«»][^"“”«»]+["“”«»])|)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*\{$
+END: (?i)^(\})$
+START: ^[\s ]*note[\s ]+(right|left|top|bottom)(?:[\s ]+of[\s ]+([\p{L}0-9_.]+|["“”«»][^"“”«»]+["“”«»])|)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*$
+END: (?i)^[%s]*(end[%s]?note)$
+(?i)^(hide|show)[\s ]+empty[\s ]+description$
+^[\s ]*note[\s ]+(right|left|top|bottom)(?:[\s ]+of[\s ]+([\p{L}0-9_.]+|["“”«»][^"“”«»]+["“”«»])|)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*:[\s ]*(.*)$
+^[\s ]*note[\s ]+(right|left|top|bottom)?[\s ]*on[\s ]+link[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*:[\s ]*(.*)$
+START: ^[\s ]*note[\s ]+(right|left|top|bottom)?[\s ]*on[\s ]+link[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+END: (?i)^[%s]*end[%s]?note$
+(?i)^url[\s ]*(?:of|for)?[\s ]+([\p{L}0-9_.]+|["“”«»][^"“”«»]+["“”«»])[\s ]+(?:is)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])$
+^[\s ]*note[\s ]+["“”«»]([^"“”«»]+)["“”«»][\s ]+as[\s ]+([\p{L}0-9_.]+)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+START: ^[\s ]*(note)[\s ]+as[\s ]+([\p{L}0-9_.]+)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+END: (?i)^[%s]*end[%s]?note$
+(?i)^[\s ]*$
+(?i)^[\s ]*(['‘’].*||/['‘’].*['‘’]/[\s ]*)$
+START: (?i)^[\s ]*/['‘’]([^'‘’]|['‘’][^/])*$
+END: (?i)^([^%q]|[%q][^/])*[%q]/[%s]*$
+(?i)^!pragma[\s ]+([A-Za-z_][A-Za-z_0-9]*)(?:[\s ]+(.*))?$
+(?i)^title(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+(?i)^caption(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+START: (?i)^title$
+END: (?i)^end[%s]?title$
+START: ^legend(?:[\s ]+(top|bottom))?(?:[\s ]+(left|right|center))?$
+END: (?i)^end[%s]?legend$
+(?i)^(?:(left|right|center)?[\s ]*)footer(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+START: (?i)^(?:(left|right|center)?[\s ]*)footer$
+END: (?i)^end[%s]?footer$
+(?i)^(?:(left|right|center)?[\s ]*)header(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+START: (?i)^(?:(left|right|center)?[\s ]*)header$
+END: (?i)^end[%s]?header$
+(?i)^(skinparam|skinparamlocked)[\s ]+([\w.]*(?:\<\<.*\>\>)?[\w.]*)[\s ]+([^{}]*)$
+BRACKET: (?i)^skinparam[\s ]*(?:[\s ]+([\w.]*(?:\<\<.*\>\>)?[\w.]*))?[\s ]*\{$
+(?i)^minwidth[\s ]+(\d+)$
+(?i)^rotate$
+(?i)^scale[\s ]+([0-9.]+)(?:[\s ]*/[\s ]*([0-9.]+))?$
+(?i)^scale[\s ]+([0-9.]+)[\s ]*[*x][\s ]*([0-9.]+)$
+(?i)^scale[\s ]+([0-9.]+)[\s ]+(width|height)$
+(?i)^scale[\s ]+max[\s ]+([0-9.]+)[\s ]+width$
+(?i)^scale[\s ]+max[\s ]+([0-9.]+)[\s ]+height$
+(?i)^scale[\s ]+max[\s ]+([0-9.]+)[\s ]*[*x][\s ]*([0-9.]+)$
+(?i)^!transformation[\s ]+([^{}]*)$
+START: (?i)^!transformation[\s ]+\{[\s ]*$
+END: (?i)^[%s]*!\}[%s]*$
+(?i)^(hide|show)[\s ]+unlinked$
+START: ^sprite[\s ]+\$?([\p{L}0-9_]+)[\s ]*(?:\[(\d+)x(\d+)/(\d+)(z)?\])?[\s ]*\{$
+END: (?i)^end[%s]?sprite|\}$
+^sprite[\s ]+\$?([\p{L}0-9_]+)[\s ]*(?:\[(\d+)x(\d+)/(\d+)(z)\])?[\s ]+([-_A-Za-z0-9]+)$
+^sprite[\s ]+\$?([\p{L}0-9_]+)[\s ]*[\s ]+(.*)$
+^(hide|show)[\s ]+((?:public|private|protected|package)?(?:[,\s ]+(?:public|private|protected|package))*)[\s ]+(members?|attributes?|fields?|methods?)$
+^(hide|show)[\s ]+(?:(class|object|interface|enum|annotation|abstract|[\p{L}0-9_.]+|["“”«»][^"“”«»]+["“”«»]|\<\<.*\>\>)[\s ]+)*?(?:(empty)[\s ]+)?(members?|attributes?|fields?|methods?|circle\w*|stereotypes?)$
+
+ObjectDiagram
+(?i)^(hide|show)?[\s ]*footbox$
+(?i)^[\s ]*$
+(?i)^[\s ]*(['‘’].*||/['‘’].*['‘’]/[\s ]*)$
+START: (?i)^[\s ]*/['‘’]([^'‘’]|['‘’][^/])*$
+END: (?i)^([^%q]|[%q][^/])*[%q]/[%s]*$
+(?i)^!pragma[\s ]+([A-Za-z_][A-Za-z_0-9]*)(?:[\s ]+(.*))?$
+(?i)^title(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+(?i)^caption(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+START: (?i)^title$
+END: (?i)^end[%s]?title$
+START: ^legend(?:[\s ]+(top|bottom))?(?:[\s ]+(left|right|center))?$
+END: (?i)^end[%s]?legend$
+(?i)^(?:(left|right|center)?[\s ]*)footer(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+START: (?i)^(?:(left|right|center)?[\s ]*)footer$
+END: (?i)^end[%s]?footer$
+(?i)^(?:(left|right|center)?[\s ]*)header(?:[\s ]*:[\s ]*|[\s ]+)(.*[\p{L}0-9_.].*)$
+START: (?i)^(?:(left|right|center)?[\s ]*)header$
+END: (?i)^end[%s]?header$
+(?i)^(skinparam|skinparamlocked)[\s ]+([\w.]*(?:\<\<.*\>\>)?[\w.]*)[\s ]+([^{}]*)$
+BRACKET: (?i)^skinparam[\s ]*(?:[\s ]+([\w.]*(?:\<\<.*\>\>)?[\w.]*))?[\s ]*\{$
+(?i)^minwidth[\s ]+(\d+)$
+(?i)^rotate$
+(?i)^scale[\s ]+([0-9.]+)(?:[\s ]*/[\s ]*([0-9.]+))?$
+(?i)^scale[\s ]+([0-9.]+)[\s ]*[*x][\s ]*([0-9.]+)$
+(?i)^scale[\s ]+([0-9.]+)[\s ]+(width|height)$
+(?i)^scale[\s ]+max[\s ]+([0-9.]+)[\s ]+width$
+(?i)^scale[\s ]+max[\s ]+([0-9.]+)[\s ]+height$
+(?i)^scale[\s ]+max[\s ]+([0-9.]+)[\s ]*[*x][\s ]*([0-9.]+)$
+(?i)^!transformation[\s ]+([^{}]*)$
+START: (?i)^!transformation[\s ]+\{[\s ]*$
+END: (?i)^[%s]*!\}[%s]*$
+(?i)^(hide|show)[\s ]+unlinked$
+START: ^sprite[\s ]+\$?([\p{L}0-9_]+)[\s ]*(?:\[(\d+)x(\d+)/(\d+)(z)?\])?[\s ]*\{$
+END: (?i)^end[%s]?sprite|\}$
+^sprite[\s ]+\$?([\p{L}0-9_]+)[\s ]*(?:\[(\d+)x(\d+)/(\d+)(z)\])?[\s ]+([-_A-Za-z0-9]+)$
+^sprite[\s ]+\$?([\p{L}0-9_]+)[\s ]*[\s ]+(.*)$
+^(hide|show)[\s ]+((?:public|private|protected|package)?(?:[,\s ]+(?:public|private|protected|package))*)[\s ]+(members?|attributes?|fields?|methods?)$
+^(hide|show)[\s ]+(?:(class|object|interface|enum|annotation|abstract|[\p{L}0-9_.]+|["“”«»][^"“”«»]+["“”«»]|\<\<.*\>\>)[\s ]+)*?(?:(empty)[\s ]+)?(members?|attributes?|fields?|methods?|circle\w*|stereotypes?)$
+(?i)^(left[\s ]to[\s ]right|top[\s ]to[\s ]bottom)[\s ]+direction$
+(?i)^page[\s ]+(\d+)[\s ]*x[\s ]*(\d+)$
+(?i)^([\p{L}0-9_.]+)[\s ]*:[\s ]*(.*)$
+^(?:@([\d.]+)[\s ]+)?(?:((?:\.|::|\\|\\\\)?[\p{L}0-9_$]+(?:(?:\.|::|\\|\\\\)[\p{L}0-9_$]+)*|["“”«»][^"“”«»]+["“”«»])|\([\s ]*([.\\]{0,2}[\p{L}0-9_]+(?:[.\\]{1,2}[\p{L}0-9_]+)*)[\s ]*,[\s ]*([.\\]{0,2}[\p{L}0-9_]+(?:[.\\]{1,2}[\p{L}0-9_]+)*)[\s ]*\))[\s ]*(?:["“”«»]([^"“”«»]+)["“”«»])?[\s ]*([\s ]+[ox]|[)#\[<*+^}]|[<\[]\||\}o|\}\||\|o|\|\|)?([-=.]+)(?:\[((?:#\w+|dotted|dashed|plain|bold|hidden|norank)(?:,#\w+|,dotted|,dashed|,plain|,bold|,hidden|,norank)*)\])?(left|right|up|down|le?|ri?|up?|do?)?(?:(0|\(0\)|\(0|0\))(?=[-=.~]))?(?:\[((?:#\w+|dotted|dashed|plain|bold|hidden|norank)(?:,#\w+|,dotted|,dashed|,plain|,bold|,hidden|,norank)*)\])?([-=.]*)([ox][\s ]+|[(#\]>*+^\{]|\|[>\]]|o\{|\|\{|o\||\|\|)?[\s ]*(?:["“”«»]([^"“”«»]+)["“”«»])?[\s ]*(?:((?:\.|::|\\|\\\\)?[\p{L}0-9_$]+(?:(?:\.|::|\\|\\\\)[\p{L}0-9_$]+)*|["“”«»][^"“”«»]+["“”«»])|\([\s ]*([.\\]{0,2}[\p{L}0-9_]+(?:[.\\]{1,2}[\p{L}0-9_]+)*)[\s ]*,[\s ]*([.\\]{0,2}[\p{L}0-9_]+(?:[.\\]{1,2}[\p{L}0-9_]+)*)[\s ]*\))[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*(?::[\s ]*(.+))?$
+^(object)[\s ]+(?:["“”«»]([^"“”«»]+)["“”«»][\s ]+as[\s ]+)?([\p{L}0-9_.]+)[\s ]*(\<\<.+\>\>)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+^[\s ]*note[\s ]+["“”«»]([^"“”«»]+)["“”«»][\s ]+as[\s ]+([\p{L}0-9_.]+)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+^(package|together)[\s ]+(["“”«»][^"“”«»]+["“”«»]|[^#\s {}]*)(?:[\s ]+as[\s ]+([\p{L}0-9_.]+))?[\s ]*(\<\<.*\>\>)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*\{$
+(?i)^\}$
+^[\s ]*note[\s ]+(right|left|top|bottom)(?:[\s ]+of[\s ]+([\p{L}0-9_.]+|["“”«»][^"“”«»]+["“”«»])|)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*:[\s ]*(.*)$
+(?i)^url[\s ]*(?:of|for)?[\s ]+([\p{L}0-9_.]+|["“”«»][^"“”«»]+["“”«»])[\s ]+(?:is)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])$
+START: ^[\s ]*(note)[\s ]+as[\s ]+([\p{L}0-9_.]+)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+END: (?i)^[%s]*end[%s]?note$
+START: ^[\s ]*note[\s ]+(right|left|top|bottom)(?:[\s ]+of[\s ]+([\p{L}0-9_.]+|["“”«»][^"“”«»]+["“”«»])|)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*\{$
+END: (?i)^(\})$
+START: ^[\s ]*note[\s ]+(right|left|top|bottom)(?:[\s ]+of[\s ]+([\p{L}0-9_.]+|["“”«»][^"“”«»]+["“”«»])|)[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*$
+END: (?i)^[%s]*(end[%s]?note)$
+START: ^(object)[\s ]+(?:["“”«»]([^"“”«»]+)["“”«»][\s ]+as[\s ]+)?([\p{L}0-9_.]+)[\s ]*(\<\<.+\>\>)?[\s ]*(\[\[(["“”«»][^"“”«»]+["“”«»])?([\w\W]*?)\]\])?[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*\{[\s ]*$
+END: (?i)^[%s]*\}[%s]*$
+^[\s ]*note[\s ]+(right|left|top|bottom)?[\s ]*on[\s ]+link[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?[\s ]*:[\s ]*(.*)$
+START: ^[\s ]*note[\s ]+(right|left|top|bottom)?[\s ]*on[\s ]+link[\s ]*((?:#(?:\w+[-\\|/]?\w+;)?(?:(?:text|back|header|line|line\.dashed|line\.dotted|line\.bold|shadowing)(?::\w+[-\\|/]?\w+)?(?:;|(?![\w;:.])))+)|(?:#\w+[-\\|/]?\w+))?$
+END: (?i)^[%s]*end[%s]?note$

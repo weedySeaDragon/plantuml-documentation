@@ -1,0 +1,18 @@
+@startuml
+
+!include ../../../plantuml-ae-style.iuml
+
+
+(*)  --> "Generate all current command Regular Expressions\nby running java -jar plantuml -patterns\n\n//where planuml is the current planuml.jar file//\n//You may need to specify the full path.//"
+
+--> "Process patterns.out with some substitutions"
+--> "Create the command reference.\n //(How to get the description? source = from block doc in code?)//"
+-->(*)
+
+footer
+
+    generated with PlantUML by Ashley Engelund on 2018-09-29
+end footer
+
+
+@enduml

@@ -1,0 +1,41 @@
+@startuml
+
+!include ../../../plantuml-ae-style.iuml
+
+title
+   Use maven to generate the site with the **""maven site""** command;
+
+   This diagram is a PlantUML file that is just part of the input.
+
+end title
+
+floating note #white
+   The ""sphinx-plantuml"" plugin is used to call PlantUML and generate the diagram,
+    and use it as input for the documentation.
+end note
+
+:maven site **Sphinx-PlantUML** plugin
+:calls the method to generate all options;
+
+   :input can be markup files "".md"" or //reStructuredText// ("".rst"")\n("".rst"" allows more powerful formatting, options, etc.);
+   :1. Generate and gather input;
+   -> sphinx Makefile
+   ://n.// Sphinx generates the output (target) files for the site;
+   ->output goes into;
+   :Documenation Source Files in /src/site/sphinx;
+   ->Sphinx (run via ""maven"");
+
+   :Documents in HTML or other formats;
+   fork
+     :html;
+   fork again
+     :LaTeX;
+     -> use your favorite LaTeX toPDF processor;
+     :pdf;
+
+
+footer
+
+    generated with PlantUML by Ashley Engelund on 2018-09-29
+end footer
+@enduml
