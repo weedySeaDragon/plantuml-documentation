@@ -346,3 +346,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/logs/sphinx/run-log.txt
