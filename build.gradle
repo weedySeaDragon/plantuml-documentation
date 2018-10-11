@@ -8,7 +8,7 @@ plugins {
 group 'com.ashleycaroline.plantuml'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 1.9
 
 repositories {
     mavenCentral()
@@ -16,8 +16,23 @@ repositories {
 
 dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.3.11'
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    
 }
+
+
+
+ext.vendor = "Ashley Engelund"
+ext.vendorId = "com.ashleycaroline"
+ext.specificationVendor = vendor
+ext.specificationVendorId = vendorId
+ext.implementationVendor = vendor
+ext.implementationVendorId = vendorId
+ext.specificationTitleStart = "Ashley's PlantUML Documentation"
+ext.implementationTitleStart = "AEPlantUMLDoc"
+
+ext.rootPackage = 'com.ashleycaroline.plantuml-documentation'
+
+ext.moduleName = rootPackage + '.' + project.getName();
 
 
 sphinx {
