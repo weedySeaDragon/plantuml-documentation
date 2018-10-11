@@ -1,0 +1,127 @@
+/**
+ *  Custom CSS for this site that will override the sphinx theme used
+ *
+ * @author Ashley Engelund ashley@ashleycaroline.com ( weedySeaDragon on GitHub )
+ * @since 2018-10-02
+ *
+ */
+
+/* ------------------------------*/
+/* Read the docs theme overrides */
+
+$font-size-default: 14px;
+
+$code-color-default: royalblue;
+
+.wy-nav-content {
+  background-color: white;
+}
+
+.rst-content {
+
+  p, blockquote {
+    font-size: $font-size-default;
+    line-height: 20px;
+    margin-bottom: 18px;
+  }
+
+  tt.literal, code.literal {
+    color: $code-color-default;
+    font-size: 85%;
+
+  }
+
+  /* pygments overrides */
+
+  $codeblock-color-default: slateblue;
+
+  .n {
+    color: $codeblock-color-default;
+  }
+
+  // color values start with a '#' and will be interpreted as a comment, so set them to the same as normal
+  .c, .c1, .c2 {
+    color: $codeblock-color-default;
+    font-style: normal
+  }
+  /* Comments */
+
+  .o {
+    color: #f57c00;
+  }
+  // operator
+
+  // --------------------
+  // To Do list
+
+  .admonition-todo.admonition {
+    margin-bottom: 0;
+    background-color: inherit;
+
+    p {
+      // background-color: white;
+      margin-bottom: 0;
+    }
+
+    p.last {
+      background-color: white;
+    }
+
+  }
+
+  p.todo-source {
+    font-size: 11px;
+    margin-left: 2em;
+  }
+
+  footer, footer p {
+    font-size: 85%;
+  }
+
+}
+
+// end .rst-content
+
+// do not stripe the table on the Color names page:
+#color-names-and-samples.section {
+
+  .wy-table-odd td,
+  .wy-table-striped tr:nth-child(2n-1) td,
+  table.docutils:not(.field-list) tr:nth-child(2n-1) td {
+    background-color: white;
+  }
+
+
+  // format the table of colors:
+    table.docutils {
+
+      td {
+        padding: 0;
+
+        p {
+          font-size: 11px;
+          text-align: center;
+          margin: 0;
+          padding: 0;
+        }
+
+        p.last {
+          margin-bottom: 4px;
+          margin-left: 2px;
+          margin-right: 2px;
+        }
+      }
+
+    }
+
+
+}
+
+// Index page: genindex (all-in-one)
+
+.index-key {
+  margin-top: 2em;
+}
+
+// footer
+

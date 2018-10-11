@@ -1,0 +1,62 @@
+/**
+ *  Custom CSS for this site that will override the sphinx theme used
+ *
+ * @author Ashley Engelund ashley@ashleycaroline.com ( weedySeaDragon on GitHub )
+ * @since 2018-10-02
+ *
+ */
+/* ------------------------------*/
+/* Read the docs theme overrides */
+.wy-nav-content {
+  background-color: white; }
+
+.rst-content {
+  /* pygments overrides */
+  /* Comments */ }
+  .rst-content p, .rst-content blockquote {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 18px; }
+  .rst-content tt.literal, .rst-content code.literal {
+    color: royalblue;
+    font-size: 85%; }
+  .rst-content .n {
+    color: slateblue; }
+  .rst-content .c, .rst-content .c1, .rst-content .c2 {
+    color: slateblue;
+    font-style: normal; }
+  .rst-content .o {
+    color: #f57c00; }
+  .rst-content .admonition-todo.admonition {
+    margin-bottom: 0;
+    background-color: inherit; }
+    .rst-content .admonition-todo.admonition p {
+      margin-bottom: 0; }
+    .rst-content .admonition-todo.admonition p.last {
+      background-color: white; }
+  .rst-content p.todo-source {
+    font-size: 11px;
+    margin-left: 2em; }
+  .rst-content footer, .rst-content footer p {
+    font-size: 85%; }
+
+#color-names-and-samples.section .wy-table-odd td,
+#color-names-and-samples.section .wy-table-striped tr:nth-child(2n-1) td,
+#color-names-and-samples.section table.docutils:not(.field-list) tr:nth-child(2n-1) td {
+  background-color: white; }
+#color-names-and-samples.section table.docutils td {
+  padding: 0; }
+  #color-names-and-samples.section table.docutils td p {
+    font-size: 11px;
+    text-align: center;
+    margin: 0;
+    padding: 0; }
+  #color-names-and-samples.section table.docutils td p.last {
+    margin-bottom: 4px;
+    margin-left: 2px;
+    margin-right: 2px; }
+
+.index-key {
+  margin-top: 2em; }
+
+/*# sourceMappingURL=custom.css.map */
