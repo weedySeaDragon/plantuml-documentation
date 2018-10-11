@@ -1,0 +1,55 @@
+@startuml
+
+title
+  CombinedFragment example from UML 2.5 Specification
+ (Figure 17.14)
+
+end title
+
+
+participant "ob1:C1" as ob1c1 order 1
+participant "ob3:C3" as ob3c3 order 10
+participant "ob4:C4" as ob4c4 order 40
+
+
+[->ob1c1: opti
+
+activate ob1c1 #lightGray
+
+alt x > 0
+
+create ob2C2 order 20
+ob1c1-->>ob2C2: create
+
+ob1c1->ob2C2: foo( foo_par=x )
+activate ob2C2 #lightGray
+
+ob2C2->ob4c4: doit( z )
+activate ob4c4 #lightGray
+ob4c4-->>ob2C2: doit( - )
+deactivate ob4c4
+
+ob2C2-->>ob1c1: foo( - )
+deactivate ob2C2
+destroy ob2C2
+
+else else
+
+ob1c1->ob3c3: bar( x )
+activate ob3c3 #lightGray
+
+ob3c3->ob4c4: doit( z )
+activate ob4c4 #lightGray
+ob4c4-->>ob3c3: doit( - )
+deactivate ob4c4
+
+ob3c3-->>ob1c1: x=bar( - ): 15
+deactivate ob3c3
+
+end alt
+
+ob1c1->[: opti
+
+deactivate ob1c1
+
+@enduml

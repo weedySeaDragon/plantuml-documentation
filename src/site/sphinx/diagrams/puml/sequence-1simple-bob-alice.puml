@@ -1,0 +1,13 @@
+@startuml
+
+Alice -> Bob: Valid Authentication Request
+Bob -> RequestHandler: formatted Authenticated Request (VALID)
+RequestHandler --> Bob: Request Authenticated Response (OK)
+Bob --> Alice: Authentication Response (OK)
+
+Alice -> Bob: Invalid Authentication Request
+Bob --> RequestHandler: formatted Authenticated Request (INVALID)
+RequestHandler --> Bob: Request Authenticated Response (DENIED)
+Alice <-- Bob: Authentication Response (DENIED)
+
+@enduml

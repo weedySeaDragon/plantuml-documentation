@@ -1,0 +1,17 @@
+@startuml
+
+title
+
+ The length you make arrow lines is
+ ignored in Sequence Diagrams.
+
+end title
+
+
+A ----------------------------------->> B
+A <<----------> C
+A <- D
+
+caption: \nEven though you made the arrow line\n from A to B the longest,\n their lengths are calculated and this\n calculated length is what's drawn.
+
+@enduml

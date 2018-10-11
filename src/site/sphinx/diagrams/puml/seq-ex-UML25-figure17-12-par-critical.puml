@@ -1,0 +1,42 @@
+@startuml
+title
+  CriticalRegion 911 call example from UML 2.5 Specification
+ (Figure 17.12)
+
+ //Solid double divider lines are used to separate the par (parallel)//
+  //sections instead of dashed lines that UML specifies.//
+
+doesn't seem possible to have an arrow coming
+//into// a critical section
+
+end title
+
+
+participant ":Emergency" as emergency
+participant ":Operator" as operator
+participant ":Caller" as caller
+participant ":Callee" as callee
+
+
+par
+
+
+operator<<-caller: call(100)
+operator->>callee: call(100)
+
+====
+
+operator<<-caller: call(101)
+operator->>callee: call(101)
+
+====
+
+critical
+   operator<<-caller:call(911)
+   emergency<<-operator:call(911)
+end critical
+
+
+end par
+
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+actor Alice #SaddleBrown
+entity "Auth System" as authSys #lightGreen
+
+Alice -> authSys: Authentication Request
+
+create wrappedRequest
+authSys -> wrappedRequest: new request()
+Alice <-- authSys: response
+@enduml

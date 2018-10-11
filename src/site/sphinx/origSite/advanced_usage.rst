@@ -1,4 +1,5 @@
-:tocdepth: 2
+:orphan:
+
 
 .. highlight:: none
 

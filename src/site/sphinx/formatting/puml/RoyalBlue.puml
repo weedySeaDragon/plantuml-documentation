@@ -1,0 +1,15 @@
+@startuml
+
+skinparam ClassBackgroundColor #RoyalBlue
+skinparam ClassFontColor #RoyalBlue
+skinparam ClassBorderColor #RoyalBlue
+
+skinparam ClassStereotypeFontSize 0
+skinparam CircledCharacterFontSize 0
+skinparam CircledCharacterRadius 0
+skinparam ClassBorderThickness 0
+skinparam Shadowing false
+
+class Dummy
+
+@enduml

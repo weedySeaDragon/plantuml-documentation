@@ -1,0 +1,39 @@
+@startuml
+skinparam sequenceArrowThickness 2
+skinparam roundcorner 20
+skinparam maxmessagesize 60
+skinparam sequenceParticipant underline
+
+skinparam ParticipantPadding 20
+skinparam BoxPadding 10
+skinparam SequenceBoxBackgroundColor AliceBlue
+
+actor User #SaddleBrown
+
+participant "RequestParser" as A #white
+participant "TaskBundler" as B #white
+
+box "Magic happens here"
+participant "TaskExecutor" as C << (C,#ADD1B2) Testable >>
+end box
+
+User -> A: DoWork
+activate A
+
+A -> B: Create Request
+activate B #violet
+
+create C
+B -> C: DoWork
+activate C #PapayaWhip
+C --> B: WorkDone
+destroy C
+
+
+B --> A: Request Created
+deactivate B
+
+A --> User: Done
+deactivate A
+
+@enduml

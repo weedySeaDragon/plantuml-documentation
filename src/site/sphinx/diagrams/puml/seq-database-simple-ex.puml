@@ -1,0 +1,12 @@
+@startuml
+
+participant "default box" as particpantA
+
+database "database image" as db
+
+
+database "Auth DB" as A #AliceBlue
+
+db -> A
+
+@enduml

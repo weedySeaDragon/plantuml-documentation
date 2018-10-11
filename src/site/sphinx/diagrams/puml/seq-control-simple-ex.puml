@@ -1,0 +1,11 @@
+@startuml
+
+participant "default box" as particpantA
+
+control "control image" as controlC
+
+control "Controller C" as A #lightGreen
+
+controlC -> A
+
+@enduml

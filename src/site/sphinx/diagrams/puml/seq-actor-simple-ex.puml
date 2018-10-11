@@ -1,0 +1,12 @@
+@startuml
+
+participant "default box" as particpantA
+
+actor "actor image" as actorI
+
+
+actor "Alice" as A #SaddleBrown
+
+actorI -> A
+
+@enduml

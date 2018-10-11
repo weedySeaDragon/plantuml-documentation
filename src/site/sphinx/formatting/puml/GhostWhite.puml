@@ -1,0 +1,15 @@
+@startuml
+
+skinparam ClassBackgroundColor #GhostWhite
+skinparam ClassFontColor #GhostWhite
+skinparam ClassBorderColor #GhostWhite
+
+skinparam ClassStereotypeFontSize 0
+skinparam CircledCharacterFontSize 0
+skinparam CircledCharacterRadius 0
+skinparam ClassBorderThickness 0
+skinparam Shadowing false
+
+class Dummy
+
+@enduml

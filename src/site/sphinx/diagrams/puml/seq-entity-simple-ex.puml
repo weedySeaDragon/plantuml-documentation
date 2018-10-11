@@ -1,0 +1,12 @@
+@startuml
+
+participant "default box" as particpantA
+
+entity "entity image" as entityE
+
+
+entity "Authorizer" as A #lavender
+
+entityE -> A
+
+@enduml

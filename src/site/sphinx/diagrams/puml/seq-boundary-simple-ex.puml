@@ -1,0 +1,12 @@
+@startuml
+
+participant "default box" as particpantA
+
+boundary "boundary image" as boundaryB
+
+
+boundary "System Boundary" as sysBoundary #orange
+
+boundaryB -> sysBoundary
+
+@enduml

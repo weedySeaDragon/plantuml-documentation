@@ -1,0 +1,46 @@
+@startuml
+
+title
+  Alt and Else labels
+  based on the Loop example
+  from the UML 2.5 Specification
+ (Figure 17.13)
+
+end title
+
+
+participant person
+participant "panel:AccessControl" as panel
+
+
+person->>panel:InsertCard
+panel->>person:GivePin
+
+alt
+|||
+else 4 digits entered
+group loop (4)
+person->>panel:digit
+end
+
+alt PIN evaluated
+|||
+else wrong PIN
+|||
+ ref over panel: AskForPINAgain
+ |||
+else correct PIN entered
+|||
+   ref over panel: BeginTransaction
+end
+
+
+else CANCEL pressed
+
+   ref over panel: TransactionCancelled
+
+end
+
+
+
+@enduml

@@ -1,0 +1,33 @@
+@startuml
+
+title Usecase Diagrams: Notes
+
+:Admin: #saddleBrown
+
+(Use the application) as (Use)
+
+User -> (Start)
+User --> (Use)
+Admin ---> (Use)
+
+note right of Admin #lightBlue : <i>The code for this note starts:\nnote right of Admin #lightBlue :
+
+note right of (Use) #Azure
+A note can also
+be on several lines.
+<i>The code for this note starts:
+note right of (Use the application) ...
+end note
+
+note "This note has an alias so \nit can be connected.\nIt is connected to the 'Start' and\n 'Use the application' usecases. \n\n<i>The code for this note ends with\n      ... as N2"  as N2
+
+(Start) .. N2
+N2 .. (Use)
+
+note  as freeFloatingNote #white
+ This is a multi-lined note with an alias
+ but it's not connected to anything.
+ It is automatically positioned.
+end note
+
+@enduml

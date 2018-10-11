@@ -1,0 +1,29 @@
+@startuml
+
+title
+  Loop example from UML 2.5 Specification
+ (Figure 17.13)
+
+end title
+
+
+participant person
+participant "panel:AccessControl" as panel
+
+
+person->>panel:InsertCard
+panel->>person:GivePin
+
+group loop (4)
+person->>panel:digit
+end
+
+group loop(0,2)
+panel->>person:WrongPinTryAgain
+
+group loop (4)
+person->>panel:digit
+end
+end
+
+@enduml

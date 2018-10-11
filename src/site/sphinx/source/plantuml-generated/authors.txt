@@ -1,0 +1,18 @@
+PlantUML version 1.2018.11 (Sat Sep 22 09:43:53 PDT 2018)
+(GPL source distribution)
+ 
+Original idea: Arnaud Roques
+Word Macro: Alain Bertucat & Matthieu Sabatier
+Word Add-in: Adriaan van den Brand
+J2V8 & viz.js integration: Andreas Studer
+Official Eclipse Plugin: Hallvard Trætteberg
+Original Eclipse Plugin: Claude Durif & Anne Pecoil
+Servlet & XWiki: Maxime Sinclair
+Docker: David Ducatel
+AWS lib: Chris Passarello
+Stdlib Icons: tupadr3
+Site design: Raphael Cotisson
+Logo: Benjamin Croizet
+ 
+http://plantuml.com
+ 

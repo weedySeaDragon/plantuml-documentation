@@ -1,0 +1,18 @@
+@startuml
+
+title Usecase Diagrams: Connecting Notes to Objects
+
+skinparam Shadowing false
+
+(Use the application) as (Use)
+
+User -[#LightSlateGray]- (Start)
+User -[#LightSlateGray]- (Use)
+
+note "This note is connected to \n two use cases \n and the User actor."  as N2  #white
+
+(Start) <<-[#orange]- N2
+N2 .[#magenta].|> (Use)
+User <==[#DeepSkyBlue]==> N2
+
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+
+title Arrow Heads
+
+A ->> B: synchronous
+A ->  B: asynchronous
+A -\\ B: "\\\" creates just the top half
+A -\ B: "\" creates a filled top half
+A -// B: "//" creates just the bottom half
+A -/ B: "/" creates a filled bottom half
+A ->>o B: a circle at the end denotes a lost message
+A o->> B: a circle at the start denotes a found message
+A ->x B: an X at the end denotes a deletion message
+[->>B:\t a "[" shows a message coming from outside the scope of the diagram
+A->]:\t a "]" shows a message going to outside the scope of the diagram
+[o-> B:\t this is a found message originating outside of the scope of this diagram
+
+
+@enduml

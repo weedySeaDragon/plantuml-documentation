@@ -1,0 +1,15 @@
+@startuml
+
+skinparam ClassBackgroundColor #Darkorange
+skinparam ClassFontColor #Darkorange
+skinparam ClassBorderColor #Darkorange
+
+skinparam ClassStereotypeFontSize 0
+skinparam CircledCharacterFontSize 0
+skinparam CircledCharacterRadius 0
+skinparam ClassBorderThickness 0
+skinparam Shadowing false
+
+class Dummy
+
+@enduml

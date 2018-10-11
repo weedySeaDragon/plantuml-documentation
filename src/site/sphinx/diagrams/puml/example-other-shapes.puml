@@ -1,0 +1,47 @@
+@startuml
+
+skinparam Shadowing false
+
+actor a order 1
+
+actor b order 2
+
+
+boundary u
+
+control  c
+
+entity e
+
+database s
+
+
+actor b
+
+
+a -> b
+
+b --> a
+
+a -/ b
+
+b -\ a
+
+a -x b
+
+b --x a
+
+a -// b
+
+b -\\ a
+
+a ->> b
+
+b -->> a
+
+a <<-->> b
+
+a o<->o b
+
+
+@enduml

@@ -1,0 +1,33 @@
+@startuml
+
+title
+  Continuation and alternatives example
+   from the UML 2.5 Specification
+ (Figure 17.17)
+
+end title
+
+
+participant ":A" as a
+participant ":B" as b
+participant ":C" as c
+
+a<<-b:ask
+
+alt
+
+|||
+
+ref over a: DoSth
+
+a->>b:yes
+
+else
+
+a->>b:nonono
+a->>b:no
+
+
+end
+
+@enduml
