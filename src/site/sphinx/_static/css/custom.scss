@@ -11,18 +11,115 @@
 
 $font-size-default: 14px;
 
+h2, h3 {
+  margin-bottom: 4px;
+}
+
+h3 {
+  font-size: 110%;
+}
+
+h4 {
+  font-size: 105%;
+}
+
+h5 {
+  font-size: 100%;
+  font-style: italic;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+h4, h5, h6 {
+  font-weight: normal;
+}
+
+h3, h4, h5, h6 {
+  margin-bottom: 0px;
+}
+
+table.docutils.field-list {
+
+  th.field-name {
+    font-size: 11pt;
+    padding-bottom: 0;
+  }
+
+  td,
+  th {
+    padding-top: 4px;
+  }
+
+}
+
 $code-color-default: royalblue;
 
 .wy-nav-content {
   background-color: white;
 }
 
+$default-color: #404040;
+
+$light-gray: #f3f3f3;
+$light-med-gray: #d9d9d9;
+$dark-gray: #4e4a4a;
+$slate-blue: #2980B9;
+
+//  ====================================
+//  make the background white everywhere
+
+body {
+  color: $default-color;
+  background: #FFFFFF //background: #edf0f2
+}
+
+// ------------------------
+// side navigation section:
+
+.wy-nav-side {
+
+  color: $default-color; //color: #9b9b9b;
+  background: #FFFFFF; //background: #343131;
+
+}
+
+.wy-menu-vertical li ul li a {
+  color: $slate-blue; // color: $light-med-gray;
+}
+
+.wy-menu-vertical a {
+  color: $slate-blue; // color: $light-med-gray;
+}
+
+.wy-menu-vertical a:hover {
+  background-color: $light-gray; // background-color: $dark-gray;
+  cursor: pointer
+}
+
+.wy-menu-vertical a:hover span.toctree-expand {
+  color: $slate-blue; // color: $light-med-gray;
+}
+
+.wy-menu-vertical a:active {
+  background-color: $light-med-gray; // background-color: $slate-blue;
+  color: #fff
+}
+
+.wy-menu-vertical a:active span.toctree-expand {
+  color: #fff
+}
+
 .rst-content {
 
   p, blockquote {
+    line-height: 1.5em;
+    margin-bottom: 8px;
+  }
+
+  p, blockquote, ul {
     font-size: $font-size-default;
-    line-height: 20px;
-    margin-bottom: 18px;
   }
 
   tt.literal, code.literal {
@@ -55,6 +152,8 @@ $code-color-default: royalblue;
   // To Do list
 
   .admonition-todo.admonition {
+    margin-left: 2em;
+    margin-right: 2em;
     margin-bottom: 0;
     background-color: inherit;
 
@@ -91,29 +190,27 @@ $code-color-default: royalblue;
     background-color: white;
   }
 
-
   // format the table of colors:
-    table.docutils {
+  table.docutils {
 
-      td {
+    td {
+      padding: 0;
+
+      p {
+        font-size: 11px;
+        text-align: center;
+        margin: 0;
         padding: 0;
-
-        p {
-          font-size: 11px;
-          text-align: center;
-          margin: 0;
-          padding: 0;
-        }
-
-        p.last {
-          margin-bottom: 4px;
-          margin-left: 2px;
-          margin-right: 2px;
-        }
       }
 
+      p.last {
+        margin-bottom: 4px;
+        margin-left: 2px;
+        margin-right: 2px;
+      }
     }
 
+  }
 
 }
 
@@ -122,6 +219,13 @@ $code-color-default: royalblue;
 .index-key {
   margin-top: 2em;
 }
+
+ // entries that are "see... " or "see also..."
+ li.see {
+  font-style: italic;
+}
+
+
 
 // footer
 

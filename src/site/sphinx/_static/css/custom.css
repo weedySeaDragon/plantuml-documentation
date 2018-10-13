@@ -7,16 +7,74 @@
  */
 /* ------------------------------*/
 /* Read the docs theme overrides */
+h2, h3 {
+  margin-bottom: 4px; }
+
+h3 {
+  font-size: 110%; }
+
+h4 {
+  font-size: 105%; }
+
+h5 {
+  font-size: 100%;
+  font-style: italic; }
+
+h6 {
+  font-size: 14px; }
+
+h4, h5, h6 {
+  font-weight: normal; }
+
+h3, h4, h5, h6 {
+  margin-bottom: 0px; }
+
+table.docutils.field-list th.field-name {
+  font-size: 11pt;
+  padding-bottom: 0; }
+table.docutils.field-list td,
+table.docutils.field-list th {
+  padding-top: 4px; }
+
 .wy-nav-content {
   background-color: white; }
+
+body {
+  color: #404040;
+  background: #FFFFFF; }
+
+.wy-nav-side {
+  color: #404040;
+  background: #FFFFFF; }
+
+.wy-menu-vertical li ul li a {
+  color: #2980B9; }
+
+.wy-menu-vertical a {
+  color: #2980B9; }
+
+.wy-menu-vertical a:hover {
+  background-color: #f3f3f3;
+  cursor: pointer; }
+
+.wy-menu-vertical a:hover span.toctree-expand {
+  color: #2980B9; }
+
+.wy-menu-vertical a:active {
+  background-color: #d9d9d9;
+  color: #fff; }
+
+.wy-menu-vertical a:active span.toctree-expand {
+  color: #fff; }
 
 .rst-content {
   /* pygments overrides */
   /* Comments */ }
   .rst-content p, .rst-content blockquote {
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 18px; }
+    line-height: 1.5em;
+    margin-bottom: 8px; }
+  .rst-content p, .rst-content blockquote, .rst-content ul {
+    font-size: 14px; }
   .rst-content tt.literal, .rst-content code.literal {
     color: royalblue;
     font-size: 85%; }
@@ -28,6 +86,8 @@
   .rst-content .o {
     color: #f57c00; }
   .rst-content .admonition-todo.admonition {
+    margin-left: 2em;
+    margin-right: 2em;
     margin-bottom: 0;
     background-color: inherit; }
     .rst-content .admonition-todo.admonition p {
@@ -58,5 +118,8 @@
 
 .index-key {
   margin-top: 2em; }
+
+li.see {
+  font-style: italic; }
 
 /*# sourceMappingURL=custom.css.map */
