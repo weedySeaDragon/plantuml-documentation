@@ -1,6 +1,7 @@
 About This Site
 ###############
 
+
 ***********
 Built with:
 ***********
@@ -54,4 +55,31 @@ my dev info
    todos
    rst_cheatsheet
    exploring-how-to
+
+
+.. todo::
+
+   Bug report for puml plugin (same issue with !include) as happened with the IntelliJ plugin
+
+
+
+
+.. _layout_and_style:
+
+****************
+Layout and Style
+****************
+
+Left Nav Section:
+
+   - Background and colors
+   - background for search
+   - short title
+
+Fonts
+   - too big
+   - get rid of slab font?
+
+
+
 

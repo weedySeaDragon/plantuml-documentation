@@ -46,6 +46,11 @@ Internal links are :refs:
 
 
 .. _rst_internal_link_example:
+
+-----------------
+Internal Link Ref
+-----------------
+
    this is the caption for the link
 
    This is the content for the label :code:`.. _rst_internal_link_example:`.  Note that has only **one** colon (not the double ones as for most directives)
@@ -130,14 +135,3 @@ Subsection example
    ------------------
    Subsection Example
    ------------------
-
-^^^^^^^^^^^^^^^^^^^^^^
-sub-subsection example
-^^^^^^^^^^^^^^^^^^^^^^
-
-::
-
-   ^^^^^^^^^^^^^^^^^^^^^^
-   sub-subsection example
-   ^^^^^^^^^^^^^^^^^^^^^^
-

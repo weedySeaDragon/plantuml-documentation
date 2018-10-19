@@ -51,17 +51,89 @@ then you can refer to that *label* later with a reference :code:`:ref:`label_nam
 This is a link to the label section above: :ref:`section_labels`
 
 
+Index Directive: triples, etc.
+------------------------------
+
+.. code::
+
+   .. index::
+      single: aaexecution
+
+      pair: aaexecution; zzsub2
+         Creates 2 entries:  (1)  "aaexecution" as the main entry with "zzsub2 as a subentry for it, and
+            (2) "zzsub2" as the main entry with "aaexecution" as the subentry for it.
+
+      module: __main__
+         Automatically creates a paired entry for "module" and "aasys". Equivalent to "pair: module, aasys"
+
+      module: aasys
+         Automatically creates a paired entry for "module" and "aasys". Equivalent to "pair: module, aasys"
+
+      triple: aamodule; aasearch; aapath
+         Creates a paired entry for the first and (second + third, separated by a space):
+            aamodule
+               aasearch aapath
+
+         Creates a paired entry for the second and (third + first, separated by _comma_):
+            aasearch
+               aapath, aasearch
+
+            Maybe this shows that 'aapath' is a sub entry for aasearch??
+
+         Creates a paired entry for the third and (first + second, separated by a space):
+            aapath
+               aamodule aasearch
+
+
+
+      keyword:  zzkeyword
+         Automatically creates a paired entry for "keyword" and "aasys". Equivalent to "pair: keyword, aasys"
+
+      operator: zzoperator
+         Automatically creates a paired entry for "operator" and "aasys". Equivalent to "pair: operator, aasys"
+
+      object:  zzobject
+         Automatically creates a paired entry for "object" and "aasys". Equivalent to "pair: object, aasys"
+
+      exception: zzexception
+         Automatically creates a paired entry for "exception" and "aasys". Equivalent to "pair: exception, aasys"
+
+      statement: zzstatement
+         Automatically creates a paired entry for "statement" and "aasys". Equivalent to "pair: statement, aasys"
+
+      builtin: zzbuiltin
+         Automatically creates a paired entry for "builtin" and "aasys". Equivalent to "pair: builtin, aasys"
+
+      triple:
+         Creates 3 entries:  a main entry for each item with a sub entry that consists of the other 2.
+
+
+         This directive:
+
+            .. index::
+               single: aaexecution
+               pair: aaexecution; zzsub2
+               triple: aatriple1; aatriple2; aatriple3
+
+         Produces this:
+
+            aatriple1
+               aatriple2 aatriple3
+            aatriple2
+               aatriple3, aatriple1
+            aatriple3
+               aatriple1 aatriple2
+
+         (Is there a bug in it?  The first and third entries don't have commas like the second does)
+
+
+
 
 
 Different cross-referencing directives
 --------------------------------------
 
 see  `Sphinx: Roles: Cross referencing syntax <http://www.sphinx-doc.org/en/stable/usage/restructuredtext/roles.html#cross-referencing-syntax>`_
-
-
-
-Can we now link to options and topics?  Let's try:  Here is a :option:`participant as` link to the option "as"
-using :code:`:option:`participant as``  Yay!  that works! (it is literally this link: :code:`#cmdoption-arg-participant`
 
 
 And how about linking to :code:`:topic:`topic-name``?  Nope.  How about :code:`:ref:`topic-name`` ? nope.
@@ -80,18 +152,6 @@ things to try
 
 - fields lists:  another positional thing (colon; on the same line)
   - http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#field-lists
-
-
-- grammar production display?
-
-.. productionlist:: example_production_list
-   participant: ["]`display_name`["] ["as" `alias`]
-              : [ "#"(`color_name` | `hex_value` ) ]
-              : [ "<<"   ">>" ]
-              : [ "order" `order_number` ]
-
-
-  - is complicated to look at.  could do that later on a more technical page.  (Plus it all has to be done by hand.  blech.)
 
 
 

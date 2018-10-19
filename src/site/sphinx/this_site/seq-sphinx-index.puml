@@ -1,0 +1,11 @@
+@startuml
+
+!include ../plantuml-styles/plantuml-ae.iuml
+
+title Sphinx: HTML builder: generate the index
+
+
+participant "HTML Builder" as HTML
+
+
+@enduml
