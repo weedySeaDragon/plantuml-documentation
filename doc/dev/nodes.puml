@@ -1,0 +1,36 @@
+@startuml
+
+abstract class AbstractList
+abstract AbstractCollection
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+DocUtilsDirective <|-- SphinxDirective
+SphinxDirective <|-- Index
+
+class SphinxDirective {
+
+env(self)
+config(self)
+
+}
+
+class Index {
+Object[] elementData
+run(self) - parse index:: args
+}
+
+enum TimeUnit {
+DAYS
+HOURS
+MINUTES
+}
+
+@enduml

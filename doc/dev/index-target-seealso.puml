@@ -1,0 +1,60 @@
+@startuml
+
+title
+
+ Indexing and seealso - learning how it's handled
+ goal is to have the "seealso" set to a target (link)
+
+This "runs" the index directive, buiding the indexnode and target node
+end title
+
+participant Index
+
+participant targetnode #lightGreen
+participant indexnode #lightGreen
+
+Index -> Index: run(self) // other.py: parse index:: args//
+note over Index #AliceBlue
+set the target info:
+end note
+
+Index <-> env: get a new (unique) //serial number and assign it to the targetid//
+Index->nodes.target: new ('', '', ids=[targetid]) //add the target info to all nodes//
+create targetnode
+nodes.target -> targetnode: new
+targetnode -> Index
+Index -> document: note_explicit_target( targetnode )
+
+Index -> addnodes: index()  //addnodes.index() node created by index directive ... //
+
+create indexnode
+addnodes-> indexnode: new
+indexnode -> Index
+
+note over Index  #white
+ //set the source location...//
+end note
+
+Index -> indexnode: ['entries'] = []
+
+
+loop every entry in arguments:
+
+   Index -> indexnode: ['entries'].extend(process_index_entry(entry, targetid))
+   indexnode -> nodes: process_index_entry...
+   nodes-> indexnode: indexentries.append((<index type: single, pair, triple>, value, targetid, main, None))
+
+end
+
+note over indexnode
+  extend = extend list by appending to it (py builtin)"
+
+  **can't have a note in a loop box?**
+end note
+
+indexnode -> Index
+
+[<- Index: return( indexnode, targetnode )
+
+
+@enduml

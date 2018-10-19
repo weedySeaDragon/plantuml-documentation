@@ -1,0 +1,93 @@
+@startuml
+
+skinparam ActivityStartColor lightgreen
+'skinparam ActivityEndColor red
+
+skinparam ActivityBarColor blue
+
+skinparam ActivityBorderColor gray
+skinparam ActivityBorderThickness 1
+
+' ActivityFontColor
+' ActivityFontName
+' ActivityFontSize
+' ActivityFontStyle
+
+skinparam ArrowColor blue
+skinparam ArrowFontColor blue
+' skinparam ArrowFontName
+' skinparam ArrowFontSize
+' skinparam ArrowFontStyle
+' skinparam ArrowLollipopColor
+' skinparam ArrowMessageAlignment
+' skinparam ArrowThickness
+
+
+
+title
+ Sphinx core events
+ http://www.sphinx-doc.org/en/stable/extdev/appapi.html#sphinx-core-events
+
+end title
+
+
+start
+
+:**Phase 0: Initialization**|
+
+#white:builder-inited(app);
+#white:config-inited(app, config);
+
+
+:**Phase 1: Reading**
+- source read and parsed
+- nodes created (= doctrees built)
+- cross reference data created
+- meta-data created|
+
+#white:env-get-outdated(app, env, added, changed, removed);
+#white:env-purge-doc(app, env, docname);
+#white:env-before-read-docs(app, env, docnames);
+#white:source-read(app, docname, source);
+#white:doctree-read(app, doctree);
+
+
+:**Phase 2: Consistency checks**|
+
+#white:missing-reference(app, env, node, contnode);
+
+
+:**Phase 3: Resolving**
+- node information is completed|
+
+#white:<b>doc_tree_resolved()</b>
+
+Here is the place to replace custom nodes that don’t have visitor methods in the writers,
+so that they don’t cause errors when the writers encounter them.;
+
+#white:env-merge-info(app, env, docnames, other);
+
+#white:? <i>add_post_transform();
+
+
+:**Phase 4: Writing**
+- writers visit doctree nodes to produce output|
+
+#white:env-updated(app, env);
+
+#white:html-collect-pages(app);
+
+#white:html-page-context(app, pagename, templatename, context, doctree);
+
+#white:**build-finished(app, exception)**
+
+Emitted when a build has finished, before Sphinx exits, usually used for cleanup.
+This event is emitted even when the build process raised an exception,
+ given as the exception argument.
+The exception is reraised in the application after the event handlers have run.
+If the build process raised no exception, exception will be None.
+This allows to customize cleanup actions depending on the exception status.;
+
+
+end
+@enduml

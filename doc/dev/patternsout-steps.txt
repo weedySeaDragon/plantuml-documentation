@@ -1,0 +1,17 @@
+Goal:  Can I manipulate the Regexp so that it looks readable to the average user?
+
+
+replace   with:
+[\s ];
+   replace with just a single space
+
+(?: *: *| +)(.*[\p{L}0-9_.].*)
+ <your text>
+  a space precedes that
+
+
+remove all:
+(?i)
+^[\s ]*$
+^
+$
