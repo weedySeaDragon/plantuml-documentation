@@ -6,7 +6,7 @@ plugins {
 }
 
 group 'com.ashleycaroline.plantuml'
-version '1.0-SNAPSHOT'
+version '1.0.1'
 
 sourceCompatibility = 1.9
 
@@ -24,7 +24,7 @@ dependencies {
     // https://mvnrepository.com/artifact/com.google.guava/guava
     compile group: 'com.google.guava', name: 'guava', version: '26.0-jre'
 
-    compile name: 'plantuml'
+    compile name: 'plantuml' 
 
     // https://mvnrepository.com/artifact/org.reflections/reflections
     compile group: 'org.reflections', name: 'reflections', version: '0.9.11'
@@ -32,6 +32,8 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
     testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.3.1'
+
+    testCompile name: 'plantuml'
 
 }
 
@@ -54,4 +56,10 @@ jar {
                 "Created-By": "Gradle $project.gradle.gradleVersion",
         )
     }
+
+    test {
+        // uncomment the following to print out the class path when test task is run:
+        //println(classpath.asPath)
+    }    
+    
 }

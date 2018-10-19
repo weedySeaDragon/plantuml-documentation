@@ -1,0 +1,1 @@
+This is just a dummpy placeholder file because a resource directory cannot be empty.

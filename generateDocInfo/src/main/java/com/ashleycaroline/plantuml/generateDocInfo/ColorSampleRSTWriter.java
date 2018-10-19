@@ -16,8 +16,8 @@ import static java.lang.Integer.min;
  *  Class:  ColorSampleRSTWriter
  *
  *  Responsibility: Given a list of color names and puml RST directives, creates
- *   a text file that is a RST table of all of the colors.
- *
+ *   a string that is a RST table of all of the colors.  (Some other object can do what they want with the String:
+ *   write it out to a file or whatever.)
  *
  * Here is an example of the table:
  *

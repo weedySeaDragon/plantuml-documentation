@@ -9,11 +9,12 @@ package com.ashleycaroline.plantuml.generateDocInfo;
  *    - help: help info     (java -jar plantuml -help)
  *    - patterns: Regular Expression patterns that can used in PlantUML diagrams (java -jar plantuml -patterns)
  *    - language: keywords for diagrams and skinparam (java -jar plantuml -language)
+ *      - colors used -> color sample files
+ *
  *  (The command lines to get the raw info from PlantUML are in the parentheses.)
  *
- *  This reads data from the raw info directly from the PlantUML classes and methods and then manipulates it info
- *
- * TODO refactor into separate classes!
+ *  This reads data from the raw info directly from the PlantUML classes and methods and then manipulates it to
+ *  produce useful things. (RST files, color samples, etc.)
  *
  *
  *  @file PlantumlInfoGenerator
@@ -25,6 +26,7 @@ package com.ashleycaroline.plantuml.generateDocInfo;
  ********************************************************************************/
 
 
+import com.google.common.io.Resources;
 import net.sourceforge.plantuml.command.UmlDiagramFactory;
 
 import net.sourceforge.plantuml.syntax.LanguageDescriptor;
@@ -46,15 +48,36 @@ import java.util.stream.Collectors;
 
 import static com.ashleycaroline.plantuml.generateDocInfo.GeneratorConsts.*;
 
+
 import static com.ashleycaroline.plantuml.generateDocInfo.StringPadder.padStringWithSpaces;
 
 
 public class PlantUmlInfoGenerator {
 
+    // these are protected so that tests can access them
+    
+    protected static final String TEMPLATES = "templates";
+    
+    protected static final String RESOURCE_TEMPLATES_DIR = Resources.getResource( TEMPLATES ).getPath();
+    protected static final String RESOURCE_PUML_GEND_DIR = Resources.getResource( PLANTUML_GENERATED ).getPath();
+    protected static final String RESOURCE_PUML_OUTFILES_DIR = Resources.getResource( PUML_FILES_BASE_DIR ).getPath();
+    protected static final String RESOURCE_COLOR_OUTFILES_DIR = Resources.getResource( COLOR_FILES_DIR ).getPath();
+
+
+    protected static final String PUML_COLOR_TEMPLATE_FN = "puml-color-file-template.txt";
+
+    protected static final String COLOR_REPLACEMENT_PATTERN = "COLOR_NAME";
+
+    protected static final String OUTPUTFN_PREFIX = "plantUML-";
+
+    protected static final String COLOR_NAMES_TABLE_FILENAME = "COLOR_NAMES_RST_TABLE.TXT";
+    protected static final String COLORS_ONLY_TABLE_FILENAME = "COLORS_RST_TABLE.TXT";
+
+    
     protected static final String NAMES_AND_COLORS_SEPARATOR = "+-----------------------+------------------------------------------------+\n";
-    protected static final String NAMES_AND_COLORS_HEADER = "| color name            | example                                        |\n";
-    private static final Integer NAMES_AND_COLORS_COL1_LENGTH = 22;
-    private static final Integer NAMES_AND_COLORS_COL2_LENGTH = NAMES_AND_COLORS_SEPARATOR.length() - 1 - 1 - NAMES_AND_COLORS_COL1_LENGTH - 1 - 1 - 1;
+    protected static final String NAMES_AND_COLORS_HEADER    = "| color name            | example                                        |\n";
+    protected static final Integer NAMES_AND_COLORS_COL1_LENGTH = 22;
+    protected static final Integer NAMES_AND_COLORS_COL2_LENGTH = NAMES_AND_COLORS_SEPARATOR.length() - 1 - 1 - NAMES_AND_COLORS_COL1_LENGTH - 1 - 1 - 1;
     //  = total length - space -s tartingChar - column 1 length - middleChar - endingChar - newlineChar
 
 
@@ -96,7 +119,6 @@ public class PlantUmlInfoGenerator {
      */
     public static void writePUMLColorFilesFor( List< String > colorNames ) throws IOException {
 
-
         ColorSampleRSTWriter colorSampleRSTWriter = new ColorSampleRSTWriter();
 
         StringBuilder names_and_colors_rstTableMarkupSB = new StringBuilder();
@@ -106,18 +128,16 @@ public class PlantUmlInfoGenerator {
 
         names_and_colors_rstTableMarkupSB.append( names_and_colors_table_header() );
 
-
         for ( Object colorName : colorNames.toArray() ) {
 
             String colorNameStr = (String) colorName;
-            writePUMLFile( colorNameStr, templateFile );
+            writePUMLColorFile( colorNameStr, templateFile );
 
             String puml_str = PUML_RST_DIRECTIVE + colorNameStr + PUML_EXT;
 
             names_and_colors_rstTableMarkupSB.append( names_and_colors_entry( colorNameStr, puml_str ) );
 
             colorSampleRSTWriter.add_color( colorNameStr );
-
         }
 
         System.out.println( names_and_colors_rstTableMarkupSB.toString() );
@@ -128,10 +148,10 @@ public class PlantUmlInfoGenerator {
     }
 
 
-    private static void writePUMLFile( String colorStr, String templateFile ) {
+    private static void writePUMLColorFile( String colorStr, String templateFile ) {
 
         String colorReplacedContents = templateFile.replaceAll( COLOR_REPLACEMENT_PATTERN, colorStr );
-        writeToResourceFile( RESOURCE_PUML_OUTFILES_DIR, colorStr + PUML_EXT, colorReplacedContents );
+        writeToResourceFile( RESOURCE_COLOR_OUTFILES_DIR, colorStr + PUML_EXT, colorReplacedContents );
     }
 
 

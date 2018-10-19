@@ -49,11 +49,14 @@ import java.nio.file.Paths;
 import java.util.*;
 
 
-import static com.ashleycaroline.plantuml.generateDocInfo.GeneratorConsts.LANGUAGE_FN;
 import static com.ashleycaroline.plantuml.generateDocInfo.GeneratorConsts.PLANTUML_GENERATED;
 import static com.ashleycaroline.plantuml.generateDocInfo.GeneratorConsts.TEXT_EXT;
 
 public class KeywordsReader {
+
+
+    public static final String LANGUAGE_FN = "language";
+
 
 
     // ------------------------------------------------

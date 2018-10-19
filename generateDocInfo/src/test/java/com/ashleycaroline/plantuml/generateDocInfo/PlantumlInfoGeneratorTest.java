@@ -38,10 +38,10 @@ class PlantumlInfoGeneratorTest {
 
         // assert: the files exist, aren't empty, have the right contents
 
-        assertTrue( Files.exists( Paths.get(GeneratorConsts.RESOURCE_PUML_OUTFILES_DIR, "blue.puml"))  );
-        assertTrue( Files.exists( Paths.get(GeneratorConsts.RESOURCE_PUML_OUTFILES_DIR, "red.puml"))  );
+        assertTrue( Files.exists( Paths.get(PlantUmlInfoGenerator.RESOURCE_COLOR_OUTFILES_DIR, "blue.puml"))  );
+        assertTrue( Files.exists( Paths.get(PlantUmlInfoGenerator.RESOURCE_COLOR_OUTFILES_DIR, "red.puml"))  );
 
-        List<String> bluePuml = readFileIntoList(GeneratorConsts.RESOURCE_PUML_OUTFILES_DIR, "blue.puml");
+        List<String> bluePuml = readFileIntoList(PlantUmlInfoGenerator.RESOURCE_COLOR_OUTFILES_DIR, "blue.puml");
         assertEquals("@startuml", bluePuml.get(0));
         assertEquals("skinparam ClassBackgroundColor #blue", bluePuml.get(2));
         assertEquals("skinparam ClassFontColor #blue", bluePuml.get(3));
@@ -56,7 +56,7 @@ class PlantumlInfoGeneratorTest {
         assertEquals("class Dummy", bluePuml.get(12));
         assertEquals("@enduml", bluePuml.get(14));
 
-        List<String> redPuml = readFileIntoList(GeneratorConsts.RESOURCE_PUML_OUTFILES_DIR, "red.puml");
+        List<String> redPuml = readFileIntoList(PlantUmlInfoGenerator.RESOURCE_COLOR_OUTFILES_DIR, "red.puml");
         assertEquals("skinparam ClassBackgroundColor #red", redPuml.get(2));
         assertEquals("skinparam ClassFontColor #red", redPuml.get(3));
         assertEquals("skinparam ClassBorderColor #red", redPuml.get(4));
