@@ -3,6 +3,7 @@
 
 .. |use_colorname_hex| replace:: Use either a :ref:`predefined color name <all_color_names>` or the hexidecimal number of a color. Both must start with a :code:`#`.
 
+.. |not_working| replace:: Note:  *Not working?*
 
 
 .. index:: skinparam
@@ -58,7 +59,9 @@ Activity
 
 :Applies to:
 
-     Activity diagrams
+    .. container:: applies-to
+
+         Activity diagrams
 
 
 :Example:    :code:`ActivityBackgroundColor lightCyan`:
@@ -86,7 +89,9 @@ Activity
 
 :Applies to:
 
-    Activity diagrams
+    .. container:: applies-to
+
+        Activity diagrams
 
 
 :Example:    :code:`ActivityBarColor red`:
@@ -113,7 +118,9 @@ Activity
 
 :Applies to:
 
-    Activity diagrams
+    .. container:: applies-to
+
+        Activity diagrams
 
 
 :Example:    :code:`ActivityBorderColor red`:
@@ -142,7 +149,9 @@ Activity
 
 :Applies to:
 
-    Activity diagrams
+    .. container:: applies-to
+
+        Activity diagrams
 
 
 :Example:    :code:`ActivityBorderThickness 5`:
@@ -171,7 +180,9 @@ Activity
 
 :Applies to:
 
-    Activity diagrams
+    .. container:: applies-to
+
+        Activity diagrams
 
 
 :Example:    :code:`activityDiamondBackgroundColor lawnGreen`:
@@ -198,7 +209,9 @@ Activity
 
 :Applies to:
 
-    Activity diagrams
+    .. container:: applies-to
+
+        Activity diagrams
 
 
 :Example:    :code:`activityDiamondBorderColor red`:
@@ -225,7 +238,9 @@ Activity
 
 :Applies to:
 
-    Activity diagrams
+    .. container:: applies-to
+
+        Activity diagrams
 
 
 :Example:    :code:`activityDiamondFontColor red`:
@@ -253,7 +268,9 @@ Activity
 
 :Applies to:
 
-    Activity diagrams
+    .. container:: applies-to
+
+        Activity diagrams
 
 
 :Example:    :code:`activityDiamondFontName Papyrus`:
@@ -281,7 +298,9 @@ Activity
 
 :Applies to:
 
-    Activity diagrams
+    .. container:: applies-to
+
+        Activity diagrams
 
 
 :Example:    :code:`activityDiamondFontSize 18`:
@@ -309,7 +328,9 @@ Activity
 
 :Applies to:
 
-    Activity diagrams
+    .. container:: applies-to
+
+        Activity diagrams
 
 
 :Example:    :code:`activityDiamondFontStyle bold`:
@@ -336,7 +357,9 @@ Activity
 
 :Applies to:
 
-    Activity diagrams
+    .. container:: applies-to
+
+        Activity diagrams
 
 
 :Example:    :code:`ActivityEndColor red`:
@@ -363,7 +386,9 @@ Activity
 
 :Applies to:
 
-    Activity diagrams
+    .. container:: applies-to
+
+        Activity diagrams
 
 
 :Example:    :code:`ActivityFontColor red`:
@@ -392,7 +417,9 @@ Activity
 
 :Applies to:
 
-    Activity diagrams
+    .. container:: applies-to
+
+        Activity diagrams
 
 
 :Example:    :code:`ActivityFontName Papyrus`:
@@ -420,7 +447,9 @@ Activity
 
 :Applies to:
 
-    Activity diagrams
+    .. container:: applies-to
+
+        Activity diagrams
 
 
 :Example:    :code:`ActivityFontSize 18`:
@@ -448,7 +477,9 @@ Activity
 
 :Applies to:
 
-    Activity diagrams
+    .. container:: applies-to
+
+        Activity diagrams
 
 
 :Example:    :code:`ActivityFontStyle bold`:
@@ -476,7 +507,9 @@ Activity
 
 :Applies to:
 
-    Activity diagrams
+    .. container:: applies-to
+
+        Activity diagrams
 
 
 :Example:    :code:`ActivityStartColor lawnGreen`:
@@ -541,7 +574,9 @@ Actor
 
 :Applies to:
 
-    Component diagrams, Sequence diagrams, Use Case diagrams
+    .. container:: applies-to
+
+        Component diagrams, Sequence diagrams, Use Case diagrams
 
 
 :Example:    :code:`ActorBorderColor red`:
@@ -568,7 +603,9 @@ Actor
 
 :Applies to:
 
-    Component diagrams, Sequence diagrams, Use Case diagrams
+    .. container:: applies-to
+
+        Component diagrams, Sequence diagrams, Use Case diagrams
 
 
 :Example:    :code:`ActorFontColor red`:
@@ -596,7 +633,9 @@ Actor
 
 :Applies to:
 
-    Component diagrams, Sequence diagrams, Use Case diagrams
+    .. container:: applies-to
+
+        Component diagrams, Sequence diagrams, Use Case diagrams
 
 
 :Example:    :code:`ActorFontName Papyrus`:
@@ -619,12 +658,14 @@ Actor
 :Usage:
     :code:`ActorFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    Component diagrams, Sequence diagrams, Use Case diagrams
+    .. container:: applies-to
+
+        Component diagrams, Sequence diagrams, Use Case diagrams
 
 
 :Example:    :code:`ActorFontSize 18`:
@@ -652,7 +693,9 @@ Actor
 
 :Applies to:
 
-    Component diagrams, Sequence diagrams, Use Case diagrams
+    .. container:: applies-to
+
+        Component diagrams, Sequence diagrams, Use Case diagrams
 
 
 :Example:    :code:`ActorFontStyle bold`:
@@ -680,7 +723,9 @@ Actor
 
 :Applies to:
 
-    Component diagrams, Use Case diagrams
+    .. container:: applies-to
+
+        Component diagrams, Use Case diagrams
 
 
 :Example:    :code:`ActorStereotypeFontColor red`:
@@ -709,7 +754,9 @@ Actor
 
 :Applies to:
 
-    Component diagrams, Use Case diagrams
+    .. container:: applies-to
+
+        Component diagrams, Use Case diagrams
 
 
 :Example:    :code:`ActorStereotypeFontName Papyrus`:
@@ -736,7 +783,9 @@ Actor
 
 :Applies to:
 
-    Component diagrams, Use Case diagrams
+    .. container:: applies-to
+
+        Component diagrams, Use Case diagrams
 
 
 :Example:    :code:`ActorStereotypeFontSize 18`:
@@ -764,7 +813,9 @@ Actor
 
 :Applies to:
 
-    Component diagrams, Use Case diagrams
+    .. container:: applies-to
+
+        Component diagrams, Use Case diagrams
 
 
 :Example:    :code:`ActorStereotypeFontStyle bold`:
@@ -805,7 +856,9 @@ Agent
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`AgentBackgroundColor lawnGreen`:
@@ -833,7 +886,9 @@ Agent
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`AgentBorderColor blue`:
@@ -861,7 +916,9 @@ Agent
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`AgentBorderThickness [ number ]`:
@@ -889,7 +946,9 @@ Agent
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`AgentFontColor red`:
@@ -918,7 +977,9 @@ Agent
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`AgentFontName Papyrus`:
@@ -946,7 +1007,9 @@ Agent
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`AgentFontSize 18`:
@@ -974,7 +1037,9 @@ Agent
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`AgentFontStyle italic`:
@@ -1003,7 +1068,9 @@ Agent
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`AgentStereotypeFontColor red`:
@@ -1033,7 +1100,9 @@ Agent
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`AgentStereotypeFontName Papyrus`:
@@ -1062,7 +1131,9 @@ Agent
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`AgentStereotypeFontSize 18`:
@@ -1091,7 +1162,9 @@ Agent
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`AgentStereotypeFontStyle italic`:
@@ -1130,7 +1203,9 @@ Arrow
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ArrowColor [ #predefinedColorName | #hexColorNumber ]`:
@@ -1158,7 +1233,9 @@ Arrow
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ArrowFontColor red`:
@@ -1187,7 +1264,9 @@ Arrow
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ArrowFontName Papyrus`:
@@ -1210,12 +1289,14 @@ Arrow
 :Usage:
     :code:`ArrowFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ArrowFontSize 18`:
@@ -1244,7 +1325,9 @@ Arrow
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ArrowFontStyle italic`:
@@ -1272,7 +1355,9 @@ Arrow
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ArrowLollipopColor [ #predefinedColorName | #hexColorNumber ]`:
@@ -1300,7 +1385,9 @@ Arrow
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ArrowMessageAlignment zz`:
@@ -1328,7 +1415,9 @@ Arrow
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ArrowThickness [ number ]`:
@@ -1366,7 +1455,9 @@ Artifact
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ArtifactBackgroundColor lawnGreen`:
@@ -1392,7 +1483,9 @@ Artifact
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ArtifactBorderColor red`:
@@ -1418,7 +1511,9 @@ Artifact
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ArtifactFontColor red`:
@@ -1445,7 +1540,9 @@ Artifact
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ArtifactFontName Papyrus`:
@@ -1466,12 +1563,14 @@ Artifact
 :Usage:
     :code:`ArtifactFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ArtifactFontSize 18`:
@@ -1497,7 +1596,9 @@ Artifact
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ArtifactFontStyle italic`:
@@ -1523,7 +1624,9 @@ Artifact
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ArtifactStereotypeFontColor red`:
@@ -1550,7 +1653,9 @@ Artifact
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ArtifactStereotypeFontName Papyrus`:
@@ -1571,12 +1676,14 @@ Artifact
 :Usage:
     :code:`ArtifactStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ArtifactStereotypeFontSize 18`:
@@ -1602,7 +1709,9 @@ Artifact
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ArtifactStereotypeFontStyle italic`:
@@ -1646,7 +1755,9 @@ BackgroundColor
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`BackgroundColor GreenYellow`:
@@ -1683,7 +1794,9 @@ Biddable
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`BiddableBackgroundColor GreenYellow`:
@@ -1709,7 +1822,9 @@ Biddable
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`BiddableBorderColor red`:
@@ -1747,7 +1862,9 @@ Boundary
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`BoundaryBackgroundColor lawnGreen`:
@@ -1773,7 +1890,9 @@ Boundary
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`BoundaryBorderColor red`:
@@ -1799,7 +1918,9 @@ Boundary
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`BoundaryFontColor red`:
@@ -1826,7 +1947,9 @@ Boundary
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`BoundaryFontName Papyrus`:
@@ -1847,12 +1970,14 @@ Boundary
 :Usage:
     :code:`BoundaryFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`BoundaryFontSize 18`:
@@ -1878,7 +2003,9 @@ Boundary
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`BoundaryFontStyle italic`:
@@ -1904,7 +2031,9 @@ Boundary
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`BoundaryStereotypeFontColor red`:
@@ -1931,7 +2060,9 @@ Boundary
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`BoundaryStereotypeFontName Papyrus`:
@@ -1952,12 +2083,14 @@ Boundary
 :Usage:
     :code:`BoundaryStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`BoundaryStereotypeFontSize 18`:
@@ -1983,7 +2116,9 @@ Boundary
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`BoundaryStereotypeFontStyle italic`:
@@ -2014,7 +2149,9 @@ BoxPadding
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`BoxPadding 100`:
@@ -2070,7 +2207,9 @@ Caption
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CaptionFontColor red`:
@@ -2097,7 +2236,9 @@ Caption
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CaptionFontName Papyrus`:
@@ -2118,12 +2259,14 @@ Caption
 :Usage:
     :code:`CaptionFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CaptionFontSize 18`:
@@ -2149,7 +2292,9 @@ Caption
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CaptionFontStyle italic`:
@@ -2187,7 +2332,9 @@ Card
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CardBackgroundColor lawnGreen`:
@@ -2213,7 +2360,9 @@ Card
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CardBorderColor red`:
@@ -2239,7 +2388,9 @@ Card
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CardBorderThickness [ number ]`:
@@ -2265,7 +2416,9 @@ Card
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CardFontColor red`:
@@ -2292,7 +2445,9 @@ Card
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CardFontName Papyrus`:
@@ -2313,12 +2468,14 @@ Card
 :Usage:
     :code:`CardFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CardFontSize 18`:
@@ -2344,7 +2501,9 @@ Card
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CardFontStyle italic`:
@@ -2370,7 +2529,9 @@ Card
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CardStereotypeFontColor red`:
@@ -2397,7 +2558,9 @@ Card
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CardStereotypeFontName Papyrus`:
@@ -2418,12 +2581,14 @@ Card
 :Usage:
     :code:`CardStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CardStereotypeFontSize 18`:
@@ -2449,7 +2614,9 @@ Card
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CardStereotypeFontStyle italic`:
@@ -2486,7 +2653,9 @@ Circled
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CircledCharacterFontColor red`:
@@ -2513,7 +2682,9 @@ Circled
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CircledCharacterFontName Papyrus`:
@@ -2534,12 +2705,14 @@ Circled
 :Usage:
     :code:`CircledCharacterFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CircledCharacterFontSize 18`:
@@ -2565,7 +2738,9 @@ Circled
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CircledCharacterFontStyle italic`:
@@ -2591,7 +2766,9 @@ Circled
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CircledCharacterRadius zz`:
@@ -2628,7 +2805,9 @@ Class
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ClassAttributeFontColor red`:
@@ -2655,7 +2834,9 @@ Class
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ClassAttributeFontName Papyrus`:
@@ -2676,12 +2857,14 @@ Class
 :Usage:
     :code:`ClassAttributeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ClassAttributeFontSize 18`:
@@ -2707,7 +2890,9 @@ Class
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ClassAttributeFontStyle italic`:
@@ -2733,7 +2918,9 @@ Class
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ClassAttributeIconSize [ number ]`:
@@ -2759,7 +2946,9 @@ Class
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ClassBackgroundColor GreenYellow`:
@@ -2785,7 +2974,9 @@ Class
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ClassBorderColor red`:
@@ -2811,7 +3002,9 @@ Class
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ClassBorderThickness [ number ]`:
@@ -2837,7 +3030,9 @@ Class
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ClassFontColor red`:
@@ -2864,7 +3059,9 @@ Class
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ClassFontName Papyrus`:
@@ -2885,12 +3082,14 @@ Class
 :Usage:
     :code:`ClassFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ClassFontSize 18`:
@@ -2916,7 +3115,9 @@ Class
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ClassFontStyle italic`:
@@ -2942,7 +3143,9 @@ Class
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ClassHeaderBackgroundColor GreenYellow`:
@@ -2968,7 +3171,9 @@ Class
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ClassStereotypeFontColor red`:
@@ -2995,7 +3200,9 @@ Class
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ClassStereotypeFontName Papyrus`:
@@ -3016,12 +3223,14 @@ Class
 :Usage:
     :code:`ClassStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ClassStereotypeFontSize 18`:
@@ -3047,7 +3256,9 @@ Class
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ClassStereotypeFontStyle italic`:
@@ -3085,7 +3296,9 @@ Cloud
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CloudBackgroundColor lawnGreen`:
@@ -3111,7 +3324,9 @@ Cloud
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CloudBorderColor red`:
@@ -3137,7 +3352,9 @@ Cloud
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CloudFontColor red`:
@@ -3164,7 +3381,9 @@ Cloud
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CloudFontName Papyrus`:
@@ -3185,12 +3404,14 @@ Cloud
 :Usage:
     :code:`CloudFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CloudFontSize 18`:
@@ -3216,7 +3437,9 @@ Cloud
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CloudFontStyle italic`:
@@ -3242,7 +3465,9 @@ Cloud
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CloudStereotypeFontColor red`:
@@ -3269,7 +3494,9 @@ Cloud
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CloudStereotypeFontName Papyrus`:
@@ -3290,12 +3517,14 @@ Cloud
 :Usage:
     :code:`CloudStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CloudStereotypeFontSize 18`:
@@ -3321,7 +3550,9 @@ Cloud
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CloudStereotypeFontStyle italic`:
@@ -3359,7 +3590,9 @@ Collections
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CollectionsBackgroundColor GreenYellow`:
@@ -3385,7 +3618,9 @@ Collections
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`CollectionsBorderColor red`:
@@ -3414,7 +3649,9 @@ ColorArrowSeparationSpace
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ColorArrowSeparationSpace zz`:
@@ -3451,7 +3688,9 @@ Component
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ComponentBackgroundColor lawnGreen`:
@@ -3477,7 +3716,9 @@ Component
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ComponentBorderColor red`:
@@ -3503,7 +3744,9 @@ Component
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ComponentBorderThickness [ number ]`:
@@ -3529,7 +3772,9 @@ Component
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ComponentFontColor red`:
@@ -3556,7 +3801,9 @@ Component
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ComponentFontName Papyrus`:
@@ -3577,12 +3824,14 @@ Component
 :Usage:
     :code:`ComponentFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ComponentFontSize 18`:
@@ -3608,7 +3857,9 @@ Component
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ComponentFontStyle italic`:
@@ -3634,7 +3885,9 @@ Component
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ComponentStereotypeFontColor red`:
@@ -3661,7 +3914,9 @@ Component
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ComponentStereotypeFontName Papyrus`:
@@ -3682,12 +3937,14 @@ Component
 :Usage:
     :code:`ComponentStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ComponentStereotypeFontSize 18`:
@@ -3713,7 +3970,9 @@ Component
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ComponentStereotypeFontStyle italic`:
@@ -3739,7 +3998,9 @@ Component
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ComponentStyle [ normal | plain | italic | bold ]`:
@@ -3769,7 +4030,9 @@ ConditionStyle
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ConditionStyle [ normal | plain | italic | bold ]`:
@@ -3805,7 +4068,9 @@ Control
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ControlBackgroundColor lawnGreen`:
@@ -3831,7 +4096,9 @@ Control
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ControlBorderColor red`:
@@ -3857,7 +4124,9 @@ Control
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ControlFontColor red`:
@@ -3884,7 +4153,9 @@ Control
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ControlFontName Papyrus`:
@@ -3905,12 +4176,14 @@ Control
 :Usage:
     :code:`ControlFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ControlFontSize 18`:
@@ -3936,7 +4209,9 @@ Control
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ControlFontStyle italic`:
@@ -3962,7 +4237,9 @@ Control
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ControlStereotypeFontColor red`:
@@ -3989,7 +4266,9 @@ Control
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ControlStereotypeFontName Papyrus`:
@@ -4010,12 +4289,14 @@ Control
 :Usage:
     :code:`ControlStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ControlStereotypeFontSize 18`:
@@ -4041,7 +4322,9 @@ Control
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ControlStereotypeFontStyle italic`:
@@ -4092,7 +4375,9 @@ Database
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DatabaseBackgroundColor lawnGreen`:
@@ -4118,7 +4403,9 @@ Database
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DatabaseBorderColor red`:
@@ -4144,7 +4431,9 @@ Database
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DatabaseFontColor red`:
@@ -4171,7 +4460,9 @@ Database
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DatabaseFontName Papyrus`:
@@ -4192,12 +4483,14 @@ Database
 :Usage:
     :code:`DatabaseFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DatabaseFontSize 18`:
@@ -4223,7 +4516,9 @@ Database
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DatabaseFontStyle italic`:
@@ -4249,7 +4544,9 @@ Database
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DatabaseStereotypeFontColor red`:
@@ -4276,7 +4573,9 @@ Database
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DatabaseStereotypeFontName Papyrus`:
@@ -4297,12 +4596,14 @@ Database
 :Usage:
     :code:`DatabaseStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DatabaseStereotypeFontSize 18`:
@@ -4328,7 +4629,9 @@ Database
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DatabaseStereotypeFontStyle italic`:
@@ -4364,7 +4667,9 @@ Default
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DefaultFontColor red`:
@@ -4391,7 +4696,9 @@ Default
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DefaultFontName Papyrus`:
@@ -4412,12 +4719,14 @@ Default
 :Usage:
     :code:`DefaultFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DefaultFontSize 18`:
@@ -4443,7 +4752,9 @@ Default
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DefaultFontStyle italic`:
@@ -4470,7 +4781,9 @@ Default
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DefaultMonospacedFontName Papyrus`:
@@ -4496,7 +4809,9 @@ Default
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DefaultTextAlignment zz`:
@@ -4533,7 +4848,9 @@ Designed
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DesignedBackgroundColor GreenYellow`:
@@ -4559,7 +4876,9 @@ Designed
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DesignedBorderColor red`:
@@ -4595,7 +4914,9 @@ DesignedDomain
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DesignedDomainBorderThickness [ number ]`:
@@ -4621,7 +4942,9 @@ DesignedDomain
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DesignedDomainFontColor red`:
@@ -4648,7 +4971,9 @@ DesignedDomain
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DesignedDomainFontName Papyrus`:
@@ -4669,12 +4994,14 @@ DesignedDomain
 :Usage:
     :code:`DesignedDomainFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DesignedDomainFontSize 18`:
@@ -4700,7 +5027,9 @@ DesignedDomain
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DesignedDomainFontStyle italic`:
@@ -4726,7 +5055,9 @@ DesignedDomain
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DesignedDomainStereotypeFontColor red`:
@@ -4753,7 +5084,9 @@ DesignedDomain
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DesignedDomainStereotypeFontName Papyrus`:
@@ -4774,12 +5107,14 @@ DesignedDomain
 :Usage:
     :code:`DesignedDomainStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DesignedDomainStereotypeFontSize 18`:
@@ -4805,7 +5140,9 @@ DesignedDomain
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DesignedDomainStereotypeFontStyle italic`:
@@ -4842,7 +5179,9 @@ Diagram
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DiagramBorderColor red`:
@@ -4868,7 +5207,9 @@ Diagram
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DiagramBorderThickness [ number ]`:
@@ -4903,7 +5244,9 @@ Domain
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DomainBackgroundColor GreenYellow`:
@@ -4929,7 +5272,9 @@ Domain
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DomainBorderColor red`:
@@ -4955,7 +5300,9 @@ Domain
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DomainBorderThickness [ number ]`:
@@ -4981,7 +5328,9 @@ Domain
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DomainFontColor red`:
@@ -5008,7 +5357,9 @@ Domain
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DomainFontName Papyrus`:
@@ -5029,12 +5380,14 @@ Domain
 :Usage:
     :code:`DomainFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DomainFontSize 18`:
@@ -5060,7 +5413,9 @@ Domain
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DomainFontStyle italic`:
@@ -5086,7 +5441,9 @@ Domain
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DomainStereotypeFontColor red`:
@@ -5113,7 +5470,9 @@ Domain
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DomainStereotypeFontName Papyrus`:
@@ -5134,12 +5493,14 @@ Domain
 :Usage:
     :code:`DomainStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DomainStereotypeFontSize 18`:
@@ -5165,7 +5526,9 @@ Domain
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`DomainStereotypeFontStyle italic`:
@@ -5194,7 +5557,9 @@ Dpi
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`Dpi zz`:
@@ -5246,7 +5611,9 @@ Entity
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`EntityBackgroundColor lawnGreen`:
@@ -5272,7 +5639,9 @@ Entity
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`EntityBorderColor red`:
@@ -5298,7 +5667,9 @@ Entity
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`EntityFontColor red`:
@@ -5325,7 +5696,9 @@ Entity
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`EntityFontName Papyrus`:
@@ -5346,12 +5719,14 @@ Entity
 :Usage:
     :code:`EntityFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`EntityFontSize 18`:
@@ -5377,7 +5752,9 @@ Entity
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`EntityFontStyle italic`:
@@ -5403,7 +5780,9 @@ Entity
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`EntityStereotypeFontColor red`:
@@ -5430,7 +5809,9 @@ Entity
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`EntityStereotypeFontName Papyrus`:
@@ -5451,12 +5832,14 @@ Entity
 :Usage:
     :code:`EntityStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`EntityStereotypeFontSize 18`:
@@ -5482,7 +5865,9 @@ Entity
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`EntityStereotypeFontStyle italic`:
@@ -5533,7 +5918,9 @@ File
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FileBackgroundColor lawnGreen`:
@@ -5559,7 +5946,9 @@ File
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FileBorderColor red`:
@@ -5585,7 +5974,9 @@ File
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FileFontColor red`:
@@ -5612,7 +6003,9 @@ File
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FileFontName Papyrus`:
@@ -5633,12 +6026,14 @@ File
 :Usage:
     :code:`FileFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FileFontSize 18`:
@@ -5664,7 +6059,9 @@ File
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FileFontStyle italic`:
@@ -5690,7 +6087,9 @@ File
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FileStereotypeFontColor red`:
@@ -5717,7 +6116,9 @@ File
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FileStereotypeFontName Papyrus`:
@@ -5738,12 +6139,14 @@ File
 :Usage:
     :code:`FileStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FileStereotypeFontSize 18`:
@@ -5769,7 +6172,9 @@ File
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FileStereotypeFontStyle italic`:
@@ -5806,7 +6211,9 @@ Folder
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FolderBackgroundColor lawnGreen`:
@@ -5832,7 +6239,9 @@ Folder
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FolderBorderColor red`:
@@ -5858,7 +6267,9 @@ Folder
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FolderFontColor red`:
@@ -5885,7 +6296,9 @@ Folder
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FolderFontName Papyrus`:
@@ -5906,12 +6319,14 @@ Folder
 :Usage:
     :code:`FolderFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FolderFontSize 18`:
@@ -5937,7 +6352,9 @@ Folder
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FolderFontStyle italic`:
@@ -5963,7 +6380,9 @@ Folder
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FolderStereotypeFontColor red`:
@@ -5990,7 +6409,9 @@ Folder
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FolderStereotypeFontName Papyrus`:
@@ -6011,12 +6432,14 @@ Folder
 :Usage:
     :code:`FolderStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FolderStereotypeFontSize 18`:
@@ -6042,7 +6465,9 @@ Folder
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FolderStereotypeFontStyle italic`:
@@ -6079,7 +6504,9 @@ Footer
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FooterFontColor red`:
@@ -6106,7 +6533,9 @@ Footer
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FooterFontName Papyrus`:
@@ -6127,12 +6556,14 @@ Footer
 :Usage:
     :code:`FooterFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FooterFontSize 18`:
@@ -6158,7 +6589,9 @@ Footer
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FooterFontStyle italic`:
@@ -6195,7 +6628,9 @@ Frame
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FrameBackgroundColor lawnGreen`:
@@ -6221,7 +6656,9 @@ Frame
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FrameBorderColor red`:
@@ -6247,7 +6684,9 @@ Frame
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FrameFontColor red`:
@@ -6274,7 +6713,9 @@ Frame
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FrameFontName Papyrus`:
@@ -6295,12 +6736,14 @@ Frame
 :Usage:
     :code:`FrameFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FrameFontSize 18`:
@@ -6326,7 +6769,9 @@ Frame
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FrameFontStyle italic`:
@@ -6352,7 +6797,9 @@ Frame
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FrameStereotypeFontColor red`:
@@ -6379,7 +6826,9 @@ Frame
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FrameStereotypeFontName Papyrus`:
@@ -6400,12 +6849,14 @@ Frame
 :Usage:
     :code:`FrameStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FrameStereotypeFontSize 18`:
@@ -6431,7 +6882,9 @@ Frame
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`FrameStereotypeFontStyle italic`:
@@ -6476,7 +6929,9 @@ GenericDisplay
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`GenericDisplay zz`:
@@ -6505,7 +6960,9 @@ Guillemet
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`Guillemet zz`:
@@ -6590,7 +7047,9 @@ Header
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`HeaderFontColor red`:
@@ -6617,7 +7076,9 @@ Header
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`HeaderFontName Papyrus`:
@@ -6638,12 +7099,14 @@ Header
 :Usage:
     :code:`HeaderFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`HeaderFontSize 18`:
@@ -6669,7 +7132,9 @@ Header
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`HeaderFontStyle italic`:
@@ -6698,7 +7163,9 @@ HyperlineColor
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`HyperlinkColor [ #predefinedColorName | #hexColorNumber ]`:
@@ -6727,7 +7194,9 @@ HyperlineUnderline
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`HyperlinkUnderline zz`:
@@ -6777,7 +7246,9 @@ Icon
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`IconIEMandatoryColor [ #predefinedColorName | #hexColorNumber ]`:
@@ -6803,7 +7274,9 @@ Icon
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`IconPackageBackgroundColor GreenYellow`:
@@ -6829,7 +7302,9 @@ Icon
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`IconPackageColor [ #predefinedColorName | #hexColorNumber ]`:
@@ -6855,7 +7330,9 @@ Icon
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`IconPrivateBackgroundColor GreenYellow`:
@@ -6881,7 +7358,9 @@ Icon
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`IconPrivateColor [ #predefinedColorName | #hexColorNumber ]`:
@@ -6907,7 +7386,9 @@ Icon
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`IconProtectedBackgroundColor GreenYellow`:
@@ -6933,7 +7414,9 @@ Icon
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`IconProtectedColor [ #predefinedColorName | #hexColorNumber ]`:
@@ -6959,7 +7442,9 @@ Icon
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`IconPublicBackgroundColor GreenYellow`:
@@ -6985,7 +7470,9 @@ Icon
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`IconPublicColor [ #predefinedColorName | #hexColorNumber ]`:
@@ -7022,7 +7509,9 @@ Interface
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`InterfaceBackgroundColor lawnGreen`:
@@ -7048,7 +7537,9 @@ Interface
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`InterfaceBorderColor red`:
@@ -7074,7 +7565,9 @@ Interface
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`InterfaceFontColor red`:
@@ -7101,7 +7594,9 @@ Interface
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`InterfaceFontName Papyrus`:
@@ -7122,12 +7617,14 @@ Interface
 :Usage:
     :code:`InterfaceFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`InterfaceFontSize 18`:
@@ -7153,7 +7650,9 @@ Interface
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`InterfaceFontStyle italic`:
@@ -7179,7 +7678,9 @@ Interface
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`InterfaceStereotypeFontColor red`:
@@ -7206,7 +7707,9 @@ Interface
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`InterfaceStereotypeFontName Papyrus`:
@@ -7227,12 +7730,14 @@ Interface
 :Usage:
     :code:`InterfaceStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`InterfaceStereotypeFontSize 18`:
@@ -7258,7 +7763,9 @@ Interface
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`InterfaceStereotypeFontStyle italic`:
@@ -7308,7 +7815,9 @@ Legend
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`LegendBackgroundColor GreenYellow`:
@@ -7334,7 +7843,9 @@ Legend
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`LegendBorderColor red`:
@@ -7360,7 +7871,9 @@ Legend
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`LegendBorderThickness [ number ]`:
@@ -7386,7 +7899,9 @@ Legend
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`LegendFontColor red`:
@@ -7413,7 +7928,9 @@ Legend
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`LegendFontName Papyrus`:
@@ -7434,12 +7951,14 @@ Legend
 :Usage:
     :code:`LegendFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`LegendFontSize 18`:
@@ -7465,7 +7984,9 @@ Legend
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`LegendFontStyle italic`:
@@ -7502,7 +8023,9 @@ Lexical
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`LexicalBackgroundColor GreenYellow`:
@@ -7528,7 +8051,9 @@ Lexical
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`LexicalBorderColor red`:
@@ -7556,7 +8081,9 @@ Linetype
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`Linetype zz`:
@@ -7607,7 +8134,9 @@ Machine
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`MachineBackgroundColor GreenYellow`:
@@ -7633,7 +8162,9 @@ Machine
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`MachineBorderColor red`:
@@ -7659,7 +8190,9 @@ Machine
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`MachineBorderThickness [ number ]`:
@@ -7685,7 +8218,9 @@ Machine
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`MachineFontColor red`:
@@ -7712,7 +8247,9 @@ Machine
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`MachineFontName Papyrus`:
@@ -7733,12 +8270,14 @@ Machine
 :Usage:
     :code:`MachineFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`MachineFontSize 18`:
@@ -7764,7 +8303,9 @@ Machine
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`MachineFontStyle italic`:
@@ -7790,7 +8331,9 @@ Machine
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`MachineStereotypeFontColor red`:
@@ -7817,7 +8360,9 @@ Machine
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`MachineStereotypeFontName Papyrus`:
@@ -7838,12 +8383,14 @@ Machine
 :Usage:
     :code:`MachineStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`MachineStereotypeFontSize 18`:
@@ -7869,7 +8416,9 @@ Machine
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`MachineStereotypeFontStyle italic`:
@@ -7898,7 +8447,9 @@ MaxAsciiMessageLength
 
 :Applies to:
 
-    Text output of Sequence diagrams
+    .. container:: applies-to
+
+        Text output of Sequence diagrams
 
 
 :Example:    :code:`MaxAsciiMessageLength 10`:
@@ -7934,7 +8485,9 @@ MaxMessageSize
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`MaxMessageSize 100`:
@@ -7963,7 +8516,9 @@ MinClassWidth
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`MinClassWidth zz`:
@@ -7992,7 +8547,9 @@ Monochrome
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`Monochrome zz`:
@@ -8043,7 +8600,9 @@ Node
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NodeBackgroundColor lawnGreen`:
@@ -8069,7 +8628,9 @@ Node
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NodeBorderColor red`:
@@ -8095,7 +8656,9 @@ Node
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NodeFontColor red`:
@@ -8122,7 +8685,9 @@ Node
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NodeFontName Papyrus`:
@@ -8143,12 +8708,14 @@ Node
 :Usage:
     :code:`NodeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NodeFontSize 18`:
@@ -8174,7 +8741,9 @@ Node
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NodeFontStyle italic`:
@@ -8200,7 +8769,9 @@ Node
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NodeStereotypeFontColor red`:
@@ -8227,7 +8798,9 @@ Node
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NodeStereotypeFontName Papyrus`:
@@ -8248,12 +8821,14 @@ Node
 :Usage:
     :code:`NodeStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NodeStereotypeFontSize 18`:
@@ -8279,7 +8854,9 @@ Node
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NodeStereotypeFontStyle italic`:
@@ -8309,7 +8886,9 @@ Nodesep
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`Nodesep zz`:
@@ -8346,7 +8925,9 @@ Note
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NoteBackgroundColor GreenYellow`:
@@ -8372,7 +8953,9 @@ Note
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NoteBorderColor red`:
@@ -8398,7 +8981,9 @@ Note
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NoteBorderThickness [ number ]`:
@@ -8424,7 +9009,9 @@ Note
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NoteFontColor red`:
@@ -8451,7 +9038,9 @@ Note
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NoteFontName Papyrus`:
@@ -8472,12 +9061,14 @@ Note
 :Usage:
     :code:`NoteFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NoteFontSize 18`:
@@ -8503,7 +9094,9 @@ Note
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NoteFontStyle italic`:
@@ -8529,7 +9122,9 @@ Note
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NoteShadowing zz`:
@@ -8555,7 +9150,9 @@ Note
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`NoteTextAlignment zz`:
@@ -8606,7 +9203,9 @@ Object
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ObjectAttributeFontColor red`:
@@ -8633,7 +9232,9 @@ Object
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ObjectAttributeFontName Papyrus`:
@@ -8654,12 +9255,14 @@ Object
 :Usage:
     :code:`ObjectAttributeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ObjectAttributeFontSize 18`:
@@ -8685,7 +9288,9 @@ Object
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ObjectAttributeFontStyle italic`:
@@ -8711,7 +9316,9 @@ Object
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ObjectBackgroundColor GreenYellow`:
@@ -8737,7 +9344,9 @@ Object
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ObjectBorderColor red`:
@@ -8763,7 +9372,9 @@ Object
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ObjectBorderThickness [ number ]`:
@@ -8789,7 +9400,9 @@ Object
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ObjectFontColor red`:
@@ -8816,7 +9429,9 @@ Object
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ObjectFontName Papyrus`:
@@ -8837,12 +9452,14 @@ Object
 :Usage:
     :code:`ObjectFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ObjectFontSize 18`:
@@ -8868,7 +9485,9 @@ Object
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ObjectFontStyle italic`:
@@ -8894,7 +9513,9 @@ Object
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ObjectStereotypeFontColor red`:
@@ -8921,7 +9542,9 @@ Object
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ObjectStereotypeFontName Papyrus`:
@@ -8942,12 +9565,14 @@ Object
 :Usage:
     :code:`ObjectStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ObjectStereotypeFontSize 18`:
@@ -8973,7 +9598,9 @@ Object
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ObjectStereotypeFontStyle italic`:
@@ -9026,7 +9653,9 @@ Package
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PackageBackgroundColor lawnGreen`:
@@ -9052,7 +9681,9 @@ Package
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PackageBorderColor red`:
@@ -9078,7 +9709,9 @@ Package
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PackageBorderThickness [ number ]`:
@@ -9104,7 +9737,9 @@ Package
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PackageFontColor red`:
@@ -9131,7 +9766,9 @@ Package
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PackageFontName Papyrus`:
@@ -9152,12 +9789,14 @@ Package
 :Usage:
     :code:`PackageFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PackageFontSize 18`:
@@ -9183,7 +9822,9 @@ Package
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PackageFontStyle italic`:
@@ -9209,7 +9850,9 @@ Package
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PackageStereotypeFontColor red`:
@@ -9236,7 +9879,9 @@ Package
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PackageStereotypeFontName Papyrus`:
@@ -9257,12 +9902,14 @@ Package
 :Usage:
     :code:`PackageStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PackageStereotypeFontSize 18`:
@@ -9288,7 +9935,9 @@ Package
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PackageStereotypeFontStyle italic`:
@@ -9314,7 +9963,9 @@ Package
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PackageStyle [ normal | plain | italic | bold ]`:
@@ -9340,7 +9991,9 @@ Package
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PackageTitleAlignment zz`:
@@ -9370,7 +10023,9 @@ Padding
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`Padding zz`:
@@ -9408,7 +10063,9 @@ Page
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PageBorderColor red`:
@@ -9434,7 +10091,9 @@ Page
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PageExternalColor [ #predefinedColorName | #hexColorNumber ]`:
@@ -9460,7 +10119,9 @@ Page
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PageMargin zz`:
@@ -9497,7 +10158,9 @@ Participant
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ParticipantBackgroundColor GreenYellow`:
@@ -9523,7 +10186,9 @@ Participant
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ParticipantBorderColor red`:
@@ -9549,7 +10214,9 @@ Participant
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ParticipantFontColor red`:
@@ -9576,7 +10243,9 @@ Participant
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ParticipantFontName Papyrus`:
@@ -9597,12 +10266,14 @@ Participant
 :Usage:
     :code:`ParticipantFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ParticipantFontSize 18`:
@@ -9628,7 +10299,9 @@ Participant
 
 :Applies to:
 
-    UML Sequence diagrams
+    .. container:: applies-to
+
+        UML Sequence diagrams
 
 
 :Example:    :code:`ParticipantFontStyle italic`:
@@ -9656,7 +10329,9 @@ Participant
 
 :Applies to:
 
-    UML Sequence diagrams
+    .. container:: applies-to
+
+        UML Sequence diagrams
 
 
 :Example:    :code:`ParticipantPadding 200`:
@@ -9692,7 +10367,9 @@ Partition
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PartitionBackgroundColor GreenYellow`:
@@ -9718,7 +10395,9 @@ Partition
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PartitionBorderColor red`:
@@ -9744,7 +10423,9 @@ Partition
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PartitionBorderThickness [ number ]`:
@@ -9770,7 +10451,9 @@ Partition
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PartitionFontColor red`:
@@ -9797,7 +10480,9 @@ Partition
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PartitionFontName Papyrus`:
@@ -9818,12 +10503,14 @@ Partition
 :Usage:
     :code:`PartitionFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PartitionFontSize 18`:
@@ -9849,7 +10536,9 @@ Partition
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PartitionFontStyle bold`:
@@ -9878,7 +10567,9 @@ PathHoverColor
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`PathHoverColor [ #predefinedColorName | #hexColorNumber ]`:
@@ -9927,7 +10618,9 @@ Queue
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`QueueBackgroundColor lawnGreen`:
@@ -9953,7 +10646,9 @@ Queue
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`QueueBorderColor red`:
@@ -9979,7 +10674,9 @@ Queue
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`QueueFontColor red`:
@@ -10006,7 +10703,9 @@ Queue
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`QueueFontName Papyrus`:
@@ -10027,12 +10726,14 @@ Queue
 :Usage:
     :code:`QueueFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font name for text in queues.
 
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`QueueFontSize 18`:
@@ -10058,7 +10759,9 @@ Queue
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`QueueFontStyle italic`:
@@ -10084,7 +10787,9 @@ Queue
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`QueueStereotypeFontColor red`:
@@ -10105,13 +10810,17 @@ Queue
 :Usage:
     :code:`QueueStereotypeFontName [ fontNameOnYourSystem ]`
 
-     The font name for text in zz. You must have the font installed on your computer.
+     The font name for the stereotype text in a queue. You must have the font installed on your computer.
      (You can check by using the PlantUML command-line option :code:`-printfonts`.)
+
+      |not_working|
 
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`QueueStereotypeFontName Papyrus`:
@@ -10132,12 +10841,16 @@ Queue
 :Usage:
     :code:`QueueStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for the stereotype text in a queue.
+
+      |not_working|
 
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`QueueStereotypeFontSize 18`:
@@ -10158,12 +10871,16 @@ Queue
 :Usage:
     :code:`QueueStereotypeFontStyle [ normal | italic | bold ]`
 
-    The font style for the stereotype character for queues.
+    The font style for the stereotype text for queues.
+
+    |not_working|
 
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`QueueStereotypeFontStyle italic`:
@@ -10207,7 +10924,9 @@ Ranksep
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`Ranksep zz`:
@@ -10244,7 +10963,9 @@ Rectangle
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`RectangleBackgroundColor lawnGreen`:
@@ -10272,7 +10993,9 @@ Rectangle
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`RectangleBorderColor Red`:
@@ -10299,7 +11022,9 @@ Rectangle
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`RectangleBorderThickness 8`:
@@ -10326,7 +11051,9 @@ Rectangle
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`RectangleFontColor green`:
@@ -10354,7 +11081,9 @@ Rectangle
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`RectangleFontName Papyrus`:
@@ -10382,7 +11111,9 @@ Rectangle
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`RectangleFontSize 24`:
@@ -10409,7 +11140,9 @@ Rectangle
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`RectangleFontStyle italic`:
@@ -10493,7 +11226,7 @@ Rectangle
 :Usage:
     :code:`RectangleStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
@@ -10569,7 +11302,9 @@ Requirement
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`RequirementBackgroundColor GreenYellow`:
@@ -10595,7 +11330,9 @@ Requirement
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`RequirementBorderColor red`:
@@ -10621,7 +11358,9 @@ Requirement
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`RequirementBorderThickness [ number ]`:
@@ -10647,7 +11386,9 @@ The font color for text in stacks. |use_colorname_hex|
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`RequirementFontColor red`:
@@ -10674,7 +11415,9 @@ The font color for text in stacks. |use_colorname_hex|
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`RequirementFontName Papyrus`:
@@ -10695,12 +11438,14 @@ The font color for text in stacks. |use_colorname_hex|
 :Usage:
     :code:`RequirementFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`RequirementFontSize 18`:
@@ -10726,7 +11471,9 @@ The font color for text in stacks. |use_colorname_hex|
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`RequirementFontStyle italic`:
@@ -10752,7 +11499,9 @@ The font color for text in stacks. |use_colorname_hex|
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`RequirementStereotypeFontColor red`:
@@ -10779,7 +11528,9 @@ The font color for text in stacks. |use_colorname_hex|
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`RequirementStereotypeFontName Papyrus`:
@@ -10800,12 +11551,14 @@ The font color for text in stacks. |use_colorname_hex|
 :Usage:
     :code:`RequirementStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`RequirementStereotypeFontSize 18`:
@@ -10831,7 +11584,9 @@ The font color for text in stacks. |use_colorname_hex|
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`RequirementStereotypeFontStyle italic`:
@@ -10860,7 +11615,9 @@ ResponseMessageBelowArrow
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`ResponseMessageBelowArrow zz`:
@@ -10889,7 +11646,9 @@ RoundCorner
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`RoundCorner zz`:
@@ -10933,7 +11692,9 @@ SameClassWidth
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`SameClassWidth zz`:
@@ -10971,7 +11732,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceActorBorderThickness [ number ]`:
@@ -10997,7 +11760,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceArrowThickness [ number ]`:
@@ -11023,7 +11788,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceBoxBackgroundColor GreenYellow`:
@@ -11049,7 +11816,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceBoxBorderColor red`:
@@ -11075,7 +11844,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceBoxFontColor red`:
@@ -11102,7 +11873,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceBoxFontName Papyrus`:
@@ -11123,12 +11896,14 @@ Sequence
 :Usage:
     :code:`SequenceBoxFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceBoxFontSize 18`:
@@ -11154,7 +11929,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceBoxFontStyle italic`:
@@ -11180,7 +11957,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceDelayFontColor red`:
@@ -11207,7 +11986,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceDelayFontName Papyrus`:
@@ -11228,12 +12009,14 @@ Sequence
 :Usage:
     :code:`SequenceDelayFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceDelayFontSize 18`:
@@ -11259,7 +12042,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceDelayFontStyle italic`:
@@ -11285,7 +12070,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceDividerBackgroundColor GreenYellow`:
@@ -11311,7 +12098,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceDividerBorderColor red`:
@@ -11337,7 +12126,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceDividerBorderThickness [ number ]`:
@@ -11363,7 +12154,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceDividerFontColor red`:
@@ -11390,7 +12183,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceDividerFontName Papyrus`:
@@ -11411,12 +12206,14 @@ Sequence
 :Usage:
     :code:`SequenceDividerFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceDividerFontSize 18`:
@@ -11442,7 +12239,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceDividerFontStyle italic`:
@@ -11468,7 +12267,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceGroupBackgroundColor GreenYellow`:
@@ -11494,7 +12295,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceGroupBodyBackgroundColor GreenYellow`:
@@ -11520,7 +12323,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceGroupBorderColor red`:
@@ -11546,7 +12351,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceGroupBorderThickness [ number ]`:
@@ -11572,7 +12379,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceGroupFontColor red`:
@@ -11599,7 +12408,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceGroupFontName Papyrus`:
@@ -11620,12 +12431,14 @@ Sequence
 :Usage:
     :code:`SequenceGroupFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceGroupFontSize 18`:
@@ -11651,7 +12464,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceGroupFontStyle italic`:
@@ -11677,7 +12492,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceGroupHeaderFontColor red`:
@@ -11704,7 +12521,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceGroupHeaderFontName Papyrus`:
@@ -11725,12 +12544,14 @@ Sequence
 :Usage:
     :code:`SequenceGroupHeaderFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceGroupHeaderFontSize 18`:
@@ -11756,7 +12577,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceGroupHeaderFontStyle italic`:
@@ -11782,7 +12605,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceLifeLineBackgroundColor GreenYellow`:
@@ -11808,7 +12633,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceLifeLineBorderColor red`:
@@ -11834,7 +12661,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceLifeLineBorderThickness [ number ]`:
@@ -11860,7 +12689,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceMessageAlignment zz`:
@@ -11886,7 +12717,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceMessageTextAlignment zz`:
@@ -11912,7 +12745,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceNewpageSeparatorColor [ #predefinedColorName | #hexColorNumber ]`:
@@ -11938,7 +12773,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceParticipant zz`:
@@ -11964,7 +12801,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceParticipantBorderThickness [ number ]`:
@@ -11990,7 +12829,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceReferenceAlignment zz`:
@@ -12016,7 +12857,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceReferenceBackgroundColor GreenYellow`:
@@ -12042,7 +12885,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceReferenceBorderColor red`:
@@ -12068,7 +12913,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceReferenceBorderThickness [ number ]`:
@@ -12094,7 +12941,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceReferenceFontColor red`:
@@ -12121,7 +12970,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceReferenceFontName Papyrus`:
@@ -12142,12 +12993,14 @@ Sequence
 :Usage:
     :code:`SequenceReferenceFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceReferenceFontSize 18`:
@@ -12173,7 +13026,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceReferenceFontStyle italic`:
@@ -12199,7 +13054,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceReferenceHeaderBackgroundColor GreenYellow`:
@@ -12225,7 +13082,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceStereotypeFontColor red`:
@@ -12252,7 +13111,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceStereotypeFontName Papyrus`:
@@ -12273,12 +13134,14 @@ Sequence
 :Usage:
     :code:`SequenceStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceStereotypeFontSize 18`:
@@ -12304,7 +13167,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceStereotypeFontStyle italic`:
@@ -12331,7 +13196,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceTitleFontColor red`:
@@ -12359,7 +13226,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceTitleFontName Papyrus`:
@@ -12386,7 +13255,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceTitleFontSize 10`:
@@ -12413,7 +13284,9 @@ Sequence
 
 :Applies to:
 
-    Sequence diagrams
+    .. container:: applies-to
+
+        Sequence diagrams
 
 
 :Example:    :code:`SequenceTitleFontStyle italic`:
@@ -12442,7 +13315,9 @@ Shadowing
 
 :Applies to:
 
-    All diagrams
+    .. container:: applies-to
+
+        All diagrams
 
 
 :Example:    :code:`Shadowing zz`:
@@ -12484,7 +13359,9 @@ Stack
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`StackBackgroundColor lawnGreen`:
@@ -12510,7 +13387,9 @@ Stack
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`StackBorderColor red`:
@@ -12536,7 +13415,9 @@ Stack
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`StackFontColor red`:
@@ -12563,7 +13444,9 @@ Stack
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`StackFontName Papyrus`:
@@ -12584,12 +13467,14 @@ Stack
 :Usage:
     :code:`StackFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`StackFontSize 18`:
@@ -12615,7 +13500,9 @@ Stack
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`StackFontStyle italic`:
@@ -12641,7 +13528,9 @@ Stack
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`StackStereotypeFontColor red`:
@@ -12668,7 +13557,9 @@ Stack
 
 :Applies to:
 
-    Deployment diagrams
+    .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`StackStereotypeFontName Papyrus`:
@@ -12689,12 +13580,14 @@ Stack
 :Usage:
     :code:`StackStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    Deployment diagrams
+   .. container:: applies-to
+
+      Deployment diagrams
 
 
 :Example:    :code:`StackStereotypeFontSize 18`:
@@ -12720,7 +13613,9 @@ Stack
 
 :Applies to:
 
-    Deployment diagrams
+   .. container:: applies-to
+
+        Deployment diagrams
 
 
 :Example:    :code:`StackStereotypeFontStyle italic`:
@@ -12757,7 +13652,9 @@ State
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StateAttributeFontColor red`:
@@ -12784,7 +13681,9 @@ State
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StateAttributeFontName Papyrus`:
@@ -12805,12 +13704,14 @@ State
 :Usage:
     :code:`StateAttributeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StateAttributeFontSize 18`:
@@ -12836,7 +13737,9 @@ State
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StateAttributeFontStyle italic`:
@@ -12862,7 +13765,9 @@ State
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StateBackgroundColor GreenYellow`:
@@ -12888,7 +13793,9 @@ State
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StateBorderColor red`:
@@ -12914,7 +13821,9 @@ State
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StateEndColor [ #predefinedColorName | #hexColorNumber ]`:
@@ -12940,7 +13849,9 @@ State
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StateFontColor red`:
@@ -12967,7 +13878,9 @@ State
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StateFontName Papyrus`:
@@ -12988,12 +13901,14 @@ State
 :Usage:
     :code:`StateFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StateFontSize 18`:
@@ -13019,7 +13934,9 @@ State
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StateFontStyle italic`:
@@ -13045,7 +13962,9 @@ State
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StateStartColor [ #predefinedColorName | #hexColorNumber ]`:
@@ -13082,7 +14001,9 @@ Stereotype
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StereotypeABackgroundColor GreenYellow`:
@@ -13108,7 +14029,9 @@ Stereotype
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StereotypeABorderColor red`:
@@ -13134,7 +14057,9 @@ Stereotype
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StereotypeCBackgroundColor GreenYellow`:
@@ -13160,7 +14085,9 @@ Stereotype
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StereotypeCBorderColor red`:
@@ -13186,7 +14113,9 @@ Stereotype
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StereotypeEBackgroundColor GreenYellow`:
@@ -13212,7 +14141,9 @@ Stereotype
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StereotypeEBorderColor red`:
@@ -13238,7 +14169,9 @@ Stereotype
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StereotypeIBackgroundColor GreenYellow`:
@@ -13264,7 +14197,9 @@ Stereotype
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StereotypeIBorderColor red`:
@@ -13290,7 +14225,9 @@ Stereotype
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StereotypeNBackgroundColor GreenYellow`:
@@ -13316,7 +14253,9 @@ Stereotype
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StereotypeNBorderColor red`:
@@ -13342,7 +14281,9 @@ Stereotype
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StereotypePosition zz`:
@@ -13378,7 +14319,9 @@ Storage
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StorageBackgroundColor lawnGreen`:
@@ -13404,7 +14347,9 @@ Storage
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StorageBorderColor red`:
@@ -13430,7 +14375,9 @@ Storage
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StorageFontColor red`:
@@ -13457,7 +14404,9 @@ Storage
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StorageFontName Papyrus`:
@@ -13478,12 +14427,14 @@ Storage
 :Usage:
     :code:`StorageFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StorageFontSize 18`:
@@ -13509,7 +14460,9 @@ Storage
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StorageFontStyle italic`:
@@ -13535,7 +14488,9 @@ Storage
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StorageStereotypeFontColor red`:
@@ -13562,7 +14517,9 @@ Storage
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StorageStereotypeFontName Papyrus`:
@@ -13583,12 +14540,14 @@ Storage
 :Usage:
     :code:`StorageStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StorageStereotypeFontSize 18`:
@@ -13614,7 +14573,9 @@ Storage
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`StorageStereotypeFontStyle italic`:
@@ -13643,7 +14604,9 @@ Style
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`Style [ normal | plain | italic | bold ]`:
@@ -13673,7 +14636,9 @@ SvglinkTarget
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`SvglinkTarget zz`:
@@ -13709,7 +14674,9 @@ Swimlane
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`SwimlaneBorderColor red`:
@@ -13735,7 +14702,9 @@ Swimlane
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`SwimlaneBorderThickness [ number ]`:
@@ -13761,7 +14730,9 @@ Swimlane
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`SwimlaneTitleFontColor red`:
@@ -13788,7 +14759,9 @@ Swimlane
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`SwimlaneTitleFontName Papyrus`:
@@ -13809,12 +14782,14 @@ Swimlane
 :Usage:
     :code:`SwimlaneTitleFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`SwimlaneTitleFontSize 18`:
@@ -13840,7 +14815,9 @@ Swimlane
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`SwimlaneTitleFontStyle italic`:
@@ -13866,7 +14843,9 @@ Swimlane
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`SwimlaneWidth zz`:
@@ -13892,7 +14871,9 @@ Swimlane
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`SwimlaneWrapTitleWidth zz`:
@@ -13936,7 +14917,9 @@ TabSize
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`TabSize [ number ]`:
@@ -13973,7 +14956,9 @@ Title
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`TitleBackgroundColor GreenYellow`:
@@ -13999,7 +14984,9 @@ Title
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`TitleBorderColor red`:
@@ -14025,7 +15012,9 @@ Title
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`TitleBorderRoundCorner zz`:
@@ -14051,7 +15040,9 @@ Title
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`TitleBorderThickness [ number ]`:
@@ -14077,7 +15068,9 @@ Title
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`TitleFontColor red`:
@@ -14104,7 +15097,9 @@ Title
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`TitleFontName Papyrus`:
@@ -14125,12 +15120,14 @@ Title
 :Usage:
     :code:`TitleFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`TitleFontSize 18`:
@@ -14156,7 +15153,9 @@ Title
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`TitleFontStyle italic`:
@@ -14208,7 +15207,9 @@ Usecase
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`UsecaseBackgroundColor GreenYellow`:
@@ -14234,7 +15235,9 @@ Usecase
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`UsecaseBorderColor red`:
@@ -14260,7 +15263,9 @@ Usecase
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`UsecaseBorderThickness [ number ]`:
@@ -14286,7 +15291,9 @@ Usecase
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`UsecaseFontColor red`:
@@ -14313,7 +15320,9 @@ Usecase
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`UsecaseFontName Papyrus`:
@@ -14334,12 +15343,14 @@ Usecase
 :Usage:
     :code:`UsecaseFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`UsecaseFontSize 18`:
@@ -14365,7 +15376,9 @@ Usecase
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`UsecaseFontStyle italic`:
@@ -14391,7 +15404,9 @@ Usecase
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`UsecaseStereotypeFontColor red`:
@@ -14418,7 +15433,9 @@ Usecase
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`UsecaseStereotypeFontName Papyrus`:
@@ -14439,12 +15456,14 @@ Usecase
 :Usage:
     :code:`UsecaseStereotypeFontSize [ number ]`
 
-     The font name for text in zz. 
+     The font size for text in zz. 
 
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`UsecaseStereotypeFontSize 18`:
@@ -14470,7 +15489,9 @@ Usecase
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`UsecaseStereotypeFontStyle italic`:
@@ -14514,7 +15535,9 @@ WrapWidth
 
 :Applies to:
 
-    zz
+    .. container:: applies-to
+
+        zz
 
 
 :Example:    :code:`WrapWidth zz`:
