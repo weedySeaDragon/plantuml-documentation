@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam FolderStereotypeFontSize 18
+
+title FolderStereotypeFontSize 18
+
+folder Folder <<Stereotype>>
+@enduml

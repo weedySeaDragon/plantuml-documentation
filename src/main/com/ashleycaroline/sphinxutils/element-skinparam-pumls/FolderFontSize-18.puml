@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam FolderFontSize 18
+
+title FolderFontSize 18
+
+folder Folder 
+@enduml

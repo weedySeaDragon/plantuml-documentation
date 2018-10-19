@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam InterfaceBorderColor red
+
+title InterfaceBorderColor red
+
+interface Interface 
+@enduml

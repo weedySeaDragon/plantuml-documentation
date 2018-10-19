@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam FolderBorderColor red
+
+title FolderBorderColor red
+
+folder Folder 
+@enduml

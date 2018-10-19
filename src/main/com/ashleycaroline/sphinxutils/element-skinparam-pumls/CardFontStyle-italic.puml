@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam CardFontStyle italic
+
+title CardFontStyle italic
+
+card Card 
+@enduml

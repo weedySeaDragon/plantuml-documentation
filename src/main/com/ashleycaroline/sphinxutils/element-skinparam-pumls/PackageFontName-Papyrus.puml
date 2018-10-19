@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam PackageFontName Papyrus
+
+title PackageFontName Papyrus
+
+package Package 
+@enduml

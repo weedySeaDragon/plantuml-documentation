@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam EntityFontSize 18
+
+title EntityFontSize 18
+
+entity Entity 
+@enduml

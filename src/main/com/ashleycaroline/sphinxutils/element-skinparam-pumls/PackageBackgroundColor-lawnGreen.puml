@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam PackageBackgroundColor lawnGreen
+
+title PackageBackgroundColor lawnGreen
+
+package Package 
+@enduml

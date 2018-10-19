@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam StorageFontStyle italic
+
+title StorageFontStyle italic
+
+storage Storage 
+@enduml

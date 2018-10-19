@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam UsecaseFontStyle italic
+
+title UsecaseFontStyle italic
+
+usecase Usecase 
+@enduml

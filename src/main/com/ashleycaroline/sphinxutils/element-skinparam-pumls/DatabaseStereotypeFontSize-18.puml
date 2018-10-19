@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam DatabaseStereotypeFontSize 18
+
+title DatabaseStereotypeFontSize 18
+
+database Database <<Stereotype>>
+@enduml

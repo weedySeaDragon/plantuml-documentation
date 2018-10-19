@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam StackFontStyle italic
+
+title StackFontStyle italic
+
+stack Stack 
+@enduml

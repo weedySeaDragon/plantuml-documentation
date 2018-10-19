@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam FileFontColor red
+
+title FileFontColor red
+
+file File 
+@enduml

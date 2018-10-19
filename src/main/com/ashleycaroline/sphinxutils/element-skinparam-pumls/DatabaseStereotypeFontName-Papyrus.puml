@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam DatabaseStereotypeFontName Papyrus
+
+title DatabaseStereotypeFontName Papyrus
+
+database Database <<Stereotype>>
+@enduml
