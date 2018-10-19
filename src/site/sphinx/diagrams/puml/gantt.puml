@@ -1,0 +1,17 @@
+@startgantt
+[Prototype design] as proto lasts 14 days 
+proto is colored in Fuchsia/FireBrick 
+
+[Build prototype] as build lasts 4 days
+
+[Prepare test] as prepare lasts 6 days
+
+[Test prototype] as test lasts 4 days
+test is colored in GreenYellow/Green 
+test starts at [Prototype design]'s end
+
+
+proto -> build
+proto -> prepare
+prepare -> test
+@endgantt

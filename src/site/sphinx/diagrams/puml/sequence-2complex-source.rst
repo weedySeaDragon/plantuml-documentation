@@ -1,7 +1,9 @@
 :orphan:
 
-.. index::
-   pair: source for; UML sequence diagram
+.. index:: Longer example sequence with skinparams
+   pair: example source for; UML Sequence diagram
+   pair: example UML Sequence diagram; Longer example sequence with skinparams
+
 
 
 Source for: UML Sequence Diagram Longer Example

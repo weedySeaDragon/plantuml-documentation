@@ -1,13 +1,17 @@
 @startuml
+!include ../../plantuml-styles/plantuml-ae.iuml
+
+skinparam ActorBorderColor   SaddleBrown
+skinparam NoteFontStyle normal
+skinparam Shadowing false
+
 
 title Usecase Diagrams: Connecting Notes to Objects
 
-skinparam Shadowing false
-
 (Use the application) as (Use)
 
-User -[#LightSlateGray]- (Start)
-User -[#LightSlateGray]- (Use)
+User -[#LightSlateGray]-> (Start)
+User -[#LightSlateGray]-> (Use)
 
 note "This note is connected to \n two use cases \n and the User actor."  as N2  #white
 

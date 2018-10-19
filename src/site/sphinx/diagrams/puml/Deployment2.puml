@@ -1,0 +1,28 @@
+@startuml
+!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+title Deployment elements\n(Component = UML2 style)
+
+agent agent
+artifact artifact
+boundary boundary
+card card
+cloud cloud
+component component
+control control
+database database
+entity entity
+file file
+folder folder
+frame frame
+interface  interface
+node node
+package package
+queue queue
+rectangle rectangle
+stack stack
+storage storage
+usecase usecase
+
+
+@enduml

@@ -17,6 +17,77 @@ Also see:
 
 
 
+.. index:: @start
+   keyword: @startXXX
+   seealso: @start; @startuml
+   seealso: @start; @startditaa
+   seealso: @start; @startjcckit
+
+
+.. _at_start:
+
+============================
+@start[uml | ditaa | jcckit]
+============================
+
+*from the FAQ:*
+
+.. pull-quote::
+
+   The @startuml/@startditaa/@startjcckit is useful to determine the type of diagram (uml, ditaa, jcckit...),
+   and because you can optionally put a filename after the @startXXX. This also allows to have several diagrams inside the same file.
+
+
+
+
+.. index:: @startuml
+   keyword: @startuml
+
+.. startuml:
+
+---------
+@startuml
+---------
+
+
+.. todo::
+
+   @startuml - explain that it's the most common, but there are others
+
+
+
+.. index:: @startditaa
+   keyword: @startditaa
+
+.. startditaa:
+
+-----------
+@startditaa
+-----------
+
+
+.. todo::
+
+   @startditaa - explain t
+
+
+
+.. index:: @startjcckit
+   keyword: @startjcckit
+
+.. startditaa:
+
+------------
+@startjcckit
+------------
+
+
+.. todo::
+
+   @startjcckit - explain t
+
+
+
 
 .. index:: rectangle
    pair: rectangle; keywords common to all diagrams

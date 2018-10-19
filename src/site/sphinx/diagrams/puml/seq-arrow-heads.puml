@@ -1,5 +1,7 @@
 @startuml
 
+!include ../../plantuml-styles/plantuml-ae.iuml
+
 title Arrow Heads
 
 A ->> B: synchronous

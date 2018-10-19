@@ -1,10 +1,13 @@
 @startuml
+!include ../../plantuml-styles/plantuml-ae.iuml
 
-title Arrows in Use Case diagrams\n
+skinparam Shadowing false
 
 skinparam ArrowFontStyle normal
 skinparam ArrowFontName Courier
 skinparam ArrowFontSize 10
+
+title Arrows in Use Case diagrams\n
 
 
 (Manage Users) -up-|> (Management): This arrow is -up-|>

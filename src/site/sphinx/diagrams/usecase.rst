@@ -9,22 +9,39 @@
 
 
 
-
 .. _use_case_diagram:
 
 UML Use Case Diagram
 ####################
 
+A **use case** is a specification for some behavior. It's usually a specification so that some entity -- an **actor** -- can
+achieve some *goal,* like *making a purchase* or *updating payment information.*
+An *actor* can be a person or some other system or entity that interacts with the *use case.*
+
+The `UML-Diagrams.org site <https://www.uml-diagrams.org/use-case.html>`_ has some good explanations and examples of use case
+diagrams and the notations for and components of them.
+
+You can read more about formal UML Use case definitions and diagrams in the UML Specification section 18: "Use Cases."
 
 
-.. index:: graphic paths (arrows)
-   pair: UML Use Case diagram; graphic paths (arrows)
-   triple: formatting; graphic paths (arrows); UML Use Case diagram
-   see: arrows; graphic paths (arrows)
-   see: messages; graphic paths (arrows)
+.. index::
+   pair: keywords; UML Use Case diagram
+
+.. _usecase_keywords:
+
+********
+Keywords
+********
+
+
+
+.. index:: arrows (graphic paths)
+   pair: UML Use Case diagram; arrows (graphic paths)
+   see: arrows; arrows (graphic paths)
+   see: messages; arrows (graphic paths)
 
 ======================
-Graphic Paths (Arrows)
+Arrows (Graphic Paths)
 ======================
 
 
@@ -41,10 +58,9 @@ Here is the code for the above diagram:
 
 
 
-.. index::
-   triple: graphic paths (arrows); formatting; arrow heads
-   triple: arrow heads; formatting; UML Use Case diagram
+.. index:: arrow heads
    pair: arrow heads; UML Use Case diagram
+   pair: arrow heads; arrows (graphic paths)
 
 .. _use_case_arrow_heads:
 
@@ -54,11 +70,9 @@ Arrow Heads
 
 
 
-.. index::
-   triple: arrow lines; formatting; UML Use Case diagram
-   triple: graphic paths (arrows); formatting; arrow lines
+.. index:: arrow lines
    pair: arrow lines; UML Use Case diagram
-
+   pair: arrows (graphic paths); arrow lines
 
 .. _use_case_arrow_lines:
 
@@ -77,8 +91,10 @@ Ex:
 
 .. _use_case_arrow_color:
 
-.. index::
-   triple: graphic paths (arrows); formatting; color
+
+.. index:: arrow color
+   pair: arrows (graphic paths);  arrow color
+   pair: arrows (graphic paths);  color
 
 -----------
 Arrow Color
@@ -95,8 +111,9 @@ Ex:  :code:`--[#939393]>`  will create a gray colored filled arrow with a dashed
 
 
 
-.. index::
-   triple: graphic paths (arrows); formatting; direction
+.. index:: arrow direction
+   pair: arrows (graphic paths); direction
+   pair: arrows (graphic paths); arrow direction
 
 ---------------
 Arrow Direction
@@ -108,8 +125,13 @@ Arrow Direction
 
 
 
-.. index:: notes
-   pair: notes; UML Use Case diagram
+.. index:: note
+   pair: note; UML Use Case diagram
+   pair: use case; note
+   pair: alias; note
+   pair: actor; note
+   keyword: note
+   keyword: as
 
 .. _usecase_notes:
 
@@ -147,22 +169,29 @@ A note can be also define alone with the note keywords, then linked to other obj
 
 
 
-* either *direction* or *alias*  Can't have both
+.. note::
+
+   You can create a note that is positioned relative to an object *or* a note that has an alias.  You can't create
+   a note that is both positioned *and* has an alias.
 
 
 .. uml:: puml/usecase-notes.puml
 
 
+.. index:: note connection
+   pair: note; connect
+   pair: note connection; UML Use Case diagram
+
+.. _usecase_note_connection:
 
 ---------------------------
 Connecting Notes to Objects
 ---------------------------
 
-* note must have an alias so that you can refer to it
+To connect a note to an object, the note must have an *alias*.  You use an arrow to connect a note (using the alias for it) to an object.  Any valid arrow can be used.
 
-Instead of using code (text) for an arrow to connect a note, you use 2 dots (periods): :code:`..`
 
-Here is an example (shortened from the above diagram):
+Here is a very ugly example that uses differen kinds of arrows to connect a note.  (It's shortened from the above diagram)
 
 .. uml:: puml/usecase-notes-connected.puml
 
@@ -172,3 +201,28 @@ and here is the code for that diagram:
 .. literalinclude:: puml/usecase-notes-connected.puml
 
 
+
+
+.. index::
+   pair: skinparam; UML Use Case diagram
+
+****************************************
+Skinparams specific to Use Case Diagrams
+****************************************
+
+
+.. code:: text
+
+   UsecaseBackgroundColor
+   UsecaseBorderColor
+   UsecaseBorderThickness
+
+   UsecaseFontColor
+   UsecaseFontName
+   UsecaseFontSize
+   UsecaseFontStyle
+
+   UsecaseStereotypeFontColor
+   UsecaseStereotypeFontName
+   UsecaseStereotypeFontSize
+   UsecaseStereotypeFontStyle

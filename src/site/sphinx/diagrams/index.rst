@@ -1,11 +1,11 @@
 .. index:: diagrams
-   pair: diagram; all
+   pair: diagram; all diagrams
 
 
 All Diagrams
 ############
 
-*(Work in progress: I haven't included all of them yet.)*
+These are all of the diagrams that PlantUML can generate.
 
 
 .. toctree::
@@ -15,3 +15,8 @@ All Diagrams
    *
 
 
+
+.. todo::
+
+   can put :code:`path` into a diagram and it will output the current path
+   ("current path" = the current path according to PlantUML when it generates the diagram)

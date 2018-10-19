@@ -1,0 +1,71 @@
+@startuml
+
+!include ../../plantuml-styles/plantuml-ae.iuml
+
+' page 588 of the UML Spec
+
+
+skinparam SequenceGroupHeaderFontColor green
+skinparam SequenceGroupFontColor blue
+
+'skinparam SequenceReferenceFontColor red
+
+
+title
+  Alt and Else labels
+  based on the Loop example in the UML 2.5 Specification
+ (Figure 17.13)
+
+  "else" labels appear under the dotted lines
+
+end title
+
+participant person
+participant "panel:AccessControl" as panel
+
+skinparam NoteFontstyle normal
+skinparam NoteBackgroundColor white
+skinparam NoteTextAlignment left
+
+note right of panel
+  The following skinparam options have been set
+  to show exactly what they format (<i>not</i> because it looks good):
+
+    skinparam SequenceGroupHeaderFontColor green
+
+    skinparam SequenceGroupFontColor blue
+
+end note
+
+
+person ->>panel:InsertCard
+panel ->>person:GivePin
+
+alt
+|||
+else 4 digits entered
+'group loop (4)
+person->>panel: enter 4 digits
+'end
+
+alt PIN evaluated
+|||
+else wrong PIN
+|||
+ ref over panel: AskForPINAgain
+ |||
+else correct PIN entered
+|||
+   ref over panel: BeginTransaction
+end
+
+
+else CANCEL pressed
+
+   ref over panel: TransactionCancelled
+
+end
+
+
+
+@enduml

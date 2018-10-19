@@ -1,5 +1,12 @@
 @startuml
 
+!include ../../plantuml-styles/plantuml-ae.iuml
+
+skinparam ActorBorderColor   SaddleBrown
+skinparam NoteFontStyle normal
+skinparam Shadowing false
+skinparam ActorFontSize 13
+
 title Usecase Diagrams: Notes
 
 :Admin: #saddleBrown
@@ -29,5 +36,8 @@ note  as freeFloatingNote #white
  but it's not connected to anything.
  It is automatically positioned.
 end note
+
+
+!include ../../plantuml-styles/ae-copyright-footer.txt
 
 @enduml
