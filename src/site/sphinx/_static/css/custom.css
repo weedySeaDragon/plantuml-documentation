@@ -8,6 +8,7 @@
 /* ------------------------------*/
 /* Read the docs theme overrides */
 h2, h3 {
+  margin-top: 2em;
   margin-bottom: 4px; }
 
 h3 {
@@ -28,6 +29,32 @@ h4, h5, h6 {
 
 h3, h4, h5, h6 {
   margin-bottom: 0px; }
+
+a {
+  color: #0836db;
+  text-decoration: none;
+  cursor: pointer; }
+  a :hover {
+    color: #3091d1; }
+
+.to-the-top {
+  font-style: italic;
+  font-size: smaller; }
+
+.keyword, .keyword-option {
+  font-family: monospace; }
+
+.keyword {
+  margin-top: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-weight: bold;
+  font-size: 125%;
+  background-color: aliceblue; }
+
+.keyword-option {
+  font-size: 110%;
+  font-weight: bold; }
 
 table.docutils.field-list th.field-name {
   font-size: 11pt;
@@ -70,7 +97,10 @@ body {
 .rst-content {
   /* pygments overrides */
   /* Comments */ }
-  .rst-content p, .rst-content blockquote {
+  .rst-content table.docutils td .last p,
+  .rst-content table.docutils td .last :last-child p,
+  .rst-content p,
+  .rst-content blockquote {
     line-height: 1.5em;
     margin-bottom: 8px; }
   .rst-content p, .rst-content blockquote, .rst-content ul {
@@ -100,13 +130,24 @@ body {
   .rst-content footer, .rst-content footer p {
     font-size: 85%; }
 
+#all-skin-parameters h2 {
+  border-top: 2pt blue solid;
+  padding-top: 1rem; }
+#all-skin-parameters h3 {
+  font-size: larger; }
+#all-skin-parameters img {
+  margin-top: 1.5rem; }
+
 #color-names-and-samples.section .wy-table-odd td,
 #color-names-and-samples.section .wy-table-striped tr:nth-child(2n-1) td,
 #color-names-and-samples.section table.docutils:not(.field-list) tr:nth-child(2n-1) td {
   background-color: white; }
+#color-names-and-samples.section table.docutils img {
+  max-width: min-content; }
 #color-names-and-samples.section table.docutils td {
   padding: 0; }
   #color-names-and-samples.section table.docutils td p {
+    width: 100px;
     font-size: 11px;
     text-align: center;
     margin: 0;
