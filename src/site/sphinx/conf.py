@@ -76,7 +76,8 @@ extensions = [
 #   @see https://trustin.github.io/sphinx-maven-plugin/configuration.html#using-plantuml
 #   @see https://pypi.python.org/pypi/sphinxcontrib-plantuml
 
-plantuml = 'java -jar /Users/ashleyengelund/github/ae/plantuml-documentation/src/main/resources/plantuml.jar'
+plantuml = 'java -jar /Users/ashleyengelund/dev/java/plantuml.jar'
+
 
 # recommonMark
 
@@ -92,8 +93,10 @@ todo_include_todos = True
 
 autosectionlabel_prefix_document = True
 
-#
-# ----------------------
+
+
+
+# --- end Extension configurations --------------------------------------
 
 # ----------------------
 # ----------------------
@@ -122,11 +125,17 @@ exclude_patterns = []
 # rst_epilog
 
 
-# ----------------------------------
+
+# ---------------------------------------------------
 #  Substitutions for the project:
+
 rst_prolog = """
 .. |seq| replace:: UML Sequence Diagram
+.. |skinparam_specs| replace:: Here are the specific skinparam options:
 """
+
+
+
 
 # ---------------------------------------------------
 #
