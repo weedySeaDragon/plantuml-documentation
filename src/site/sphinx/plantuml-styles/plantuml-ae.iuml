@@ -1,0 +1,422 @@
+/'
+  @file plantuml-ae.iuml
+
+  @desc: styles for PlantUML files
+      Note that styles can be nested multiple times
+
+      There seems to be a problem if some styles for an entity are nested and some aren't.
+
+
+  @author: Ashley Engelund (ashley@ashleycaroline.com  weedySeaDragon @ github)
+
+  @since 2018-10-1
+
+  @see http://plantuml.com/skinparam
+
+'/
+
+
+'.............................
+'    Layout and General settings:
+
+
+
+!define DEFAULT_BACKGROUND_COLOR  white
+!define DEFAULT_BORDER_COLOR      #111111
+!define DEFAULT_FONT              Helvetica
+!define DEFAULT_FONT_SIZE         14
+!define SMALLER_FONT_SIZE         10
+
+!define DEFAULT_FONT_COLOR        #111111
+
+!define DEFAULT_NOT_SO_DARK       #666666
+
+!define TITLE_FONT_SIZE           18
+!define TITLE_FONT_NAME           serif
+!define TITLE_FONT_STYLE          bold
+
+skinparam componentStyle        uml2
+
+skinparam defaultFontName       DEFAULT_FONT
+skinparam defaultTextAlignment  center
+
+skinparam handwritten           false
+skinparam monochrome            false
+skinparam shadowing             true
+
+skinparam BackgroundColor  white
+skinparam HyperlinkColor   #0000DD
+
+
+skinparam Default {
+    FontColor     DEFAULT_FONT_COLOR
+    FontName      DEFAULT_FONT
+    FontSize      DEFAULT_FONT_SIZE
+    FontStyle     plain
+}
+
+skinparam GenericArrow {
+    FontColor   #666666
+    'FontName    courier
+    FontSize    12
+    FontStyle   italic
+
+}
+
+skinparam title {
+    FontColor     black
+    FontName      TITLE_FONT_NAME
+    FontSize      TITLE_FONT_SIZE
+    FontStyle     TITLE_FONT_STYLE
+}
+
+skinparam legend {
+    BackgroundColor   white
+    BorderColor       DEFAULT_NOT_SO_DARK
+    FontColor         black
+    FontName          DEFAULT_FONT
+    FontSize          SMALLER_FONT_SIZE
+}
+
+skinparam header {
+    FontColor     DEFAULT_NOT_SO_DARK
+    FontName      DEFAULT_FONT
+    FontSize      9
+    FontStyle     plain
+}
+
+skinparam Footer {
+    FontColor     DEFAULT_NOT_SO_DARK
+    FontSize      9
+    FontName      DEFAULT_FONT
+    FontStyle     italic
+}
+
+
+
+
+/' .......................................................
+/' .......................................................
+'   ENTITES
+
+
+/' .......................................................
+     Classes
+'/
+
+
+skinparam class {
+  BackgroundColor DEFAULT_BACKGROUND_COLOR
+  BorderColor DEFAULT_BORDER_COLOR
+  TextAlignment  left
+
+      Arrow {
+          FontStyle         normal  'this has no effect.  it is ruled by the "activity Arrow"
+          BackgroundColor   DEFAULT_BACKGROUND_COLOR
+          BorderColor       DEFAULT_NOT_SO_DARK
+          FontColor         SlateBlue
+          FontSize          SMALLER_FONT_SIZE
+
+      }
+
+}
+
+/' .......................................................
+     Packages
+'/
+
+skinparam package {
+  BackgroundColor DEFAULT_BACKGROUND_COLOR
+  BorderColor SteelBlue
+  FontSize 14
+}
+
+
+/' .......................................................
+     Actors
+'/
+
+skinparam Actor {
+
+      BackgroundColor   white
+      BorderColor       Indigo
+
+      'FontName
+      'FontStyle
+      FontSize          DEFAULT_FONT_SIZE
+      'FontColor
+
+      Stereotype {
+         'FontName
+         'FontStyle
+         'FontSize
+         'FontColor
+      }
+
+}
+
+/' .......................................................
+     Activities
+'/
+
+' problem:  activityArrowColor is changed by usecaseArrowColor
+
+skinparam activity {
+
+    Arrow {
+        Color       DEFAULT_NOT_SO_DARK
+        BorderColor  DEFAULT_BORDER_COLOR
+        'FontColor   DEFAULT_NOT_SO_DARK
+        FontSize    12
+        FontStyle   italic
+    }
+
+    BackgroundColor white
+    BorderColor     DEFAULT_BORDER_COLOR
+
+    ' have to specify the background color and border color for Diamond
+    ' it does not pick up the default for activity.
+    ' maybe because it is defined?  have to define everything for it?
+    Diamond {
+        FontStyle         italic  ' this is all we really want to change
+        BackgroundColor   DEFAULT_BACKGROUND_COLOR
+        BorderColor       DEFAULT_BORDER_COLOR
+        BorderColor       DEFAULT_NOT_SO_DARK
+        FontColor         DEFAULT_FONT_COLOR
+        FontSize          14
+
+    }
+    'EndColor        red
+    FontSize        13
+    StartColor      DEFAULT_NOT_SO_DARK
+}
+
+
+/' .......................................................
+     Notes
+'/
+
+skinparam note {
+  FontSize          SMALLER_FONT_SIZE
+  FontStyle         italic
+  FontColor         DEFAULT_FONT_COLOR
+  'BackgroundColor   white
+  BorderColor       Gray
+
+}
+
+
+/' .......................................................
+     Sequence
+'/
+
+
+skinparam sequence {
+
+    'ActorBorderThickness
+
+
+    Participant {
+        BackgroundColor   LightYellow
+        BorderColor       black
+        BorderThickness   1
+        FontColor         black
+        FontSize          SMALLER_FONT_SIZE
+        FontStyle        plain
+    }
+
+
+   ' ARROW settings are controlled by the last read ARROW settings.
+   '  See the arrow settings at the end of this file.
+    Arrow {
+       Color            red
+       FontColor        black
+       'FontName
+       FontSize          SMALLER_FONT_SIZE
+       FontStyle         plain
+       Thickness         1.3
+
+    }
+
+    Box {
+        BackgroundColor   white
+        BorderColor       DEFAULT_NOT_SO_DARK
+        FontColor         DEFAULT_FONT_COLOR
+        FontSize          DEFAULT_FONT_SIZE
+        FontStyle         plain
+        'FontName
+    }
+
+    Delay {
+        'FontColor
+        'FontSize
+        'FontStyle
+        'FontName
+    }
+
+
+    Divider {
+        BackgroundColor   white
+        BorderColor       DEFAULT_NOT_SO_DARK
+        BorderThickness   1
+        FontColor         DEFAULT_NOT_SO_DARK
+        ' FontSize
+        FontStyle         italic
+        'FontName
+
+    }
+
+    Group {
+        BackgroundColor     white
+        BodyBackgroundColor white
+        BorderColor         DEFAULT_BORDER_COLOR
+        BorderThickness     1
+
+        'FontColor
+        'FontName
+        'FontSize
+        'FontStyle
+
+        Header {
+            FontStyle     bold
+            'FontColor
+            'FontName
+            'FontSize
+        }
+    }
+
+    LifeLine {
+        BackgroundColor   WhiteSmoke
+        BorderColor       navy
+        BorderThickness   1
+    }
+
+    Message {
+        Alignment   center
+        'TextAlignment
+    }
+
+
+    'NewpageSeparatorColor
+
+    Reference {
+        'Alignment
+        'BackgroundColor
+        BorderColor         DEFAULT_NOT_SO_DARK
+        BorderThickness     1
+        FontSize            SMALLER_FONT_SIZE
+        'FontName
+        'FontStyle
+        'FontColor
+        'HeaderBackgroundColor  WhiteSmoke
+    }
+
+    Stereotype {
+       ' FontColor
+       ' FontName
+       ' FontSize
+       ' FontStyle
+    }
+
+    Title {
+        FontColor   black
+        FontSize    TITLE_FONT_SIZE
+        FontStyle  TITLE_FONT_STYLE
+        FontName    TITLE_FONT_NAME
+    }
+}
+
+
+/' .......................................................
+     Swimlane
+'/
+
+
+skinparam swimlane{
+    BorderColor        DEFAULT_BORDER_COLOR
+    TitleFontSize       TITLE_FONT_SIZE
+}
+
+
+skinparam Component {
+    ArrowColor        blue
+    BackgroundColor   white
+    BorderColor       DEFAULT_BORDER_COLOR
+    FontColor         DEFAULT_FONT_COLOR
+}
+
+/' .......................................................
+     State
+'/
+skinparam State {
+    ArrowColor          DEFAULT_BORDER_COLOR
+    'AttributeFontStyle
+    BackgroundColor     DEFAULT_BACKGROUND_COLOR
+    BorderColor         DEFAULT_BORDER_COLOR
+    EndColor            red
+    StartColor          green
+}
+
+
+/' .......................................................
+     Object
+'/
+
+skinparam Object {
+    ArrowColor          blue
+   ' Attribute {
+   '     FontColor
+   '     FontName
+   '     FontSize
+   '     FontStyle
+   ' }
+    BackgroundColor     white
+    BorderColor         DEFAULT_BORDER_COLOR
+    BorderThickness     1
+}
+
+
+/' .......................................................
+     Use Case
+'/
+
+skinparam Usecase {
+    BackgroundColor     white
+    BorderColor         DEFAULT_BORDER_COLOR
+
+    FontColor           DEFAULT_FONT_COLOR
+    'FontName
+    FontSize            12
+    FontStyle           normal
+}
+
+
+/'...............................................
+   ARROWS
+
+  IMPORTANT!  The last Arrow settings set are the ones used,
+   no matter what group the Arrow settings is included in.
+   IOW, Arrow within a group is actually applied to *all* arrows,
+    no matter the group!
+    Arrow seems to be like a global setting.
+'/
+
+
+skinparam Arrow {
+   Color             black
+   Thickness         1.1
+
+   Font {
+      'Size
+      Style          plain
+      'Name
+      Color          DEFAULT_FONT_COLOR
+   }
+   'LollipopColor    red   ' does this have any effect?
+   'MessageAlignment left  ' does this have any effect?
+
+}
+
+'skinparam ColorArrowSeparationSpace
+
+' skinparam ResponseMessageBelowArrow
