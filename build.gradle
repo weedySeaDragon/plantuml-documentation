@@ -20,7 +20,6 @@ dependencies {
 }
 
 
-
 ext.vendor = "Ashley Engelund"
 ext.vendorId = "com.ashleycaroline"
 ext.specificationVendor = vendor
