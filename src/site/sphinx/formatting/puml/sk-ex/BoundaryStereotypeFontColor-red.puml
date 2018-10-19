@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam BoundaryStereotypeFontColor red
+
+title BoundaryStereotypeFontColor red
+
+boundary Boundary <<Stereotype>>
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+
+title ActorFontStyle bold
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam ActorFontStyle bold
+
+!include usecase-2actors.txt
+
+@enduml

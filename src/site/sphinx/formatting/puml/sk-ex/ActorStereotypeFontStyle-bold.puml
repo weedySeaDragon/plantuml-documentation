@@ -1,0 +1,18 @@
+@startuml
+title ActorStereotypeFontStyle bold
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+skinparam ActorStereotypeFontStyle bold
+
+actor Tim <<Stereotype\ntext>>
+
+interface "Data Access" as DA
+
+DA - [First Component]
+[First Component] ..> Tim : use
+
+package "Other Groups" {
+Marsha - [Second Component]
+
+[First Component] --> Marsha
+}
+@enduml

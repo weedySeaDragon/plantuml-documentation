@@ -1,0 +1,9 @@
+@startuml
+
+title ActivityStartColor lawnGreen
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam ActivityStartColor lawnGreen
+!include activity-alarmrings.txt
+
+@enduml

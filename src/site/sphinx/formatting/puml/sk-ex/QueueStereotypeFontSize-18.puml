@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam QueueStereotypeFontSize 18
+
+title QueueStereotypeFontSize 18
+
+queue Queue <<Stereotype>>
+@enduml

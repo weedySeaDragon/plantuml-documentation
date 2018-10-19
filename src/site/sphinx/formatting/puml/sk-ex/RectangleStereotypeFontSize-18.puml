@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam RectangleStereotypeFontSize 18
+
+title RectangleStereotypeFontSize 18
+
+rectangle Rectangle <<Stereotype>>
+@enduml

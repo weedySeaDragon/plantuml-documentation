@@ -1,0 +1,10 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+title AgentStereotypeFontColor red
+skinparam AgentStereotypeFontColor red
+
+agent agent <<Stereotype text>>
+
+
+@enduml

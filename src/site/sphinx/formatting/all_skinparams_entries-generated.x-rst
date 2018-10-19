@@ -1,0 +1,14693 @@
+.. container:: alphabet-links
+
+    :ref:`A<A>`  :ref:`B<B>`  :ref:`C<C>`  :ref:`D<D>`  :ref:`E<E>`  :ref:`F<F>`  :ref:`G<G>`  :ref:`H<H>`  :ref:`I<I>`  :ref:`J<J>`  :ref:`K<K>`  :ref:`L<L>`  :ref:`M<M>`  :ref:`N<N>`  :ref:`O<O>`  :ref:`P<P>`  :ref:`Q<Q>`  :ref:`R<R>`  :ref:`S<S>`  :ref:`T<T>`  :ref:`U<U>`  :ref:`V<V>`  :ref:`W<W>`  :ref:`X<X>`  :ref:`Y<Y>`  :ref:`Z<Z>`  
+
+
+.. _A:
+
+--
+A
+--
+
+.. index:: ActivityBackgroundColor
+    pair: skinparam; ActivityBackgroundColor
+
+.. _ActivityBackgroundColor:
+
+.. container:: keyword
+
+    ActivityBackgroundColor
+
+
+:Usage:
+    :code:`ActivityBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActivityBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/ActivityBackgroundColor-zz.puml
+
+
+
+
+.. index:: ActivityBarColor
+    pair: skinparam; ActivityBarColor
+
+.. _ActivityBarColor:
+
+.. container:: keyword
+
+    ActivityBarColor
+
+
+:Usage:
+    :code:`ActivityBarColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActivityBarColor zz`:
+
+    .. uml::  puml/sk-ex/ActivityBarColor-zz.puml
+
+
+
+
+.. index:: ActivityBorderColor
+    pair: skinparam; ActivityBorderColor
+
+.. _ActivityBorderColor:
+
+.. container:: keyword
+
+    ActivityBorderColor
+
+
+:Usage:
+    :code:`ActivityBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActivityBorderColor zz`:
+
+    .. uml::  puml/sk-ex/ActivityBorderColor-zz.puml
+
+
+
+
+.. index:: ActivityBorderThickness
+    pair: skinparam; ActivityBorderThickness
+
+.. _ActivityBorderThickness:
+
+.. container:: keyword
+
+    ActivityBorderThickness
+
+
+:Usage:
+    :code:`ActivityBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActivityBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/ActivityBorderThickness-zz.puml
+
+
+
+
+.. index:: ActivityDiamondBackgroundColor
+    pair: skinparam; ActivityDiamondBackgroundColor
+
+.. _ActivityDiamondBackgroundColor:
+
+.. container:: keyword
+
+    ActivityDiamondBackgroundColor
+
+
+:Usage:
+    :code:`ActivityDiamondBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActivityDiamondBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/ActivityDiamondBackgroundColor-zz.puml
+
+
+
+
+.. index:: ActivityDiamondBorderColor
+    pair: skinparam; ActivityDiamondBorderColor
+
+.. _ActivityDiamondBorderColor:
+
+.. container:: keyword
+
+    ActivityDiamondBorderColor
+
+
+:Usage:
+    :code:`ActivityDiamondBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActivityDiamondBorderColor zz`:
+
+    .. uml::  puml/sk-ex/ActivityDiamondBorderColor-zz.puml
+
+
+
+
+.. index:: ActivityDiamondFontColor
+    pair: skinparam; ActivityDiamondFontColor
+
+.. _ActivityDiamondFontColor:
+
+.. container:: keyword
+
+    ActivityDiamondFontColor
+
+
+:Usage:
+    :code:`ActivityDiamondFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActivityDiamondFontColor zz`:
+
+    .. uml::  puml/sk-ex/ActivityDiamondFontColor-zz.puml
+
+
+
+
+.. index:: ActivityDiamondFontName
+    pair: skinparam; ActivityDiamondFontName
+
+.. _ActivityDiamondFontName:
+
+.. container:: keyword
+
+    ActivityDiamondFontName
+
+
+:Usage:
+    :code:`ActivityDiamondFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActivityDiamondFontName zz`:
+
+    .. uml::  puml/sk-ex/ActivityDiamondFontName-zz.puml
+
+
+
+
+.. index:: ActivityDiamondFontSize
+    pair: skinparam; ActivityDiamondFontSize
+
+.. _ActivityDiamondFontSize:
+
+.. container:: keyword
+
+    ActivityDiamondFontSize
+
+
+:Usage:
+    :code:`ActivityDiamondFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActivityDiamondFontSize zz`:
+
+    .. uml::  puml/sk-ex/ActivityDiamondFontSize-zz.puml
+
+
+
+
+.. index:: ActivityDiamondFontStyle
+    pair: skinparam; ActivityDiamondFontStyle
+
+.. _ActivityDiamondFontStyle:
+
+.. container:: keyword
+
+    ActivityDiamondFontStyle
+
+
+:Usage:
+    :code:`ActivityDiamondFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActivityDiamondFontStyle zz`:
+
+    .. uml::  puml/sk-ex/ActivityDiamondFontStyle-zz.puml
+
+
+
+
+.. index:: ActivityEndColor
+    pair: skinparam; ActivityEndColor
+
+.. _ActivityEndColor:
+
+.. container:: keyword
+
+    ActivityEndColor
+
+
+:Usage:
+    :code:`ActivityEndColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActivityEndColor zz`:
+
+    .. uml::  puml/sk-ex/ActivityEndColor-zz.puml
+
+
+
+
+.. index:: ActivityFontColor
+    pair: skinparam; ActivityFontColor
+
+.. _ActivityFontColor:
+
+.. container:: keyword
+
+    ActivityFontColor
+
+
+:Usage:
+    :code:`ActivityFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActivityFontColor zz`:
+
+    .. uml::  puml/sk-ex/ActivityFontColor-zz.puml
+
+
+
+
+.. index:: ActivityFontName
+    pair: skinparam; ActivityFontName
+
+.. _ActivityFontName:
+
+.. container:: keyword
+
+    ActivityFontName
+
+
+:Usage:
+    :code:`ActivityFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActivityFontName zz`:
+
+    .. uml::  puml/sk-ex/ActivityFontName-zz.puml
+
+
+
+
+.. index:: ActivityFontSize
+    pair: skinparam; ActivityFontSize
+
+.. _ActivityFontSize:
+
+.. container:: keyword
+
+    ActivityFontSize
+
+
+:Usage:
+    :code:`ActivityFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActivityFontSize zz`:
+
+    .. uml::  puml/sk-ex/ActivityFontSize-zz.puml
+
+
+
+
+.. index:: ActivityFontStyle
+    pair: skinparam; ActivityFontStyle
+
+.. _ActivityFontStyle:
+
+.. container:: keyword
+
+    ActivityFontStyle
+
+
+:Usage:
+    :code:`ActivityFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActivityFontStyle zz`:
+
+    .. uml::  puml/sk-ex/ActivityFontStyle-zz.puml
+
+
+
+
+.. index:: ActivityStartColor
+    pair: skinparam; ActivityStartColor
+
+.. _ActivityStartColor:
+
+.. container:: keyword
+
+    ActivityStartColor
+
+
+:Usage:
+    :code:`ActivityStartColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActivityStartColor zz`:
+
+    .. uml::  puml/sk-ex/ActivityStartColor-zz.puml
+
+
+
+
+.. index:: ActorBackgroundColor
+    pair: skinparam; ActorBackgroundColor
+
+.. _ActorBackgroundColor:
+
+.. container:: keyword
+
+    ActorBackgroundColor
+
+
+:Usage:
+    :code:`ActorBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActorBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/ActorBackgroundColor-zz.puml
+
+
+
+
+.. index:: ActorBorderColor
+    pair: skinparam; ActorBorderColor
+
+.. _ActorBorderColor:
+
+.. container:: keyword
+
+    ActorBorderColor
+
+
+:Usage:
+    :code:`ActorBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActorBorderColor zz`:
+
+    .. uml::  puml/sk-ex/ActorBorderColor-zz.puml
+
+
+
+
+.. index:: ActorFontColor
+    pair: skinparam; ActorFontColor
+
+.. _ActorFontColor:
+
+.. container:: keyword
+
+    ActorFontColor
+
+
+:Usage:
+    :code:`ActorFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActorFontColor zz`:
+
+    .. uml::  puml/sk-ex/ActorFontColor-zz.puml
+
+
+
+
+.. index:: ActorFontName
+    pair: skinparam; ActorFontName
+
+.. _ActorFontName:
+
+.. container:: keyword
+
+    ActorFontName
+
+
+:Usage:
+    :code:`ActorFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActorFontName zz`:
+
+    .. uml::  puml/sk-ex/ActorFontName-zz.puml
+
+
+
+
+.. index:: ActorFontSize
+    pair: skinparam; ActorFontSize
+
+.. _ActorFontSize:
+
+.. container:: keyword
+
+    ActorFontSize
+
+
+:Usage:
+    :code:`ActorFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActorFontSize zz`:
+
+    .. uml::  puml/sk-ex/ActorFontSize-zz.puml
+
+
+
+
+.. index:: ActorFontStyle
+    pair: skinparam; ActorFontStyle
+
+.. _ActorFontStyle:
+
+.. container:: keyword
+
+    ActorFontStyle
+
+
+:Usage:
+    :code:`ActorFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActorFontStyle zz`:
+
+    .. uml::  puml/sk-ex/ActorFontStyle-zz.puml
+
+
+
+
+.. index:: ActorStereotypeFontColor
+    pair: skinparam; ActorStereotypeFontColor
+
+.. _ActorStereotypeFontColor:
+
+.. container:: keyword
+
+    ActorStereotypeFontColor
+
+
+:Usage:
+    :code:`ActorStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActorStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/ActorStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: ActorStereotypeFontName
+    pair: skinparam; ActorStereotypeFontName
+
+.. _ActorStereotypeFontName:
+
+.. container:: keyword
+
+    ActorStereotypeFontName
+
+
+:Usage:
+    :code:`ActorStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActorStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/ActorStereotypeFontName-zz.puml
+
+
+
+
+.. index:: ActorStereotypeFontSize
+    pair: skinparam; ActorStereotypeFontSize
+
+.. _ActorStereotypeFontSize:
+
+.. container:: keyword
+
+    ActorStereotypeFontSize
+
+
+:Usage:
+    :code:`ActorStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActorStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/ActorStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: ActorStereotypeFontStyle
+    pair: skinparam; ActorStereotypeFontStyle
+
+.. _ActorStereotypeFontStyle:
+
+.. container:: keyword
+
+    ActorStereotypeFontStyle
+
+
+:Usage:
+    :code:`ActorStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ActorStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/ActorStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: AgentBackgroundColor
+    pair: skinparam; AgentBackgroundColor
+
+.. _AgentBackgroundColor:
+
+.. container:: keyword
+
+    AgentBackgroundColor
+
+
+:Usage:
+    :code:`AgentBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`AgentBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/AgentBackgroundColor-zz.puml
+
+
+
+
+.. index:: AgentBorderColor
+    pair: skinparam; AgentBorderColor
+
+.. _AgentBorderColor:
+
+.. container:: keyword
+
+    AgentBorderColor
+
+
+:Usage:
+    :code:`AgentBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`AgentBorderColor zz`:
+
+    .. uml::  puml/sk-ex/AgentBorderColor-zz.puml
+
+
+
+
+.. index:: AgentBorderThickness
+    pair: skinparam; AgentBorderThickness
+
+.. _AgentBorderThickness:
+
+.. container:: keyword
+
+    AgentBorderThickness
+
+
+:Usage:
+    :code:`AgentBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`AgentBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/AgentBorderThickness-zz.puml
+
+
+
+
+.. index:: AgentFontColor
+    pair: skinparam; AgentFontColor
+
+.. _AgentFontColor:
+
+.. container:: keyword
+
+    AgentFontColor
+
+
+:Usage:
+    :code:`AgentFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`AgentFontColor zz`:
+
+    .. uml::  puml/sk-ex/AgentFontColor-zz.puml
+
+
+
+
+.. index:: AgentFontName
+    pair: skinparam; AgentFontName
+
+.. _AgentFontName:
+
+.. container:: keyword
+
+    AgentFontName
+
+
+:Usage:
+    :code:`AgentFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`AgentFontName zz`:
+
+    .. uml::  puml/sk-ex/AgentFontName-zz.puml
+
+
+
+
+.. index:: AgentFontSize
+    pair: skinparam; AgentFontSize
+
+.. _AgentFontSize:
+
+.. container:: keyword
+
+    AgentFontSize
+
+
+:Usage:
+    :code:`AgentFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`AgentFontSize zz`:
+
+    .. uml::  puml/sk-ex/AgentFontSize-zz.puml
+
+
+
+
+.. index:: AgentFontStyle
+    pair: skinparam; AgentFontStyle
+
+.. _AgentFontStyle:
+
+.. container:: keyword
+
+    AgentFontStyle
+
+
+:Usage:
+    :code:`AgentFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`AgentFontStyle zz`:
+
+    .. uml::  puml/sk-ex/AgentFontStyle-zz.puml
+
+
+
+
+.. index:: AgentStereotypeFontColor
+    pair: skinparam; AgentStereotypeFontColor
+
+.. _AgentStereotypeFontColor:
+
+.. container:: keyword
+
+    AgentStereotypeFontColor
+
+
+:Usage:
+    :code:`AgentStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`AgentStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/AgentStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: AgentStereotypeFontName
+    pair: skinparam; AgentStereotypeFontName
+
+.. _AgentStereotypeFontName:
+
+.. container:: keyword
+
+    AgentStereotypeFontName
+
+
+:Usage:
+    :code:`AgentStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`AgentStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/AgentStereotypeFontName-zz.puml
+
+
+
+
+.. index:: AgentStereotypeFontSize
+    pair: skinparam; AgentStereotypeFontSize
+
+.. _AgentStereotypeFontSize:
+
+.. container:: keyword
+
+    AgentStereotypeFontSize
+
+
+:Usage:
+    :code:`AgentStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`AgentStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/AgentStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: AgentStereotypeFontStyle
+    pair: skinparam; AgentStereotypeFontStyle
+
+.. _AgentStereotypeFontStyle:
+
+.. container:: keyword
+
+    AgentStereotypeFontStyle
+
+
+:Usage:
+    :code:`AgentStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`AgentStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/AgentStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: ArrowColor
+    pair: skinparam; ArrowColor
+
+.. _ArrowColor:
+
+.. container:: keyword
+
+    ArrowColor
+
+
+:Usage:
+    :code:`ArrowColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ArrowColor zz`:
+
+    .. uml::  puml/sk-ex/ArrowColor-zz.puml
+
+
+
+
+.. index:: ArrowFontColor
+    pair: skinparam; ArrowFontColor
+
+.. _ArrowFontColor:
+
+.. container:: keyword
+
+    ArrowFontColor
+
+
+:Usage:
+    :code:`ArrowFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ArrowFontColor zz`:
+
+    .. uml::  puml/sk-ex/ArrowFontColor-zz.puml
+
+
+
+
+.. index:: ArrowFontName
+    pair: skinparam; ArrowFontName
+
+.. _ArrowFontName:
+
+.. container:: keyword
+
+    ArrowFontName
+
+
+:Usage:
+    :code:`ArrowFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ArrowFontName zz`:
+
+    .. uml::  puml/sk-ex/ArrowFontName-zz.puml
+
+
+
+
+.. index:: ArrowFontSize
+    pair: skinparam; ArrowFontSize
+
+.. _ArrowFontSize:
+
+.. container:: keyword
+
+    ArrowFontSize
+
+
+:Usage:
+    :code:`ArrowFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ArrowFontSize zz`:
+
+    .. uml::  puml/sk-ex/ArrowFontSize-zz.puml
+
+
+
+
+.. index:: ArrowFontStyle
+    pair: skinparam; ArrowFontStyle
+
+.. _ArrowFontStyle:
+
+.. container:: keyword
+
+    ArrowFontStyle
+
+
+:Usage:
+    :code:`ArrowFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ArrowFontStyle zz`:
+
+    .. uml::  puml/sk-ex/ArrowFontStyle-zz.puml
+
+
+
+
+.. index:: ArrowLollipopColor
+    pair: skinparam; ArrowLollipopColor
+
+.. _ArrowLollipopColor:
+
+.. container:: keyword
+
+    ArrowLollipopColor
+
+
+:Usage:
+    :code:`ArrowLollipopColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ArrowLollipopColor zz`:
+
+    .. uml::  puml/sk-ex/ArrowLollipopColor-zz.puml
+
+
+
+
+.. index:: ArrowMessageAlignment
+    pair: skinparam; ArrowMessageAlignment
+
+.. _ArrowMessageAlignment:
+
+.. container:: keyword
+
+    ArrowMessageAlignment
+
+
+:Usage:
+    :code:`ArrowMessageAlignment zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ArrowMessageAlignment zz`:
+
+    .. uml::  puml/sk-ex/ArrowMessageAlignment-zz.puml
+
+
+
+
+.. index:: ArrowThickness
+    pair: skinparam; ArrowThickness
+
+.. _ArrowThickness:
+
+.. container:: keyword
+
+    ArrowThickness
+
+
+:Usage:
+    :code:`ArrowThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ArrowThickness zz`:
+
+    .. uml::  puml/sk-ex/ArrowThickness-zz.puml
+
+
+
+
+.. index:: ArtifactBackgroundColor
+    pair: skinparam; ArtifactBackgroundColor
+
+.. _ArtifactBackgroundColor:
+
+.. container:: keyword
+
+    ArtifactBackgroundColor
+
+
+:Usage:
+    :code:`ArtifactBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ArtifactBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/ArtifactBackgroundColor-zz.puml
+
+
+
+
+.. index:: ArtifactBorderColor
+    pair: skinparam; ArtifactBorderColor
+
+.. _ArtifactBorderColor:
+
+.. container:: keyword
+
+    ArtifactBorderColor
+
+
+:Usage:
+    :code:`ArtifactBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ArtifactBorderColor zz`:
+
+    .. uml::  puml/sk-ex/ArtifactBorderColor-zz.puml
+
+
+
+
+.. index:: ArtifactFontColor
+    pair: skinparam; ArtifactFontColor
+
+.. _ArtifactFontColor:
+
+.. container:: keyword
+
+    ArtifactFontColor
+
+
+:Usage:
+    :code:`ArtifactFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ArtifactFontColor zz`:
+
+    .. uml::  puml/sk-ex/ArtifactFontColor-zz.puml
+
+
+
+
+.. index:: ArtifactFontName
+    pair: skinparam; ArtifactFontName
+
+.. _ArtifactFontName:
+
+.. container:: keyword
+
+    ArtifactFontName
+
+
+:Usage:
+    :code:`ArtifactFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ArtifactFontName zz`:
+
+    .. uml::  puml/sk-ex/ArtifactFontName-zz.puml
+
+
+
+
+.. index:: ArtifactFontSize
+    pair: skinparam; ArtifactFontSize
+
+.. _ArtifactFontSize:
+
+.. container:: keyword
+
+    ArtifactFontSize
+
+
+:Usage:
+    :code:`ArtifactFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ArtifactFontSize zz`:
+
+    .. uml::  puml/sk-ex/ArtifactFontSize-zz.puml
+
+
+
+
+.. index:: ArtifactFontStyle
+    pair: skinparam; ArtifactFontStyle
+
+.. _ArtifactFontStyle:
+
+.. container:: keyword
+
+    ArtifactFontStyle
+
+
+:Usage:
+    :code:`ArtifactFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ArtifactFontStyle zz`:
+
+    .. uml::  puml/sk-ex/ArtifactFontStyle-zz.puml
+
+
+
+
+.. index:: ArtifactStereotypeFontColor
+    pair: skinparam; ArtifactStereotypeFontColor
+
+.. _ArtifactStereotypeFontColor:
+
+.. container:: keyword
+
+    ArtifactStereotypeFontColor
+
+
+:Usage:
+    :code:`ArtifactStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ArtifactStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/ArtifactStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: ArtifactStereotypeFontName
+    pair: skinparam; ArtifactStereotypeFontName
+
+.. _ArtifactStereotypeFontName:
+
+.. container:: keyword
+
+    ArtifactStereotypeFontName
+
+
+:Usage:
+    :code:`ArtifactStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ArtifactStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/ArtifactStereotypeFontName-zz.puml
+
+
+
+
+.. index:: ArtifactStereotypeFontSize
+    pair: skinparam; ArtifactStereotypeFontSize
+
+.. _ArtifactStereotypeFontSize:
+
+.. container:: keyword
+
+    ArtifactStereotypeFontSize
+
+
+:Usage:
+    :code:`ArtifactStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ArtifactStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/ArtifactStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: ArtifactStereotypeFontStyle
+    pair: skinparam; ArtifactStereotypeFontStyle
+
+.. _ArtifactStereotypeFontStyle:
+
+.. container:: keyword
+
+    ArtifactStereotypeFontStyle
+
+
+:Usage:
+    :code:`ArtifactStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ArtifactStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/ArtifactStereotypeFontStyle-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _B:
+
+--
+B
+--
+
+.. index:: BackgroundColor
+    pair: skinparam; BackgroundColor
+
+.. _BackgroundColor:
+
+.. container:: keyword
+
+    BackgroundColor
+
+
+:Usage:
+    :code:`BackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`BackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/BackgroundColor-zz.puml
+
+
+
+
+.. index:: BiddableBackgroundColor
+    pair: skinparam; BiddableBackgroundColor
+
+.. _BiddableBackgroundColor:
+
+.. container:: keyword
+
+    BiddableBackgroundColor
+
+
+:Usage:
+    :code:`BiddableBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`BiddableBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/BiddableBackgroundColor-zz.puml
+
+
+
+
+.. index:: BiddableBorderColor
+    pair: skinparam; BiddableBorderColor
+
+.. _BiddableBorderColor:
+
+.. container:: keyword
+
+    BiddableBorderColor
+
+
+:Usage:
+    :code:`BiddableBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`BiddableBorderColor zz`:
+
+    .. uml::  puml/sk-ex/BiddableBorderColor-zz.puml
+
+
+
+
+.. index:: BoundaryBackgroundColor
+    pair: skinparam; BoundaryBackgroundColor
+
+.. _BoundaryBackgroundColor:
+
+.. container:: keyword
+
+    BoundaryBackgroundColor
+
+
+:Usage:
+    :code:`BoundaryBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`BoundaryBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/BoundaryBackgroundColor-zz.puml
+
+
+
+
+.. index:: BoundaryBorderColor
+    pair: skinparam; BoundaryBorderColor
+
+.. _BoundaryBorderColor:
+
+.. container:: keyword
+
+    BoundaryBorderColor
+
+
+:Usage:
+    :code:`BoundaryBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`BoundaryBorderColor zz`:
+
+    .. uml::  puml/sk-ex/BoundaryBorderColor-zz.puml
+
+
+
+
+.. index:: BoundaryFontColor
+    pair: skinparam; BoundaryFontColor
+
+.. _BoundaryFontColor:
+
+.. container:: keyword
+
+    BoundaryFontColor
+
+
+:Usage:
+    :code:`BoundaryFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`BoundaryFontColor zz`:
+
+    .. uml::  puml/sk-ex/BoundaryFontColor-zz.puml
+
+
+
+
+.. index:: BoundaryFontName
+    pair: skinparam; BoundaryFontName
+
+.. _BoundaryFontName:
+
+.. container:: keyword
+
+    BoundaryFontName
+
+
+:Usage:
+    :code:`BoundaryFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`BoundaryFontName zz`:
+
+    .. uml::  puml/sk-ex/BoundaryFontName-zz.puml
+
+
+
+
+.. index:: BoundaryFontSize
+    pair: skinparam; BoundaryFontSize
+
+.. _BoundaryFontSize:
+
+.. container:: keyword
+
+    BoundaryFontSize
+
+
+:Usage:
+    :code:`BoundaryFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`BoundaryFontSize zz`:
+
+    .. uml::  puml/sk-ex/BoundaryFontSize-zz.puml
+
+
+
+
+.. index:: BoundaryFontStyle
+    pair: skinparam; BoundaryFontStyle
+
+.. _BoundaryFontStyle:
+
+.. container:: keyword
+
+    BoundaryFontStyle
+
+
+:Usage:
+    :code:`BoundaryFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`BoundaryFontStyle zz`:
+
+    .. uml::  puml/sk-ex/BoundaryFontStyle-zz.puml
+
+
+
+
+.. index:: BoundaryStereotypeFontColor
+    pair: skinparam; BoundaryStereotypeFontColor
+
+.. _BoundaryStereotypeFontColor:
+
+.. container:: keyword
+
+    BoundaryStereotypeFontColor
+
+
+:Usage:
+    :code:`BoundaryStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`BoundaryStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/BoundaryStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: BoundaryStereotypeFontName
+    pair: skinparam; BoundaryStereotypeFontName
+
+.. _BoundaryStereotypeFontName:
+
+.. container:: keyword
+
+    BoundaryStereotypeFontName
+
+
+:Usage:
+    :code:`BoundaryStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`BoundaryStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/BoundaryStereotypeFontName-zz.puml
+
+
+
+
+.. index:: BoundaryStereotypeFontSize
+    pair: skinparam; BoundaryStereotypeFontSize
+
+.. _BoundaryStereotypeFontSize:
+
+.. container:: keyword
+
+    BoundaryStereotypeFontSize
+
+
+:Usage:
+    :code:`BoundaryStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`BoundaryStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/BoundaryStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: BoundaryStereotypeFontStyle
+    pair: skinparam; BoundaryStereotypeFontStyle
+
+.. _BoundaryStereotypeFontStyle:
+
+.. container:: keyword
+
+    BoundaryStereotypeFontStyle
+
+
+:Usage:
+    :code:`BoundaryStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`BoundaryStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/BoundaryStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: BoxPadding
+    pair: skinparam; BoxPadding
+
+.. _BoxPadding:
+
+.. container:: keyword
+
+    BoxPadding
+
+
+:Usage:
+    :code:`BoxPadding zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`BoxPadding zz`:
+
+    .. uml::  puml/sk-ex/BoxPadding-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _C:
+
+--
+C
+--
+
+.. index:: CaptionFontColor
+    pair: skinparam; CaptionFontColor
+
+.. _CaptionFontColor:
+
+.. container:: keyword
+
+    CaptionFontColor
+
+
+:Usage:
+    :code:`CaptionFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CaptionFontColor zz`:
+
+    .. uml::  puml/sk-ex/CaptionFontColor-zz.puml
+
+
+
+
+.. index:: CaptionFontName
+    pair: skinparam; CaptionFontName
+
+.. _CaptionFontName:
+
+.. container:: keyword
+
+    CaptionFontName
+
+
+:Usage:
+    :code:`CaptionFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CaptionFontName zz`:
+
+    .. uml::  puml/sk-ex/CaptionFontName-zz.puml
+
+
+
+
+.. index:: CaptionFontSize
+    pair: skinparam; CaptionFontSize
+
+.. _CaptionFontSize:
+
+.. container:: keyword
+
+    CaptionFontSize
+
+
+:Usage:
+    :code:`CaptionFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CaptionFontSize zz`:
+
+    .. uml::  puml/sk-ex/CaptionFontSize-zz.puml
+
+
+
+
+.. index:: CaptionFontStyle
+    pair: skinparam; CaptionFontStyle
+
+.. _CaptionFontStyle:
+
+.. container:: keyword
+
+    CaptionFontStyle
+
+
+:Usage:
+    :code:`CaptionFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CaptionFontStyle zz`:
+
+    .. uml::  puml/sk-ex/CaptionFontStyle-zz.puml
+
+
+
+
+.. index:: CardBackgroundColor
+    pair: skinparam; CardBackgroundColor
+
+.. _CardBackgroundColor:
+
+.. container:: keyword
+
+    CardBackgroundColor
+
+
+:Usage:
+    :code:`CardBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CardBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/CardBackgroundColor-zz.puml
+
+
+
+
+.. index:: CardBorderColor
+    pair: skinparam; CardBorderColor
+
+.. _CardBorderColor:
+
+.. container:: keyword
+
+    CardBorderColor
+
+
+:Usage:
+    :code:`CardBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CardBorderColor zz`:
+
+    .. uml::  puml/sk-ex/CardBorderColor-zz.puml
+
+
+
+
+.. index:: CardBorderThickness
+    pair: skinparam; CardBorderThickness
+
+.. _CardBorderThickness:
+
+.. container:: keyword
+
+    CardBorderThickness
+
+
+:Usage:
+    :code:`CardBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CardBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/CardBorderThickness-zz.puml
+
+
+
+
+.. index:: CardFontColor
+    pair: skinparam; CardFontColor
+
+.. _CardFontColor:
+
+.. container:: keyword
+
+    CardFontColor
+
+
+:Usage:
+    :code:`CardFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CardFontColor zz`:
+
+    .. uml::  puml/sk-ex/CardFontColor-zz.puml
+
+
+
+
+.. index:: CardFontName
+    pair: skinparam; CardFontName
+
+.. _CardFontName:
+
+.. container:: keyword
+
+    CardFontName
+
+
+:Usage:
+    :code:`CardFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CardFontName zz`:
+
+    .. uml::  puml/sk-ex/CardFontName-zz.puml
+
+
+
+
+.. index:: CardFontSize
+    pair: skinparam; CardFontSize
+
+.. _CardFontSize:
+
+.. container:: keyword
+
+    CardFontSize
+
+
+:Usage:
+    :code:`CardFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CardFontSize zz`:
+
+    .. uml::  puml/sk-ex/CardFontSize-zz.puml
+
+
+
+
+.. index:: CardFontStyle
+    pair: skinparam; CardFontStyle
+
+.. _CardFontStyle:
+
+.. container:: keyword
+
+    CardFontStyle
+
+
+:Usage:
+    :code:`CardFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CardFontStyle zz`:
+
+    .. uml::  puml/sk-ex/CardFontStyle-zz.puml
+
+
+
+
+.. index:: CardStereotypeFontColor
+    pair: skinparam; CardStereotypeFontColor
+
+.. _CardStereotypeFontColor:
+
+.. container:: keyword
+
+    CardStereotypeFontColor
+
+
+:Usage:
+    :code:`CardStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CardStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/CardStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: CardStereotypeFontName
+    pair: skinparam; CardStereotypeFontName
+
+.. _CardStereotypeFontName:
+
+.. container:: keyword
+
+    CardStereotypeFontName
+
+
+:Usage:
+    :code:`CardStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CardStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/CardStereotypeFontName-zz.puml
+
+
+
+
+.. index:: CardStereotypeFontSize
+    pair: skinparam; CardStereotypeFontSize
+
+.. _CardStereotypeFontSize:
+
+.. container:: keyword
+
+    CardStereotypeFontSize
+
+
+:Usage:
+    :code:`CardStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CardStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/CardStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: CardStereotypeFontStyle
+    pair: skinparam; CardStereotypeFontStyle
+
+.. _CardStereotypeFontStyle:
+
+.. container:: keyword
+
+    CardStereotypeFontStyle
+
+
+:Usage:
+    :code:`CardStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CardStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/CardStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: CircledCharacterFontColor
+    pair: skinparam; CircledCharacterFontColor
+
+.. _CircledCharacterFontColor:
+
+.. container:: keyword
+
+    CircledCharacterFontColor
+
+
+:Usage:
+    :code:`CircledCharacterFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CircledCharacterFontColor zz`:
+
+    .. uml::  puml/sk-ex/CircledCharacterFontColor-zz.puml
+
+
+
+
+.. index:: CircledCharacterFontName
+    pair: skinparam; CircledCharacterFontName
+
+.. _CircledCharacterFontName:
+
+.. container:: keyword
+
+    CircledCharacterFontName
+
+
+:Usage:
+    :code:`CircledCharacterFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CircledCharacterFontName zz`:
+
+    .. uml::  puml/sk-ex/CircledCharacterFontName-zz.puml
+
+
+
+
+.. index:: CircledCharacterFontSize
+    pair: skinparam; CircledCharacterFontSize
+
+.. _CircledCharacterFontSize:
+
+.. container:: keyword
+
+    CircledCharacterFontSize
+
+
+:Usage:
+    :code:`CircledCharacterFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CircledCharacterFontSize zz`:
+
+    .. uml::  puml/sk-ex/CircledCharacterFontSize-zz.puml
+
+
+
+
+.. index:: CircledCharacterFontStyle
+    pair: skinparam; CircledCharacterFontStyle
+
+.. _CircledCharacterFontStyle:
+
+.. container:: keyword
+
+    CircledCharacterFontStyle
+
+
+:Usage:
+    :code:`CircledCharacterFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CircledCharacterFontStyle zz`:
+
+    .. uml::  puml/sk-ex/CircledCharacterFontStyle-zz.puml
+
+
+
+
+.. index:: CircledCharacterRadius
+    pair: skinparam; CircledCharacterRadius
+
+.. _CircledCharacterRadius:
+
+.. container:: keyword
+
+    CircledCharacterRadius
+
+
+:Usage:
+    :code:`CircledCharacterRadius zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CircledCharacterRadius zz`:
+
+    .. uml::  puml/sk-ex/CircledCharacterRadius-zz.puml
+
+
+
+
+.. index:: ClassAttributeFontColor
+    pair: skinparam; ClassAttributeFontColor
+
+.. _ClassAttributeFontColor:
+
+.. container:: keyword
+
+    ClassAttributeFontColor
+
+
+:Usage:
+    :code:`ClassAttributeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ClassAttributeFontColor zz`:
+
+    .. uml::  puml/sk-ex/ClassAttributeFontColor-zz.puml
+
+
+
+
+.. index:: ClassAttributeFontName
+    pair: skinparam; ClassAttributeFontName
+
+.. _ClassAttributeFontName:
+
+.. container:: keyword
+
+    ClassAttributeFontName
+
+
+:Usage:
+    :code:`ClassAttributeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ClassAttributeFontName zz`:
+
+    .. uml::  puml/sk-ex/ClassAttributeFontName-zz.puml
+
+
+
+
+.. index:: ClassAttributeFontSize
+    pair: skinparam; ClassAttributeFontSize
+
+.. _ClassAttributeFontSize:
+
+.. container:: keyword
+
+    ClassAttributeFontSize
+
+
+:Usage:
+    :code:`ClassAttributeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ClassAttributeFontSize zz`:
+
+    .. uml::  puml/sk-ex/ClassAttributeFontSize-zz.puml
+
+
+
+
+.. index:: ClassAttributeFontStyle
+    pair: skinparam; ClassAttributeFontStyle
+
+.. _ClassAttributeFontStyle:
+
+.. container:: keyword
+
+    ClassAttributeFontStyle
+
+
+:Usage:
+    :code:`ClassAttributeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ClassAttributeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/ClassAttributeFontStyle-zz.puml
+
+
+
+
+.. index:: ClassAttributeIconSize
+    pair: skinparam; ClassAttributeIconSize
+
+.. _ClassAttributeIconSize:
+
+.. container:: keyword
+
+    ClassAttributeIconSize
+
+
+:Usage:
+    :code:`ClassAttributeIconSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ClassAttributeIconSize zz`:
+
+    .. uml::  puml/sk-ex/ClassAttributeIconSize-zz.puml
+
+
+
+
+.. index:: ClassBackgroundColor
+    pair: skinparam; ClassBackgroundColor
+
+.. _ClassBackgroundColor:
+
+.. container:: keyword
+
+    ClassBackgroundColor
+
+
+:Usage:
+    :code:`ClassBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ClassBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/ClassBackgroundColor-zz.puml
+
+
+
+
+.. index:: ClassBorderColor
+    pair: skinparam; ClassBorderColor
+
+.. _ClassBorderColor:
+
+.. container:: keyword
+
+    ClassBorderColor
+
+
+:Usage:
+    :code:`ClassBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ClassBorderColor zz`:
+
+    .. uml::  puml/sk-ex/ClassBorderColor-zz.puml
+
+
+
+
+.. index:: ClassBorderThickness
+    pair: skinparam; ClassBorderThickness
+
+.. _ClassBorderThickness:
+
+.. container:: keyword
+
+    ClassBorderThickness
+
+
+:Usage:
+    :code:`ClassBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ClassBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/ClassBorderThickness-zz.puml
+
+
+
+
+.. index:: ClassFontColor
+    pair: skinparam; ClassFontColor
+
+.. _ClassFontColor:
+
+.. container:: keyword
+
+    ClassFontColor
+
+
+:Usage:
+    :code:`ClassFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ClassFontColor zz`:
+
+    .. uml::  puml/sk-ex/ClassFontColor-zz.puml
+
+
+
+
+.. index:: ClassFontName
+    pair: skinparam; ClassFontName
+
+.. _ClassFontName:
+
+.. container:: keyword
+
+    ClassFontName
+
+
+:Usage:
+    :code:`ClassFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ClassFontName zz`:
+
+    .. uml::  puml/sk-ex/ClassFontName-zz.puml
+
+
+
+
+.. index:: ClassFontSize
+    pair: skinparam; ClassFontSize
+
+.. _ClassFontSize:
+
+.. container:: keyword
+
+    ClassFontSize
+
+
+:Usage:
+    :code:`ClassFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ClassFontSize zz`:
+
+    .. uml::  puml/sk-ex/ClassFontSize-zz.puml
+
+
+
+
+.. index:: ClassFontStyle
+    pair: skinparam; ClassFontStyle
+
+.. _ClassFontStyle:
+
+.. container:: keyword
+
+    ClassFontStyle
+
+
+:Usage:
+    :code:`ClassFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ClassFontStyle zz`:
+
+    .. uml::  puml/sk-ex/ClassFontStyle-zz.puml
+
+
+
+
+.. index:: ClassHeaderBackgroundColor
+    pair: skinparam; ClassHeaderBackgroundColor
+
+.. _ClassHeaderBackgroundColor:
+
+.. container:: keyword
+
+    ClassHeaderBackgroundColor
+
+
+:Usage:
+    :code:`ClassHeaderBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ClassHeaderBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/ClassHeaderBackgroundColor-zz.puml
+
+
+
+
+.. index:: ClassStereotypeFontColor
+    pair: skinparam; ClassStereotypeFontColor
+
+.. _ClassStereotypeFontColor:
+
+.. container:: keyword
+
+    ClassStereotypeFontColor
+
+
+:Usage:
+    :code:`ClassStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ClassStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/ClassStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: ClassStereotypeFontName
+    pair: skinparam; ClassStereotypeFontName
+
+.. _ClassStereotypeFontName:
+
+.. container:: keyword
+
+    ClassStereotypeFontName
+
+
+:Usage:
+    :code:`ClassStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ClassStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/ClassStereotypeFontName-zz.puml
+
+
+
+
+.. index:: ClassStereotypeFontSize
+    pair: skinparam; ClassStereotypeFontSize
+
+.. _ClassStereotypeFontSize:
+
+.. container:: keyword
+
+    ClassStereotypeFontSize
+
+
+:Usage:
+    :code:`ClassStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ClassStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/ClassStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: ClassStereotypeFontStyle
+    pair: skinparam; ClassStereotypeFontStyle
+
+.. _ClassStereotypeFontStyle:
+
+.. container:: keyword
+
+    ClassStereotypeFontStyle
+
+
+:Usage:
+    :code:`ClassStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ClassStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/ClassStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: CloudBackgroundColor
+    pair: skinparam; CloudBackgroundColor
+
+.. _CloudBackgroundColor:
+
+.. container:: keyword
+
+    CloudBackgroundColor
+
+
+:Usage:
+    :code:`CloudBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CloudBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/CloudBackgroundColor-zz.puml
+
+
+
+
+.. index:: CloudBorderColor
+    pair: skinparam; CloudBorderColor
+
+.. _CloudBorderColor:
+
+.. container:: keyword
+
+    CloudBorderColor
+
+
+:Usage:
+    :code:`CloudBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CloudBorderColor zz`:
+
+    .. uml::  puml/sk-ex/CloudBorderColor-zz.puml
+
+
+
+
+.. index:: CloudFontColor
+    pair: skinparam; CloudFontColor
+
+.. _CloudFontColor:
+
+.. container:: keyword
+
+    CloudFontColor
+
+
+:Usage:
+    :code:`CloudFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CloudFontColor zz`:
+
+    .. uml::  puml/sk-ex/CloudFontColor-zz.puml
+
+
+
+
+.. index:: CloudFontName
+    pair: skinparam; CloudFontName
+
+.. _CloudFontName:
+
+.. container:: keyword
+
+    CloudFontName
+
+
+:Usage:
+    :code:`CloudFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CloudFontName zz`:
+
+    .. uml::  puml/sk-ex/CloudFontName-zz.puml
+
+
+
+
+.. index:: CloudFontSize
+    pair: skinparam; CloudFontSize
+
+.. _CloudFontSize:
+
+.. container:: keyword
+
+    CloudFontSize
+
+
+:Usage:
+    :code:`CloudFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CloudFontSize zz`:
+
+    .. uml::  puml/sk-ex/CloudFontSize-zz.puml
+
+
+
+
+.. index:: CloudFontStyle
+    pair: skinparam; CloudFontStyle
+
+.. _CloudFontStyle:
+
+.. container:: keyword
+
+    CloudFontStyle
+
+
+:Usage:
+    :code:`CloudFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CloudFontStyle zz`:
+
+    .. uml::  puml/sk-ex/CloudFontStyle-zz.puml
+
+
+
+
+.. index:: CloudStereotypeFontColor
+    pair: skinparam; CloudStereotypeFontColor
+
+.. _CloudStereotypeFontColor:
+
+.. container:: keyword
+
+    CloudStereotypeFontColor
+
+
+:Usage:
+    :code:`CloudStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CloudStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/CloudStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: CloudStereotypeFontName
+    pair: skinparam; CloudStereotypeFontName
+
+.. _CloudStereotypeFontName:
+
+.. container:: keyword
+
+    CloudStereotypeFontName
+
+
+:Usage:
+    :code:`CloudStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CloudStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/CloudStereotypeFontName-zz.puml
+
+
+
+
+.. index:: CloudStereotypeFontSize
+    pair: skinparam; CloudStereotypeFontSize
+
+.. _CloudStereotypeFontSize:
+
+.. container:: keyword
+
+    CloudStereotypeFontSize
+
+
+:Usage:
+    :code:`CloudStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CloudStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/CloudStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: CloudStereotypeFontStyle
+    pair: skinparam; CloudStereotypeFontStyle
+
+.. _CloudStereotypeFontStyle:
+
+.. container:: keyword
+
+    CloudStereotypeFontStyle
+
+
+:Usage:
+    :code:`CloudStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CloudStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/CloudStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: CollectionsBackgroundColor
+    pair: skinparam; CollectionsBackgroundColor
+
+.. _CollectionsBackgroundColor:
+
+.. container:: keyword
+
+    CollectionsBackgroundColor
+
+
+:Usage:
+    :code:`CollectionsBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CollectionsBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/CollectionsBackgroundColor-zz.puml
+
+
+
+
+.. index:: CollectionsBorderColor
+    pair: skinparam; CollectionsBorderColor
+
+.. _CollectionsBorderColor:
+
+.. container:: keyword
+
+    CollectionsBorderColor
+
+
+:Usage:
+    :code:`CollectionsBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`CollectionsBorderColor zz`:
+
+    .. uml::  puml/sk-ex/CollectionsBorderColor-zz.puml
+
+
+
+
+.. index:: ColorArrowSeparationSpace
+    pair: skinparam; ColorArrowSeparationSpace
+
+.. _ColorArrowSeparationSpace:
+
+.. container:: keyword
+
+    ColorArrowSeparationSpace
+
+
+:Usage:
+    :code:`ColorArrowSeparationSpace zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ColorArrowSeparationSpace zz`:
+
+    .. uml::  puml/sk-ex/ColorArrowSeparationSpace-zz.puml
+
+
+
+
+.. index:: ComponentBackgroundColor
+    pair: skinparam; ComponentBackgroundColor
+
+.. _ComponentBackgroundColor:
+
+.. container:: keyword
+
+    ComponentBackgroundColor
+
+
+:Usage:
+    :code:`ComponentBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ComponentBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/ComponentBackgroundColor-zz.puml
+
+
+
+
+.. index:: ComponentBorderColor
+    pair: skinparam; ComponentBorderColor
+
+.. _ComponentBorderColor:
+
+.. container:: keyword
+
+    ComponentBorderColor
+
+
+:Usage:
+    :code:`ComponentBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ComponentBorderColor zz`:
+
+    .. uml::  puml/sk-ex/ComponentBorderColor-zz.puml
+
+
+
+
+.. index:: ComponentBorderThickness
+    pair: skinparam; ComponentBorderThickness
+
+.. _ComponentBorderThickness:
+
+.. container:: keyword
+
+    ComponentBorderThickness
+
+
+:Usage:
+    :code:`ComponentBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ComponentBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/ComponentBorderThickness-zz.puml
+
+
+
+
+.. index:: ComponentFontColor
+    pair: skinparam; ComponentFontColor
+
+.. _ComponentFontColor:
+
+.. container:: keyword
+
+    ComponentFontColor
+
+
+:Usage:
+    :code:`ComponentFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ComponentFontColor zz`:
+
+    .. uml::  puml/sk-ex/ComponentFontColor-zz.puml
+
+
+
+
+.. index:: ComponentFontName
+    pair: skinparam; ComponentFontName
+
+.. _ComponentFontName:
+
+.. container:: keyword
+
+    ComponentFontName
+
+
+:Usage:
+    :code:`ComponentFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ComponentFontName zz`:
+
+    .. uml::  puml/sk-ex/ComponentFontName-zz.puml
+
+
+
+
+.. index:: ComponentFontSize
+    pair: skinparam; ComponentFontSize
+
+.. _ComponentFontSize:
+
+.. container:: keyword
+
+    ComponentFontSize
+
+
+:Usage:
+    :code:`ComponentFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ComponentFontSize zz`:
+
+    .. uml::  puml/sk-ex/ComponentFontSize-zz.puml
+
+
+
+
+.. index:: ComponentFontStyle
+    pair: skinparam; ComponentFontStyle
+
+.. _ComponentFontStyle:
+
+.. container:: keyword
+
+    ComponentFontStyle
+
+
+:Usage:
+    :code:`ComponentFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ComponentFontStyle zz`:
+
+    .. uml::  puml/sk-ex/ComponentFontStyle-zz.puml
+
+
+
+
+.. index:: ComponentStereotypeFontColor
+    pair: skinparam; ComponentStereotypeFontColor
+
+.. _ComponentStereotypeFontColor:
+
+.. container:: keyword
+
+    ComponentStereotypeFontColor
+
+
+:Usage:
+    :code:`ComponentStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ComponentStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/ComponentStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: ComponentStereotypeFontName
+    pair: skinparam; ComponentStereotypeFontName
+
+.. _ComponentStereotypeFontName:
+
+.. container:: keyword
+
+    ComponentStereotypeFontName
+
+
+:Usage:
+    :code:`ComponentStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ComponentStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/ComponentStereotypeFontName-zz.puml
+
+
+
+
+.. index:: ComponentStereotypeFontSize
+    pair: skinparam; ComponentStereotypeFontSize
+
+.. _ComponentStereotypeFontSize:
+
+.. container:: keyword
+
+    ComponentStereotypeFontSize
+
+
+:Usage:
+    :code:`ComponentStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ComponentStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/ComponentStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: ComponentStereotypeFontStyle
+    pair: skinparam; ComponentStereotypeFontStyle
+
+.. _ComponentStereotypeFontStyle:
+
+.. container:: keyword
+
+    ComponentStereotypeFontStyle
+
+
+:Usage:
+    :code:`ComponentStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ComponentStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/ComponentStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: ComponentStyle
+    pair: skinparam; ComponentStyle
+
+.. _ComponentStyle:
+
+.. container:: keyword
+
+    ComponentStyle
+
+
+:Usage:
+    :code:`ComponentStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ComponentStyle zz`:
+
+    .. uml::  puml/sk-ex/ComponentStyle-zz.puml
+
+
+
+
+.. index:: ConditionStyle
+    pair: skinparam; ConditionStyle
+
+.. _ConditionStyle:
+
+.. container:: keyword
+
+    ConditionStyle
+
+
+:Usage:
+    :code:`ConditionStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ConditionStyle zz`:
+
+    .. uml::  puml/sk-ex/ConditionStyle-zz.puml
+
+
+
+
+.. index:: ControlBackgroundColor
+    pair: skinparam; ControlBackgroundColor
+
+.. _ControlBackgroundColor:
+
+.. container:: keyword
+
+    ControlBackgroundColor
+
+
+:Usage:
+    :code:`ControlBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ControlBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/ControlBackgroundColor-zz.puml
+
+
+
+
+.. index:: ControlBorderColor
+    pair: skinparam; ControlBorderColor
+
+.. _ControlBorderColor:
+
+.. container:: keyword
+
+    ControlBorderColor
+
+
+:Usage:
+    :code:`ControlBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ControlBorderColor zz`:
+
+    .. uml::  puml/sk-ex/ControlBorderColor-zz.puml
+
+
+
+
+.. index:: ControlFontColor
+    pair: skinparam; ControlFontColor
+
+.. _ControlFontColor:
+
+.. container:: keyword
+
+    ControlFontColor
+
+
+:Usage:
+    :code:`ControlFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ControlFontColor zz`:
+
+    .. uml::  puml/sk-ex/ControlFontColor-zz.puml
+
+
+
+
+.. index:: ControlFontName
+    pair: skinparam; ControlFontName
+
+.. _ControlFontName:
+
+.. container:: keyword
+
+    ControlFontName
+
+
+:Usage:
+    :code:`ControlFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ControlFontName zz`:
+
+    .. uml::  puml/sk-ex/ControlFontName-zz.puml
+
+
+
+
+.. index:: ControlFontSize
+    pair: skinparam; ControlFontSize
+
+.. _ControlFontSize:
+
+.. container:: keyword
+
+    ControlFontSize
+
+
+:Usage:
+    :code:`ControlFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ControlFontSize zz`:
+
+    .. uml::  puml/sk-ex/ControlFontSize-zz.puml
+
+
+
+
+.. index:: ControlFontStyle
+    pair: skinparam; ControlFontStyle
+
+.. _ControlFontStyle:
+
+.. container:: keyword
+
+    ControlFontStyle
+
+
+:Usage:
+    :code:`ControlFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ControlFontStyle zz`:
+
+    .. uml::  puml/sk-ex/ControlFontStyle-zz.puml
+
+
+
+
+.. index:: ControlStereotypeFontColor
+    pair: skinparam; ControlStereotypeFontColor
+
+.. _ControlStereotypeFontColor:
+
+.. container:: keyword
+
+    ControlStereotypeFontColor
+
+
+:Usage:
+    :code:`ControlStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ControlStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/ControlStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: ControlStereotypeFontName
+    pair: skinparam; ControlStereotypeFontName
+
+.. _ControlStereotypeFontName:
+
+.. container:: keyword
+
+    ControlStereotypeFontName
+
+
+:Usage:
+    :code:`ControlStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ControlStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/ControlStereotypeFontName-zz.puml
+
+
+
+
+.. index:: ControlStereotypeFontSize
+    pair: skinparam; ControlStereotypeFontSize
+
+.. _ControlStereotypeFontSize:
+
+.. container:: keyword
+
+    ControlStereotypeFontSize
+
+
+:Usage:
+    :code:`ControlStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ControlStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/ControlStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: ControlStereotypeFontStyle
+    pair: skinparam; ControlStereotypeFontStyle
+
+.. _ControlStereotypeFontStyle:
+
+.. container:: keyword
+
+    ControlStereotypeFontStyle
+
+
+:Usage:
+    :code:`ControlStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ControlStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/ControlStereotypeFontStyle-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _D:
+
+--
+D
+--
+
+.. index:: DatabaseBackgroundColor
+    pair: skinparam; DatabaseBackgroundColor
+
+.. _DatabaseBackgroundColor:
+
+.. container:: keyword
+
+    DatabaseBackgroundColor
+
+
+:Usage:
+    :code:`DatabaseBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DatabaseBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/DatabaseBackgroundColor-zz.puml
+
+
+
+
+.. index:: DatabaseBorderColor
+    pair: skinparam; DatabaseBorderColor
+
+.. _DatabaseBorderColor:
+
+.. container:: keyword
+
+    DatabaseBorderColor
+
+
+:Usage:
+    :code:`DatabaseBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DatabaseBorderColor zz`:
+
+    .. uml::  puml/sk-ex/DatabaseBorderColor-zz.puml
+
+
+
+
+.. index:: DatabaseFontColor
+    pair: skinparam; DatabaseFontColor
+
+.. _DatabaseFontColor:
+
+.. container:: keyword
+
+    DatabaseFontColor
+
+
+:Usage:
+    :code:`DatabaseFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DatabaseFontColor zz`:
+
+    .. uml::  puml/sk-ex/DatabaseFontColor-zz.puml
+
+
+
+
+.. index:: DatabaseFontName
+    pair: skinparam; DatabaseFontName
+
+.. _DatabaseFontName:
+
+.. container:: keyword
+
+    DatabaseFontName
+
+
+:Usage:
+    :code:`DatabaseFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DatabaseFontName zz`:
+
+    .. uml::  puml/sk-ex/DatabaseFontName-zz.puml
+
+
+
+
+.. index:: DatabaseFontSize
+    pair: skinparam; DatabaseFontSize
+
+.. _DatabaseFontSize:
+
+.. container:: keyword
+
+    DatabaseFontSize
+
+
+:Usage:
+    :code:`DatabaseFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DatabaseFontSize zz`:
+
+    .. uml::  puml/sk-ex/DatabaseFontSize-zz.puml
+
+
+
+
+.. index:: DatabaseFontStyle
+    pair: skinparam; DatabaseFontStyle
+
+.. _DatabaseFontStyle:
+
+.. container:: keyword
+
+    DatabaseFontStyle
+
+
+:Usage:
+    :code:`DatabaseFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DatabaseFontStyle zz`:
+
+    .. uml::  puml/sk-ex/DatabaseFontStyle-zz.puml
+
+
+
+
+.. index:: DatabaseStereotypeFontColor
+    pair: skinparam; DatabaseStereotypeFontColor
+
+.. _DatabaseStereotypeFontColor:
+
+.. container:: keyword
+
+    DatabaseStereotypeFontColor
+
+
+:Usage:
+    :code:`DatabaseStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DatabaseStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/DatabaseStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: DatabaseStereotypeFontName
+    pair: skinparam; DatabaseStereotypeFontName
+
+.. _DatabaseStereotypeFontName:
+
+.. container:: keyword
+
+    DatabaseStereotypeFontName
+
+
+:Usage:
+    :code:`DatabaseStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DatabaseStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/DatabaseStereotypeFontName-zz.puml
+
+
+
+
+.. index:: DatabaseStereotypeFontSize
+    pair: skinparam; DatabaseStereotypeFontSize
+
+.. _DatabaseStereotypeFontSize:
+
+.. container:: keyword
+
+    DatabaseStereotypeFontSize
+
+
+:Usage:
+    :code:`DatabaseStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DatabaseStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/DatabaseStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: DatabaseStereotypeFontStyle
+    pair: skinparam; DatabaseStereotypeFontStyle
+
+.. _DatabaseStereotypeFontStyle:
+
+.. container:: keyword
+
+    DatabaseStereotypeFontStyle
+
+
+:Usage:
+    :code:`DatabaseStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DatabaseStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/DatabaseStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: DefaultFontColor
+    pair: skinparam; DefaultFontColor
+
+.. _DefaultFontColor:
+
+.. container:: keyword
+
+    DefaultFontColor
+
+
+:Usage:
+    :code:`DefaultFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DefaultFontColor zz`:
+
+    .. uml::  puml/sk-ex/DefaultFontColor-zz.puml
+
+
+
+
+.. index:: DefaultFontName
+    pair: skinparam; DefaultFontName
+
+.. _DefaultFontName:
+
+.. container:: keyword
+
+    DefaultFontName
+
+
+:Usage:
+    :code:`DefaultFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DefaultFontName zz`:
+
+    .. uml::  puml/sk-ex/DefaultFontName-zz.puml
+
+
+
+
+.. index:: DefaultFontSize
+    pair: skinparam; DefaultFontSize
+
+.. _DefaultFontSize:
+
+.. container:: keyword
+
+    DefaultFontSize
+
+
+:Usage:
+    :code:`DefaultFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DefaultFontSize zz`:
+
+    .. uml::  puml/sk-ex/DefaultFontSize-zz.puml
+
+
+
+
+.. index:: DefaultFontStyle
+    pair: skinparam; DefaultFontStyle
+
+.. _DefaultFontStyle:
+
+.. container:: keyword
+
+    DefaultFontStyle
+
+
+:Usage:
+    :code:`DefaultFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DefaultFontStyle zz`:
+
+    .. uml::  puml/sk-ex/DefaultFontStyle-zz.puml
+
+
+
+
+.. index:: DefaultMonospacedFontName
+    pair: skinparam; DefaultMonospacedFontName
+
+.. _DefaultMonospacedFontName:
+
+.. container:: keyword
+
+    DefaultMonospacedFontName
+
+
+:Usage:
+    :code:`DefaultMonospacedFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DefaultMonospacedFontName zz`:
+
+    .. uml::  puml/sk-ex/DefaultMonospacedFontName-zz.puml
+
+
+
+
+.. index:: DefaultTextAlignment
+    pair: skinparam; DefaultTextAlignment
+
+.. _DefaultTextAlignment:
+
+.. container:: keyword
+
+    DefaultTextAlignment
+
+
+:Usage:
+    :code:`DefaultTextAlignment zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DefaultTextAlignment zz`:
+
+    .. uml::  puml/sk-ex/DefaultTextAlignment-zz.puml
+
+
+
+
+.. index:: DesignedBackgroundColor
+    pair: skinparam; DesignedBackgroundColor
+
+.. _DesignedBackgroundColor:
+
+.. container:: keyword
+
+    DesignedBackgroundColor
+
+
+:Usage:
+    :code:`DesignedBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DesignedBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/DesignedBackgroundColor-zz.puml
+
+
+
+
+.. index:: DesignedBorderColor
+    pair: skinparam; DesignedBorderColor
+
+.. _DesignedBorderColor:
+
+.. container:: keyword
+
+    DesignedBorderColor
+
+
+:Usage:
+    :code:`DesignedBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DesignedBorderColor zz`:
+
+    .. uml::  puml/sk-ex/DesignedBorderColor-zz.puml
+
+
+
+
+.. index:: DesignedDomainBorderThickness
+    pair: skinparam; DesignedDomainBorderThickness
+
+.. _DesignedDomainBorderThickness:
+
+.. container:: keyword
+
+    DesignedDomainBorderThickness
+
+
+:Usage:
+    :code:`DesignedDomainBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DesignedDomainBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/DesignedDomainBorderThickness-zz.puml
+
+
+
+
+.. index:: DesignedDomainFontColor
+    pair: skinparam; DesignedDomainFontColor
+
+.. _DesignedDomainFontColor:
+
+.. container:: keyword
+
+    DesignedDomainFontColor
+
+
+:Usage:
+    :code:`DesignedDomainFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DesignedDomainFontColor zz`:
+
+    .. uml::  puml/sk-ex/DesignedDomainFontColor-zz.puml
+
+
+
+
+.. index:: DesignedDomainFontName
+    pair: skinparam; DesignedDomainFontName
+
+.. _DesignedDomainFontName:
+
+.. container:: keyword
+
+    DesignedDomainFontName
+
+
+:Usage:
+    :code:`DesignedDomainFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DesignedDomainFontName zz`:
+
+    .. uml::  puml/sk-ex/DesignedDomainFontName-zz.puml
+
+
+
+
+.. index:: DesignedDomainFontSize
+    pair: skinparam; DesignedDomainFontSize
+
+.. _DesignedDomainFontSize:
+
+.. container:: keyword
+
+    DesignedDomainFontSize
+
+
+:Usage:
+    :code:`DesignedDomainFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DesignedDomainFontSize zz`:
+
+    .. uml::  puml/sk-ex/DesignedDomainFontSize-zz.puml
+
+
+
+
+.. index:: DesignedDomainFontStyle
+    pair: skinparam; DesignedDomainFontStyle
+
+.. _DesignedDomainFontStyle:
+
+.. container:: keyword
+
+    DesignedDomainFontStyle
+
+
+:Usage:
+    :code:`DesignedDomainFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DesignedDomainFontStyle zz`:
+
+    .. uml::  puml/sk-ex/DesignedDomainFontStyle-zz.puml
+
+
+
+
+.. index:: DesignedDomainStereotypeFontColor
+    pair: skinparam; DesignedDomainStereotypeFontColor
+
+.. _DesignedDomainStereotypeFontColor:
+
+.. container:: keyword
+
+    DesignedDomainStereotypeFontColor
+
+
+:Usage:
+    :code:`DesignedDomainStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DesignedDomainStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/DesignedDomainStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: DesignedDomainStereotypeFontName
+    pair: skinparam; DesignedDomainStereotypeFontName
+
+.. _DesignedDomainStereotypeFontName:
+
+.. container:: keyword
+
+    DesignedDomainStereotypeFontName
+
+
+:Usage:
+    :code:`DesignedDomainStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DesignedDomainStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/DesignedDomainStereotypeFontName-zz.puml
+
+
+
+
+.. index:: DesignedDomainStereotypeFontSize
+    pair: skinparam; DesignedDomainStereotypeFontSize
+
+.. _DesignedDomainStereotypeFontSize:
+
+.. container:: keyword
+
+    DesignedDomainStereotypeFontSize
+
+
+:Usage:
+    :code:`DesignedDomainStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DesignedDomainStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/DesignedDomainStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: DesignedDomainStereotypeFontStyle
+    pair: skinparam; DesignedDomainStereotypeFontStyle
+
+.. _DesignedDomainStereotypeFontStyle:
+
+.. container:: keyword
+
+    DesignedDomainStereotypeFontStyle
+
+
+:Usage:
+    :code:`DesignedDomainStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DesignedDomainStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/DesignedDomainStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: DiagramBorderColor
+    pair: skinparam; DiagramBorderColor
+
+.. _DiagramBorderColor:
+
+.. container:: keyword
+
+    DiagramBorderColor
+
+
+:Usage:
+    :code:`DiagramBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DiagramBorderColor zz`:
+
+    .. uml::  puml/sk-ex/DiagramBorderColor-zz.puml
+
+
+
+
+.. index:: DiagramBorderThickness
+    pair: skinparam; DiagramBorderThickness
+
+.. _DiagramBorderThickness:
+
+.. container:: keyword
+
+    DiagramBorderThickness
+
+
+:Usage:
+    :code:`DiagramBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DiagramBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/DiagramBorderThickness-zz.puml
+
+
+
+
+.. index:: DomainBackgroundColor
+    pair: skinparam; DomainBackgroundColor
+
+.. _DomainBackgroundColor:
+
+.. container:: keyword
+
+    DomainBackgroundColor
+
+
+:Usage:
+    :code:`DomainBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DomainBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/DomainBackgroundColor-zz.puml
+
+
+
+
+.. index:: DomainBorderColor
+    pair: skinparam; DomainBorderColor
+
+.. _DomainBorderColor:
+
+.. container:: keyword
+
+    DomainBorderColor
+
+
+:Usage:
+    :code:`DomainBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DomainBorderColor zz`:
+
+    .. uml::  puml/sk-ex/DomainBorderColor-zz.puml
+
+
+
+
+.. index:: DomainBorderThickness
+    pair: skinparam; DomainBorderThickness
+
+.. _DomainBorderThickness:
+
+.. container:: keyword
+
+    DomainBorderThickness
+
+
+:Usage:
+    :code:`DomainBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DomainBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/DomainBorderThickness-zz.puml
+
+
+
+
+.. index:: DomainFontColor
+    pair: skinparam; DomainFontColor
+
+.. _DomainFontColor:
+
+.. container:: keyword
+
+    DomainFontColor
+
+
+:Usage:
+    :code:`DomainFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DomainFontColor zz`:
+
+    .. uml::  puml/sk-ex/DomainFontColor-zz.puml
+
+
+
+
+.. index:: DomainFontName
+    pair: skinparam; DomainFontName
+
+.. _DomainFontName:
+
+.. container:: keyword
+
+    DomainFontName
+
+
+:Usage:
+    :code:`DomainFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DomainFontName zz`:
+
+    .. uml::  puml/sk-ex/DomainFontName-zz.puml
+
+
+
+
+.. index:: DomainFontSize
+    pair: skinparam; DomainFontSize
+
+.. _DomainFontSize:
+
+.. container:: keyword
+
+    DomainFontSize
+
+
+:Usage:
+    :code:`DomainFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DomainFontSize zz`:
+
+    .. uml::  puml/sk-ex/DomainFontSize-zz.puml
+
+
+
+
+.. index:: DomainFontStyle
+    pair: skinparam; DomainFontStyle
+
+.. _DomainFontStyle:
+
+.. container:: keyword
+
+    DomainFontStyle
+
+
+:Usage:
+    :code:`DomainFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DomainFontStyle zz`:
+
+    .. uml::  puml/sk-ex/DomainFontStyle-zz.puml
+
+
+
+
+.. index:: DomainStereotypeFontColor
+    pair: skinparam; DomainStereotypeFontColor
+
+.. _DomainStereotypeFontColor:
+
+.. container:: keyword
+
+    DomainStereotypeFontColor
+
+
+:Usage:
+    :code:`DomainStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DomainStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/DomainStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: DomainStereotypeFontName
+    pair: skinparam; DomainStereotypeFontName
+
+.. _DomainStereotypeFontName:
+
+.. container:: keyword
+
+    DomainStereotypeFontName
+
+
+:Usage:
+    :code:`DomainStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DomainStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/DomainStereotypeFontName-zz.puml
+
+
+
+
+.. index:: DomainStereotypeFontSize
+    pair: skinparam; DomainStereotypeFontSize
+
+.. _DomainStereotypeFontSize:
+
+.. container:: keyword
+
+    DomainStereotypeFontSize
+
+
+:Usage:
+    :code:`DomainStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DomainStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/DomainStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: DomainStereotypeFontStyle
+    pair: skinparam; DomainStereotypeFontStyle
+
+.. _DomainStereotypeFontStyle:
+
+.. container:: keyword
+
+    DomainStereotypeFontStyle
+
+
+:Usage:
+    :code:`DomainStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`DomainStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/DomainStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: Dpi
+    pair: skinparam; Dpi
+
+.. _Dpi:
+
+.. container:: keyword
+
+    Dpi
+
+
+:Usage:
+    :code:`Dpi zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`Dpi zz`:
+
+    .. uml::  puml/sk-ex/Dpi-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _E:
+
+--
+E
+--
+
+.. index:: EntityBackgroundColor
+    pair: skinparam; EntityBackgroundColor
+
+.. _EntityBackgroundColor:
+
+.. container:: keyword
+
+    EntityBackgroundColor
+
+
+:Usage:
+    :code:`EntityBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`EntityBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/EntityBackgroundColor-zz.puml
+
+
+
+
+.. index:: EntityBorderColor
+    pair: skinparam; EntityBorderColor
+
+.. _EntityBorderColor:
+
+.. container:: keyword
+
+    EntityBorderColor
+
+
+:Usage:
+    :code:`EntityBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`EntityBorderColor zz`:
+
+    .. uml::  puml/sk-ex/EntityBorderColor-zz.puml
+
+
+
+
+.. index:: EntityFontColor
+    pair: skinparam; EntityFontColor
+
+.. _EntityFontColor:
+
+.. container:: keyword
+
+    EntityFontColor
+
+
+:Usage:
+    :code:`EntityFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`EntityFontColor zz`:
+
+    .. uml::  puml/sk-ex/EntityFontColor-zz.puml
+
+
+
+
+.. index:: EntityFontName
+    pair: skinparam; EntityFontName
+
+.. _EntityFontName:
+
+.. container:: keyword
+
+    EntityFontName
+
+
+:Usage:
+    :code:`EntityFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`EntityFontName zz`:
+
+    .. uml::  puml/sk-ex/EntityFontName-zz.puml
+
+
+
+
+.. index:: EntityFontSize
+    pair: skinparam; EntityFontSize
+
+.. _EntityFontSize:
+
+.. container:: keyword
+
+    EntityFontSize
+
+
+:Usage:
+    :code:`EntityFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`EntityFontSize zz`:
+
+    .. uml::  puml/sk-ex/EntityFontSize-zz.puml
+
+
+
+
+.. index:: EntityFontStyle
+    pair: skinparam; EntityFontStyle
+
+.. _EntityFontStyle:
+
+.. container:: keyword
+
+    EntityFontStyle
+
+
+:Usage:
+    :code:`EntityFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`EntityFontStyle zz`:
+
+    .. uml::  puml/sk-ex/EntityFontStyle-zz.puml
+
+
+
+
+.. index:: EntityStereotypeFontColor
+    pair: skinparam; EntityStereotypeFontColor
+
+.. _EntityStereotypeFontColor:
+
+.. container:: keyword
+
+    EntityStereotypeFontColor
+
+
+:Usage:
+    :code:`EntityStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`EntityStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/EntityStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: EntityStereotypeFontName
+    pair: skinparam; EntityStereotypeFontName
+
+.. _EntityStereotypeFontName:
+
+.. container:: keyword
+
+    EntityStereotypeFontName
+
+
+:Usage:
+    :code:`EntityStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`EntityStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/EntityStereotypeFontName-zz.puml
+
+
+
+
+.. index:: EntityStereotypeFontSize
+    pair: skinparam; EntityStereotypeFontSize
+
+.. _EntityStereotypeFontSize:
+
+.. container:: keyword
+
+    EntityStereotypeFontSize
+
+
+:Usage:
+    :code:`EntityStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`EntityStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/EntityStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: EntityStereotypeFontStyle
+    pair: skinparam; EntityStereotypeFontStyle
+
+.. _EntityStereotypeFontStyle:
+
+.. container:: keyword
+
+    EntityStereotypeFontStyle
+
+
+:Usage:
+    :code:`EntityStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`EntityStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/EntityStereotypeFontStyle-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _F:
+
+--
+F
+--
+
+.. index:: FileBackgroundColor
+    pair: skinparam; FileBackgroundColor
+
+.. _FileBackgroundColor:
+
+.. container:: keyword
+
+    FileBackgroundColor
+
+
+:Usage:
+    :code:`FileBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FileBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/FileBackgroundColor-zz.puml
+
+
+
+
+.. index:: FileBorderColor
+    pair: skinparam; FileBorderColor
+
+.. _FileBorderColor:
+
+.. container:: keyword
+
+    FileBorderColor
+
+
+:Usage:
+    :code:`FileBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FileBorderColor zz`:
+
+    .. uml::  puml/sk-ex/FileBorderColor-zz.puml
+
+
+
+
+.. index:: FileFontColor
+    pair: skinparam; FileFontColor
+
+.. _FileFontColor:
+
+.. container:: keyword
+
+    FileFontColor
+
+
+:Usage:
+    :code:`FileFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FileFontColor zz`:
+
+    .. uml::  puml/sk-ex/FileFontColor-zz.puml
+
+
+
+
+.. index:: FileFontName
+    pair: skinparam; FileFontName
+
+.. _FileFontName:
+
+.. container:: keyword
+
+    FileFontName
+
+
+:Usage:
+    :code:`FileFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FileFontName zz`:
+
+    .. uml::  puml/sk-ex/FileFontName-zz.puml
+
+
+
+
+.. index:: FileFontSize
+    pair: skinparam; FileFontSize
+
+.. _FileFontSize:
+
+.. container:: keyword
+
+    FileFontSize
+
+
+:Usage:
+    :code:`FileFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FileFontSize zz`:
+
+    .. uml::  puml/sk-ex/FileFontSize-zz.puml
+
+
+
+
+.. index:: FileFontStyle
+    pair: skinparam; FileFontStyle
+
+.. _FileFontStyle:
+
+.. container:: keyword
+
+    FileFontStyle
+
+
+:Usage:
+    :code:`FileFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FileFontStyle zz`:
+
+    .. uml::  puml/sk-ex/FileFontStyle-zz.puml
+
+
+
+
+.. index:: FileStereotypeFontColor
+    pair: skinparam; FileStereotypeFontColor
+
+.. _FileStereotypeFontColor:
+
+.. container:: keyword
+
+    FileStereotypeFontColor
+
+
+:Usage:
+    :code:`FileStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FileStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/FileStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: FileStereotypeFontName
+    pair: skinparam; FileStereotypeFontName
+
+.. _FileStereotypeFontName:
+
+.. container:: keyword
+
+    FileStereotypeFontName
+
+
+:Usage:
+    :code:`FileStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FileStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/FileStereotypeFontName-zz.puml
+
+
+
+
+.. index:: FileStereotypeFontSize
+    pair: skinparam; FileStereotypeFontSize
+
+.. _FileStereotypeFontSize:
+
+.. container:: keyword
+
+    FileStereotypeFontSize
+
+
+:Usage:
+    :code:`FileStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FileStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/FileStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: FileStereotypeFontStyle
+    pair: skinparam; FileStereotypeFontStyle
+
+.. _FileStereotypeFontStyle:
+
+.. container:: keyword
+
+    FileStereotypeFontStyle
+
+
+:Usage:
+    :code:`FileStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FileStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/FileStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: FolderBackgroundColor
+    pair: skinparam; FolderBackgroundColor
+
+.. _FolderBackgroundColor:
+
+.. container:: keyword
+
+    FolderBackgroundColor
+
+
+:Usage:
+    :code:`FolderBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FolderBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/FolderBackgroundColor-zz.puml
+
+
+
+
+.. index:: FolderBorderColor
+    pair: skinparam; FolderBorderColor
+
+.. _FolderBorderColor:
+
+.. container:: keyword
+
+    FolderBorderColor
+
+
+:Usage:
+    :code:`FolderBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FolderBorderColor zz`:
+
+    .. uml::  puml/sk-ex/FolderBorderColor-zz.puml
+
+
+
+
+.. index:: FolderFontColor
+    pair: skinparam; FolderFontColor
+
+.. _FolderFontColor:
+
+.. container:: keyword
+
+    FolderFontColor
+
+
+:Usage:
+    :code:`FolderFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FolderFontColor zz`:
+
+    .. uml::  puml/sk-ex/FolderFontColor-zz.puml
+
+
+
+
+.. index:: FolderFontName
+    pair: skinparam; FolderFontName
+
+.. _FolderFontName:
+
+.. container:: keyword
+
+    FolderFontName
+
+
+:Usage:
+    :code:`FolderFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FolderFontName zz`:
+
+    .. uml::  puml/sk-ex/FolderFontName-zz.puml
+
+
+
+
+.. index:: FolderFontSize
+    pair: skinparam; FolderFontSize
+
+.. _FolderFontSize:
+
+.. container:: keyword
+
+    FolderFontSize
+
+
+:Usage:
+    :code:`FolderFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FolderFontSize zz`:
+
+    .. uml::  puml/sk-ex/FolderFontSize-zz.puml
+
+
+
+
+.. index:: FolderFontStyle
+    pair: skinparam; FolderFontStyle
+
+.. _FolderFontStyle:
+
+.. container:: keyword
+
+    FolderFontStyle
+
+
+:Usage:
+    :code:`FolderFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FolderFontStyle zz`:
+
+    .. uml::  puml/sk-ex/FolderFontStyle-zz.puml
+
+
+
+
+.. index:: FolderStereotypeFontColor
+    pair: skinparam; FolderStereotypeFontColor
+
+.. _FolderStereotypeFontColor:
+
+.. container:: keyword
+
+    FolderStereotypeFontColor
+
+
+:Usage:
+    :code:`FolderStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FolderStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/FolderStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: FolderStereotypeFontName
+    pair: skinparam; FolderStereotypeFontName
+
+.. _FolderStereotypeFontName:
+
+.. container:: keyword
+
+    FolderStereotypeFontName
+
+
+:Usage:
+    :code:`FolderStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FolderStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/FolderStereotypeFontName-zz.puml
+
+
+
+
+.. index:: FolderStereotypeFontSize
+    pair: skinparam; FolderStereotypeFontSize
+
+.. _FolderStereotypeFontSize:
+
+.. container:: keyword
+
+    FolderStereotypeFontSize
+
+
+:Usage:
+    :code:`FolderStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FolderStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/FolderStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: FolderStereotypeFontStyle
+    pair: skinparam; FolderStereotypeFontStyle
+
+.. _FolderStereotypeFontStyle:
+
+.. container:: keyword
+
+    FolderStereotypeFontStyle
+
+
+:Usage:
+    :code:`FolderStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FolderStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/FolderStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: FooterFontColor
+    pair: skinparam; FooterFontColor
+
+.. _FooterFontColor:
+
+.. container:: keyword
+
+    FooterFontColor
+
+
+:Usage:
+    :code:`FooterFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FooterFontColor zz`:
+
+    .. uml::  puml/sk-ex/FooterFontColor-zz.puml
+
+
+
+
+.. index:: FooterFontName
+    pair: skinparam; FooterFontName
+
+.. _FooterFontName:
+
+.. container:: keyword
+
+    FooterFontName
+
+
+:Usage:
+    :code:`FooterFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FooterFontName zz`:
+
+    .. uml::  puml/sk-ex/FooterFontName-zz.puml
+
+
+
+
+.. index:: FooterFontSize
+    pair: skinparam; FooterFontSize
+
+.. _FooterFontSize:
+
+.. container:: keyword
+
+    FooterFontSize
+
+
+:Usage:
+    :code:`FooterFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FooterFontSize zz`:
+
+    .. uml::  puml/sk-ex/FooterFontSize-zz.puml
+
+
+
+
+.. index:: FooterFontStyle
+    pair: skinparam; FooterFontStyle
+
+.. _FooterFontStyle:
+
+.. container:: keyword
+
+    FooterFontStyle
+
+
+:Usage:
+    :code:`FooterFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FooterFontStyle zz`:
+
+    .. uml::  puml/sk-ex/FooterFontStyle-zz.puml
+
+
+
+
+.. index:: FrameBackgroundColor
+    pair: skinparam; FrameBackgroundColor
+
+.. _FrameBackgroundColor:
+
+.. container:: keyword
+
+    FrameBackgroundColor
+
+
+:Usage:
+    :code:`FrameBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FrameBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/FrameBackgroundColor-zz.puml
+
+
+
+
+.. index:: FrameBorderColor
+    pair: skinparam; FrameBorderColor
+
+.. _FrameBorderColor:
+
+.. container:: keyword
+
+    FrameBorderColor
+
+
+:Usage:
+    :code:`FrameBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FrameBorderColor zz`:
+
+    .. uml::  puml/sk-ex/FrameBorderColor-zz.puml
+
+
+
+
+.. index:: FrameFontColor
+    pair: skinparam; FrameFontColor
+
+.. _FrameFontColor:
+
+.. container:: keyword
+
+    FrameFontColor
+
+
+:Usage:
+    :code:`FrameFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FrameFontColor zz`:
+
+    .. uml::  puml/sk-ex/FrameFontColor-zz.puml
+
+
+
+
+.. index:: FrameFontName
+    pair: skinparam; FrameFontName
+
+.. _FrameFontName:
+
+.. container:: keyword
+
+    FrameFontName
+
+
+:Usage:
+    :code:`FrameFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FrameFontName zz`:
+
+    .. uml::  puml/sk-ex/FrameFontName-zz.puml
+
+
+
+
+.. index:: FrameFontSize
+    pair: skinparam; FrameFontSize
+
+.. _FrameFontSize:
+
+.. container:: keyword
+
+    FrameFontSize
+
+
+:Usage:
+    :code:`FrameFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FrameFontSize zz`:
+
+    .. uml::  puml/sk-ex/FrameFontSize-zz.puml
+
+
+
+
+.. index:: FrameFontStyle
+    pair: skinparam; FrameFontStyle
+
+.. _FrameFontStyle:
+
+.. container:: keyword
+
+    FrameFontStyle
+
+
+:Usage:
+    :code:`FrameFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FrameFontStyle zz`:
+
+    .. uml::  puml/sk-ex/FrameFontStyle-zz.puml
+
+
+
+
+.. index:: FrameStereotypeFontColor
+    pair: skinparam; FrameStereotypeFontColor
+
+.. _FrameStereotypeFontColor:
+
+.. container:: keyword
+
+    FrameStereotypeFontColor
+
+
+:Usage:
+    :code:`FrameStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FrameStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/FrameStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: FrameStereotypeFontName
+    pair: skinparam; FrameStereotypeFontName
+
+.. _FrameStereotypeFontName:
+
+.. container:: keyword
+
+    FrameStereotypeFontName
+
+
+:Usage:
+    :code:`FrameStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FrameStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/FrameStereotypeFontName-zz.puml
+
+
+
+
+.. index:: FrameStereotypeFontSize
+    pair: skinparam; FrameStereotypeFontSize
+
+.. _FrameStereotypeFontSize:
+
+.. container:: keyword
+
+    FrameStereotypeFontSize
+
+
+:Usage:
+    :code:`FrameStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FrameStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/FrameStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: FrameStereotypeFontStyle
+    pair: skinparam; FrameStereotypeFontStyle
+
+.. _FrameStereotypeFontStyle:
+
+.. container:: keyword
+
+    FrameStereotypeFontStyle
+
+
+:Usage:
+    :code:`FrameStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`FrameStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/FrameStereotypeFontStyle-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _G:
+
+--
+G
+--
+
+.. index:: GenericDisplay
+    pair: skinparam; GenericDisplay
+
+.. _GenericDisplay:
+
+.. container:: keyword
+
+    GenericDisplay
+
+
+:Usage:
+    :code:`GenericDisplay zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`GenericDisplay zz`:
+
+    .. uml::  puml/sk-ex/GenericDisplay-zz.puml
+
+
+
+
+.. index:: Guillemet
+    pair: skinparam; Guillemet
+
+.. _Guillemet:
+
+.. container:: keyword
+
+    Guillemet
+
+
+:Usage:
+    :code:`Guillemet zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`Guillemet zz`:
+
+    .. uml::  puml/sk-ex/Guillemet-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _H:
+
+--
+H
+--
+
+.. index:: Handwritten
+    pair: skinparam; Handwritten
+
+.. _Handwritten:
+
+.. container:: keyword
+
+    Handwritten
+
+
+:Usage:
+    :code:`Handwritten zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`Handwritten zz`:
+
+    .. uml::  puml/sk-ex/Handwritten-zz.puml
+
+
+
+
+.. index:: HeaderFontColor
+    pair: skinparam; HeaderFontColor
+
+.. _HeaderFontColor:
+
+.. container:: keyword
+
+    HeaderFontColor
+
+
+:Usage:
+    :code:`HeaderFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`HeaderFontColor zz`:
+
+    .. uml::  puml/sk-ex/HeaderFontColor-zz.puml
+
+
+
+
+.. index:: HeaderFontName
+    pair: skinparam; HeaderFontName
+
+.. _HeaderFontName:
+
+.. container:: keyword
+
+    HeaderFontName
+
+
+:Usage:
+    :code:`HeaderFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`HeaderFontName zz`:
+
+    .. uml::  puml/sk-ex/HeaderFontName-zz.puml
+
+
+
+
+.. index:: HeaderFontSize
+    pair: skinparam; HeaderFontSize
+
+.. _HeaderFontSize:
+
+.. container:: keyword
+
+    HeaderFontSize
+
+
+:Usage:
+    :code:`HeaderFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`HeaderFontSize zz`:
+
+    .. uml::  puml/sk-ex/HeaderFontSize-zz.puml
+
+
+
+
+.. index:: HeaderFontStyle
+    pair: skinparam; HeaderFontStyle
+
+.. _HeaderFontStyle:
+
+.. container:: keyword
+
+    HeaderFontStyle
+
+
+:Usage:
+    :code:`HeaderFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`HeaderFontStyle zz`:
+
+    .. uml::  puml/sk-ex/HeaderFontStyle-zz.puml
+
+
+
+
+.. index:: HyperlinkColor
+    pair: skinparam; HyperlinkColor
+
+.. _HyperlinkColor:
+
+.. container:: keyword
+
+    HyperlinkColor
+
+
+:Usage:
+    :code:`HyperlinkColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`HyperlinkColor zz`:
+
+    .. uml::  puml/sk-ex/HyperlinkColor-zz.puml
+
+
+
+
+.. index:: HyperlinkUnderline
+    pair: skinparam; HyperlinkUnderline
+
+.. _HyperlinkUnderline:
+
+.. container:: keyword
+
+    HyperlinkUnderline
+
+
+:Usage:
+    :code:`HyperlinkUnderline zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`HyperlinkUnderline zz`:
+
+    .. uml::  puml/sk-ex/HyperlinkUnderline-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _I:
+
+--
+I
+--
+
+.. index:: IconIEMandatoryColor
+    pair: skinparam; IconIEMandatoryColor
+
+.. _IconIEMandatoryColor:
+
+.. container:: keyword
+
+    IconIEMandatoryColor
+
+
+:Usage:
+    :code:`IconIEMandatoryColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`IconIEMandatoryColor zz`:
+
+    .. uml::  puml/sk-ex/IconIEMandatoryColor-zz.puml
+
+
+
+
+.. index:: IconPackageBackgroundColor
+    pair: skinparam; IconPackageBackgroundColor
+
+.. _IconPackageBackgroundColor:
+
+.. container:: keyword
+
+    IconPackageBackgroundColor
+
+
+:Usage:
+    :code:`IconPackageBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`IconPackageBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/IconPackageBackgroundColor-zz.puml
+
+
+
+
+.. index:: IconPackageColor
+    pair: skinparam; IconPackageColor
+
+.. _IconPackageColor:
+
+.. container:: keyword
+
+    IconPackageColor
+
+
+:Usage:
+    :code:`IconPackageColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`IconPackageColor zz`:
+
+    .. uml::  puml/sk-ex/IconPackageColor-zz.puml
+
+
+
+
+.. index:: IconPrivateBackgroundColor
+    pair: skinparam; IconPrivateBackgroundColor
+
+.. _IconPrivateBackgroundColor:
+
+.. container:: keyword
+
+    IconPrivateBackgroundColor
+
+
+:Usage:
+    :code:`IconPrivateBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`IconPrivateBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/IconPrivateBackgroundColor-zz.puml
+
+
+
+
+.. index:: IconPrivateColor
+    pair: skinparam; IconPrivateColor
+
+.. _IconPrivateColor:
+
+.. container:: keyword
+
+    IconPrivateColor
+
+
+:Usage:
+    :code:`IconPrivateColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`IconPrivateColor zz`:
+
+    .. uml::  puml/sk-ex/IconPrivateColor-zz.puml
+
+
+
+
+.. index:: IconProtectedBackgroundColor
+    pair: skinparam; IconProtectedBackgroundColor
+
+.. _IconProtectedBackgroundColor:
+
+.. container:: keyword
+
+    IconProtectedBackgroundColor
+
+
+:Usage:
+    :code:`IconProtectedBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`IconProtectedBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/IconProtectedBackgroundColor-zz.puml
+
+
+
+
+.. index:: IconProtectedColor
+    pair: skinparam; IconProtectedColor
+
+.. _IconProtectedColor:
+
+.. container:: keyword
+
+    IconProtectedColor
+
+
+:Usage:
+    :code:`IconProtectedColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`IconProtectedColor zz`:
+
+    .. uml::  puml/sk-ex/IconProtectedColor-zz.puml
+
+
+
+
+.. index:: IconPublicBackgroundColor
+    pair: skinparam; IconPublicBackgroundColor
+
+.. _IconPublicBackgroundColor:
+
+.. container:: keyword
+
+    IconPublicBackgroundColor
+
+
+:Usage:
+    :code:`IconPublicBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`IconPublicBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/IconPublicBackgroundColor-zz.puml
+
+
+
+
+.. index:: IconPublicColor
+    pair: skinparam; IconPublicColor
+
+.. _IconPublicColor:
+
+.. container:: keyword
+
+    IconPublicColor
+
+
+:Usage:
+    :code:`IconPublicColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`IconPublicColor zz`:
+
+    .. uml::  puml/sk-ex/IconPublicColor-zz.puml
+
+
+
+
+.. index:: InterfaceBackgroundColor
+    pair: skinparam; InterfaceBackgroundColor
+
+.. _InterfaceBackgroundColor:
+
+.. container:: keyword
+
+    InterfaceBackgroundColor
+
+
+:Usage:
+    :code:`InterfaceBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`InterfaceBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/InterfaceBackgroundColor-zz.puml
+
+
+
+
+.. index:: InterfaceBorderColor
+    pair: skinparam; InterfaceBorderColor
+
+.. _InterfaceBorderColor:
+
+.. container:: keyword
+
+    InterfaceBorderColor
+
+
+:Usage:
+    :code:`InterfaceBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`InterfaceBorderColor zz`:
+
+    .. uml::  puml/sk-ex/InterfaceBorderColor-zz.puml
+
+
+
+
+.. index:: InterfaceFontColor
+    pair: skinparam; InterfaceFontColor
+
+.. _InterfaceFontColor:
+
+.. container:: keyword
+
+    InterfaceFontColor
+
+
+:Usage:
+    :code:`InterfaceFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`InterfaceFontColor zz`:
+
+    .. uml::  puml/sk-ex/InterfaceFontColor-zz.puml
+
+
+
+
+.. index:: InterfaceFontName
+    pair: skinparam; InterfaceFontName
+
+.. _InterfaceFontName:
+
+.. container:: keyword
+
+    InterfaceFontName
+
+
+:Usage:
+    :code:`InterfaceFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`InterfaceFontName zz`:
+
+    .. uml::  puml/sk-ex/InterfaceFontName-zz.puml
+
+
+
+
+.. index:: InterfaceFontSize
+    pair: skinparam; InterfaceFontSize
+
+.. _InterfaceFontSize:
+
+.. container:: keyword
+
+    InterfaceFontSize
+
+
+:Usage:
+    :code:`InterfaceFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`InterfaceFontSize zz`:
+
+    .. uml::  puml/sk-ex/InterfaceFontSize-zz.puml
+
+
+
+
+.. index:: InterfaceFontStyle
+    pair: skinparam; InterfaceFontStyle
+
+.. _InterfaceFontStyle:
+
+.. container:: keyword
+
+    InterfaceFontStyle
+
+
+:Usage:
+    :code:`InterfaceFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`InterfaceFontStyle zz`:
+
+    .. uml::  puml/sk-ex/InterfaceFontStyle-zz.puml
+
+
+
+
+.. index:: InterfaceStereotypeFontColor
+    pair: skinparam; InterfaceStereotypeFontColor
+
+.. _InterfaceStereotypeFontColor:
+
+.. container:: keyword
+
+    InterfaceStereotypeFontColor
+
+
+:Usage:
+    :code:`InterfaceStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`InterfaceStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/InterfaceStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: InterfaceStereotypeFontName
+    pair: skinparam; InterfaceStereotypeFontName
+
+.. _InterfaceStereotypeFontName:
+
+.. container:: keyword
+
+    InterfaceStereotypeFontName
+
+
+:Usage:
+    :code:`InterfaceStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`InterfaceStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/InterfaceStereotypeFontName-zz.puml
+
+
+
+
+.. index:: InterfaceStereotypeFontSize
+    pair: skinparam; InterfaceStereotypeFontSize
+
+.. _InterfaceStereotypeFontSize:
+
+.. container:: keyword
+
+    InterfaceStereotypeFontSize
+
+
+:Usage:
+    :code:`InterfaceStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`InterfaceStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/InterfaceStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: InterfaceStereotypeFontStyle
+    pair: skinparam; InterfaceStereotypeFontStyle
+
+.. _InterfaceStereotypeFontStyle:
+
+.. container:: keyword
+
+    InterfaceStereotypeFontStyle
+
+
+:Usage:
+    :code:`InterfaceStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`InterfaceStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/InterfaceStereotypeFontStyle-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _L:
+
+--
+L
+--
+
+.. index:: LegendBackgroundColor
+    pair: skinparam; LegendBackgroundColor
+
+.. _LegendBackgroundColor:
+
+.. container:: keyword
+
+    LegendBackgroundColor
+
+
+:Usage:
+    :code:`LegendBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`LegendBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/LegendBackgroundColor-zz.puml
+
+
+
+
+.. index:: LegendBorderColor
+    pair: skinparam; LegendBorderColor
+
+.. _LegendBorderColor:
+
+.. container:: keyword
+
+    LegendBorderColor
+
+
+:Usage:
+    :code:`LegendBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`LegendBorderColor zz`:
+
+    .. uml::  puml/sk-ex/LegendBorderColor-zz.puml
+
+
+
+
+.. index:: LegendBorderThickness
+    pair: skinparam; LegendBorderThickness
+
+.. _LegendBorderThickness:
+
+.. container:: keyword
+
+    LegendBorderThickness
+
+
+:Usage:
+    :code:`LegendBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`LegendBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/LegendBorderThickness-zz.puml
+
+
+
+
+.. index:: LegendFontColor
+    pair: skinparam; LegendFontColor
+
+.. _LegendFontColor:
+
+.. container:: keyword
+
+    LegendFontColor
+
+
+:Usage:
+    :code:`LegendFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`LegendFontColor zz`:
+
+    .. uml::  puml/sk-ex/LegendFontColor-zz.puml
+
+
+
+
+.. index:: LegendFontName
+    pair: skinparam; LegendFontName
+
+.. _LegendFontName:
+
+.. container:: keyword
+
+    LegendFontName
+
+
+:Usage:
+    :code:`LegendFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`LegendFontName zz`:
+
+    .. uml::  puml/sk-ex/LegendFontName-zz.puml
+
+
+
+
+.. index:: LegendFontSize
+    pair: skinparam; LegendFontSize
+
+.. _LegendFontSize:
+
+.. container:: keyword
+
+    LegendFontSize
+
+
+:Usage:
+    :code:`LegendFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`LegendFontSize zz`:
+
+    .. uml::  puml/sk-ex/LegendFontSize-zz.puml
+
+
+
+
+.. index:: LegendFontStyle
+    pair: skinparam; LegendFontStyle
+
+.. _LegendFontStyle:
+
+.. container:: keyword
+
+    LegendFontStyle
+
+
+:Usage:
+    :code:`LegendFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`LegendFontStyle zz`:
+
+    .. uml::  puml/sk-ex/LegendFontStyle-zz.puml
+
+
+
+
+.. index:: LexicalBackgroundColor
+    pair: skinparam; LexicalBackgroundColor
+
+.. _LexicalBackgroundColor:
+
+.. container:: keyword
+
+    LexicalBackgroundColor
+
+
+:Usage:
+    :code:`LexicalBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`LexicalBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/LexicalBackgroundColor-zz.puml
+
+
+
+
+.. index:: LexicalBorderColor
+    pair: skinparam; LexicalBorderColor
+
+.. _LexicalBorderColor:
+
+.. container:: keyword
+
+    LexicalBorderColor
+
+
+:Usage:
+    :code:`LexicalBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`LexicalBorderColor zz`:
+
+    .. uml::  puml/sk-ex/LexicalBorderColor-zz.puml
+
+
+
+
+.. index:: Linetype
+    pair: skinparam; Linetype
+
+.. _Linetype:
+
+.. container:: keyword
+
+    Linetype
+
+
+:Usage:
+    :code:`Linetype zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`Linetype zz`:
+
+    .. uml::  puml/sk-ex/Linetype-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _M:
+
+--
+M
+--
+
+.. index:: MachineBackgroundColor
+    pair: skinparam; MachineBackgroundColor
+
+.. _MachineBackgroundColor:
+
+.. container:: keyword
+
+    MachineBackgroundColor
+
+
+:Usage:
+    :code:`MachineBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`MachineBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/MachineBackgroundColor-zz.puml
+
+
+
+
+.. index:: MachineBorderColor
+    pair: skinparam; MachineBorderColor
+
+.. _MachineBorderColor:
+
+.. container:: keyword
+
+    MachineBorderColor
+
+
+:Usage:
+    :code:`MachineBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`MachineBorderColor zz`:
+
+    .. uml::  puml/sk-ex/MachineBorderColor-zz.puml
+
+
+
+
+.. index:: MachineBorderThickness
+    pair: skinparam; MachineBorderThickness
+
+.. _MachineBorderThickness:
+
+.. container:: keyword
+
+    MachineBorderThickness
+
+
+:Usage:
+    :code:`MachineBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`MachineBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/MachineBorderThickness-zz.puml
+
+
+
+
+.. index:: MachineFontColor
+    pair: skinparam; MachineFontColor
+
+.. _MachineFontColor:
+
+.. container:: keyword
+
+    MachineFontColor
+
+
+:Usage:
+    :code:`MachineFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`MachineFontColor zz`:
+
+    .. uml::  puml/sk-ex/MachineFontColor-zz.puml
+
+
+
+
+.. index:: MachineFontName
+    pair: skinparam; MachineFontName
+
+.. _MachineFontName:
+
+.. container:: keyword
+
+    MachineFontName
+
+
+:Usage:
+    :code:`MachineFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`MachineFontName zz`:
+
+    .. uml::  puml/sk-ex/MachineFontName-zz.puml
+
+
+
+
+.. index:: MachineFontSize
+    pair: skinparam; MachineFontSize
+
+.. _MachineFontSize:
+
+.. container:: keyword
+
+    MachineFontSize
+
+
+:Usage:
+    :code:`MachineFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`MachineFontSize zz`:
+
+    .. uml::  puml/sk-ex/MachineFontSize-zz.puml
+
+
+
+
+.. index:: MachineFontStyle
+    pair: skinparam; MachineFontStyle
+
+.. _MachineFontStyle:
+
+.. container:: keyword
+
+    MachineFontStyle
+
+
+:Usage:
+    :code:`MachineFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`MachineFontStyle zz`:
+
+    .. uml::  puml/sk-ex/MachineFontStyle-zz.puml
+
+
+
+
+.. index:: MachineStereotypeFontColor
+    pair: skinparam; MachineStereotypeFontColor
+
+.. _MachineStereotypeFontColor:
+
+.. container:: keyword
+
+    MachineStereotypeFontColor
+
+
+:Usage:
+    :code:`MachineStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`MachineStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/MachineStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: MachineStereotypeFontName
+    pair: skinparam; MachineStereotypeFontName
+
+.. _MachineStereotypeFontName:
+
+.. container:: keyword
+
+    MachineStereotypeFontName
+
+
+:Usage:
+    :code:`MachineStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`MachineStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/MachineStereotypeFontName-zz.puml
+
+
+
+
+.. index:: MachineStereotypeFontSize
+    pair: skinparam; MachineStereotypeFontSize
+
+.. _MachineStereotypeFontSize:
+
+.. container:: keyword
+
+    MachineStereotypeFontSize
+
+
+:Usage:
+    :code:`MachineStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`MachineStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/MachineStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: MachineStereotypeFontStyle
+    pair: skinparam; MachineStereotypeFontStyle
+
+.. _MachineStereotypeFontStyle:
+
+.. container:: keyword
+
+    MachineStereotypeFontStyle
+
+
+:Usage:
+    :code:`MachineStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`MachineStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/MachineStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: MaxAsciiMessageLength
+    pair: skinparam; MaxAsciiMessageLength
+
+.. _MaxAsciiMessageLength:
+
+.. container:: keyword
+
+    MaxAsciiMessageLength
+
+
+:Usage:
+    :code:`MaxAsciiMessageLength zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`MaxAsciiMessageLength zz`:
+
+    .. uml::  puml/sk-ex/MaxAsciiMessageLength-zz.puml
+
+
+
+
+.. index:: MaxMessageSize
+    pair: skinparam; MaxMessageSize
+
+.. _MaxMessageSize:
+
+.. container:: keyword
+
+    MaxMessageSize
+
+
+:Usage:
+    :code:`MaxMessageSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`MaxMessageSize zz`:
+
+    .. uml::  puml/sk-ex/MaxMessageSize-zz.puml
+
+
+
+
+.. index:: MinClassWidth
+    pair: skinparam; MinClassWidth
+
+.. _MinClassWidth:
+
+.. container:: keyword
+
+    MinClassWidth
+
+
+:Usage:
+    :code:`MinClassWidth zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`MinClassWidth zz`:
+
+    .. uml::  puml/sk-ex/MinClassWidth-zz.puml
+
+
+
+
+.. index:: Monochrome
+    pair: skinparam; Monochrome
+
+.. _Monochrome:
+
+.. container:: keyword
+
+    Monochrome
+
+
+:Usage:
+    :code:`Monochrome zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`Monochrome zz`:
+
+    .. uml::  puml/sk-ex/Monochrome-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _N:
+
+--
+N
+--
+
+.. index:: NodeBackgroundColor
+    pair: skinparam; NodeBackgroundColor
+
+.. _NodeBackgroundColor:
+
+.. container:: keyword
+
+    NodeBackgroundColor
+
+
+:Usage:
+    :code:`NodeBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NodeBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/NodeBackgroundColor-zz.puml
+
+
+
+
+.. index:: NodeBorderColor
+    pair: skinparam; NodeBorderColor
+
+.. _NodeBorderColor:
+
+.. container:: keyword
+
+    NodeBorderColor
+
+
+:Usage:
+    :code:`NodeBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NodeBorderColor zz`:
+
+    .. uml::  puml/sk-ex/NodeBorderColor-zz.puml
+
+
+
+
+.. index:: NodeFontColor
+    pair: skinparam; NodeFontColor
+
+.. _NodeFontColor:
+
+.. container:: keyword
+
+    NodeFontColor
+
+
+:Usage:
+    :code:`NodeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NodeFontColor zz`:
+
+    .. uml::  puml/sk-ex/NodeFontColor-zz.puml
+
+
+
+
+.. index:: NodeFontName
+    pair: skinparam; NodeFontName
+
+.. _NodeFontName:
+
+.. container:: keyword
+
+    NodeFontName
+
+
+:Usage:
+    :code:`NodeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NodeFontName zz`:
+
+    .. uml::  puml/sk-ex/NodeFontName-zz.puml
+
+
+
+
+.. index:: NodeFontSize
+    pair: skinparam; NodeFontSize
+
+.. _NodeFontSize:
+
+.. container:: keyword
+
+    NodeFontSize
+
+
+:Usage:
+    :code:`NodeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NodeFontSize zz`:
+
+    .. uml::  puml/sk-ex/NodeFontSize-zz.puml
+
+
+
+
+.. index:: NodeFontStyle
+    pair: skinparam; NodeFontStyle
+
+.. _NodeFontStyle:
+
+.. container:: keyword
+
+    NodeFontStyle
+
+
+:Usage:
+    :code:`NodeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NodeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/NodeFontStyle-zz.puml
+
+
+
+
+.. index:: NodeStereotypeFontColor
+    pair: skinparam; NodeStereotypeFontColor
+
+.. _NodeStereotypeFontColor:
+
+.. container:: keyword
+
+    NodeStereotypeFontColor
+
+
+:Usage:
+    :code:`NodeStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NodeStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/NodeStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: NodeStereotypeFontName
+    pair: skinparam; NodeStereotypeFontName
+
+.. _NodeStereotypeFontName:
+
+.. container:: keyword
+
+    NodeStereotypeFontName
+
+
+:Usage:
+    :code:`NodeStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NodeStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/NodeStereotypeFontName-zz.puml
+
+
+
+
+.. index:: NodeStereotypeFontSize
+    pair: skinparam; NodeStereotypeFontSize
+
+.. _NodeStereotypeFontSize:
+
+.. container:: keyword
+
+    NodeStereotypeFontSize
+
+
+:Usage:
+    :code:`NodeStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NodeStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/NodeStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: NodeStereotypeFontStyle
+    pair: skinparam; NodeStereotypeFontStyle
+
+.. _NodeStereotypeFontStyle:
+
+.. container:: keyword
+
+    NodeStereotypeFontStyle
+
+
+:Usage:
+    :code:`NodeStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NodeStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/NodeStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: Nodesep
+    pair: skinparam; Nodesep
+
+.. _Nodesep:
+
+.. container:: keyword
+
+    Nodesep
+
+
+:Usage:
+    :code:`Nodesep zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`Nodesep zz`:
+
+    .. uml::  puml/sk-ex/Nodesep-zz.puml
+
+
+
+
+.. index:: NoteBackgroundColor
+    pair: skinparam; NoteBackgroundColor
+
+.. _NoteBackgroundColor:
+
+.. container:: keyword
+
+    NoteBackgroundColor
+
+
+:Usage:
+    :code:`NoteBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NoteBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/NoteBackgroundColor-zz.puml
+
+
+
+
+.. index:: NoteBorderColor
+    pair: skinparam; NoteBorderColor
+
+.. _NoteBorderColor:
+
+.. container:: keyword
+
+    NoteBorderColor
+
+
+:Usage:
+    :code:`NoteBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NoteBorderColor zz`:
+
+    .. uml::  puml/sk-ex/NoteBorderColor-zz.puml
+
+
+
+
+.. index:: NoteBorderThickness
+    pair: skinparam; NoteBorderThickness
+
+.. _NoteBorderThickness:
+
+.. container:: keyword
+
+    NoteBorderThickness
+
+
+:Usage:
+    :code:`NoteBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NoteBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/NoteBorderThickness-zz.puml
+
+
+
+
+.. index:: NoteFontColor
+    pair: skinparam; NoteFontColor
+
+.. _NoteFontColor:
+
+.. container:: keyword
+
+    NoteFontColor
+
+
+:Usage:
+    :code:`NoteFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NoteFontColor zz`:
+
+    .. uml::  puml/sk-ex/NoteFontColor-zz.puml
+
+
+
+
+.. index:: NoteFontName
+    pair: skinparam; NoteFontName
+
+.. _NoteFontName:
+
+.. container:: keyword
+
+    NoteFontName
+
+
+:Usage:
+    :code:`NoteFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NoteFontName zz`:
+
+    .. uml::  puml/sk-ex/NoteFontName-zz.puml
+
+
+
+
+.. index:: NoteFontSize
+    pair: skinparam; NoteFontSize
+
+.. _NoteFontSize:
+
+.. container:: keyword
+
+    NoteFontSize
+
+
+:Usage:
+    :code:`NoteFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NoteFontSize zz`:
+
+    .. uml::  puml/sk-ex/NoteFontSize-zz.puml
+
+
+
+
+.. index:: NoteFontStyle
+    pair: skinparam; NoteFontStyle
+
+.. _NoteFontStyle:
+
+.. container:: keyword
+
+    NoteFontStyle
+
+
+:Usage:
+    :code:`NoteFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NoteFontStyle zz`:
+
+    .. uml::  puml/sk-ex/NoteFontStyle-zz.puml
+
+
+
+
+.. index:: NoteShadowing
+    pair: skinparam; NoteShadowing
+
+.. _NoteShadowing:
+
+.. container:: keyword
+
+    NoteShadowing
+
+
+:Usage:
+    :code:`NoteShadowing zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NoteShadowing zz`:
+
+    .. uml::  puml/sk-ex/NoteShadowing-zz.puml
+
+
+
+
+.. index:: NoteTextAlignment
+    pair: skinparam; NoteTextAlignment
+
+.. _NoteTextAlignment:
+
+.. container:: keyword
+
+    NoteTextAlignment
+
+
+:Usage:
+    :code:`NoteTextAlignment zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`NoteTextAlignment zz`:
+
+    .. uml::  puml/sk-ex/NoteTextAlignment-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _O:
+
+--
+O
+--
+
+.. index:: ObjectAttributeFontColor
+    pair: skinparam; ObjectAttributeFontColor
+
+.. _ObjectAttributeFontColor:
+
+.. container:: keyword
+
+    ObjectAttributeFontColor
+
+
+:Usage:
+    :code:`ObjectAttributeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ObjectAttributeFontColor zz`:
+
+    .. uml::  puml/sk-ex/ObjectAttributeFontColor-zz.puml
+
+
+
+
+.. index:: ObjectAttributeFontName
+    pair: skinparam; ObjectAttributeFontName
+
+.. _ObjectAttributeFontName:
+
+.. container:: keyword
+
+    ObjectAttributeFontName
+
+
+:Usage:
+    :code:`ObjectAttributeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ObjectAttributeFontName zz`:
+
+    .. uml::  puml/sk-ex/ObjectAttributeFontName-zz.puml
+
+
+
+
+.. index:: ObjectAttributeFontSize
+    pair: skinparam; ObjectAttributeFontSize
+
+.. _ObjectAttributeFontSize:
+
+.. container:: keyword
+
+    ObjectAttributeFontSize
+
+
+:Usage:
+    :code:`ObjectAttributeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ObjectAttributeFontSize zz`:
+
+    .. uml::  puml/sk-ex/ObjectAttributeFontSize-zz.puml
+
+
+
+
+.. index:: ObjectAttributeFontStyle
+    pair: skinparam; ObjectAttributeFontStyle
+
+.. _ObjectAttributeFontStyle:
+
+.. container:: keyword
+
+    ObjectAttributeFontStyle
+
+
+:Usage:
+    :code:`ObjectAttributeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ObjectAttributeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/ObjectAttributeFontStyle-zz.puml
+
+
+
+
+.. index:: ObjectBackgroundColor
+    pair: skinparam; ObjectBackgroundColor
+
+.. _ObjectBackgroundColor:
+
+.. container:: keyword
+
+    ObjectBackgroundColor
+
+
+:Usage:
+    :code:`ObjectBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ObjectBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/ObjectBackgroundColor-zz.puml
+
+
+
+
+.. index:: ObjectBorderColor
+    pair: skinparam; ObjectBorderColor
+
+.. _ObjectBorderColor:
+
+.. container:: keyword
+
+    ObjectBorderColor
+
+
+:Usage:
+    :code:`ObjectBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ObjectBorderColor zz`:
+
+    .. uml::  puml/sk-ex/ObjectBorderColor-zz.puml
+
+
+
+
+.. index:: ObjectBorderThickness
+    pair: skinparam; ObjectBorderThickness
+
+.. _ObjectBorderThickness:
+
+.. container:: keyword
+
+    ObjectBorderThickness
+
+
+:Usage:
+    :code:`ObjectBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ObjectBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/ObjectBorderThickness-zz.puml
+
+
+
+
+.. index:: ObjectFontColor
+    pair: skinparam; ObjectFontColor
+
+.. _ObjectFontColor:
+
+.. container:: keyword
+
+    ObjectFontColor
+
+
+:Usage:
+    :code:`ObjectFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ObjectFontColor zz`:
+
+    .. uml::  puml/sk-ex/ObjectFontColor-zz.puml
+
+
+
+
+.. index:: ObjectFontName
+    pair: skinparam; ObjectFontName
+
+.. _ObjectFontName:
+
+.. container:: keyword
+
+    ObjectFontName
+
+
+:Usage:
+    :code:`ObjectFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ObjectFontName zz`:
+
+    .. uml::  puml/sk-ex/ObjectFontName-zz.puml
+
+
+
+
+.. index:: ObjectFontSize
+    pair: skinparam; ObjectFontSize
+
+.. _ObjectFontSize:
+
+.. container:: keyword
+
+    ObjectFontSize
+
+
+:Usage:
+    :code:`ObjectFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ObjectFontSize zz`:
+
+    .. uml::  puml/sk-ex/ObjectFontSize-zz.puml
+
+
+
+
+.. index:: ObjectFontStyle
+    pair: skinparam; ObjectFontStyle
+
+.. _ObjectFontStyle:
+
+.. container:: keyword
+
+    ObjectFontStyle
+
+
+:Usage:
+    :code:`ObjectFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ObjectFontStyle zz`:
+
+    .. uml::  puml/sk-ex/ObjectFontStyle-zz.puml
+
+
+
+
+.. index:: ObjectStereotypeFontColor
+    pair: skinparam; ObjectStereotypeFontColor
+
+.. _ObjectStereotypeFontColor:
+
+.. container:: keyword
+
+    ObjectStereotypeFontColor
+
+
+:Usage:
+    :code:`ObjectStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ObjectStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/ObjectStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: ObjectStereotypeFontName
+    pair: skinparam; ObjectStereotypeFontName
+
+.. _ObjectStereotypeFontName:
+
+.. container:: keyword
+
+    ObjectStereotypeFontName
+
+
+:Usage:
+    :code:`ObjectStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ObjectStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/ObjectStereotypeFontName-zz.puml
+
+
+
+
+.. index:: ObjectStereotypeFontSize
+    pair: skinparam; ObjectStereotypeFontSize
+
+.. _ObjectStereotypeFontSize:
+
+.. container:: keyword
+
+    ObjectStereotypeFontSize
+
+
+:Usage:
+    :code:`ObjectStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ObjectStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/ObjectStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: ObjectStereotypeFontStyle
+    pair: skinparam; ObjectStereotypeFontStyle
+
+.. _ObjectStereotypeFontStyle:
+
+.. container:: keyword
+
+    ObjectStereotypeFontStyle
+
+
+:Usage:
+    :code:`ObjectStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ObjectStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/ObjectStereotypeFontStyle-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _P:
+
+--
+P
+--
+
+.. index:: PackageBackgroundColor
+    pair: skinparam; PackageBackgroundColor
+
+.. _PackageBackgroundColor:
+
+.. container:: keyword
+
+    PackageBackgroundColor
+
+
+:Usage:
+    :code:`PackageBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PackageBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/PackageBackgroundColor-zz.puml
+
+
+
+
+.. index:: PackageBorderColor
+    pair: skinparam; PackageBorderColor
+
+.. _PackageBorderColor:
+
+.. container:: keyword
+
+    PackageBorderColor
+
+
+:Usage:
+    :code:`PackageBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PackageBorderColor zz`:
+
+    .. uml::  puml/sk-ex/PackageBorderColor-zz.puml
+
+
+
+
+.. index:: PackageBorderThickness
+    pair: skinparam; PackageBorderThickness
+
+.. _PackageBorderThickness:
+
+.. container:: keyword
+
+    PackageBorderThickness
+
+
+:Usage:
+    :code:`PackageBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PackageBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/PackageBorderThickness-zz.puml
+
+
+
+
+.. index:: PackageFontColor
+    pair: skinparam; PackageFontColor
+
+.. _PackageFontColor:
+
+.. container:: keyword
+
+    PackageFontColor
+
+
+:Usage:
+    :code:`PackageFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PackageFontColor zz`:
+
+    .. uml::  puml/sk-ex/PackageFontColor-zz.puml
+
+
+
+
+.. index:: PackageFontName
+    pair: skinparam; PackageFontName
+
+.. _PackageFontName:
+
+.. container:: keyword
+
+    PackageFontName
+
+
+:Usage:
+    :code:`PackageFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PackageFontName zz`:
+
+    .. uml::  puml/sk-ex/PackageFontName-zz.puml
+
+
+
+
+.. index:: PackageFontSize
+    pair: skinparam; PackageFontSize
+
+.. _PackageFontSize:
+
+.. container:: keyword
+
+    PackageFontSize
+
+
+:Usage:
+    :code:`PackageFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PackageFontSize zz`:
+
+    .. uml::  puml/sk-ex/PackageFontSize-zz.puml
+
+
+
+
+.. index:: PackageFontStyle
+    pair: skinparam; PackageFontStyle
+
+.. _PackageFontStyle:
+
+.. container:: keyword
+
+    PackageFontStyle
+
+
+:Usage:
+    :code:`PackageFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PackageFontStyle zz`:
+
+    .. uml::  puml/sk-ex/PackageFontStyle-zz.puml
+
+
+
+
+.. index:: PackageStereotypeFontColor
+    pair: skinparam; PackageStereotypeFontColor
+
+.. _PackageStereotypeFontColor:
+
+.. container:: keyword
+
+    PackageStereotypeFontColor
+
+
+:Usage:
+    :code:`PackageStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PackageStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/PackageStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: PackageStereotypeFontName
+    pair: skinparam; PackageStereotypeFontName
+
+.. _PackageStereotypeFontName:
+
+.. container:: keyword
+
+    PackageStereotypeFontName
+
+
+:Usage:
+    :code:`PackageStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PackageStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/PackageStereotypeFontName-zz.puml
+
+
+
+
+.. index:: PackageStereotypeFontSize
+    pair: skinparam; PackageStereotypeFontSize
+
+.. _PackageStereotypeFontSize:
+
+.. container:: keyword
+
+    PackageStereotypeFontSize
+
+
+:Usage:
+    :code:`PackageStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PackageStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/PackageStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: PackageStereotypeFontStyle
+    pair: skinparam; PackageStereotypeFontStyle
+
+.. _PackageStereotypeFontStyle:
+
+.. container:: keyword
+
+    PackageStereotypeFontStyle
+
+
+:Usage:
+    :code:`PackageStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PackageStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/PackageStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: PackageStyle
+    pair: skinparam; PackageStyle
+
+.. _PackageStyle:
+
+.. container:: keyword
+
+    PackageStyle
+
+
+:Usage:
+    :code:`PackageStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PackageStyle zz`:
+
+    .. uml::  puml/sk-ex/PackageStyle-zz.puml
+
+
+
+
+.. index:: PackageTitleAlignment
+    pair: skinparam; PackageTitleAlignment
+
+.. _PackageTitleAlignment:
+
+.. container:: keyword
+
+    PackageTitleAlignment
+
+
+:Usage:
+    :code:`PackageTitleAlignment zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PackageTitleAlignment zz`:
+
+    .. uml::  puml/sk-ex/PackageTitleAlignment-zz.puml
+
+
+
+
+.. index:: Padding
+    pair: skinparam; Padding
+
+.. _Padding:
+
+.. container:: keyword
+
+    Padding
+
+
+:Usage:
+    :code:`Padding zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`Padding zz`:
+
+    .. uml::  puml/sk-ex/Padding-zz.puml
+
+
+
+
+.. index:: PageBorderColor
+    pair: skinparam; PageBorderColor
+
+.. _PageBorderColor:
+
+.. container:: keyword
+
+    PageBorderColor
+
+
+:Usage:
+    :code:`PageBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PageBorderColor zz`:
+
+    .. uml::  puml/sk-ex/PageBorderColor-zz.puml
+
+
+
+
+.. index:: PageExternalColor
+    pair: skinparam; PageExternalColor
+
+.. _PageExternalColor:
+
+.. container:: keyword
+
+    PageExternalColor
+
+
+:Usage:
+    :code:`PageExternalColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PageExternalColor zz`:
+
+    .. uml::  puml/sk-ex/PageExternalColor-zz.puml
+
+
+
+
+.. index:: PageMargin
+    pair: skinparam; PageMargin
+
+.. _PageMargin:
+
+.. container:: keyword
+
+    PageMargin
+
+
+:Usage:
+    :code:`PageMargin zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PageMargin zz`:
+
+    .. uml::  puml/sk-ex/PageMargin-zz.puml
+
+
+
+
+.. index:: ParticipantBackgroundColor
+    pair: skinparam; ParticipantBackgroundColor
+
+.. _ParticipantBackgroundColor:
+
+.. container:: keyword
+
+    ParticipantBackgroundColor
+
+
+:Usage:
+    :code:`ParticipantBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ParticipantBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/ParticipantBackgroundColor-zz.puml
+
+
+
+
+.. index:: ParticipantBorderColor
+    pair: skinparam; ParticipantBorderColor
+
+.. _ParticipantBorderColor:
+
+.. container:: keyword
+
+    ParticipantBorderColor
+
+
+:Usage:
+    :code:`ParticipantBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ParticipantBorderColor zz`:
+
+    .. uml::  puml/sk-ex/ParticipantBorderColor-zz.puml
+
+
+
+
+.. index:: ParticipantFontColor
+    pair: skinparam; ParticipantFontColor
+
+.. _ParticipantFontColor:
+
+.. container:: keyword
+
+    ParticipantFontColor
+
+
+:Usage:
+    :code:`ParticipantFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ParticipantFontColor zz`:
+
+    .. uml::  puml/sk-ex/ParticipantFontColor-zz.puml
+
+
+
+
+.. index:: ParticipantFontName
+    pair: skinparam; ParticipantFontName
+
+.. _ParticipantFontName:
+
+.. container:: keyword
+
+    ParticipantFontName
+
+
+:Usage:
+    :code:`ParticipantFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ParticipantFontName zz`:
+
+    .. uml::  puml/sk-ex/ParticipantFontName-zz.puml
+
+
+
+
+.. index:: ParticipantFontSize
+    pair: skinparam; ParticipantFontSize
+
+.. _ParticipantFontSize:
+
+.. container:: keyword
+
+    ParticipantFontSize
+
+
+:Usage:
+    :code:`ParticipantFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ParticipantFontSize zz`:
+
+    .. uml::  puml/sk-ex/ParticipantFontSize-zz.puml
+
+
+
+
+.. index:: ParticipantFontStyle
+    pair: skinparam; ParticipantFontStyle
+
+.. _ParticipantFontStyle:
+
+.. container:: keyword
+
+    ParticipantFontStyle
+
+
+:Usage:
+    :code:`ParticipantFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ParticipantFontStyle zz`:
+
+    .. uml::  puml/sk-ex/ParticipantFontStyle-zz.puml
+
+
+
+
+.. index:: ParticipantPadding
+    pair: skinparam; ParticipantPadding
+
+.. _ParticipantPadding:
+
+.. container:: keyword
+
+    ParticipantPadding
+
+
+:Usage:
+    :code:`ParticipantPadding zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ParticipantPadding zz`:
+
+    .. uml::  puml/sk-ex/ParticipantPadding-zz.puml
+
+
+
+
+.. index:: PartitionBackgroundColor
+    pair: skinparam; PartitionBackgroundColor
+
+.. _PartitionBackgroundColor:
+
+.. container:: keyword
+
+    PartitionBackgroundColor
+
+
+:Usage:
+    :code:`PartitionBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PartitionBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/PartitionBackgroundColor-zz.puml
+
+
+
+
+.. index:: PartitionBorderColor
+    pair: skinparam; PartitionBorderColor
+
+.. _PartitionBorderColor:
+
+.. container:: keyword
+
+    PartitionBorderColor
+
+
+:Usage:
+    :code:`PartitionBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PartitionBorderColor zz`:
+
+    .. uml::  puml/sk-ex/PartitionBorderColor-zz.puml
+
+
+
+
+.. index:: PartitionBorderThickness
+    pair: skinparam; PartitionBorderThickness
+
+.. _PartitionBorderThickness:
+
+.. container:: keyword
+
+    PartitionBorderThickness
+
+
+:Usage:
+    :code:`PartitionBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PartitionBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/PartitionBorderThickness-zz.puml
+
+
+
+
+.. index:: PartitionFontColor
+    pair: skinparam; PartitionFontColor
+
+.. _PartitionFontColor:
+
+.. container:: keyword
+
+    PartitionFontColor
+
+
+:Usage:
+    :code:`PartitionFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PartitionFontColor zz`:
+
+    .. uml::  puml/sk-ex/PartitionFontColor-zz.puml
+
+
+
+
+.. index:: PartitionFontName
+    pair: skinparam; PartitionFontName
+
+.. _PartitionFontName:
+
+.. container:: keyword
+
+    PartitionFontName
+
+
+:Usage:
+    :code:`PartitionFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PartitionFontName zz`:
+
+    .. uml::  puml/sk-ex/PartitionFontName-zz.puml
+
+
+
+
+.. index:: PartitionFontSize
+    pair: skinparam; PartitionFontSize
+
+.. _PartitionFontSize:
+
+.. container:: keyword
+
+    PartitionFontSize
+
+
+:Usage:
+    :code:`PartitionFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PartitionFontSize zz`:
+
+    .. uml::  puml/sk-ex/PartitionFontSize-zz.puml
+
+
+
+
+.. index:: PartitionFontStyle
+    pair: skinparam; PartitionFontStyle
+
+.. _PartitionFontStyle:
+
+.. container:: keyword
+
+    PartitionFontStyle
+
+
+:Usage:
+    :code:`PartitionFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PartitionFontStyle zz`:
+
+    .. uml::  puml/sk-ex/PartitionFontStyle-zz.puml
+
+
+
+
+.. index:: PathHoverColor
+    pair: skinparam; PathHoverColor
+
+.. _PathHoverColor:
+
+.. container:: keyword
+
+    PathHoverColor
+
+
+:Usage:
+    :code:`PathHoverColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`PathHoverColor zz`:
+
+    .. uml::  puml/sk-ex/PathHoverColor-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _Q:
+
+--
+Q
+--
+
+.. index:: QueueBackgroundColor
+    pair: skinparam; QueueBackgroundColor
+
+.. _QueueBackgroundColor:
+
+.. container:: keyword
+
+    QueueBackgroundColor
+
+
+:Usage:
+    :code:`QueueBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`QueueBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/QueueBackgroundColor-zz.puml
+
+
+
+
+.. index:: QueueBorderColor
+    pair: skinparam; QueueBorderColor
+
+.. _QueueBorderColor:
+
+.. container:: keyword
+
+    QueueBorderColor
+
+
+:Usage:
+    :code:`QueueBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`QueueBorderColor zz`:
+
+    .. uml::  puml/sk-ex/QueueBorderColor-zz.puml
+
+
+
+
+.. index:: QueueFontColor
+    pair: skinparam; QueueFontColor
+
+.. _QueueFontColor:
+
+.. container:: keyword
+
+    QueueFontColor
+
+
+:Usage:
+    :code:`QueueFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`QueueFontColor zz`:
+
+    .. uml::  puml/sk-ex/QueueFontColor-zz.puml
+
+
+
+
+.. index:: QueueFontName
+    pair: skinparam; QueueFontName
+
+.. _QueueFontName:
+
+.. container:: keyword
+
+    QueueFontName
+
+
+:Usage:
+    :code:`QueueFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`QueueFontName zz`:
+
+    .. uml::  puml/sk-ex/QueueFontName-zz.puml
+
+
+
+
+.. index:: QueueFontSize
+    pair: skinparam; QueueFontSize
+
+.. _QueueFontSize:
+
+.. container:: keyword
+
+    QueueFontSize
+
+
+:Usage:
+    :code:`QueueFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`QueueFontSize zz`:
+
+    .. uml::  puml/sk-ex/QueueFontSize-zz.puml
+
+
+
+
+.. index:: QueueFontStyle
+    pair: skinparam; QueueFontStyle
+
+.. _QueueFontStyle:
+
+.. container:: keyword
+
+    QueueFontStyle
+
+
+:Usage:
+    :code:`QueueFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`QueueFontStyle zz`:
+
+    .. uml::  puml/sk-ex/QueueFontStyle-zz.puml
+
+
+
+
+.. index:: QueueStereotypeFontColor
+    pair: skinparam; QueueStereotypeFontColor
+
+.. _QueueStereotypeFontColor:
+
+.. container:: keyword
+
+    QueueStereotypeFontColor
+
+
+:Usage:
+    :code:`QueueStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`QueueStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/QueueStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: QueueStereotypeFontName
+    pair: skinparam; QueueStereotypeFontName
+
+.. _QueueStereotypeFontName:
+
+.. container:: keyword
+
+    QueueStereotypeFontName
+
+
+:Usage:
+    :code:`QueueStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`QueueStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/QueueStereotypeFontName-zz.puml
+
+
+
+
+.. index:: QueueStereotypeFontSize
+    pair: skinparam; QueueStereotypeFontSize
+
+.. _QueueStereotypeFontSize:
+
+.. container:: keyword
+
+    QueueStereotypeFontSize
+
+
+:Usage:
+    :code:`QueueStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`QueueStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/QueueStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: QueueStereotypeFontStyle
+    pair: skinparam; QueueStereotypeFontStyle
+
+.. _QueueStereotypeFontStyle:
+
+.. container:: keyword
+
+    QueueStereotypeFontStyle
+
+
+:Usage:
+    :code:`QueueStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`QueueStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/QueueStereotypeFontStyle-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _R:
+
+--
+R
+--
+
+.. index:: Ranksep
+    pair: skinparam; Ranksep
+
+.. _Ranksep:
+
+.. container:: keyword
+
+    Ranksep
+
+
+:Usage:
+    :code:`Ranksep zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`Ranksep zz`:
+
+    .. uml::  puml/sk-ex/Ranksep-zz.puml
+
+
+
+
+.. index:: RectangleBackgroundColor
+    pair: skinparam; RectangleBackgroundColor
+
+.. _RectangleBackgroundColor:
+
+.. container:: keyword
+
+    RectangleBackgroundColor
+
+
+:Usage:
+    :code:`RectangleBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RectangleBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/RectangleBackgroundColor-zz.puml
+
+
+
+
+.. index:: RectangleBorderColor
+    pair: skinparam; RectangleBorderColor
+
+.. _RectangleBorderColor:
+
+.. container:: keyword
+
+    RectangleBorderColor
+
+
+:Usage:
+    :code:`RectangleBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RectangleBorderColor zz`:
+
+    .. uml::  puml/sk-ex/RectangleBorderColor-zz.puml
+
+
+
+
+.. index:: RectangleBorderThickness
+    pair: skinparam; RectangleBorderThickness
+
+.. _RectangleBorderThickness:
+
+.. container:: keyword
+
+    RectangleBorderThickness
+
+
+:Usage:
+    :code:`RectangleBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RectangleBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/RectangleBorderThickness-zz.puml
+
+
+
+
+.. index:: RectangleFontColor
+    pair: skinparam; RectangleFontColor
+
+.. _RectangleFontColor:
+
+.. container:: keyword
+
+    RectangleFontColor
+
+
+:Usage:
+    :code:`RectangleFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RectangleFontColor zz`:
+
+    .. uml::  puml/sk-ex/RectangleFontColor-zz.puml
+
+
+
+
+.. index:: RectangleFontName
+    pair: skinparam; RectangleFontName
+
+.. _RectangleFontName:
+
+.. container:: keyword
+
+    RectangleFontName
+
+
+:Usage:
+    :code:`RectangleFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RectangleFontName zz`:
+
+    .. uml::  puml/sk-ex/RectangleFontName-zz.puml
+
+
+
+
+.. index:: RectangleFontSize
+    pair: skinparam; RectangleFontSize
+
+.. _RectangleFontSize:
+
+.. container:: keyword
+
+    RectangleFontSize
+
+
+:Usage:
+    :code:`RectangleFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RectangleFontSize zz`:
+
+    .. uml::  puml/sk-ex/RectangleFontSize-zz.puml
+
+
+
+
+.. index:: RectangleFontStyle
+    pair: skinparam; RectangleFontStyle
+
+.. _RectangleFontStyle:
+
+.. container:: keyword
+
+    RectangleFontStyle
+
+
+:Usage:
+    :code:`RectangleFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RectangleFontStyle zz`:
+
+    .. uml::  puml/sk-ex/RectangleFontStyle-zz.puml
+
+
+
+
+.. index:: RectangleStereotypeFontColor
+    pair: skinparam; RectangleStereotypeFontColor
+
+.. _RectangleStereotypeFontColor:
+
+.. container:: keyword
+
+    RectangleStereotypeFontColor
+
+
+:Usage:
+    :code:`RectangleStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RectangleStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/RectangleStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: RectangleStereotypeFontName
+    pair: skinparam; RectangleStereotypeFontName
+
+.. _RectangleStereotypeFontName:
+
+.. container:: keyword
+
+    RectangleStereotypeFontName
+
+
+:Usage:
+    :code:`RectangleStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RectangleStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/RectangleStereotypeFontName-zz.puml
+
+
+
+
+.. index:: RectangleStereotypeFontSize
+    pair: skinparam; RectangleStereotypeFontSize
+
+.. _RectangleStereotypeFontSize:
+
+.. container:: keyword
+
+    RectangleStereotypeFontSize
+
+
+:Usage:
+    :code:`RectangleStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RectangleStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/RectangleStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: RectangleStereotypeFontStyle
+    pair: skinparam; RectangleStereotypeFontStyle
+
+.. _RectangleStereotypeFontStyle:
+
+.. container:: keyword
+
+    RectangleStereotypeFontStyle
+
+
+:Usage:
+    :code:`RectangleStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RectangleStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/RectangleStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: RequirementBackgroundColor
+    pair: skinparam; RequirementBackgroundColor
+
+.. _RequirementBackgroundColor:
+
+.. container:: keyword
+
+    RequirementBackgroundColor
+
+
+:Usage:
+    :code:`RequirementBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RequirementBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/RequirementBackgroundColor-zz.puml
+
+
+
+
+.. index:: RequirementBorderColor
+    pair: skinparam; RequirementBorderColor
+
+.. _RequirementBorderColor:
+
+.. container:: keyword
+
+    RequirementBorderColor
+
+
+:Usage:
+    :code:`RequirementBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RequirementBorderColor zz`:
+
+    .. uml::  puml/sk-ex/RequirementBorderColor-zz.puml
+
+
+
+
+.. index:: RequirementBorderThickness
+    pair: skinparam; RequirementBorderThickness
+
+.. _RequirementBorderThickness:
+
+.. container:: keyword
+
+    RequirementBorderThickness
+
+
+:Usage:
+    :code:`RequirementBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RequirementBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/RequirementBorderThickness-zz.puml
+
+
+
+
+.. index:: RequirementFontColor
+    pair: skinparam; RequirementFontColor
+
+.. _RequirementFontColor:
+
+.. container:: keyword
+
+    RequirementFontColor
+
+
+:Usage:
+    :code:`RequirementFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RequirementFontColor zz`:
+
+    .. uml::  puml/sk-ex/RequirementFontColor-zz.puml
+
+
+
+
+.. index:: RequirementFontName
+    pair: skinparam; RequirementFontName
+
+.. _RequirementFontName:
+
+.. container:: keyword
+
+    RequirementFontName
+
+
+:Usage:
+    :code:`RequirementFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RequirementFontName zz`:
+
+    .. uml::  puml/sk-ex/RequirementFontName-zz.puml
+
+
+
+
+.. index:: RequirementFontSize
+    pair: skinparam; RequirementFontSize
+
+.. _RequirementFontSize:
+
+.. container:: keyword
+
+    RequirementFontSize
+
+
+:Usage:
+    :code:`RequirementFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RequirementFontSize zz`:
+
+    .. uml::  puml/sk-ex/RequirementFontSize-zz.puml
+
+
+
+
+.. index:: RequirementFontStyle
+    pair: skinparam; RequirementFontStyle
+
+.. _RequirementFontStyle:
+
+.. container:: keyword
+
+    RequirementFontStyle
+
+
+:Usage:
+    :code:`RequirementFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RequirementFontStyle zz`:
+
+    .. uml::  puml/sk-ex/RequirementFontStyle-zz.puml
+
+
+
+
+.. index:: RequirementStereotypeFontColor
+    pair: skinparam; RequirementStereotypeFontColor
+
+.. _RequirementStereotypeFontColor:
+
+.. container:: keyword
+
+    RequirementStereotypeFontColor
+
+
+:Usage:
+    :code:`RequirementStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RequirementStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/RequirementStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: RequirementStereotypeFontName
+    pair: skinparam; RequirementStereotypeFontName
+
+.. _RequirementStereotypeFontName:
+
+.. container:: keyword
+
+    RequirementStereotypeFontName
+
+
+:Usage:
+    :code:`RequirementStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RequirementStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/RequirementStereotypeFontName-zz.puml
+
+
+
+
+.. index:: RequirementStereotypeFontSize
+    pair: skinparam; RequirementStereotypeFontSize
+
+.. _RequirementStereotypeFontSize:
+
+.. container:: keyword
+
+    RequirementStereotypeFontSize
+
+
+:Usage:
+    :code:`RequirementStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RequirementStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/RequirementStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: RequirementStereotypeFontStyle
+    pair: skinparam; RequirementStereotypeFontStyle
+
+.. _RequirementStereotypeFontStyle:
+
+.. container:: keyword
+
+    RequirementStereotypeFontStyle
+
+
+:Usage:
+    :code:`RequirementStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RequirementStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/RequirementStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: ResponseMessageBelowArrow
+    pair: skinparam; ResponseMessageBelowArrow
+
+.. _ResponseMessageBelowArrow:
+
+.. container:: keyword
+
+    ResponseMessageBelowArrow
+
+
+:Usage:
+    :code:`ResponseMessageBelowArrow zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`ResponseMessageBelowArrow zz`:
+
+    .. uml::  puml/sk-ex/ResponseMessageBelowArrow-zz.puml
+
+
+
+
+.. index:: RoundCorner
+    pair: skinparam; RoundCorner
+
+.. _RoundCorner:
+
+.. container:: keyword
+
+    RoundCorner
+
+
+:Usage:
+    :code:`RoundCorner zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`RoundCorner zz`:
+
+    .. uml::  puml/sk-ex/RoundCorner-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _S:
+
+--
+S
+--
+
+.. index:: SameClassWidth
+    pair: skinparam; SameClassWidth
+
+.. _SameClassWidth:
+
+.. container:: keyword
+
+    SameClassWidth
+
+
+:Usage:
+    :code:`SameClassWidth zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SameClassWidth zz`:
+
+    .. uml::  puml/sk-ex/SameClassWidth-zz.puml
+
+
+
+
+.. index:: SequenceActorBorderThickness
+    pair: skinparam; SequenceActorBorderThickness
+
+.. _SequenceActorBorderThickness:
+
+.. container:: keyword
+
+    SequenceActorBorderThickness
+
+
+:Usage:
+    :code:`SequenceActorBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceActorBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/SequenceActorBorderThickness-zz.puml
+
+
+
+
+.. index:: SequenceArrowThickness
+    pair: skinparam; SequenceArrowThickness
+
+.. _SequenceArrowThickness:
+
+.. container:: keyword
+
+    SequenceArrowThickness
+
+
+:Usage:
+    :code:`SequenceArrowThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceArrowThickness zz`:
+
+    .. uml::  puml/sk-ex/SequenceArrowThickness-zz.puml
+
+
+
+
+.. index:: SequenceBoxBackgroundColor
+    pair: skinparam; SequenceBoxBackgroundColor
+
+.. _SequenceBoxBackgroundColor:
+
+.. container:: keyword
+
+    SequenceBoxBackgroundColor
+
+
+:Usage:
+    :code:`SequenceBoxBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceBoxBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceBoxBackgroundColor-zz.puml
+
+
+
+
+.. index:: SequenceBoxBorderColor
+    pair: skinparam; SequenceBoxBorderColor
+
+.. _SequenceBoxBorderColor:
+
+.. container:: keyword
+
+    SequenceBoxBorderColor
+
+
+:Usage:
+    :code:`SequenceBoxBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceBoxBorderColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceBoxBorderColor-zz.puml
+
+
+
+
+.. index:: SequenceBoxFontColor
+    pair: skinparam; SequenceBoxFontColor
+
+.. _SequenceBoxFontColor:
+
+.. container:: keyword
+
+    SequenceBoxFontColor
+
+
+:Usage:
+    :code:`SequenceBoxFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceBoxFontColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceBoxFontColor-zz.puml
+
+
+
+
+.. index:: SequenceBoxFontName
+    pair: skinparam; SequenceBoxFontName
+
+.. _SequenceBoxFontName:
+
+.. container:: keyword
+
+    SequenceBoxFontName
+
+
+:Usage:
+    :code:`SequenceBoxFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceBoxFontName zz`:
+
+    .. uml::  puml/sk-ex/SequenceBoxFontName-zz.puml
+
+
+
+
+.. index:: SequenceBoxFontSize
+    pair: skinparam; SequenceBoxFontSize
+
+.. _SequenceBoxFontSize:
+
+.. container:: keyword
+
+    SequenceBoxFontSize
+
+
+:Usage:
+    :code:`SequenceBoxFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceBoxFontSize zz`:
+
+    .. uml::  puml/sk-ex/SequenceBoxFontSize-zz.puml
+
+
+
+
+.. index:: SequenceBoxFontStyle
+    pair: skinparam; SequenceBoxFontStyle
+
+.. _SequenceBoxFontStyle:
+
+.. container:: keyword
+
+    SequenceBoxFontStyle
+
+
+:Usage:
+    :code:`SequenceBoxFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceBoxFontStyle zz`:
+
+    .. uml::  puml/sk-ex/SequenceBoxFontStyle-zz.puml
+
+
+
+
+.. index:: SequenceDelayFontColor
+    pair: skinparam; SequenceDelayFontColor
+
+.. _SequenceDelayFontColor:
+
+.. container:: keyword
+
+    SequenceDelayFontColor
+
+
+:Usage:
+    :code:`SequenceDelayFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceDelayFontColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceDelayFontColor-zz.puml
+
+
+
+
+.. index:: SequenceDelayFontName
+    pair: skinparam; SequenceDelayFontName
+
+.. _SequenceDelayFontName:
+
+.. container:: keyword
+
+    SequenceDelayFontName
+
+
+:Usage:
+    :code:`SequenceDelayFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceDelayFontName zz`:
+
+    .. uml::  puml/sk-ex/SequenceDelayFontName-zz.puml
+
+
+
+
+.. index:: SequenceDelayFontSize
+    pair: skinparam; SequenceDelayFontSize
+
+.. _SequenceDelayFontSize:
+
+.. container:: keyword
+
+    SequenceDelayFontSize
+
+
+:Usage:
+    :code:`SequenceDelayFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceDelayFontSize zz`:
+
+    .. uml::  puml/sk-ex/SequenceDelayFontSize-zz.puml
+
+
+
+
+.. index:: SequenceDelayFontStyle
+    pair: skinparam; SequenceDelayFontStyle
+
+.. _SequenceDelayFontStyle:
+
+.. container:: keyword
+
+    SequenceDelayFontStyle
+
+
+:Usage:
+    :code:`SequenceDelayFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceDelayFontStyle zz`:
+
+    .. uml::  puml/sk-ex/SequenceDelayFontStyle-zz.puml
+
+
+
+
+.. index:: SequenceDividerBackgroundColor
+    pair: skinparam; SequenceDividerBackgroundColor
+
+.. _SequenceDividerBackgroundColor:
+
+.. container:: keyword
+
+    SequenceDividerBackgroundColor
+
+
+:Usage:
+    :code:`SequenceDividerBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceDividerBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceDividerBackgroundColor-zz.puml
+
+
+
+
+.. index:: SequenceDividerBorderColor
+    pair: skinparam; SequenceDividerBorderColor
+
+.. _SequenceDividerBorderColor:
+
+.. container:: keyword
+
+    SequenceDividerBorderColor
+
+
+:Usage:
+    :code:`SequenceDividerBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceDividerBorderColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceDividerBorderColor-zz.puml
+
+
+
+
+.. index:: SequenceDividerBorderThickness
+    pair: skinparam; SequenceDividerBorderThickness
+
+.. _SequenceDividerBorderThickness:
+
+.. container:: keyword
+
+    SequenceDividerBorderThickness
+
+
+:Usage:
+    :code:`SequenceDividerBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceDividerBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/SequenceDividerBorderThickness-zz.puml
+
+
+
+
+.. index:: SequenceDividerFontColor
+    pair: skinparam; SequenceDividerFontColor
+
+.. _SequenceDividerFontColor:
+
+.. container:: keyword
+
+    SequenceDividerFontColor
+
+
+:Usage:
+    :code:`SequenceDividerFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceDividerFontColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceDividerFontColor-zz.puml
+
+
+
+
+.. index:: SequenceDividerFontName
+    pair: skinparam; SequenceDividerFontName
+
+.. _SequenceDividerFontName:
+
+.. container:: keyword
+
+    SequenceDividerFontName
+
+
+:Usage:
+    :code:`SequenceDividerFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceDividerFontName zz`:
+
+    .. uml::  puml/sk-ex/SequenceDividerFontName-zz.puml
+
+
+
+
+.. index:: SequenceDividerFontSize
+    pair: skinparam; SequenceDividerFontSize
+
+.. _SequenceDividerFontSize:
+
+.. container:: keyword
+
+    SequenceDividerFontSize
+
+
+:Usage:
+    :code:`SequenceDividerFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceDividerFontSize zz`:
+
+    .. uml::  puml/sk-ex/SequenceDividerFontSize-zz.puml
+
+
+
+
+.. index:: SequenceDividerFontStyle
+    pair: skinparam; SequenceDividerFontStyle
+
+.. _SequenceDividerFontStyle:
+
+.. container:: keyword
+
+    SequenceDividerFontStyle
+
+
+:Usage:
+    :code:`SequenceDividerFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceDividerFontStyle zz`:
+
+    .. uml::  puml/sk-ex/SequenceDividerFontStyle-zz.puml
+
+
+
+
+.. index:: SequenceGroupBackgroundColor
+    pair: skinparam; SequenceGroupBackgroundColor
+
+.. _SequenceGroupBackgroundColor:
+
+.. container:: keyword
+
+    SequenceGroupBackgroundColor
+
+
+:Usage:
+    :code:`SequenceGroupBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceGroupBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceGroupBackgroundColor-zz.puml
+
+
+
+
+.. index:: SequenceGroupBodyBackgroundColor
+    pair: skinparam; SequenceGroupBodyBackgroundColor
+
+.. _SequenceGroupBodyBackgroundColor:
+
+.. container:: keyword
+
+    SequenceGroupBodyBackgroundColor
+
+
+:Usage:
+    :code:`SequenceGroupBodyBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceGroupBodyBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceGroupBodyBackgroundColor-zz.puml
+
+
+
+
+.. index:: SequenceGroupBorderColor
+    pair: skinparam; SequenceGroupBorderColor
+
+.. _SequenceGroupBorderColor:
+
+.. container:: keyword
+
+    SequenceGroupBorderColor
+
+
+:Usage:
+    :code:`SequenceGroupBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceGroupBorderColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceGroupBorderColor-zz.puml
+
+
+
+
+.. index:: SequenceGroupBorderThickness
+    pair: skinparam; SequenceGroupBorderThickness
+
+.. _SequenceGroupBorderThickness:
+
+.. container:: keyword
+
+    SequenceGroupBorderThickness
+
+
+:Usage:
+    :code:`SequenceGroupBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceGroupBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/SequenceGroupBorderThickness-zz.puml
+
+
+
+
+.. index:: SequenceGroupFontColor
+    pair: skinparam; SequenceGroupFontColor
+
+.. _SequenceGroupFontColor:
+
+.. container:: keyword
+
+    SequenceGroupFontColor
+
+
+:Usage:
+    :code:`SequenceGroupFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceGroupFontColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceGroupFontColor-zz.puml
+
+
+
+
+.. index:: SequenceGroupFontName
+    pair: skinparam; SequenceGroupFontName
+
+.. _SequenceGroupFontName:
+
+.. container:: keyword
+
+    SequenceGroupFontName
+
+
+:Usage:
+    :code:`SequenceGroupFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceGroupFontName zz`:
+
+    .. uml::  puml/sk-ex/SequenceGroupFontName-zz.puml
+
+
+
+
+.. index:: SequenceGroupFontSize
+    pair: skinparam; SequenceGroupFontSize
+
+.. _SequenceGroupFontSize:
+
+.. container:: keyword
+
+    SequenceGroupFontSize
+
+
+:Usage:
+    :code:`SequenceGroupFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceGroupFontSize zz`:
+
+    .. uml::  puml/sk-ex/SequenceGroupFontSize-zz.puml
+
+
+
+
+.. index:: SequenceGroupFontStyle
+    pair: skinparam; SequenceGroupFontStyle
+
+.. _SequenceGroupFontStyle:
+
+.. container:: keyword
+
+    SequenceGroupFontStyle
+
+
+:Usage:
+    :code:`SequenceGroupFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceGroupFontStyle zz`:
+
+    .. uml::  puml/sk-ex/SequenceGroupFontStyle-zz.puml
+
+
+
+
+.. index:: SequenceGroupHeaderFontColor
+    pair: skinparam; SequenceGroupHeaderFontColor
+
+.. _SequenceGroupHeaderFontColor:
+
+.. container:: keyword
+
+    SequenceGroupHeaderFontColor
+
+
+:Usage:
+    :code:`SequenceGroupHeaderFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceGroupHeaderFontColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceGroupHeaderFontColor-zz.puml
+
+
+
+
+.. index:: SequenceGroupHeaderFontName
+    pair: skinparam; SequenceGroupHeaderFontName
+
+.. _SequenceGroupHeaderFontName:
+
+.. container:: keyword
+
+    SequenceGroupHeaderFontName
+
+
+:Usage:
+    :code:`SequenceGroupHeaderFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceGroupHeaderFontName zz`:
+
+    .. uml::  puml/sk-ex/SequenceGroupHeaderFontName-zz.puml
+
+
+
+
+.. index:: SequenceGroupHeaderFontSize
+    pair: skinparam; SequenceGroupHeaderFontSize
+
+.. _SequenceGroupHeaderFontSize:
+
+.. container:: keyword
+
+    SequenceGroupHeaderFontSize
+
+
+:Usage:
+    :code:`SequenceGroupHeaderFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceGroupHeaderFontSize zz`:
+
+    .. uml::  puml/sk-ex/SequenceGroupHeaderFontSize-zz.puml
+
+
+
+
+.. index:: SequenceGroupHeaderFontStyle
+    pair: skinparam; SequenceGroupHeaderFontStyle
+
+.. _SequenceGroupHeaderFontStyle:
+
+.. container:: keyword
+
+    SequenceGroupHeaderFontStyle
+
+
+:Usage:
+    :code:`SequenceGroupHeaderFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceGroupHeaderFontStyle zz`:
+
+    .. uml::  puml/sk-ex/SequenceGroupHeaderFontStyle-zz.puml
+
+
+
+
+.. index:: SequenceLifeLineBackgroundColor
+    pair: skinparam; SequenceLifeLineBackgroundColor
+
+.. _SequenceLifeLineBackgroundColor:
+
+.. container:: keyword
+
+    SequenceLifeLineBackgroundColor
+
+
+:Usage:
+    :code:`SequenceLifeLineBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceLifeLineBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceLifeLineBackgroundColor-zz.puml
+
+
+
+
+.. index:: SequenceLifeLineBorderColor
+    pair: skinparam; SequenceLifeLineBorderColor
+
+.. _SequenceLifeLineBorderColor:
+
+.. container:: keyword
+
+    SequenceLifeLineBorderColor
+
+
+:Usage:
+    :code:`SequenceLifeLineBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceLifeLineBorderColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceLifeLineBorderColor-zz.puml
+
+
+
+
+.. index:: SequenceLifeLineBorderThickness
+    pair: skinparam; SequenceLifeLineBorderThickness
+
+.. _SequenceLifeLineBorderThickness:
+
+.. container:: keyword
+
+    SequenceLifeLineBorderThickness
+
+
+:Usage:
+    :code:`SequenceLifeLineBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceLifeLineBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/SequenceLifeLineBorderThickness-zz.puml
+
+
+
+
+.. index:: SequenceMessageAlignment
+    pair: skinparam; SequenceMessageAlignment
+
+.. _SequenceMessageAlignment:
+
+.. container:: keyword
+
+    SequenceMessageAlignment
+
+
+:Usage:
+    :code:`SequenceMessageAlignment zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceMessageAlignment zz`:
+
+    .. uml::  puml/sk-ex/SequenceMessageAlignment-zz.puml
+
+
+
+
+.. index:: SequenceMessageTextAlignment
+    pair: skinparam; SequenceMessageTextAlignment
+
+.. _SequenceMessageTextAlignment:
+
+.. container:: keyword
+
+    SequenceMessageTextAlignment
+
+
+:Usage:
+    :code:`SequenceMessageTextAlignment zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceMessageTextAlignment zz`:
+
+    .. uml::  puml/sk-ex/SequenceMessageTextAlignment-zz.puml
+
+
+
+
+.. index:: SequenceNewpageSeparatorColor
+    pair: skinparam; SequenceNewpageSeparatorColor
+
+.. _SequenceNewpageSeparatorColor:
+
+.. container:: keyword
+
+    SequenceNewpageSeparatorColor
+
+
+:Usage:
+    :code:`SequenceNewpageSeparatorColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceNewpageSeparatorColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceNewpageSeparatorColor-zz.puml
+
+
+
+
+.. index:: SequenceParticipant
+    pair: skinparam; SequenceParticipant
+
+.. _SequenceParticipant:
+
+.. container:: keyword
+
+    SequenceParticipant
+
+
+:Usage:
+    :code:`SequenceParticipant zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceParticipant zz`:
+
+    .. uml::  puml/sk-ex/SequenceParticipant-zz.puml
+
+
+
+
+.. index:: SequenceParticipantBorderThickness
+    pair: skinparam; SequenceParticipantBorderThickness
+
+.. _SequenceParticipantBorderThickness:
+
+.. container:: keyword
+
+    SequenceParticipantBorderThickness
+
+
+:Usage:
+    :code:`SequenceParticipantBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceParticipantBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/SequenceParticipantBorderThickness-zz.puml
+
+
+
+
+.. index:: SequenceReferenceAlignment
+    pair: skinparam; SequenceReferenceAlignment
+
+.. _SequenceReferenceAlignment:
+
+.. container:: keyword
+
+    SequenceReferenceAlignment
+
+
+:Usage:
+    :code:`SequenceReferenceAlignment zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceReferenceAlignment zz`:
+
+    .. uml::  puml/sk-ex/SequenceReferenceAlignment-zz.puml
+
+
+
+
+.. index:: SequenceReferenceBackgroundColor
+    pair: skinparam; SequenceReferenceBackgroundColor
+
+.. _SequenceReferenceBackgroundColor:
+
+.. container:: keyword
+
+    SequenceReferenceBackgroundColor
+
+
+:Usage:
+    :code:`SequenceReferenceBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceReferenceBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceReferenceBackgroundColor-zz.puml
+
+
+
+
+.. index:: SequenceReferenceBorderColor
+    pair: skinparam; SequenceReferenceBorderColor
+
+.. _SequenceReferenceBorderColor:
+
+.. container:: keyword
+
+    SequenceReferenceBorderColor
+
+
+:Usage:
+    :code:`SequenceReferenceBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceReferenceBorderColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceReferenceBorderColor-zz.puml
+
+
+
+
+.. index:: SequenceReferenceBorderThickness
+    pair: skinparam; SequenceReferenceBorderThickness
+
+.. _SequenceReferenceBorderThickness:
+
+.. container:: keyword
+
+    SequenceReferenceBorderThickness
+
+
+:Usage:
+    :code:`SequenceReferenceBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceReferenceBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/SequenceReferenceBorderThickness-zz.puml
+
+
+
+
+.. index:: SequenceReferenceFontColor
+    pair: skinparam; SequenceReferenceFontColor
+
+.. _SequenceReferenceFontColor:
+
+.. container:: keyword
+
+    SequenceReferenceFontColor
+
+
+:Usage:
+    :code:`SequenceReferenceFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceReferenceFontColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceReferenceFontColor-zz.puml
+
+
+
+
+.. index:: SequenceReferenceFontName
+    pair: skinparam; SequenceReferenceFontName
+
+.. _SequenceReferenceFontName:
+
+.. container:: keyword
+
+    SequenceReferenceFontName
+
+
+:Usage:
+    :code:`SequenceReferenceFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceReferenceFontName zz`:
+
+    .. uml::  puml/sk-ex/SequenceReferenceFontName-zz.puml
+
+
+
+
+.. index:: SequenceReferenceFontSize
+    pair: skinparam; SequenceReferenceFontSize
+
+.. _SequenceReferenceFontSize:
+
+.. container:: keyword
+
+    SequenceReferenceFontSize
+
+
+:Usage:
+    :code:`SequenceReferenceFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceReferenceFontSize zz`:
+
+    .. uml::  puml/sk-ex/SequenceReferenceFontSize-zz.puml
+
+
+
+
+.. index:: SequenceReferenceFontStyle
+    pair: skinparam; SequenceReferenceFontStyle
+
+.. _SequenceReferenceFontStyle:
+
+.. container:: keyword
+
+    SequenceReferenceFontStyle
+
+
+:Usage:
+    :code:`SequenceReferenceFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceReferenceFontStyle zz`:
+
+    .. uml::  puml/sk-ex/SequenceReferenceFontStyle-zz.puml
+
+
+
+
+.. index:: SequenceReferenceHeaderBackgroundColor
+    pair: skinparam; SequenceReferenceHeaderBackgroundColor
+
+.. _SequenceReferenceHeaderBackgroundColor:
+
+.. container:: keyword
+
+    SequenceReferenceHeaderBackgroundColor
+
+
+:Usage:
+    :code:`SequenceReferenceHeaderBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceReferenceHeaderBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceReferenceHeaderBackgroundColor-zz.puml
+
+
+
+
+.. index:: SequenceStereotypeFontColor
+    pair: skinparam; SequenceStereotypeFontColor
+
+.. _SequenceStereotypeFontColor:
+
+.. container:: keyword
+
+    SequenceStereotypeFontColor
+
+
+:Usage:
+    :code:`SequenceStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: SequenceStereotypeFontName
+    pair: skinparam; SequenceStereotypeFontName
+
+.. _SequenceStereotypeFontName:
+
+.. container:: keyword
+
+    SequenceStereotypeFontName
+
+
+:Usage:
+    :code:`SequenceStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/SequenceStereotypeFontName-zz.puml
+
+
+
+
+.. index:: SequenceStereotypeFontSize
+    pair: skinparam; SequenceStereotypeFontSize
+
+.. _SequenceStereotypeFontSize:
+
+.. container:: keyword
+
+    SequenceStereotypeFontSize
+
+
+:Usage:
+    :code:`SequenceStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/SequenceStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: SequenceStereotypeFontStyle
+    pair: skinparam; SequenceStereotypeFontStyle
+
+.. _SequenceStereotypeFontStyle:
+
+.. container:: keyword
+
+    SequenceStereotypeFontStyle
+
+
+:Usage:
+    :code:`SequenceStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/SequenceStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: SequenceTitleFontColor
+    pair: skinparam; SequenceTitleFontColor
+
+.. _SequenceTitleFontColor:
+
+.. container:: keyword
+
+    SequenceTitleFontColor
+
+
+:Usage:
+    :code:`SequenceTitleFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceTitleFontColor zz`:
+
+    .. uml::  puml/sk-ex/SequenceTitleFontColor-zz.puml
+
+
+
+
+.. index:: SequenceTitleFontName
+    pair: skinparam; SequenceTitleFontName
+
+.. _SequenceTitleFontName:
+
+.. container:: keyword
+
+    SequenceTitleFontName
+
+
+:Usage:
+    :code:`SequenceTitleFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceTitleFontName zz`:
+
+    .. uml::  puml/sk-ex/SequenceTitleFontName-zz.puml
+
+
+
+
+.. index:: SequenceTitleFontSize
+    pair: skinparam; SequenceTitleFontSize
+
+.. _SequenceTitleFontSize:
+
+.. container:: keyword
+
+    SequenceTitleFontSize
+
+
+:Usage:
+    :code:`SequenceTitleFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceTitleFontSize zz`:
+
+    .. uml::  puml/sk-ex/SequenceTitleFontSize-zz.puml
+
+
+
+
+.. index:: SequenceTitleFontStyle
+    pair: skinparam; SequenceTitleFontStyle
+
+.. _SequenceTitleFontStyle:
+
+.. container:: keyword
+
+    SequenceTitleFontStyle
+
+
+:Usage:
+    :code:`SequenceTitleFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SequenceTitleFontStyle zz`:
+
+    .. uml::  puml/sk-ex/SequenceTitleFontStyle-zz.puml
+
+
+
+
+.. index:: Shadowing
+    pair: skinparam; Shadowing
+
+.. _Shadowing:
+
+.. container:: keyword
+
+    Shadowing
+
+
+:Usage:
+    :code:`Shadowing zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`Shadowing zz`:
+
+    .. uml::  puml/sk-ex/Shadowing-zz.puml
+
+
+
+
+.. index:: StackBackgroundColor
+    pair: skinparam; StackBackgroundColor
+
+.. _StackBackgroundColor:
+
+.. container:: keyword
+
+    StackBackgroundColor
+
+
+:Usage:
+    :code:`StackBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StackBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/StackBackgroundColor-zz.puml
+
+
+
+
+.. index:: StackBorderColor
+    pair: skinparam; StackBorderColor
+
+.. _StackBorderColor:
+
+.. container:: keyword
+
+    StackBorderColor
+
+
+:Usage:
+    :code:`StackBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StackBorderColor zz`:
+
+    .. uml::  puml/sk-ex/StackBorderColor-zz.puml
+
+
+
+
+.. index:: StackFontColor
+    pair: skinparam; StackFontColor
+
+.. _StackFontColor:
+
+.. container:: keyword
+
+    StackFontColor
+
+
+:Usage:
+    :code:`StackFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StackFontColor zz`:
+
+    .. uml::  puml/sk-ex/StackFontColor-zz.puml
+
+
+
+
+.. index:: StackFontName
+    pair: skinparam; StackFontName
+
+.. _StackFontName:
+
+.. container:: keyword
+
+    StackFontName
+
+
+:Usage:
+    :code:`StackFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StackFontName zz`:
+
+    .. uml::  puml/sk-ex/StackFontName-zz.puml
+
+
+
+
+.. index:: StackFontSize
+    pair: skinparam; StackFontSize
+
+.. _StackFontSize:
+
+.. container:: keyword
+
+    StackFontSize
+
+
+:Usage:
+    :code:`StackFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StackFontSize zz`:
+
+    .. uml::  puml/sk-ex/StackFontSize-zz.puml
+
+
+
+
+.. index:: StackFontStyle
+    pair: skinparam; StackFontStyle
+
+.. _StackFontStyle:
+
+.. container:: keyword
+
+    StackFontStyle
+
+
+:Usage:
+    :code:`StackFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StackFontStyle zz`:
+
+    .. uml::  puml/sk-ex/StackFontStyle-zz.puml
+
+
+
+
+.. index:: StackStereotypeFontColor
+    pair: skinparam; StackStereotypeFontColor
+
+.. _StackStereotypeFontColor:
+
+.. container:: keyword
+
+    StackStereotypeFontColor
+
+
+:Usage:
+    :code:`StackStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StackStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/StackStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: StackStereotypeFontName
+    pair: skinparam; StackStereotypeFontName
+
+.. _StackStereotypeFontName:
+
+.. container:: keyword
+
+    StackStereotypeFontName
+
+
+:Usage:
+    :code:`StackStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StackStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/StackStereotypeFontName-zz.puml
+
+
+
+
+.. index:: StackStereotypeFontSize
+    pair: skinparam; StackStereotypeFontSize
+
+.. _StackStereotypeFontSize:
+
+.. container:: keyword
+
+    StackStereotypeFontSize
+
+
+:Usage:
+    :code:`StackStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StackStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/StackStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: StackStereotypeFontStyle
+    pair: skinparam; StackStereotypeFontStyle
+
+.. _StackStereotypeFontStyle:
+
+.. container:: keyword
+
+    StackStereotypeFontStyle
+
+
+:Usage:
+    :code:`StackStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StackStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/StackStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: StateAttributeFontColor
+    pair: skinparam; StateAttributeFontColor
+
+.. _StateAttributeFontColor:
+
+.. container:: keyword
+
+    StateAttributeFontColor
+
+
+:Usage:
+    :code:`StateAttributeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StateAttributeFontColor zz`:
+
+    .. uml::  puml/sk-ex/StateAttributeFontColor-zz.puml
+
+
+
+
+.. index:: StateAttributeFontName
+    pair: skinparam; StateAttributeFontName
+
+.. _StateAttributeFontName:
+
+.. container:: keyword
+
+    StateAttributeFontName
+
+
+:Usage:
+    :code:`StateAttributeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StateAttributeFontName zz`:
+
+    .. uml::  puml/sk-ex/StateAttributeFontName-zz.puml
+
+
+
+
+.. index:: StateAttributeFontSize
+    pair: skinparam; StateAttributeFontSize
+
+.. _StateAttributeFontSize:
+
+.. container:: keyword
+
+    StateAttributeFontSize
+
+
+:Usage:
+    :code:`StateAttributeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StateAttributeFontSize zz`:
+
+    .. uml::  puml/sk-ex/StateAttributeFontSize-zz.puml
+
+
+
+
+.. index:: StateAttributeFontStyle
+    pair: skinparam; StateAttributeFontStyle
+
+.. _StateAttributeFontStyle:
+
+.. container:: keyword
+
+    StateAttributeFontStyle
+
+
+:Usage:
+    :code:`StateAttributeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StateAttributeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/StateAttributeFontStyle-zz.puml
+
+
+
+
+.. index:: StateBackgroundColor
+    pair: skinparam; StateBackgroundColor
+
+.. _StateBackgroundColor:
+
+.. container:: keyword
+
+    StateBackgroundColor
+
+
+:Usage:
+    :code:`StateBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StateBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/StateBackgroundColor-zz.puml
+
+
+
+
+.. index:: StateBorderColor
+    pair: skinparam; StateBorderColor
+
+.. _StateBorderColor:
+
+.. container:: keyword
+
+    StateBorderColor
+
+
+:Usage:
+    :code:`StateBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StateBorderColor zz`:
+
+    .. uml::  puml/sk-ex/StateBorderColor-zz.puml
+
+
+
+
+.. index:: StateEndColor
+    pair: skinparam; StateEndColor
+
+.. _StateEndColor:
+
+.. container:: keyword
+
+    StateEndColor
+
+
+:Usage:
+    :code:`StateEndColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StateEndColor zz`:
+
+    .. uml::  puml/sk-ex/StateEndColor-zz.puml
+
+
+
+
+.. index:: StateFontColor
+    pair: skinparam; StateFontColor
+
+.. _StateFontColor:
+
+.. container:: keyword
+
+    StateFontColor
+
+
+:Usage:
+    :code:`StateFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StateFontColor zz`:
+
+    .. uml::  puml/sk-ex/StateFontColor-zz.puml
+
+
+
+
+.. index:: StateFontName
+    pair: skinparam; StateFontName
+
+.. _StateFontName:
+
+.. container:: keyword
+
+    StateFontName
+
+
+:Usage:
+    :code:`StateFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StateFontName zz`:
+
+    .. uml::  puml/sk-ex/StateFontName-zz.puml
+
+
+
+
+.. index:: StateFontSize
+    pair: skinparam; StateFontSize
+
+.. _StateFontSize:
+
+.. container:: keyword
+
+    StateFontSize
+
+
+:Usage:
+    :code:`StateFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StateFontSize zz`:
+
+    .. uml::  puml/sk-ex/StateFontSize-zz.puml
+
+
+
+
+.. index:: StateFontStyle
+    pair: skinparam; StateFontStyle
+
+.. _StateFontStyle:
+
+.. container:: keyword
+
+    StateFontStyle
+
+
+:Usage:
+    :code:`StateFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StateFontStyle zz`:
+
+    .. uml::  puml/sk-ex/StateFontStyle-zz.puml
+
+
+
+
+.. index:: StateStartColor
+    pair: skinparam; StateStartColor
+
+.. _StateStartColor:
+
+.. container:: keyword
+
+    StateStartColor
+
+
+:Usage:
+    :code:`StateStartColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StateStartColor zz`:
+
+    .. uml::  puml/sk-ex/StateStartColor-zz.puml
+
+
+
+
+.. index:: StereotypeABackgroundColor
+    pair: skinparam; StereotypeABackgroundColor
+
+.. _StereotypeABackgroundColor:
+
+.. container:: keyword
+
+    StereotypeABackgroundColor
+
+
+:Usage:
+    :code:`StereotypeABackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StereotypeABackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/StereotypeABackgroundColor-zz.puml
+
+
+
+
+.. index:: StereotypeABorderColor
+    pair: skinparam; StereotypeABorderColor
+
+.. _StereotypeABorderColor:
+
+.. container:: keyword
+
+    StereotypeABorderColor
+
+
+:Usage:
+    :code:`StereotypeABorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StereotypeABorderColor zz`:
+
+    .. uml::  puml/sk-ex/StereotypeABorderColor-zz.puml
+
+
+
+
+.. index:: StereotypeCBackgroundColor
+    pair: skinparam; StereotypeCBackgroundColor
+
+.. _StereotypeCBackgroundColor:
+
+.. container:: keyword
+
+    StereotypeCBackgroundColor
+
+
+:Usage:
+    :code:`StereotypeCBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StereotypeCBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/StereotypeCBackgroundColor-zz.puml
+
+
+
+
+.. index:: StereotypeCBorderColor
+    pair: skinparam; StereotypeCBorderColor
+
+.. _StereotypeCBorderColor:
+
+.. container:: keyword
+
+    StereotypeCBorderColor
+
+
+:Usage:
+    :code:`StereotypeCBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StereotypeCBorderColor zz`:
+
+    .. uml::  puml/sk-ex/StereotypeCBorderColor-zz.puml
+
+
+
+
+.. index:: StereotypeEBackgroundColor
+    pair: skinparam; StereotypeEBackgroundColor
+
+.. _StereotypeEBackgroundColor:
+
+.. container:: keyword
+
+    StereotypeEBackgroundColor
+
+
+:Usage:
+    :code:`StereotypeEBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StereotypeEBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/StereotypeEBackgroundColor-zz.puml
+
+
+
+
+.. index:: StereotypeEBorderColor
+    pair: skinparam; StereotypeEBorderColor
+
+.. _StereotypeEBorderColor:
+
+.. container:: keyword
+
+    StereotypeEBorderColor
+
+
+:Usage:
+    :code:`StereotypeEBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StereotypeEBorderColor zz`:
+
+    .. uml::  puml/sk-ex/StereotypeEBorderColor-zz.puml
+
+
+
+
+.. index:: StereotypeIBackgroundColor
+    pair: skinparam; StereotypeIBackgroundColor
+
+.. _StereotypeIBackgroundColor:
+
+.. container:: keyword
+
+    StereotypeIBackgroundColor
+
+
+:Usage:
+    :code:`StereotypeIBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StereotypeIBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/StereotypeIBackgroundColor-zz.puml
+
+
+
+
+.. index:: StereotypeIBorderColor
+    pair: skinparam; StereotypeIBorderColor
+
+.. _StereotypeIBorderColor:
+
+.. container:: keyword
+
+    StereotypeIBorderColor
+
+
+:Usage:
+    :code:`StereotypeIBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StereotypeIBorderColor zz`:
+
+    .. uml::  puml/sk-ex/StereotypeIBorderColor-zz.puml
+
+
+
+
+.. index:: StereotypeNBackgroundColor
+    pair: skinparam; StereotypeNBackgroundColor
+
+.. _StereotypeNBackgroundColor:
+
+.. container:: keyword
+
+    StereotypeNBackgroundColor
+
+
+:Usage:
+    :code:`StereotypeNBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StereotypeNBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/StereotypeNBackgroundColor-zz.puml
+
+
+
+
+.. index:: StereotypeNBorderColor
+    pair: skinparam; StereotypeNBorderColor
+
+.. _StereotypeNBorderColor:
+
+.. container:: keyword
+
+    StereotypeNBorderColor
+
+
+:Usage:
+    :code:`StereotypeNBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StereotypeNBorderColor zz`:
+
+    .. uml::  puml/sk-ex/StereotypeNBorderColor-zz.puml
+
+
+
+
+.. index:: StereotypePosition
+    pair: skinparam; StereotypePosition
+
+.. _StereotypePosition:
+
+.. container:: keyword
+
+    StereotypePosition
+
+
+:Usage:
+    :code:`StereotypePosition zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StereotypePosition zz`:
+
+    .. uml::  puml/sk-ex/StereotypePosition-zz.puml
+
+
+
+
+.. index:: StorageBackgroundColor
+    pair: skinparam; StorageBackgroundColor
+
+.. _StorageBackgroundColor:
+
+.. container:: keyword
+
+    StorageBackgroundColor
+
+
+:Usage:
+    :code:`StorageBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StorageBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/StorageBackgroundColor-zz.puml
+
+
+
+
+.. index:: StorageBorderColor
+    pair: skinparam; StorageBorderColor
+
+.. _StorageBorderColor:
+
+.. container:: keyword
+
+    StorageBorderColor
+
+
+:Usage:
+    :code:`StorageBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StorageBorderColor zz`:
+
+    .. uml::  puml/sk-ex/StorageBorderColor-zz.puml
+
+
+
+
+.. index:: StorageFontColor
+    pair: skinparam; StorageFontColor
+
+.. _StorageFontColor:
+
+.. container:: keyword
+
+    StorageFontColor
+
+
+:Usage:
+    :code:`StorageFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StorageFontColor zz`:
+
+    .. uml::  puml/sk-ex/StorageFontColor-zz.puml
+
+
+
+
+.. index:: StorageFontName
+    pair: skinparam; StorageFontName
+
+.. _StorageFontName:
+
+.. container:: keyword
+
+    StorageFontName
+
+
+:Usage:
+    :code:`StorageFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StorageFontName zz`:
+
+    .. uml::  puml/sk-ex/StorageFontName-zz.puml
+
+
+
+
+.. index:: StorageFontSize
+    pair: skinparam; StorageFontSize
+
+.. _StorageFontSize:
+
+.. container:: keyword
+
+    StorageFontSize
+
+
+:Usage:
+    :code:`StorageFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StorageFontSize zz`:
+
+    .. uml::  puml/sk-ex/StorageFontSize-zz.puml
+
+
+
+
+.. index:: StorageFontStyle
+    pair: skinparam; StorageFontStyle
+
+.. _StorageFontStyle:
+
+.. container:: keyword
+
+    StorageFontStyle
+
+
+:Usage:
+    :code:`StorageFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StorageFontStyle zz`:
+
+    .. uml::  puml/sk-ex/StorageFontStyle-zz.puml
+
+
+
+
+.. index:: StorageStereotypeFontColor
+    pair: skinparam; StorageStereotypeFontColor
+
+.. _StorageStereotypeFontColor:
+
+.. container:: keyword
+
+    StorageStereotypeFontColor
+
+
+:Usage:
+    :code:`StorageStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StorageStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/StorageStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: StorageStereotypeFontName
+    pair: skinparam; StorageStereotypeFontName
+
+.. _StorageStereotypeFontName:
+
+.. container:: keyword
+
+    StorageStereotypeFontName
+
+
+:Usage:
+    :code:`StorageStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StorageStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/StorageStereotypeFontName-zz.puml
+
+
+
+
+.. index:: StorageStereotypeFontSize
+    pair: skinparam; StorageStereotypeFontSize
+
+.. _StorageStereotypeFontSize:
+
+.. container:: keyword
+
+    StorageStereotypeFontSize
+
+
+:Usage:
+    :code:`StorageStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StorageStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/StorageStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: StorageStereotypeFontStyle
+    pair: skinparam; StorageStereotypeFontStyle
+
+.. _StorageStereotypeFontStyle:
+
+.. container:: keyword
+
+    StorageStereotypeFontStyle
+
+
+:Usage:
+    :code:`StorageStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`StorageStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/StorageStereotypeFontStyle-zz.puml
+
+
+
+
+.. index:: Style
+    pair: skinparam; Style
+
+.. _Style:
+
+.. container:: keyword
+
+    Style
+
+
+:Usage:
+    :code:`Style zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`Style zz`:
+
+    .. uml::  puml/sk-ex/Style-zz.puml
+
+
+
+
+.. index:: SvglinkTarget
+    pair: skinparam; SvglinkTarget
+
+.. _SvglinkTarget:
+
+.. container:: keyword
+
+    SvglinkTarget
+
+
+:Usage:
+    :code:`SvglinkTarget zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SvglinkTarget zz`:
+
+    .. uml::  puml/sk-ex/SvglinkTarget-zz.puml
+
+
+
+
+.. index:: SwimlaneBorderColor
+    pair: skinparam; SwimlaneBorderColor
+
+.. _SwimlaneBorderColor:
+
+.. container:: keyword
+
+    SwimlaneBorderColor
+
+
+:Usage:
+    :code:`SwimlaneBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SwimlaneBorderColor zz`:
+
+    .. uml::  puml/sk-ex/SwimlaneBorderColor-zz.puml
+
+
+
+
+.. index:: SwimlaneBorderThickness
+    pair: skinparam; SwimlaneBorderThickness
+
+.. _SwimlaneBorderThickness:
+
+.. container:: keyword
+
+    SwimlaneBorderThickness
+
+
+:Usage:
+    :code:`SwimlaneBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SwimlaneBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/SwimlaneBorderThickness-zz.puml
+
+
+
+
+.. index:: SwimlaneTitleFontColor
+    pair: skinparam; SwimlaneTitleFontColor
+
+.. _SwimlaneTitleFontColor:
+
+.. container:: keyword
+
+    SwimlaneTitleFontColor
+
+
+:Usage:
+    :code:`SwimlaneTitleFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SwimlaneTitleFontColor zz`:
+
+    .. uml::  puml/sk-ex/SwimlaneTitleFontColor-zz.puml
+
+
+
+
+.. index:: SwimlaneTitleFontName
+    pair: skinparam; SwimlaneTitleFontName
+
+.. _SwimlaneTitleFontName:
+
+.. container:: keyword
+
+    SwimlaneTitleFontName
+
+
+:Usage:
+    :code:`SwimlaneTitleFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SwimlaneTitleFontName zz`:
+
+    .. uml::  puml/sk-ex/SwimlaneTitleFontName-zz.puml
+
+
+
+
+.. index:: SwimlaneTitleFontSize
+    pair: skinparam; SwimlaneTitleFontSize
+
+.. _SwimlaneTitleFontSize:
+
+.. container:: keyword
+
+    SwimlaneTitleFontSize
+
+
+:Usage:
+    :code:`SwimlaneTitleFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SwimlaneTitleFontSize zz`:
+
+    .. uml::  puml/sk-ex/SwimlaneTitleFontSize-zz.puml
+
+
+
+
+.. index:: SwimlaneTitleFontStyle
+    pair: skinparam; SwimlaneTitleFontStyle
+
+.. _SwimlaneTitleFontStyle:
+
+.. container:: keyword
+
+    SwimlaneTitleFontStyle
+
+
+:Usage:
+    :code:`SwimlaneTitleFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SwimlaneTitleFontStyle zz`:
+
+    .. uml::  puml/sk-ex/SwimlaneTitleFontStyle-zz.puml
+
+
+
+
+.. index:: SwimlaneWidth
+    pair: skinparam; SwimlaneWidth
+
+.. _SwimlaneWidth:
+
+.. container:: keyword
+
+    SwimlaneWidth
+
+
+:Usage:
+    :code:`SwimlaneWidth zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SwimlaneWidth zz`:
+
+    .. uml::  puml/sk-ex/SwimlaneWidth-zz.puml
+
+
+
+
+.. index:: SwimlaneWrapTitleWidth
+    pair: skinparam; SwimlaneWrapTitleWidth
+
+.. _SwimlaneWrapTitleWidth:
+
+.. container:: keyword
+
+    SwimlaneWrapTitleWidth
+
+
+:Usage:
+    :code:`SwimlaneWrapTitleWidth zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`SwimlaneWrapTitleWidth zz`:
+
+    .. uml::  puml/sk-ex/SwimlaneWrapTitleWidth-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _T:
+
+--
+T
+--
+
+.. index:: TabSize
+    pair: skinparam; TabSize
+
+.. _TabSize:
+
+.. container:: keyword
+
+    TabSize
+
+
+:Usage:
+    :code:`TabSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`TabSize zz`:
+
+    .. uml::  puml/sk-ex/TabSize-zz.puml
+
+
+
+
+.. index:: TitleBackgroundColor
+    pair: skinparam; TitleBackgroundColor
+
+.. _TitleBackgroundColor:
+
+.. container:: keyword
+
+    TitleBackgroundColor
+
+
+:Usage:
+    :code:`TitleBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`TitleBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/TitleBackgroundColor-zz.puml
+
+
+
+
+.. index:: TitleBorderColor
+    pair: skinparam; TitleBorderColor
+
+.. _TitleBorderColor:
+
+.. container:: keyword
+
+    TitleBorderColor
+
+
+:Usage:
+    :code:`TitleBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`TitleBorderColor zz`:
+
+    .. uml::  puml/sk-ex/TitleBorderColor-zz.puml
+
+
+
+
+.. index:: TitleBorderRoundCorner
+    pair: skinparam; TitleBorderRoundCorner
+
+.. _TitleBorderRoundCorner:
+
+.. container:: keyword
+
+    TitleBorderRoundCorner
+
+
+:Usage:
+    :code:`TitleBorderRoundCorner zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`TitleBorderRoundCorner zz`:
+
+    .. uml::  puml/sk-ex/TitleBorderRoundCorner-zz.puml
+
+
+
+
+.. index:: TitleBorderThickness
+    pair: skinparam; TitleBorderThickness
+
+.. _TitleBorderThickness:
+
+.. container:: keyword
+
+    TitleBorderThickness
+
+
+:Usage:
+    :code:`TitleBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`TitleBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/TitleBorderThickness-zz.puml
+
+
+
+
+.. index:: TitleFontColor
+    pair: skinparam; TitleFontColor
+
+.. _TitleFontColor:
+
+.. container:: keyword
+
+    TitleFontColor
+
+
+:Usage:
+    :code:`TitleFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`TitleFontColor zz`:
+
+    .. uml::  puml/sk-ex/TitleFontColor-zz.puml
+
+
+
+
+.. index:: TitleFontName
+    pair: skinparam; TitleFontName
+
+.. _TitleFontName:
+
+.. container:: keyword
+
+    TitleFontName
+
+
+:Usage:
+    :code:`TitleFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`TitleFontName zz`:
+
+    .. uml::  puml/sk-ex/TitleFontName-zz.puml
+
+
+
+
+.. index:: TitleFontSize
+    pair: skinparam; TitleFontSize
+
+.. _TitleFontSize:
+
+.. container:: keyword
+
+    TitleFontSize
+
+
+:Usage:
+    :code:`TitleFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`TitleFontSize zz`:
+
+    .. uml::  puml/sk-ex/TitleFontSize-zz.puml
+
+
+
+
+.. index:: TitleFontStyle
+    pair: skinparam; TitleFontStyle
+
+.. _TitleFontStyle:
+
+.. container:: keyword
+
+    TitleFontStyle
+
+
+:Usage:
+    :code:`TitleFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`TitleFontStyle zz`:
+
+    .. uml::  puml/sk-ex/TitleFontStyle-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _U:
+
+--
+U
+--
+
+.. index:: UsecaseBackgroundColor
+    pair: skinparam; UsecaseBackgroundColor
+
+.. _UsecaseBackgroundColor:
+
+.. container:: keyword
+
+    UsecaseBackgroundColor
+
+
+:Usage:
+    :code:`UsecaseBackgroundColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`UsecaseBackgroundColor zz`:
+
+    .. uml::  puml/sk-ex/UsecaseBackgroundColor-zz.puml
+
+
+
+
+.. index:: UsecaseBorderColor
+    pair: skinparam; UsecaseBorderColor
+
+.. _UsecaseBorderColor:
+
+.. container:: keyword
+
+    UsecaseBorderColor
+
+
+:Usage:
+    :code:`UsecaseBorderColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`UsecaseBorderColor zz`:
+
+    .. uml::  puml/sk-ex/UsecaseBorderColor-zz.puml
+
+
+
+
+.. index:: UsecaseBorderThickness
+    pair: skinparam; UsecaseBorderThickness
+
+.. _UsecaseBorderThickness:
+
+.. container:: keyword
+
+    UsecaseBorderThickness
+
+
+:Usage:
+    :code:`UsecaseBorderThickness zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`UsecaseBorderThickness zz`:
+
+    .. uml::  puml/sk-ex/UsecaseBorderThickness-zz.puml
+
+
+
+
+.. index:: UsecaseFontColor
+    pair: skinparam; UsecaseFontColor
+
+.. _UsecaseFontColor:
+
+.. container:: keyword
+
+    UsecaseFontColor
+
+
+:Usage:
+    :code:`UsecaseFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`UsecaseFontColor zz`:
+
+    .. uml::  puml/sk-ex/UsecaseFontColor-zz.puml
+
+
+
+
+.. index:: UsecaseFontName
+    pair: skinparam; UsecaseFontName
+
+.. _UsecaseFontName:
+
+.. container:: keyword
+
+    UsecaseFontName
+
+
+:Usage:
+    :code:`UsecaseFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`UsecaseFontName zz`:
+
+    .. uml::  puml/sk-ex/UsecaseFontName-zz.puml
+
+
+
+
+.. index:: UsecaseFontSize
+    pair: skinparam; UsecaseFontSize
+
+.. _UsecaseFontSize:
+
+.. container:: keyword
+
+    UsecaseFontSize
+
+
+:Usage:
+    :code:`UsecaseFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`UsecaseFontSize zz`:
+
+    .. uml::  puml/sk-ex/UsecaseFontSize-zz.puml
+
+
+
+
+.. index:: UsecaseFontStyle
+    pair: skinparam; UsecaseFontStyle
+
+.. _UsecaseFontStyle:
+
+.. container:: keyword
+
+    UsecaseFontStyle
+
+
+:Usage:
+    :code:`UsecaseFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`UsecaseFontStyle zz`:
+
+    .. uml::  puml/sk-ex/UsecaseFontStyle-zz.puml
+
+
+
+
+.. index:: UsecaseStereotypeFontColor
+    pair: skinparam; UsecaseStereotypeFontColor
+
+.. _UsecaseStereotypeFontColor:
+
+.. container:: keyword
+
+    UsecaseStereotypeFontColor
+
+
+:Usage:
+    :code:`UsecaseStereotypeFontColor zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`UsecaseStereotypeFontColor zz`:
+
+    .. uml::  puml/sk-ex/UsecaseStereotypeFontColor-zz.puml
+
+
+
+
+.. index:: UsecaseStereotypeFontName
+    pair: skinparam; UsecaseStereotypeFontName
+
+.. _UsecaseStereotypeFontName:
+
+.. container:: keyword
+
+    UsecaseStereotypeFontName
+
+
+:Usage:
+    :code:`UsecaseStereotypeFontName zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`UsecaseStereotypeFontName zz`:
+
+    .. uml::  puml/sk-ex/UsecaseStereotypeFontName-zz.puml
+
+
+
+
+.. index:: UsecaseStereotypeFontSize
+    pair: skinparam; UsecaseStereotypeFontSize
+
+.. _UsecaseStereotypeFontSize:
+
+.. container:: keyword
+
+    UsecaseStereotypeFontSize
+
+
+:Usage:
+    :code:`UsecaseStereotypeFontSize zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`UsecaseStereotypeFontSize zz`:
+
+    .. uml::  puml/sk-ex/UsecaseStereotypeFontSize-zz.puml
+
+
+
+
+.. index:: UsecaseStereotypeFontStyle
+    pair: skinparam; UsecaseStereotypeFontStyle
+
+.. _UsecaseStereotypeFontStyle:
+
+.. container:: keyword
+
+    UsecaseStereotypeFontStyle
+
+
+:Usage:
+    :code:`UsecaseStereotypeFontStyle zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`UsecaseStereotypeFontStyle zz`:
+
+    .. uml::  puml/sk-ex/UsecaseStereotypeFontStyle-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`
+
+
+
+
+.. _W:
+
+--
+W
+--
+
+.. index:: WrapWidth
+    pair: skinparam; WrapWidth
+
+.. _WrapWidth:
+
+.. container:: keyword
+
+    WrapWidth
+
+
+:Usage:
+    :code:`WrapWidth zz`
+
+    zz_description
+
+
+:Applies to:
+
+    zz
+
+
+:Example:    :code:`WrapWidth zz`:
+
+    .. uml::  puml/sk-ex/WrapWidth-zz.puml
+
+
+
+
+
+
+.. container:: to-the-top
+
+   :ref:`back up to the top <top>`

@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam RectangleBorderThickness 8
+
+title RectangleBorderThickness 8
+
+rectangle Rectangle
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+
+title ActorBackgroundColor GreenYellow
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam ActorBackgroundColor GreenYellow
+
+!include usecase-2actors.txt
+@enduml

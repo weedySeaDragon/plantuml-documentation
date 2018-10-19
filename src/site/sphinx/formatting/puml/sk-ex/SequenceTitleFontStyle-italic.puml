@@ -1,0 +1,7 @@
+@startuml
+title SequenceTitleFontStyle italic
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+skinparam SequenceTitleFontStyle italic
+
+!include seq-AliceBob.txt
+@enduml

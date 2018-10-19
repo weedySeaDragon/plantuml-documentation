@@ -1,0 +1,10 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+title AgentFontName Papyrus
+skinparam AgentFontName Papyrus
+
+agent agent
+
+
+@enduml

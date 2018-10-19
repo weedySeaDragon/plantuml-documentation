@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam RectangleFontColor red
+
+title RectangleFontColor red
+
+rectangle Rectangle 
+@enduml

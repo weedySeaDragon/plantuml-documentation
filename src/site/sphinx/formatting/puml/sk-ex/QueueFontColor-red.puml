@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam QueueFontColor red
+
+title QueueFontColor red
+
+queue Queue 
+@enduml

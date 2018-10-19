@@ -1,0 +1,10 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+title AgentBackgroundColor lawnGreen
+skinparam AgentBackgroundColor lawnGreen
+
+agent agent
+
+
+@enduml

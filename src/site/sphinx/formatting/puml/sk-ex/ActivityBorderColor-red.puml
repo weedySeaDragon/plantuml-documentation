@@ -1,0 +1,9 @@
+@startuml
+title ActivityBorderColor red
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam ActivityBorderColor red
+
+!include activity.txt
+
+@enduml

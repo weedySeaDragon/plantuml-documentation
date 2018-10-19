@@ -1,0 +1,9 @@
+@startuml
+
+title activityDiamondBorderColor red
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam activityDiamondBorderColor red
+!include activity-alarmrings.txt
+
+@enduml

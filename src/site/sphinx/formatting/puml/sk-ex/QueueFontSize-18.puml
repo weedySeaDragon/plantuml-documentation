@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam QueueFontSize 18
+
+title QueueFontSize 18
+
+queue Queue 
+@enduml

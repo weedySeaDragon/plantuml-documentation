@@ -1,0 +1,18 @@
+@startuml
+title ActorStereotypeFontSize 18
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+skinparam ActorStereotypeFontSize 18
+
+actor Tim <<Stereotype\ntext>>
+
+interface "Data Access" as DA
+
+DA - [First Component]
+[First Component] ..> Tim : use
+
+package "Other Groups" {
+Marsha - [Second Component]
+
+[First Component] --> Marsha
+}
+@enduml

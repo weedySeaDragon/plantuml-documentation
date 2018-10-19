@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam ArtifactBackgroundColor lawnGreen
+
+title ArtifactBackgroundColor lawnGreen
+
+artifact Artifact 
+@enduml

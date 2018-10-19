@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam NodeBackgroundColor red
+
+title NodeBackgroundColor red
+
+node Node
+@enduml

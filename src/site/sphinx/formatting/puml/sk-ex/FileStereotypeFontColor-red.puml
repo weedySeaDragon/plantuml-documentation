@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam FileStereotypeFontColor red
+
+title FileStereotypeFontColor red
+
+file File <<Stereotype>>
+@enduml

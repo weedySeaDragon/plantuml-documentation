@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam EntityBorderColor red
+
+title EntityBorderColor red
+
+entity Entity 
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam NodeStereotypeFontStyle italic
+
+title NodeStereotypeFontStyle italic
+
+node Node <<Stereotype>>
+@enduml

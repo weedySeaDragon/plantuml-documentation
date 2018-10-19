@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam DatabaseStereotypeFontStyle italic
+
+title DatabaseStereotypeFontStyle italic
+
+database Database <<Stereotype>>
+@enduml

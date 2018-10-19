@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam BoundaryFontStyle italic
+
+title BoundaryFontStyle italic
+
+boundary Boundary 
+@enduml

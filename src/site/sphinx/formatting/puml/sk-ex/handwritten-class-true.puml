@@ -1,0 +1,23 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam Handwritten true
+
+title skinparam Handwritten true
+abstract class AbstractList
+abstract AbstractCollection
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+
+enum TimeUnit {
+DAYS
+HOURS
+MINUTES
+}
+@enduml

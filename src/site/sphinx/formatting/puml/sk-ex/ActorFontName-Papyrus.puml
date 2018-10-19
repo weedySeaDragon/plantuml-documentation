@@ -1,0 +1,9 @@
+@startuml
+
+title ActorFontName Papyrus
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam ActorFontName Papyrus
+!include usecase-2actors.txt
+
+@enduml

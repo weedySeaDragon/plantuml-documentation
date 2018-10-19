@@ -1,0 +1,9 @@
+@startuml
+
+title ActivityFontColor red
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam ActivityFontColor red
+!include activity-alarmrings.txt
+
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+
+title ActivityBackgroundColor lightCyan
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam ActivityBackgroundColor lightCyan
+!include activity-alarmrings.txt
+
+@enduml

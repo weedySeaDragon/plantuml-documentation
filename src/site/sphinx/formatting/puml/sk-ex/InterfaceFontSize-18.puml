@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam InterfaceFontSize 18
+
+title InterfaceFontSize 18
+
+interface Interface 
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+title AgentBorderThickness 5
+skinparam AgentBorderThickness 5
+
+agent agent
+
+
+@enduml

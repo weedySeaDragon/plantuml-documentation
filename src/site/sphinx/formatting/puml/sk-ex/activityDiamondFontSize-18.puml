@@ -1,0 +1,9 @@
+@startuml
+
+title activityDiamondFontSize 18
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam activityDiamondFontSize 18
+!include activity-alarmrings.txt
+
+@enduml

@@ -1,0 +1,18 @@
+
+participant Alice
+  participant Bob
+
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+box "K"
+participant Karl
+end box
+
+Bob -> Karl: record\nrequest
+
+database "Request\nRecords" as rrecs
+Karl -> rrecs: record\nrequest
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response

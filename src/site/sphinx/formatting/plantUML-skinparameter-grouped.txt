@@ -1,0 +1,1057 @@
+Activity {
+	BarColor
+
+	Diamond {
+      BackgroundColor
+      Border {
+         Color
+      }
+      Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+	StartColor
+	EndColor
+
+	BackgroundColor
+	Border {
+      Color
+	   Thickness
+	}
+	Font {
+		Color
+		Name
+		Size
+		Style
+	}
+}
+
+Actor {
+	BackgroundColor
+	BorderColor
+	Font {
+		Color
+		Name
+		Size
+		Style
+	}
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+Agent {
+	BackgroundColor
+	Border {
+      Color
+	   Thickness
+	}
+	Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+Arrow {
+	Color
+	Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	LollipopColor
+	MessageAlignment
+	Thickness
+}
+
+Artifact {
+	BackgroundColor
+	BorderColor
+	Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+
+BackgroundColor
+
+BiddableBackgroundColor
+BiddableBorderColor
+
+Boundary {
+	BackgroundColor
+	BorderColor
+	Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+
+BoxPadding
+
+Caption {
+	Font {
+         Color
+         Name
+         Size
+         Style
+      }
+}
+
+
+Card {
+	BackgroundColor
+	Border {
+      Color
+	   Thickness
+	}
+	Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+Circled {
+   Character {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+		Radius
+	}
+}
+
+
+Class {
+   Attribute {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+		IconSize
+	}
+	BackgroundColor
+	Border {
+      Color
+	   Thickness
+	}
+	Font {
+         Color
+         Name
+         Size
+         Style
+   }
+	HeaderBackgroundColor
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+
+Cloud {
+	BackgroundColor
+	BorderColor
+	Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+
+Collections {
+	BackgroundColor
+	BorderColor
+}
+
+
+ColorArrowSeparationSpace
+
+Component {
+	BackgroundColor
+	Border {
+      Color
+	   Thickness
+	}
+	Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+
+ComponentStyle
+
+ConditionStyle
+
+Control {
+	BackgroundColor
+	BorderColor
+	Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+Database {
+	BackgroundColor
+	BorderColor
+	Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+
+Default {
+	Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	MonospacedFontName
+	TextAlignment
+}
+
+
+Designed {
+	BackgroundColor
+	BorderColor
+}
+
+
+DesignedDomain {
+	BorderThickness
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+
+Diagram {
+	Border {
+      Color
+	   Thickness
+	}
+}
+
+Domain {
+	BackgroundColor
+	Border {
+      Color
+	   Thickness
+	}
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+Dpi
+
+Entity  {
+	BackgroundColor
+	BorderColor
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+
+File {
+	BackgroundColor
+	BorderColor
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+
+Folder {
+	BackgroundColor
+	BorderColor
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+
+Footer {
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+}
+
+
+Frame {
+	BackgroundColor
+	BorderColor
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+
+GenericDisplay
+
+Guillemet
+
+Handwritten
+
+Header {
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+}
+
+
+HyperlinkColor
+HyperlinkUnderline
+
+IconIEMandatoryColor
+
+IconPackage {
+	BackgroundColor
+	Color
+}
+
+IconPrivate {
+	BackgroundColor
+	Color
+}
+
+
+IconProtected {
+	BackgroundColor
+	Color
+}
+
+
+IconPublic {
+	BackgroundColor
+	Color
+}
+
+
+Interface {
+	BackgroundColor
+	BorderColor
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+Legend {
+	BackgroundColor
+	Border {
+      Color
+	   Thickness
+	}
+	Font {
+            Color
+            Name
+            Size
+            Style
+   }
+}
+
+Lexical {
+	BackgroundColor
+	BorderColor
+}
+
+Linetype
+
+Machine {
+	BackgroundColor
+	Border {
+      Color
+	   Thickness
+	}
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+
+MaxAsciiMessageLength
+
+MaxMessageSize
+
+MinClassWidth
+
+Monochrome
+
+Node {
+	BackgroundColor
+	BorderColor
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+Nodesep
+
+Note {
+	BackgroundColor
+	Border {
+      Color
+	   Thickness
+	}
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	Shadowing
+	TextAlignment
+}
+
+Object {
+   Attribute {
+		Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	}
+	BackgroundColor
+	Border {
+      Color
+	   Thickness
+	}
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+Package {
+	BackgroundColor
+	Border {
+      Color
+	   Thickness
+	}
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+	Style
+	TitleAlignment
+}
+
+Padding
+
+PageBorderColor
+PageExternalColor
+
+PageMargin
+
+
+Participant {
+	BackgroundColor
+	BorderColor
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	Padding
+}
+
+
+Partition {
+	BackgroundColor
+	Border {
+      Color
+	   Thickness
+	}
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+}
+
+PathHoverColor
+
+
+Queue {
+	BackgroundColor
+	BorderColor
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+Ranksep
+
+
+Rectangle {
+	BackgroundColor
+	Border {
+      Color
+	   Thickness
+	}
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+
+Requirement {
+	BackgroundColor
+	Border {
+      Color
+	   Thickness
+	}
+	Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+
+ResponseMessageBelowArrow
+
+RoundCorner
+
+SameClassWidth
+
+
+Sequence {
+	ActorBorderThickness
+	ArrowThickness
+
+   Box {
+		BackgroundColor
+		BorderColor
+		Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	}
+
+   Delay {
+		Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	}
+
+   Divider {
+		BackgroundColor
+		Border {
+         Color
+	      Thickness
+	   }
+		Font {
+            Color
+            Name
+            Size
+            Style
+         }
+	}
+
+   Group {
+		BackgroundColor
+
+		BodyBackgroundColor
+
+		Border {
+         Color
+	      Thickness
+	   }
+
+		Font {
+            Color
+            Name
+            Size
+            Style
+         }
+
+      Header {
+			Font {
+            Color
+            Name
+            Size
+            Style
+         }
+		}
+   }
+   
+   LifeLine {
+		BackgroundColor
+		Border {
+         Color
+	      Thickness
+	   }
+	}
+	
+	MessageAlignment
+	
+	MessageTextAlignment
+	
+	NewpageSeparatorColor
+	
+	Participant
+	ParticipantBorderThickness
+	
+	Reference {
+		Alignment
+		BackgroundColor
+		Border {
+         Color
+	      Thickness
+	   }
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+		HeaderBackgroundColor
+	}
+	
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+	
+	Title {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+
+Shadowing
+
+Stack {
+	BackgroundColor
+	BorderColor
+	Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+
+State {
+   Attribute {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+	
+	BackgroundColor
+	BorderColor
+	EndColor
+	Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	StartColor
+}
+
+
+Stereotype {
+	A {
+	   BackgroundColor
+	   BorderColor
+	}
+	
+	C {
+	   BackgroundColor
+	   BorderColor
+	}
+	
+	E {
+		BackgroundColor
+	   BorderColor
+	}
+
+   I {
+   	BackgroundColor
+	   BorderColor
+	}
+	
+	N {
+	   BackgroundColor
+	   BorderColor
+	}
+	
+	Position
+}
+
+
+Storage {
+	BackgroundColor
+	BorderColor
+	Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+
+Style
+
+SvglinkTarget
+
+Swimlane {
+	Border {
+      Color
+	   Thickness
+	}
+	Title {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+	Width
+	WrapTitleWidth
+}
+
+
+TabSize
+
+Title {
+	BackgroundColor
+	Border {
+		Color
+		RoundCorner
+		Thickness
+	}
+	Font {
+         Color
+         Name
+         Size
+         Style
+      }
+}
+
+
+Usecase{
+	BackgroundColor
+	Border {
+      Color
+	   Thickness
+	}
+	Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	Stereotype {
+		Font {
+         Color
+         Name
+         Size
+         Style
+      }
+	}
+}
+
+WrapWidth

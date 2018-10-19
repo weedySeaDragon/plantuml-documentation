@@ -1,0 +1,10 @@
+@startuml
+
+title ActorBorderColor red
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam ActorBorderColor red
+
+!include usecase-2actors.txt
+
+@enduml

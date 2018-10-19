@@ -1,0 +1,9 @@
+@startuml
+
+title activityDiamondFontStyle bold
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam activityDiamondFontStyle bold
+!include activity-alarmrings.txt
+
+@enduml

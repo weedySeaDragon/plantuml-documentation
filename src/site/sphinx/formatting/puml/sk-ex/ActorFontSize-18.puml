@@ -1,0 +1,8 @@
+@startuml
+
+title ActorFontSize 18
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam ActorFontSize 18
+!include usecase-2actors.txt
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+title ActivityBarColor red
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam ActivityBarColor red
+
+(*)  --> "run command"
+--> ===B1===
+--> "Parallel Activity 1"
+--> ===B2===
+
+===B1=== --> "Parallel Activity 2"
+--> ===B2===
+--> (*)
+@enduml

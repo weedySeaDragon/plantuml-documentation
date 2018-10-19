@@ -1,0 +1,8 @@
+:Main Admin: as Admin
+(Use the application) as (Use)
+
+User -> (Register)
+User -up-> (Use)
+
+Admin -up-> (Use)
+Admin -right-> (Manage Users)

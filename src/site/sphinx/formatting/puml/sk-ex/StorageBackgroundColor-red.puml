@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam StorageBackgroundColor red
+
+title StorageBackgroundColor red
+
+storage Storage 
+@enduml

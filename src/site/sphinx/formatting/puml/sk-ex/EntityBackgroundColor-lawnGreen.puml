@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam EntityBackgroundColor lawnGreen
+
+title EntityBackgroundColor lawnGreen
+
+entity Entity 
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam DatabaseFontStyle italic
+
+title DatabaseFontStyle italic
+
+database Database 
+@enduml

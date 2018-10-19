@@ -1,12 +1,14 @@
 .. index:: HTML
-   pair: HTML; Legacy HTML support
+   see: Legacy HTML support; HTML
 
-HTML Support
-############
+.. _html:
+
+HTML
+####
 
 PlantUML supports a very small amount of basic HTML.
 
-Reference on the PlantUML site: `Creole <http://plantuml.com/creole>`_
+`Reference and Info on the PlantUML site <http://plantuml.com/creole>`_
 
 
 =================
@@ -74,7 +76,7 @@ example:
 example:
 
 
-:* You can change <color:red>text color</color>
+* You can change <color:red>text color</color>
 * You can change <back:cadetblue>background color</back>
 * You can change <size:18>size</size>
 * You use <u>legacy</u> <b>HTML <i>tag</i></b>

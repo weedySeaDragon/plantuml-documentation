@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam BoundaryBackgroundColor lawnGreen
+
+title BoundaryBackgroundColor lawnGreen
+
+boundary Boundary 
+@enduml

@@ -2,6 +2,7 @@
    see: colors; color names
    see: all colors; color names
 
+.. _all_color_names:
 
 Color Names and Samples
 #######################
@@ -12,7 +13,6 @@ You can use these by putting a :code:`#` in front of the name.  See the specific
 
 
 .. include:: puml/COLORS_RST_TABLE.TXT
-
 
 
 **PlantUML source for the AliceBlue square of color:**

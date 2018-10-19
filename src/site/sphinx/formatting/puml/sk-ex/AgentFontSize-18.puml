@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+title AgentFontSize 18
+skinparam AgentFontSize 18
+
+agent agent
+
+@enduml

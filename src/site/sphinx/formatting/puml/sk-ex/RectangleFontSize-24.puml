@@ -1,0 +1,10 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam RectangleFontName Papyrus
+skinparam  RectangleFontSize 24
+
+title  RectangleFontSize 24
+
+rectangle "Rectangle (in Papyrus font)"
+@enduml

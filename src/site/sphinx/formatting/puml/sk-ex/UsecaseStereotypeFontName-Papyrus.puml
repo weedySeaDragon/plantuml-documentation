@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam UsecaseStereotypeFontName Papyrus
+
+title UsecaseStereotypeFontName Papyrus
+
+usecase Usecase <<Stereotype>>
+@enduml

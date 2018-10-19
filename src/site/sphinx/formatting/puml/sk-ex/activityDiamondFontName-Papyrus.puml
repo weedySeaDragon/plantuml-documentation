@@ -1,0 +1,9 @@
+@startuml
+
+title activityDiamondFontName Papyrus
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam activityDiamondFontName Papyrus
+!include activity-alarmrings.txt
+
+@enduml

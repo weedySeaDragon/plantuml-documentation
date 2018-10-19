@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+title StackBackgroundColor GreenYellow
+skinparam StackBackgroundColor GreenYellow
+
+stack Stack
+
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam ControlFontColor red
+
+title ControlFontColor red
+
+control Control 
+@enduml

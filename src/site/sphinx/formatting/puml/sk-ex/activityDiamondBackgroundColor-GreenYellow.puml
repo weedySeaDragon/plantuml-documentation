@@ -1,0 +1,7 @@
+@startuml
+title activityDiamondBackgroundColor GreenYellow
+!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+skinparam activityDiamondBackgroundColor GreenYellow
+!include activity-alarmrings.txt
+@enduml
