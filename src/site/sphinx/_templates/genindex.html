@@ -45,6 +45,11 @@ Template for an "all-in-one" index.
 
     <h1 id="index">{{ _('Index') }}</h1>
 
+    <p>Since the template cannot break up an entry to exist in 2 columns, the columns are often unenven. In other words,
+        using 'slice' only works when you have few subentries per entry.</p>
+    <p><i>Blank links between entries also need to be taken into account.</i></p>
+
+
     <div class="genindex-jumpbox">
         {% for key, dummy in genindexentries -%}
             <a href="#{{ key }}"><strong>{{ key }}</strong></a>
@@ -52,38 +57,136 @@ Template for an "all-in-one" index.
         {%- endfor %}
     </div>
 
+    <div>
+    <p>genindexcounts:</p>
+    {{ genindexcounts }}
+    </div>
+
+    {% set totalsAll = namespace( size = 0 ) %}
+    {% set totalsEntries = namespace( size = 0 ) %}
+    {% set totalsSubentries = namespace( size = 0 ) %}
+    {% set numEntriesForIndexKey = namespace( size = 0 ) %}
+    {% set numSubentriesForIndexKey = namespace( size = 0 ) %}
+    {% set numSubentriesForEntry = namespace( size = 0 ) %}
+
+    {%- set column_len = namespace( max = ((entries | length) // 2) ) %}
+    {%- set current_column = namespace( num = 1 ) %}
+
+    {%- set entryIndex = namespace(count = 0 ) %}
     {%- for key, entries in genindexentries %}
+        {% set numEntriesForIndexKey.size = 0 %}
+        {% set numSubentriesForIndexKey.size = 0 %}
+
         <h2 id="{{ key }}" class="index-key">{{ key }}</h2>
         <table style="width: 100%" class="indextable genindextable">
-            <tr>
-                {%- for column in entries|slice_index(2) if column %}
-                    <td style="width: 33%; vertical-align: top;">
-                        <ul>
-                            {%- for entryname, (links, subitems, _) in column %}
 
-                                <li class="entry{{ see_class_name_with_space  if entryname.startswith("see ") }}">
+                {# calculate the totals  #}
+                {%- for entryname, (links, subitems, _) in entries %}
+                    {%- set  numEntriesForIndexKey.size = loop.length %}
 
-                                    {%- if subitems %}
-                                        {{ indexentries(entryname, links) }}
+                    {%- if subitems %}
 
-                                        <ul>
-                                            {%- for subentryname, subentrylinks in subitems %}
+                        {%- for subentryname, subentrylinks in subitems %}
+                            {%- set numSubentriesForEntry.size = loop.length %}
+                        {%- endfor %}
 
-                                                <li class="subentry{{ see_class_name_with_space  if subentryname.startswith("see ") }}">{{ indexentries(subentryname, subentrylinks) }}</li>
+                        {% set totalsAll.size = totalsAll.size + numSubentriesForEntry.size %}
+                        {% set totalsSubentries.size = totalsSubentries.size + numSubentriesForEntry.size %}
+                        {% set numSubentriesForIndexKey.size = numSubentriesForIndexKey.size + numSubentriesForEntry.size %}
 
-                                            {%- endfor %}
-                                        </ul>
+                    {%- endif %}
 
-                                    {%- else -%}
-                                        {{ indexentries(entryname, links) }}
-                                    {%- endif -%}
-                                </li>
-                            {%- endfor %}
-                        </ul>
-                    </td>
                 {%- endfor %}
+                {% set totalsAll.size = totalsAll.size + numEntriesForIndexKey.size %}
+                {% set totalsEntries.size = totalsEntries.size + numEntriesForIndexKey.size %}
+{#
+            <tr>
+                <td style="text-align: right">
+                    <ul>
+                        <li><strong>Total number of items for this key
+                            = {{ numEntriesForIndexKey.size + numSubentriesForIndexKey.size }}</strong></li>
+                        <li>Num entries for this key = {{ numEntriesForIndexKey.size }}</li>
+                        <li>Num subentries for this key = {{ numSubentriesForIndexKey.size }}</li>
+                        <li> (Total for this key) / 2
+                            = {{ (numEntriesForIndexKey.size + numSubentriesForIndexKey.size) // 2 }}</li>
+                    </ul>
+                </td>
             </tr>
+#}
+
+            {%- set column_len.max = ( numEntriesForIndexKey.size + numSubentriesForIndexKey.size) // 2 %}
+            {%- set current_column.num = 1 %}
+
+            <tr>
+                {# display the information: #}
+                {# {%- for column in entries | slice(2) if column %} #}
+
+                {%- set td_start = namespace( html = '<td style="width: 33%; vertical-align: top;">' ) %}
+
+                <td>genindexcounts[{{ (loop.index) - 1 }}] = {{ genindexcounts[(loop.index) - 1] }}</td>
+                <td style="width: 33%; vertical-align: top;">
+                {#  {% for entry in entries %} #}
+                {#  <td style="width: 33%; vertical-align: top;"> #}
+                    <ul>
+                        {%- set totalLoop = namespace( count = 0) %}
+                        {%- set indexentryLoop = namespace( count = loop.index) %}
+                        {%- set subentryLoop = namespace( count = 0 ) %}
+
+                        {%- for entryname, (links, subitems, _) in entries %}
+                            {% set indexentryLoop.count = loop.index %}
+                            {% set totalLoop.count = totalLoop.count + 1 %}
+
+                            <li class="entry{{ see_class_name_with_space  if entryname.startswith("see ") }}">
+
+                                {%- if subitems %}
+                                    {{ indexentries(entryname, links) }}
+
+                                    <ul>
+                                        {%- for subentryname, subentrylinks in subitems %}
+                                            {% set totalLoop.count = totalLoop.count + 1 %}
+
+                                            <li class="subentry{{ see_class_name_with_space  if subentryname.startswith("see ") }}">{{ indexentries(subentryname, subentrylinks) }}</li>
+
+
+                                            {%- if not loop.last and  (totalLoop.count > (column_len.max -1) and (current_column.num < 2 ) ) %}
+                                                {%- set current_column.num = current_column.num + 1 %}
+                                    </ul>
+                            </li>
+                    </ul>
+                </td>
+
+                <td style="width: 33%; vertical-align: top;">
+                    <ul>
+                          <li class="entry"><span class="entry-continued">{{ entryname }} continued</span>
+                                <ul>
+                                            {%- endif %}
+
+                                        {%- endfor %}
+
+                                    </ul>
+
+                                {%- else -%}
+                                    {{ indexentries(entryname, links) }}
+                                {%- endif -%}
+                                <br/>
+
+                            </li>
+                            {%- if loop.last or (totalLoop.count > column_len.max and (current_column.num < 2 ) ) %}
+                                {%- set current_column.num = current_column.num + 1 %}
+                    </ul>
+            </td>
+                                {%- if not loop.last %}
+            <td style="width: 33%; vertical-align: top;">
+                    <ul>
+                                {%- endif %}
+                            {%- endif %}
+                        {%- endfor %}
+
+            </tr>
+
         </table>
+
+         {%- set entryIndex.count = entryIndex.count + 1 %}
     {% endfor %}
 
 {% endblock %}
