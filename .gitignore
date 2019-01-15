@@ -3,7 +3,9 @@
 /build/
 
 ### Gradle template
-.gradle
+/.gradle
+
+/gradle/wrapper
 
 
 # Ignore Gradle GUI config
