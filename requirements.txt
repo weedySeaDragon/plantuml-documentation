@@ -50,7 +50,6 @@ Pygments==2.3.1
 pyparsing==2.3.1
 pytz==2018.9
 
-releases==1.6.1
 
 requests==2.21.0
 
