@@ -1,0 +1,10 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam Monochrome true
+
+title Monochrome true
+
+!include activity-alarmrings.txt
+
+@enduml

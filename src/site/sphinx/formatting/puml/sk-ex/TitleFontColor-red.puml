@@ -1,0 +1,10 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam TitleFontColor red
+
+title TitleFontColor red
+
+!include activity-alarmrings.txt
+
+@enduml

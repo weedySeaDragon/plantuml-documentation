@@ -1,0 +1,11 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam TitleBorderColor Black
+skinparam TitleBorderRoundCorner 20
+
+title TitleBorderRoundCorner 20
+
+!include activity-alarmrings.txt
+
+@enduml

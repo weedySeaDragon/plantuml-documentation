@@ -1,0 +1,15 @@
+@startuml
+
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam LegendFontSize 18
+
+title LegendFontSize 18
+
+!include activity-alarmrings.txt
+
+legend
+This is the legend for the diagram.
+end legend
+
+@enduml

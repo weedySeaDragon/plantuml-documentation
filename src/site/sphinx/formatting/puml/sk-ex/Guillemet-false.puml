@@ -1,0 +1,15 @@
+@startuml
+
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam Guillemet false
+
+title Guillemet false
+
+participant Alice << Testable >>
+participant  Bob << Generated >>
+
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+@enduml

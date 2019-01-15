@@ -1,9 +1,10 @@
 @startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam ArtifactStereotypeFontSize 18
 
 title ArtifactStereotypeFontSize 18
 
 artifact Artifact <<Stereotype>>
+
 @enduml

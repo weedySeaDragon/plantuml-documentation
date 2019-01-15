@@ -1,0 +1,14 @@
+@startuml
+
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam FooterFontStyle bold
+
+
+title FooterFontStyle bold
+
+!include activity-alarmrings.txt
+
+footer This is the footer for the diagram.
+
+@enduml

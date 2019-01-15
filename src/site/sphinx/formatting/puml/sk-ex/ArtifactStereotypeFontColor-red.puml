@@ -1,9 +1,11 @@
 @startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam ArtifactStereotypeFontColor red
 
 title ArtifactStereotypeFontColor red
 
 artifact Artifact <<Stereotype>>
+
+
 @enduml

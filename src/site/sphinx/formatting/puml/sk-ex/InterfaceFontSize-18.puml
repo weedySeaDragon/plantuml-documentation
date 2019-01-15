@@ -1,9 +1,15 @@
 @startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam InterfaceFontSize 18
 
 title InterfaceFontSize 18
 
-interface Interface 
+
+component "component Z" as z
+
+interface Interface
+
+z <|- Interface
+
 @enduml

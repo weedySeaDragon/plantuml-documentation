@@ -1,0 +1,11 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam TitleBorderColor Black
+skinparam TitleBackgroundColor yellow
+
+title TitleBackgroundColor yellow
+
+!include activity-alarmrings.txt
+
+@enduml

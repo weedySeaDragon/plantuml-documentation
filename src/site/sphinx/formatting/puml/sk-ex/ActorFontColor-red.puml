@@ -1,10 +1,11 @@
 @startuml
 
 title ActorFontColor red
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam ActorFontColor red
 
 !include usecase-2actors.txt
+
 
 @enduml

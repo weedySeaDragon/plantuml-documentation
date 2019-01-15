@@ -1,0 +1,13 @@
+@startuml
+
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam CaptionFontName Papyrus
+
+title CaptionFontName Papyrus
+
+!include activity-alarmrings.txt
+
+caption This is the caption for the diagram.
+
+@enduml

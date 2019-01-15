@@ -15,7 +15,6 @@ Collection <|- List
 AbstractCollection <|- AbstractList
 AbstractList <|-- ArrayList
 
-
 class ArrayList {
 Object[] elementData
 size()

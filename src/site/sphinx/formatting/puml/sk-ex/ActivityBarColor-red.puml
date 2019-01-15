@@ -1,6 +1,6 @@
 @startuml
 title ActivityBarColor red
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam ActivityBarColor red
 

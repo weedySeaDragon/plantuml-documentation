@@ -64,4 +64,8 @@ Can extract the original PlantUML source from a PNG file with the :code:`-metada
 see: https://mrhaki.blogspot.com/2016/12/plantuml-pleasantness-get-plantuml.html
 
 
+-----------------------
+Running via an ANT Task
+-----------------------
+
 

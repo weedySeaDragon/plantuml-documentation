@@ -1,9 +1,10 @@
 @startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam BoundaryBorderColor red
 
 title BoundaryBorderColor red
 
-boundary Boundary 
+boundary Boundary
+
 @enduml

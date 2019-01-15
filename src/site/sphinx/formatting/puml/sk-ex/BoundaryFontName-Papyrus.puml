@@ -1,9 +1,10 @@
 @startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam BoundaryFontName Papyrus
 
 title BoundaryFontName Papyrus
 
-boundary Boundary 
+boundary Boundary
+
 @enduml

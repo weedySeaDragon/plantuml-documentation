@@ -1,9 +1,0 @@
-@startuml
-
-title ActivityEndColor red
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam ActivityEndColor red
-!include activity-alarmrings.txt
-
-@enduml

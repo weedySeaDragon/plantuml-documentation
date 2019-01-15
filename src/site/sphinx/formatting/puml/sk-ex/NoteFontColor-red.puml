@@ -1,0 +1,17 @@
+@startuml
+
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam ActorBorderColor   SaddleBrown
+skinparam ActorBackgroundColor SaddleBrown
+
+skinparam NoteFontColor red
+
+title NoteFontColor red
+
+:Admin: #saddleBrown
+actor Admin
+
+note right of Admin : This is a note.
+
+@enduml

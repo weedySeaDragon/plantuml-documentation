@@ -1,9 +1,10 @@
 @startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam CardBorderColor red
 
 title CardBorderColor red
 
-card Card 
+card Card
+
 @enduml

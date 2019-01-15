@@ -1,9 +1,10 @@
 @startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam CardStereotypeFontStyle italic
 
 title CardStereotypeFontStyle italic
 
 card Card <<Stereotype>>
+
 @enduml

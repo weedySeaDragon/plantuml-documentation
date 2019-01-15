@@ -1,5 +1,5 @@
 .. index:: diagrams
-   pair: diagram; all diagrams
+   pair: diagram; All diagrams
 
 
 All Diagrams

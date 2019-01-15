@@ -34,6 +34,8 @@ This will apply _all_ of the settings in your skin_param settings file to your d
 
 * upper or lowercase is fine.  Case is ignored.
 
+Example of using :code:`DEFAULTs` with :code:`!define` preprocessing directive
+
 
 ========
 Examples

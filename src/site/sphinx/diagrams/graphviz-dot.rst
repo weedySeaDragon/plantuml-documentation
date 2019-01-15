@@ -8,10 +8,9 @@
 GraphViz DOT Diagram
 ####################
 
-You can use the :ref:`GraphViz DOT language <https://graphviz.gitlab.io/documentation/>` in a PlantUML diagram.
+You can use the :ref:`GraphViz DOT language <https://graphviz.gitlab.io/documentation/>`_ in a PlantUML diagram.
 
 Starts with :code:`@startdot` and the first line must be :code:`digraph NNN {`  where *NNN* is the name of the digraph.
-
 
 
 
@@ -31,8 +30,8 @@ Keywords
 .. index::
    pair: skinparam; GraphViz DOT diagram
 
-**************************************
+********************************************
 Skinparams specific to GraphViz DOT Diagrams
-**************************************
+********************************************
 
 (none)

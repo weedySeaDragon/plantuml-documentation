@@ -1,12 +1,13 @@
 @startuml
 
 title ActorStereotypeFontColor red
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam ActorStereotypeFontColor red
 
 !include usecase-2actors.txt
 
 actor  Tim <<Stereotype text>>
+
 
 @enduml

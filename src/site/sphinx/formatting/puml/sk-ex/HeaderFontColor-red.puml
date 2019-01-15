@@ -1,0 +1,13 @@
+@startuml
+
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam HeaderFontColor red
+
+title HeaderFontColor red
+
+!include activity-alarmrings.txt
+
+header This is the header for the diagram.
+
+@enduml

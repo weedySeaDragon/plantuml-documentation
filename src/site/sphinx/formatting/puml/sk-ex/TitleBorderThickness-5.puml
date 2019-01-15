@@ -1,0 +1,10 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam TitleBorderThickness 5
+
+title TitleBorderThickness 5
+
+!include activity-alarmrings.txt
+
+@enduml

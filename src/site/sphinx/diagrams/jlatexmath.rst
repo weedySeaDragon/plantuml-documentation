@@ -6,7 +6,7 @@
 .. _jlatexmathdiagram:
 
 JLatexMath Diagram
-#################
+##################
 
 
 
@@ -26,8 +26,8 @@ Keywords
 .. index::
    pair: skinparam; JLatexMath diagram
 
-**************************************
+******************************************
 Skinparams specific to JLatexMath Diagrams
-**************************************
+******************************************
 
 (none)

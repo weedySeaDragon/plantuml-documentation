@@ -1,9 +1,11 @@
 @startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam ArtifactFontName Papyrus
 
 title ArtifactFontName Papyrus
 
-artifact Artifact 
+artifact Artifact
+
+
 @enduml

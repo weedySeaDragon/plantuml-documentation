@@ -1,9 +1,14 @@
 @startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam InterfaceBorderColor red
 
 title InterfaceBorderColor red
 
-interface Interface 
+component "component Z" as z
+
+interface Interface
+
+z <|- Interface
+
 @enduml

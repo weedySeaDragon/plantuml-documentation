@@ -1,0 +1,10 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam CardBorderThickness 5
+
+title CardBorderThickness 5
+
+card Card
+
+@enduml

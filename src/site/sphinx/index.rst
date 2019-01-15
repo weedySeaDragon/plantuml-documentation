@@ -14,7 +14,7 @@ PlantUML is really helpful.  If it were easier to use, it would be even more hel
 Documenting it better helps to make it easier to use and is something I can contribute.
 
 Note that this is a total work in progress.  I'm just getting started with this.
-If you have any suggestions, contributions, or questions, let me know:  .
+If you have any suggestions, contributions, or questions, let me know:  ashley.engelund@gmail.com
 
 =========================
 What this is... and isn't
@@ -23,18 +23,54 @@ What this is... and isn't
 This is documentation about how to use PlantUML:  the commands, keywords, options, and other information you need to
 produce diagrams with PlantUML.
 
-This isn't a tutorial about UML diagrams, although there are places where I do explain a little bit about them.
+This is *not* a tutorial about UML diagrams, although there are places where I do explain a little bit about them.
 A little web searching will provide you with all sorts of information on UML diagram notation.  Here is a formal specification
 of UML as a whole: `The official UML site <http://www.uml.org/>`_ and a beginner friendly site about UML diagrams and notation: `UML-Diagrams.org <http://uml-diagrams.org>`_
 
 This is a very, very early version.  I'm still figuring out how I want to format things, how to best index terms, and
-I've just begun to documenting a few diagrams (UML Sequence diagrams and Use Cases).
+I've just begun to documenting a few diagrams (UML Use Cases and Sequence diagrams).
 
-.. todo::
 
-   links, more about PlantUML
+----------------------------------------------------
+Here are the pages that have some content right now:
+----------------------------------------------------
 
-Contents:
+*Note these are all in progress*
+
+- **Diagrams**
+
+   For each diagram, I've tried to include both visual (diagram) and text examples of what each keyword does.
+   I'll eventually list all of the applicable `skinparams`
+
+   - **UML Use Case Diagram**
+
+      http://localhost:63342/documentation/build/site/diagrams/usecase.html
+
+
+
+   - **UML Sequence Diagram:**
+
+
+
+     http://localhost:63342/documentation/build/site/diagrams/sequence.html
+
+
+
+- **All skin parameter settings:**
+   http://localhost:63342/documentation/build/site/formatting/all-skin-params.html
+
+   A reference of *all* `skinparam` settings.  I'm working on writing up definitions and examples.
+
+
+- **All named colors:** a page that shows every color name with a small example (a small square swatch) of the color
+   http://localhost:63342/documentation/build/site/formatting/color-names.html
+
+   I created this as a handy way of seeing what each named color looks like
+
+
+======================================
+All Pages (detailed table of contents:
+======================================
 
 .. toctree::
    :maxdepth: 3

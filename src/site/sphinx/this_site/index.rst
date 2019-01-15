@@ -60,6 +60,7 @@ Examples and inspiration:
 .. todo::
 
    Fix genindex columns: doesn't deal with 2nd level entries when computing column splits
+   see :code:`def write_genindex(self):` in /Users/ashleyengelund/.pyenv/versions/3.6.6/lib/python3.6/site-packages/sphinx/builders/html.py
 
 
 :ref:`To Dos <todos>`

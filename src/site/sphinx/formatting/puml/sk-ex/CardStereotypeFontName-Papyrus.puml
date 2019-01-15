@@ -1,9 +1,10 @@
 @startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam CardStereotypeFontName Papyrus
 
 title CardStereotypeFontName Papyrus
 
 card Card <<Stereotype>>
+
 @enduml

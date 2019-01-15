@@ -18,7 +18,7 @@ run from the command line:
 
 Run::
 
-    java -jar planutml.jar
+    :program:`java -jar planutml.jar`
 
 Note:  "plantuml.jar" must either be in your PATH or you need to specify the exact path (full location with folders/directories)
 
@@ -31,7 +31,7 @@ Helpful command line options
 
 :Help:  See all of the command line options available by running
 
-   :code:`java -jar plantuml.jar -help`
+   :command:`java -jar plantuml.jar -help`
 
 
 :Search path:         You can specify the java property plantuml.include.path in the command line.
@@ -101,8 +101,7 @@ Extracts the PlantUML source from a :code:`.png` file.
 run the graphical user interface
 
 
-.. index:: generated image type
-   pair: command line options; generated image type
+.. index:: generated image type; command line options
 
 .. _command_line_options_generated_image_type:
 
@@ -110,8 +109,8 @@ run the graphical user interface
 Set the Generated Image Type
 ----------------------------
 
-.. index:: -tpng
-   pair: command line options; -tpng
+.. index:: -tpng; command line options
+
 
 .. container:: keyword commandlin-option
 
@@ -120,8 +119,7 @@ Set the Generated Image Type
 generate images using PNG format (default)
 
 
-.. index:: -tsvg
-   pair: command line options; -tsvg
+.. index:: -tsvg; command line option
 
 .. container:: keyword commandlin-option
 
@@ -130,8 +128,8 @@ generate images using PNG format (default)
 generate images using SVG format
 
 
-.. index:: -teps
-   pair: command line options; -teps
+.. index:: -teps; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -141,8 +139,8 @@ generate images using EPS format
 
 
 
-.. index:: -tpdf
-   pair: command line options; -tpdf
+.. index:: -tpdf; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -153,8 +151,8 @@ generate images using PDF format
 
 
 
-.. index:: -tvdx
-   pair: command line options; -tvdx
+.. index:: -tvdx; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -165,8 +163,8 @@ generate images using VDX format
 
 
 
-.. index:: -txmi
-   pair: command line options; -txmi
+.. index:: -txmi; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -177,8 +175,8 @@ generate XMI file for class diagram
 
 
 
-.. index:: -tscxml
-   pair: command line options; -tscxml
+.. index:: -tscxml; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -189,8 +187,8 @@ generate SCXML file for state diagram
 
 
 
-.. index:: -thtml
-   pair: command line options; -thtml
+.. index:: -thtml; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -201,8 +199,8 @@ generate HTML file for class diagram
 
 
 
-.. index:: -ttxt
-   pair: command line options; -ttxt
+.. index:: -ttxt; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -213,8 +211,8 @@ generate images with ASCII art
 
 
 
-.. index:: -tutxt
-   pair: command line options; -tutxt
+.. index:: -tutxt; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -225,8 +223,8 @@ generate images with ASCII art using Unicode characters
 
 
 
-.. index:: -tlatex
-   pair: command line options; -tlatex
+.. index:: -tlatex; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -237,8 +235,8 @@ generate images using LaTeX/Tikz format
 
 
 
-.. index:: -tlatex:nopreamble
-   pair: command line options; -tlatex:nopreamble
+.. index:: -tlatex:nopreamble; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -248,8 +246,8 @@ generate images using LaTeX/Tikz format without preamble
 
 
 
-.. index:: -preproc
-   pair: command line options; -preproc
+.. index:: -preproc; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -264,8 +262,8 @@ File Locations (input and output)
 ---------------------------------
 
 
-.. index:: -o[utput]
-   pair: command line options; -o[utput]
+.. index:: -o[utput]; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -277,8 +275,8 @@ generate images in the specified directory
 
 
 
-.. index:: -r[ecurse]
-   pair: command line options; -r[ecurse]
+.. index:: -r[ecurse]; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -289,8 +287,8 @@ recurse through directories
 
 
 
-.. index:: -I
-   pair: command line options; -I
+.. index:: -I; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -310,8 +308,8 @@ include files with pattern
 
 
 
-.. index:: -e[xclude]
-   pair: command line options; -e[xclude]
+.. index:: -e[xclude]; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -323,8 +321,8 @@ exclude files that match the provided pattern
 
 
 
-.. index:: -checkmetadata
-   pair: command line options; -checkmetadata
+.. index:: -checkmetadata; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -336,8 +334,8 @@ Skip PNG files that don't need to be regenerated
 
 
 
-.. index:: -overwrite
-   pair: command line options; -overwrite
+.. index:: -overwrite; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -347,8 +345,8 @@ allow to overwrite read only files
 
 
 
-.. index:: -p[ipe]
-   pair: command line options; -p[ipe]
+.. index:: -p[ipe]; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -374,8 +372,8 @@ Misc
 
 
 
-.. index:: -D
-   pair: command line options; -D
+.. index:: -D; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -387,8 +385,8 @@ set a preprocessing variable as if '!define VAR1 value' were used
 
 
 
-.. index:: -S
-   pair: command line options; -S
+.. index:: -S; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -401,8 +399,8 @@ set a skin parameter as if 'skinparam param1 value' were used
 
 
 
-.. index:: -charset
-   pair: command line options; -charset
+.. index:: -charset; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -415,8 +413,8 @@ use a specific charset (default is UTF-8)
 
 
 
-.. index:: -metadata
-   pair: command line options; -metadata
+.. index:: -metadata; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -428,8 +426,8 @@ retrieve PlantUML sources from PNG images
 
 
 
-.. index:: -nometadata
-   pair: command line options; -nometadata
+.. index:: -nometadata; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -442,8 +440,8 @@ NOT export metadata in PNG/SVG generated files
 
 
 
-.. index::  -v[erbose]
-   pair: command line options;  -v[erbose]
+.. index::  -v[erbose]; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -455,8 +453,8 @@ have log information
 
 
 
-.. index:: -quiet
-   pair: command line options; -quiet
+.. index:: -quiet; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -468,8 +466,8 @@ NOT print error message into the console
 
 
 
-.. index:: -debugsvek
-   pair: command line options; -debugsvek
+.. index:: -debugsvek; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -482,8 +480,8 @@ generate intermediate svek files
 
 
 
-.. index:: -encodesprite
-   pair: command line options; -encodesprite
+.. index:: -encodesprite; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -495,8 +493,8 @@ encode a sprite at gray level (z for compression) from an image
 
 
 
-.. index:: -computeurl
-   pair: command line options; -computeurl
+.. index:: -computeurl; command line option
+
    single: -encodeurl
    pair: command line options; -encodeurl
 
@@ -510,8 +508,8 @@ compute the encoded URL of a PlantUML source file
 
 
 
-.. index:: -decodeurl
-   pair: command line options; -decodeurl
+.. index:: -decodeurl; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -525,8 +523,8 @@ retrieve the PlantUML source from an encoded URL
 
 
 
-.. index:: -pipeimageindex
-   pair: command line options; -pipeimageindex
+.. index:: -pipeimageindex; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -538,8 +536,8 @@ generate the Nth image with pipe option
 
 
 
-.. index:: -extractstdlib
-   pair: command line options; -extractstdlib
+.. index:: -extractstdlib; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -550,8 +548,8 @@ extract PlantUML Standard Library into stdlib folder
 
 
 
-.. index:: -filename
-   pair: command line options; -filename
+.. index:: -filename; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -563,8 +561,8 @@ extract PlantUML Standard Library into stdlib folder
 
 
 
-.. index:: check configuration or syntax
-   pair: command line options; check configuration or syntax
+.. index:: check configuration or syntax; command line option
+
 
 .. _cmd_option_check_config_syntax:
 
@@ -579,8 +577,8 @@ PlantUML Configuration or Syntax
 
 
 
-.. index:: -testdot
-   pair: command line options; -testdot
+.. index:: -testdot; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -591,8 +589,8 @@ test the installation of graphviz
 
 
 
-.. index:: -graphvizdot
-   pair: command line options; -graphvizdot
+.. index:: -graphvizdot; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -603,8 +601,8 @@ specify dot executable
 
 
 
-.. index:: -checkversion
-   pair: command line options; -checkversion
+.. index:: -checkversion; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -615,8 +613,8 @@ check if a newer version is available for download
 
 
 
-.. index:: -syntax
-   pair: command line options; -syntax
+.. index:: -syntax; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -627,8 +625,8 @@ report any syntax error from standard input without generating images
 
 
 
-.. index:: -checkonly
-   pair: command line options; -checkonly
+.. index:: -checkonly; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -639,8 +637,8 @@ check the syntax of files without generating images
 
 
 
-.. index:: -failfast
-   pair: command line options; -failfast
+.. index:: -failfast; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -651,8 +649,8 @@ stop processing as soon as a syntax error in diagram occurs
 
 
 
-.. index:: -failfast2
-   pair: command line options; -failfast2
+.. index:: -failfast2; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -669,8 +667,8 @@ Statistics and Performance
 
 
 
-.. index:: -duration
-   pair: command line options; -duration
+.. index:: -duration; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -680,8 +678,8 @@ print the duration of complete diagrams processing
 
 
 
-.. index:: -nbthread
-   pair: command line options; -nbthread
+.. index:: -nbthread; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -692,8 +690,8 @@ use (N) threads for processing
 
 
 
-.. index:: -nbthread auto
-   pair: command line options; -nbthread auto
+.. index:: -nbthread auto; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -704,8 +702,8 @@ use 8 threads for processing
 
 
 
-.. index:: -timeout
-   pair: command line options; -timeout
+.. index:: -timeout; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -714,8 +712,8 @@ use 8 threads for processing
 Processing timeout in (N) seconds. Defaults to 15 minutes (900 seconds).
 
 
-.. index:: -enablestats
-   pair: command line options; -enablestats
+.. index:: -enablestats; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -726,8 +724,8 @@ enable statistics computation
 
 
 
-.. index:: -disablestats
-   pair: command line options; -disablestats
+.. index:: -disablestats; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -738,8 +736,8 @@ disable statistics computation (default)
 
 
 
-.. index:: -htmlstats
-   pair: command line options; -htmlstats
+.. index:: -htmlstats; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -750,8 +748,8 @@ output general statistics in file plantuml-stats.html
 
 
 
-.. index:: -xmlstats
-   pair: command line options; -xmlstats
+.. index:: -xmlstats; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -762,8 +760,8 @@ output general statistics in file plantuml-stats.xml
 
 
 
-.. index:: -realtimestats
-   pair: command line options; -realtimestats
+.. index:: -realtimestats; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -774,8 +772,8 @@ generate statistics on the fly rather than at the end
 
 
 
-.. index:: -loopstats
-   pair: command line options; -loopstats
+.. index:: -loopstats; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -786,8 +784,8 @@ continuously print statistics about usage
 
 
 
-.. index:: -splash
-   pair: command line options; -splash
+.. index:: -splash; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -798,8 +796,8 @@ display a splash screen with some progress bar
 
 
 
-.. index:: -progress
-   pair: command line options; -progress
+.. index:: -progress; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -810,8 +808,8 @@ display a textual progress bar in console
 
 
 
-.. index::  print out information about PlantUML
-   pair: command line options;  print out information about PlantUML
+.. index::  print out information about PlantUML; command line option
+
 
 .. _cmd_options_print_info:
 
@@ -822,8 +820,8 @@ Print Out Information about PlantUML
 
 
 
-.. index:: -h[help]
-   pair: command line options; -h[help]
+.. index:: -h[help]; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -836,8 +834,8 @@ display this help message
 
 
 
-.. index:: -language
-   pair: command line options; -language
+.. index:: -language; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -849,8 +847,8 @@ print the list of PlantUML keywords
 
 
 
-.. index:: -pattern
-   pair: command line options; -pattern
+.. index:: -pattern; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -862,8 +860,8 @@ print the list of Regular Expression used by PlantUML
 
 
 
-.. index:: -printfonts
-   pair: command line options; -printfonts
+.. index:: -printfonts; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -875,8 +873,8 @@ print fonts available on your system
 
 
 
-.. index:: -author[s]
-   pair: command line options; -author[s]
+.. index:: -author[s]; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -888,8 +886,8 @@ print information about PlantUML authors
 
 
 
-.. index:: -version
-   pair: command line options; -version
+.. index:: -version; command line option
+
 
 .. container:: keyword commandlin-option
 
@@ -901,8 +899,8 @@ display information about PlantUML and Java versions
 
 
 
-.. index:: -stdlib
-   pair: command line options; -stdlib
+.. index:: -stdlib; command line option
+
 
 .. container:: keyword commandlin-option
 

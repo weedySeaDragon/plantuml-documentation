@@ -1,9 +1,11 @@
 @startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam ArtifactFontSize 18
 
 title ArtifactFontSize 18
 
-artifact Artifact 
+artifact Artifact
+
+
 @enduml

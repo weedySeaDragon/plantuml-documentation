@@ -1,0 +1,10 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam DiagramBorderThickness 5
+
+title DiagramBorderThickness 5
+
+cloud cloud
+
+@enduml

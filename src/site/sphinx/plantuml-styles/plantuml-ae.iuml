@@ -23,17 +23,17 @@
 
 !define DEFAULT_BACKGROUND_COLOR  white
 !define DEFAULT_BORDER_COLOR      #111111
-!define DEFAULT_FONT              Helvetica
+!define DEFAULT_FONT              Helvetica Neue
 !define DEFAULT_FONT_SIZE         14
-!define SMALLER_FONT_SIZE         10
+!define SMALLER_FONT_SIZE         12
 
-!define DEFAULT_FONT_COLOR        #111111
+!define DEFAULT_FONT_COLOR        Navy
 
 !define DEFAULT_NOT_SO_DARK       #666666
 
 !define TITLE_FONT_SIZE           18
-!define TITLE_FONT_NAME           serif
-!define TITLE_FONT_STYLE          bold
+!define TITLE_FONT_NAME           Georgia
+!define TITLE_FONT_STYLE          normal
 
 skinparam componentStyle        uml2
 
@@ -88,7 +88,7 @@ skinparam header {
 skinparam Footer {
     FontColor     DEFAULT_NOT_SO_DARK
     FontSize      9
-    FontName      DEFAULT_FONT
+    FontName      TITLE_FONT_NAME
     FontStyle     italic
 }
 
@@ -147,10 +147,15 @@ skinparam Actor {
       'FontColor
 
       Stereotype {
-         'FontName
-         'FontStyle
-         'FontSize
-         'FontColor
+         BackgroundColor   DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+
       }
 
 }
@@ -187,9 +192,254 @@ skinparam activity {
 
     }
     'EndColor        red
-    FontSize        13
-    StartColor      DEFAULT_NOT_SO_DARK
+    FontSize         13
+    StartColor       ForestGreen
+    EndColor         IndianRed
 }
+
+
+/' .......................................................
+     Deployment
+'/
+/'
+   'Agent',
+      'Artifact',
+             'Boundary',
+             'Card',
+             'Cloud',
+             'Component',
+             'Control',
+             'Database',
+             'Entity',
+             'File',
+             'Folder',
+             'Frame',
+             'Interface',
+             'Node',
+             'Package',
+             'Queue',
+             'Rectangle',
+             'Stack',
+             'Storage',
+             'Usecase'
+'/
+
+!define ELEMENT_DEFAULT_BACKGROUND_COLOR azure
+
+skinparam Agent {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
+
+skinparam Artifact {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
+skinparam Boundary {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
+
+skinparam Card {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
+
+skinparam Cloud {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
+
+skinparam Component {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
+
+skinparam Control {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
+skinparam Database {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
+skinparam Entity {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
+skinparam File {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
+skinparam Folder {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
+skinparam Frame {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
+skinparam Interface {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
+skinparam Node {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
+skinparam Package {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
+skinparam Queue {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
+skinparam Rectangle {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
+skinparam Stack {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
+skinparam Storage {
+        BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
+         BorderColor       DEFAULT_BORDER_COLOR
+         Font {
+            Size           DEFAULT_FONT_SIZE
+            Style          normal
+            Color          DEFAULT_FONT_COLOR
+            Name           DEFAULT_FONT
+         }
+}
+
 
 
 /' .......................................................
@@ -197,10 +447,12 @@ skinparam activity {
 '/
 
 skinparam note {
-  FontSize          SMALLER_FONT_SIZE
+   FontName         Comic Sans MS
+  FontSize          12
   FontStyle         italic
-  FontColor         DEFAULT_FONT_COLOR
-  'BackgroundColor   white
+  'FontColor         DEFAULT_FONT_COLOR
+  FontColor         DarkSlateGrey
+  'BackgroundColor  white
   BorderColor       Gray
 
 }
@@ -221,7 +473,7 @@ skinparam sequence {
         BorderColor       black
         BorderThickness   1
         FontColor         black
-        FontSize          SMALLER_FONT_SIZE
+        FontSize          Default_FONT_SIZE
         FontStyle        plain
     }
 
@@ -314,8 +566,8 @@ skinparam sequence {
     Stereotype {
        ' FontColor
        ' FontName
-       ' FontSize
-       ' FontStyle
+        FontSize        SMALLER_FONT_SIZE
+        FontStyle       italic
     }
 
     Title {
@@ -340,7 +592,7 @@ skinparam swimlane{
 
 skinparam Component {
     ArrowColor        blue
-    BackgroundColor   white
+    BackgroundColor   ELEMENT_DEFAULT_BACKGROUND_COLOR
     BorderColor       DEFAULT_BORDER_COLOR
     FontColor         DEFAULT_FONT_COLOR
 }

@@ -1,0 +1,23 @@
+@startuml
+!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
+
+title Object diagram
+
+
+object user {
+  name = "Alice"
+  id = 123
+}
+
+object Object01
+
+Object01 : name
+Object01 : middle name
+
+
+Object01 "many" <|-- "one" Object02
+Object03 *-- Object04
+Object05 o-- "4" Object06
+Object07 .. Object08 : some labels
+
+@enduml

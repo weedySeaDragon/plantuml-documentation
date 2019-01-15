@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam ArtifactBackgroundColor red
-
-title ArtifactBackgroundColor red
-
-artifact Artifact
-@enduml

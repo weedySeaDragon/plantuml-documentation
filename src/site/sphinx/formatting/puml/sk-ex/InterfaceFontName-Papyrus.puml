@@ -1,9 +1,15 @@
 @startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam InterfaceFontName Papyrus
 
 title InterfaceFontName Papyrus
 
-interface Interface 
+
+component "component Z" as z
+
+interface Interface
+
+z <|- Interface
+
 @enduml

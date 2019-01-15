@@ -1,9 +1,10 @@
 @startuml
 
 title ActorFontName Papyrus
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam ActorFontName Papyrus
 !include usecase-2actors.txt
+
 
 @enduml

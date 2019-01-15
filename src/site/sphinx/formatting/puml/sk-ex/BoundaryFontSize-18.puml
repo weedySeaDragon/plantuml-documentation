@@ -1,9 +1,10 @@
 @startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam BoundaryFontSize 18
 
 title BoundaryFontSize 18
 
-boundary Boundary 
+boundary Boundary
+
 @enduml

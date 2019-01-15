@@ -6,8 +6,8 @@
 .. |not_working| replace:: Note:  *Not working?*
 
 
-.. index:: skinparam
-   pair: skinparam; all skinparams
+
+.. index::  skinparam
    see: skin parameters; skinparam
    see: skinparams; skinparam
 
@@ -31,8 +31,7 @@ A
 ****
 
 
-.. index:: Activity
-    pair: skinparam; Activity
+.. index::  skinparam; Activity
 
 .. _Activity:
 
@@ -40,9 +39,8 @@ Activity
 ========
 
 
-.. index:: ActivityBackgroundColor
-    pair: skinparam; ActivityBackgroundColor
-    pair: Activity diagram; BackgroundColor
+.. index::  skinparam; ActivityBackgroundColor
+    single: Activity diagrams; skinparam  BackgroundColor
 
 .. _ActivityBackgroundColor:
 
@@ -64,14 +62,13 @@ Activity
          Activity diagrams
 
 
-:Example:    :code:`ActivityBackgroundColor lightCyan`:
+:Example:    :code:`ActivityBackgroundColor lightCyan`
 
     .. uml::  puml/sk-ex/ActivityBackgroundColor-lightCyan.puml
 
 
-.. index:: ActivityBarColor
-    pair: skinparam; ActivityBarColor
-      pair: Activity diagram; BarColor
+.. index::  skinparam; ActivityBarColor
+      single: Activity diagrams; skinparam  BarColor
       see: bar; synchronization bar
 
 .. _ActivityBarColor:
@@ -94,14 +91,13 @@ Activity
         Activity diagrams
 
 
-:Example:    :code:`ActivityBarColor red`:
+:Example:    :code:`ActivityBarColor red`
 
     .. uml::  puml/sk-ex/ActivityBarColor-red.puml
 
 
-.. index:: ActivityBorderColor
-    pair: skinparam; ActivityBorderColor
-      pair: Activity diagram; BorderColor
+.. index::  skinparam; ActivityBorderColor
+      single: Activity diagrams; skinparam  BorderColor
 
 .. _ActivityBorderColor:
 
@@ -123,14 +119,13 @@ Activity
         Activity diagrams
 
 
-:Example:    :code:`ActivityBorderColor red`:
+:Example:    :code:`ActivityBorderColor red`
 
     .. uml::  puml/sk-ex/ActivityBorderColor-red.puml
 
 
-.. index:: ActivityBorderThickness
-    pair: skinparam; ActivityBorderThickness
-      pair: Activity diagram; BorderThickness
+.. index::  skinparam; ActivityBorderThickness
+      single: Activity diagrams; skinparam  BorderThickness
 
 .. _ActivityBorderThickness:
 
@@ -144,7 +139,7 @@ Activity
 
     Border thickness for every shape in an Activity diagram.
 
-   Note: *Not working?*
+   Note: This only works with the 'beta' (later) version of the Activity diagram syntax.
 
 
 :Applies to:
@@ -154,14 +149,13 @@ Activity
         Activity diagrams
 
 
-:Example:    :code:`ActivityBorderThickness 5`:
+:Example:    :code:`ActivityBorderThickness 5`
 
     .. uml::  puml/sk-ex/ActivityBorderThickness-5.puml
 
 
-.. index:: activityDiamondBackgroundColor
-    pair: skinparam; activityDiamondBackgroundColor
-      pair: Activity diagram; DiamondBackgroundColor
+.. index::  skinparam; activityDiamondBackgroundColor
+      single: Activity diagrams; skinparam  DiamondBackgroundColor
 
 .. _activityDiamondBackgroundColor:
 
@@ -185,14 +179,13 @@ Activity
         Activity diagrams
 
 
-:Example:    :code:`activityDiamondBackgroundColor lawnGreen`:
+:Example:    :code:`activityDiamondBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/activityDiamondBackgroundColor-GreenYellow.puml
 
 
-.. index:: activityDiamondBorderColor
-    pair: skinparam; activityDiamondBorderColor
-         pair: Activity diagram; DiamondBorderColor
+.. index::  skinparam; activityDiamondBorderColor
+         single: Activity diagram; skinparam DiamondBorderColor
 
 .. _activityDiamondBorderColor:
 
@@ -214,14 +207,13 @@ Activity
         Activity diagrams
 
 
-:Example:    :code:`activityDiamondBorderColor red`:
+:Example:    :code:`activityDiamondBorderColor red`
 
     .. uml::  puml/sk-ex/activityDiamondBorderColor-red.puml
 
 
-.. index:: activityDiamondFontColor
-    pair: skinparam; activityDiamondFontColor
-      pair: Activity diagram; DiamondFontColor
+.. index::  skinparam; activityDiamondFontColor
+      single: Activity diagram; skinparam DiamondFontColor
 
 .. _activityDiamondFontColor:
 
@@ -243,14 +235,13 @@ Activity
         Activity diagrams
 
 
-:Example:    :code:`activityDiamondFontColor red`:
+:Example:    :code:`activityDiamondFontColor red`
 
     .. uml::  puml/sk-ex/activityDiamondFontColor-red.puml
 
 
-.. index:: activityDiamondFontName
-    pair: skinparam; activityDiamondFontName
-      pair: Activity diagram; DiamondFontName
+.. index::  skinparam; activityDiamondFontName
+      single: Activity diagram; skinparam DiamondFontName
 
 .. _activityDiamondFontName:
 
@@ -273,14 +264,13 @@ Activity
         Activity diagrams
 
 
-:Example:    :code:`activityDiamondFontName Papyrus`:
+:Example:    :code:`activityDiamondFontName Papyrus`
 
     .. uml::  puml/sk-ex/activityDiamondFontName-Papyrus.puml
 
 
-.. index:: activityDiamondFontSize
-    pair: skinparam; activityDiamondFontSize
-      pair: Activity diagram; DiamondFontSize
+.. index::  skinparam; activityDiamondFontSize
+      single: Activity diagram; skinparam DiamondFontSize
 
 
 .. _activityDiamondFontSize:
@@ -303,14 +293,13 @@ Activity
         Activity diagrams
 
 
-:Example:    :code:`activityDiamondFontSize 18`:
+:Example:    :code:`activityDiamondFontSize 18`
 
     .. uml::  puml/sk-ex/activityDiamondFontSize-18.puml
 
 
-.. index:: activityDiamondFontStyle
-    pair: skinparam; activityDiamondFontStyle
-      pair: Activity diagram; DiamondFontStyle
+.. index::  skinparam; activityDiamondFontStyle
+      single: Activity diagram; skinparam DiamondFontStyle
 
 
 .. _activityDiamondFontStyle:
@@ -333,14 +322,13 @@ Activity
         Activity diagrams
 
 
-:Example:    :code:`activityDiamondFontStyle bold`:
+:Example:    :code:`activityDiamondFontStyle bold`
 
     .. uml::  puml/sk-ex/activityDiamondFontStyle-bold.puml
 
 
-.. index:: ActivityEndColor
-    pair: skinparam; ActivityEndColor
-      pair: Activity diagram; EndColor
+.. index::  skinparam; ActivityEndColor
+      single: Activity diagram; skinparam EndColor
 
 .. _ActivityEndColor:
 
@@ -362,14 +350,13 @@ Activity
         Activity diagrams
 
 
-:Example:    :code:`ActivityEndColor red`:
+:Example:    :code:`ActivityEndColor Fuschia`
 
-    .. uml::  puml/sk-ex/ActivityEndColor-red.puml
+    .. uml::  puml/sk-ex/ActivityEndColor-Fuschia.puml
 
 
-.. index:: ActivityFontColor
-    pair: skinparam; ActivityFontColor
-      pair: Activity diagram; FontColor
+.. index::  skinparam; ActivityFontColor
+      single: Activity diagram; skinparam FontColor
 
 .. _ActivityFontColor:
 
@@ -391,14 +378,13 @@ Activity
         Activity diagrams
 
 
-:Example:    :code:`ActivityFontColor red`:
+:Example:    :code:`ActivityFontColor red`
 
     .. uml::  puml/sk-ex/ActivityFontColor-red.puml
 
 
-.. index:: ActivityFontName
-    pair: skinparam; ActivityFontName
-      pair: Activity diagram; FontName
+.. index::  skinparam; ActivityFontName
+      single: Activity diagram; skinparam FontName
 
 
 .. _ActivityFontName:
@@ -422,14 +408,13 @@ Activity
         Activity diagrams
 
 
-:Example:    :code:`ActivityFontName Papyrus`:
+:Example:    :code:`ActivityFontName Papyrus`
 
     .. uml::  puml/sk-ex/ActivityFontName-Papyrus.puml
 
 
-.. index:: ActivityFontSize
-    pair: skinparam; ActivityFontSize
-      pair: Activity diagram; FontSize
+.. index::  skinparam; ActivityFontSize
+      single: Activity diagram; skinparam FontSize
 
 
 .. _ActivityFontSize:
@@ -452,14 +437,13 @@ Activity
         Activity diagrams
 
 
-:Example:    :code:`ActivityFontSize 18`:
+:Example:    :code:`ActivityFontSize 18`
 
     .. uml::  puml/sk-ex/ActivityFontSize-18.puml
 
 
-.. index:: ActivityFontStyle
-    pair: skinparam; ActivityFontStyle
-      pair: Activity diagram; FontStyle
+.. index::  skinparam; ActivityFontStyle
+      single: Activity diagram; skinparam FontStyle
 
 
 .. _ActivityFontStyle:
@@ -482,14 +466,13 @@ Activity
         Activity diagrams
 
 
-:Example:    :code:`ActivityFontStyle bold`:
+:Example:    :code:`ActivityFontStyle bold`
 
     .. uml::  puml/sk-ex/ActivityFontStyle-bold.puml
 
 
-.. index:: ActivityStartColor
-    pair: skinparam; ActivityStartColor
-      pair: Activity diagram; StartColor
+.. index::  skinparam; ActivityStartColor
+      single: Activity diagram; skinparam StartColor
 
 
 .. _ActivityStartColor:
@@ -512,14 +495,13 @@ Activity
         Activity diagrams
 
 
-:Example:    :code:`ActivityStartColor lawnGreen`:
+:Example:    :code:`ActivityStartColor aqua`
 
-    .. uml::  puml/sk-ex/ActivityStartColor-lawnGreen.puml
+    .. uml::  puml/sk-ex/ActivityStartColor-aqua.puml
 
 
 
-.. index:: Actor
-    pair: skinparam; Actor
+.. index::  skinparam; Actor
 
 .. _Actor:
 
@@ -527,9 +509,8 @@ Activity
 Actor
 =====
 
-.. index:: ActorBackgroundColor
-    pair: skinparam; ActorBackgroundColor
-      pair: Actor; BackgroundColor
+.. index::  skinparam; ActorBackgroundColor
+      single: Actor; skinparam BackgroundColor
 
 .. _ActorBackgroundColor:
 
@@ -549,14 +530,13 @@ Actor
    Component diagrams, Sequence diagrams, Use Case diagrams
 
 
-:Example:    :code:`ActorBackgroundColor lawnGreen`:
+:Example:    :code:`ActorBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/ActorBackgroundColor-lawnGreen.puml
 
 
-.. index:: ActorBorderColor
-    pair: skinparam; ActorBorderColor
-      pair: Actor; BorderColor
+.. index::  skinparam; ActorBorderColor
+      single: Actor; skinparam BorderColor
 
 
 .. _ActorBorderColor:
@@ -579,14 +559,13 @@ Actor
         Component diagrams, Sequence diagrams, Use Case diagrams
 
 
-:Example:    :code:`ActorBorderColor red`:
+:Example:    :code:`ActorBorderColor red`
 
     .. uml::  puml/sk-ex/ActorBorderColor-red.puml
 
 
-.. index:: ActorFontColor
-    pair: skinparam; ActorFontColor
-      pair: Actor; FontColor
+.. index::  skinparam; ActorFontColor
+      single: Actor; skinparam FontColor
 
 .. _ActorFontColor:
 
@@ -608,14 +587,13 @@ Actor
         Component diagrams, Sequence diagrams, Use Case diagrams
 
 
-:Example:    :code:`ActorFontColor red`:
+:Example:    :code:`ActorFontColor red`
 
     .. uml::  puml/sk-ex/ActorFontColor-red.puml
 
 
-.. index:: ActorFontName
-    pair: skinparam; ActorFontName
-      pair: Actor; FontName
+.. index::  skinparam; ActorFontName
+      single: Actor; skinparam FontName
 
 .. _ActorFontName:
 
@@ -638,14 +616,13 @@ Actor
         Component diagrams, Sequence diagrams, Use Case diagrams
 
 
-:Example:    :code:`ActorFontName Papyrus`:
+:Example:    :code:`ActorFontName Papyrus`
 
     .. uml::  puml/sk-ex/ActorFontName-Papyrus.puml
 
 
-.. index:: ActorFontSize
-    pair: skinparam; ActorFontSize
-      pair: Actor; FontSize
+.. index::  skinparam; ActorFontSize
+      single: Actor; skinparam FontSize
 
 
 .. _ActorFontSize:
@@ -668,14 +645,13 @@ Actor
         Component diagrams, Sequence diagrams, Use Case diagrams
 
 
-:Example:    :code:`ActorFontSize 18`:
+:Example:    :code:`ActorFontSize 18`
 
     .. uml::  puml/sk-ex/ActorFontSize-18.puml
 
 
-.. index:: ActorFontStyle
-    pair: skinparam; ActorFontStyle
-      pair: Actor; FontStyle
+.. index::  skinparam; ActorFontStyle
+      single: Actor; skinparam FontStyle
 
 
 .. _ActorFontStyle:
@@ -698,14 +674,13 @@ Actor
         Component diagrams, Sequence diagrams, Use Case diagrams
 
 
-:Example:    :code:`ActorFontStyle bold`:
+:Example:    :code:`ActorFontStyle bold`
 
     .. uml::  puml/sk-ex/ActorFontStyle-bold.puml
 
 
-.. index:: ActorStereotypeFontColor
-    pair: skinparam; ActorStereotypeFontColor
-      pair: Actor; StereotypeFontColor
+.. index::  skinparam; ActorStereotypeFontColor
+      single: Actor; skinparam StereotypeFontColor
 
 
 .. _ActorStereotypeFontColor:
@@ -728,14 +703,13 @@ Actor
         Component diagrams, Use Case diagrams
 
 
-:Example:    :code:`ActorStereotypeFontColor red`:
+:Example:    :code:`ActorStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/ActorStereotypeFontColor-red.puml
 
 
-.. index:: ActorStereotypeFontName
-    pair: skinparam; ActorStereotypeFontName
-      pair: Actor; StereotypeFontName
+.. index::  skinparam; ActorStereotypeFontName
+      single: Actor; skinparam StereotypeFontName
 
 
 .. _ActorStereotypeFontName:
@@ -759,14 +733,13 @@ Actor
         Component diagrams, Use Case diagrams
 
 
-:Example:    :code:`ActorStereotypeFontName Papyrus`:
+:Example:    :code:`ActorStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/ActorStereotypeFontName-Papyrus.puml
 
 
-.. index:: ActorStereotypeFontSize
-    pair: skinparam; ActorStereotypeFontSize
-      pair: Actor; StereotypeFontSize
+.. index::  skinparam; ActorStereotypeFontSize
+      single: Actor; skinparam StereotypeFontSize
 
 .. _ActorStereotypeFontSize:
 
@@ -788,14 +761,13 @@ Actor
         Component diagrams, Use Case diagrams
 
 
-:Example:    :code:`ActorStereotypeFontSize 18`:
+:Example:    :code:`ActorStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/ActorStereotypeFontSize-18.puml
 
 
-.. index:: ActorStereotypeFontStyle
-    pair: skinparam; ActorStereotypeFontStyle
-      pair: Actor; StereotypeFontStyle
+.. index::  skinparam; ActorStereotypeFontStyle
+      single: Actor; skinparam StereotypeFontStyle
 
 
 .. _ActorStereotypeFontStyle:
@@ -818,7 +790,7 @@ Actor
         Component diagrams, Use Case diagrams
 
 
-:Example:    :code:`ActorStereotypeFontStyle bold`:
+:Example:    :code:`ActorStereotypeFontStyle bold`
 
     .. uml::  puml/sk-ex/ActorStereotypeFontStyle-bold.puml
 
@@ -826,8 +798,7 @@ Actor
 
 
 
-.. index:: Agent
-    pair: skinparam; Agent
+.. index::  skinparam; Agent
 
 .. _Agent:
 
@@ -835,10 +806,9 @@ Agent
 =====
 
 
-.. index:: AgentBackgroundColor
-    pair: skinparam; AgentBackgroundColor
-      pair: Agent; BackgroundColor
-      pair: Deployment diagram; AgentBackgroundColor
+.. index::  skinparam; AgentBackgroundColor
+      single: Agent; skinparam BackgroundColor
+      single: Deployment diagram; skinparam AgentBackgroundColor
 
 
 .. _AgentBackgroundColor:
@@ -858,18 +828,17 @@ Agent
 
     .. container:: applies-to
 
-        Deployment diagrams
+        Deployement diagrams
 
 
-:Example:    :code:`AgentBackgroundColor lawnGreen`:
+:Example:    :code:`AgentBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/AgentBackgroundColor-lawnGreen.puml
 
 
-.. index:: AgentBorderColor
-    pair: skinparam; AgentBorderColor
-      pair: Agent; BorderColor
-      pair: Deployment diagram; AgentBorderColor
+.. index::  skinparam; AgentBorderColor
+      single: Agent; skinparam BorderColor
+      single: Deployment diagram; skinparam AgentBorderColor
 
 .. _AgentBorderColor:
 
@@ -888,18 +857,17 @@ Agent
 
     .. container:: applies-to
 
-        Deployment diagrams
+        Deployement diagrams
 
 
-:Example:    :code:`AgentBorderColor blue`:
+:Example:    :code:`AgentBorderColor blue`
 
     .. uml::  puml/sk-ex/AgentBorderColor-blue.puml
 
 
-.. index:: AgentBorderThickness
-    pair: skinparam; AgentBorderThickness
-      pair: Agent; BorderThickness
-      pair: Deployment diagram; AgentBorderThickness
+.. index::  skinparam; AgentBorderThickness
+      single: Agent; skinparam BorderThickness
+      single: Deployment diagram; skinparam AgentBorderThickness
 
 .. _AgentBorderThickness:
 
@@ -918,18 +886,17 @@ Agent
 
     .. container:: applies-to
 
-        Deployment diagrams
+        Deployement diagrams
 
 
-:Example:    :code:`AgentBorderThickness [ number ]`:
+:Example:    :code:`AgentBorderThickness 5`
 
     .. uml::  puml/sk-ex/AgentBorderThickness-5.puml
 
 
-.. index:: AgentFontColor
-    pair: skinparam; AgentFontColor
-      pair: Agent; FontColor
-      pair: Deployment diagram; AgentFontColor
+.. index::  skinparam; AgentFontColor
+      single: Agent; skinparam FontColor
+      single: Deployment diagram; skinparam AgentFontColor
 
 .. _AgentFontColor:
 
@@ -948,18 +915,17 @@ Agent
 
     .. container:: applies-to
 
-        Deployment diagrams
+        Deployement diagrams
 
 
-:Example:    :code:`AgentFontColor red`:
+:Example:    :code:`AgentFontColor red`
 
     .. uml::  puml/sk-ex/AgentFontColor-red.puml
 
 
-.. index:: AgentFontName
-    pair: skinparam; AgentFontName
-      pair: Agent; FontName
-      pair: Deployment diagram; AgentFontName
+.. index::  skinparam; AgentFontName
+      single: Agent; skinparam FontName
+      single: Deployment diagram; skinparam AgentFontName
 
 .. _AgentFontName:
 
@@ -979,18 +945,17 @@ Agent
 
     .. container:: applies-to
 
-        Deployment diagrams
+        Deployement diagrams
 
 
-:Example:    :code:`AgentFontName Papyrus`:
+:Example:    :code:`AgentFontName Papyrus`
 
     .. uml::  puml/sk-ex/AgentFontName-Papyrus.puml
 
 
-.. index:: AgentFontSize
-    pair: skinparam; AgentFontSize
-      pair: Agent; FontSize
-      pair: Deployment diagram; AgentFontSize
+.. index::  skinparam; AgentFontSize
+      single: Agent; skinparam FontSize
+      single: Deployment diagram; skinparam AgentFontSize
 
 .. _AgentFontSize:
 
@@ -1009,18 +974,17 @@ Agent
 
     .. container:: applies-to
 
-        Deployment diagrams
+        Deployement diagrams
 
 
-:Example:    :code:`AgentFontSize 18`:
+:Example:    :code:`AgentFontSize 18`
 
     .. uml::  puml/sk-ex/AgentFontSize-18.puml
 
 
-.. index:: AgentFontStyle
-    pair: skinparam; AgentFontStyle
-      pair: Agent; FontStyle
-      pair: Deployment diagram; AgentFontStyle
+.. index::  skinparam; AgentFontStyle
+      single: Agent; skinparam FontStyle
+      single: Deployment diagram; skinparam AgentFontStyle
 
 .. _AgentFontStyle:
 
@@ -1039,18 +1003,17 @@ Agent
 
     .. container:: applies-to
 
-        Deployment diagrams
+        Deployement diagrams
 
 
-:Example:    :code:`AgentFontStyle italic`:
+:Example:    :code:`AgentFontStyle italic`
 
     .. uml::  puml/sk-ex/AgentFontStyle-italic.puml
 
 
-.. index:: AgentStereotypeFontColor
-    pair: skinparam; AgentStereotypeFontColor
-      pair: Agent; StereotypeFontColor
-      pair: Deployment diagram; AgentStereotypeFontColor
+.. index::  skinparam; AgentStereotypeFontColor
+      single: Agent; skinparam StereotypeFontColor
+      single: Deployment diagram; skinparam AgentStereotypeFontColor
 
 
 .. _AgentStereotypeFontColor:
@@ -1070,18 +1033,17 @@ Agent
 
     .. container:: applies-to
 
-        Deployment diagrams
+        Deployement diagrams
 
 
-:Example:    :code:`AgentStereotypeFontColor red`:
+:Example:    :code:`AgentStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/AgentStereotypeFontColor-red.puml
 
 
-.. index:: AgentStereotypeFontName
-    pair: skinparam; AgentStereotypeFontName
-      pair: Agent; StereotypeFontName
-      pair: Deployment diagram; AgentStereotypeFontName
+.. index::  skinparam; AgentStereotypeFontName
+      single: Agent; skinparam StereotypeFontName
+      single: Deployment diagram; skinparam AgentStereotypeFontName
 
 
 .. _AgentStereotypeFontName:
@@ -1102,18 +1064,17 @@ Agent
 
     .. container:: applies-to
 
-        Deployment diagrams
+        Deployement diagrams
 
 
-:Example:    :code:`AgentStereotypeFontName Papyrus`:
+:Example:    :code:`AgentStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/AgentStereotypeFontName-Papyrus.puml
 
 
-.. index:: AgentStereotypeFontSize
-    pair: skinparam; AgentStereotypeFontSize
-      pair: Agent; StereotypeFontSize
-      pair: Deployment diagram; AgentStereotypeFontSize
+.. index::  skinparam; AgentStereotypeFontSize
+      single: Agent; skinparam StereotypeFontSize
+      single: Deployment diagram; skinparam AgentStereotypeFontSize
 
 
 .. _AgentStereotypeFontSize:
@@ -1133,18 +1094,17 @@ Agent
 
     .. container:: applies-to
 
-        Deployment diagrams
+        Deployement diagrams
 
 
-:Example:    :code:`AgentStereotypeFontSize 18`:
+:Example:    :code:`AgentStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/AgentStereotypeFontSize-18.puml
 
 
-.. index:: AgentStereotypeFontStyle
-    pair: skinparam; AgentStereotypeFontStyle
-      pair: Agent; StereotypeFontStyle
-      pair: Deployment diagram; AgentStereotypeFontStyle
+.. index::  skinparam; AgentStereotypeFontStyle
+      single: Agent; skinparam StereotypeFontStyle
+      single: Deployment diagram; skinparam AgentStereotypeFontStyle
 
 
 .. _AgentStereotypeFontStyle:
@@ -1164,17 +1124,16 @@ Agent
 
     .. container:: applies-to
 
-        Deployment diagrams
+        Deployement diagrams
 
 
-:Example:    :code:`AgentStereotypeFontStyle italic`:
+:Example:    :code:`AgentStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/AgentStereotypeFontStyle-italic.puml
 
 
 
-.. index:: Arrow
-    pair: skinparam; Arrow
+.. index::  skinparam; Arrow
 
 .. _Arrow:
 
@@ -1183,9 +1142,8 @@ Agent
 Arrow
 =====
 
-.. index:: ArrowColor
-    pair: skinparam; ArrowColor
-      pair: Arrow; Color
+.. index::  skinparam; ArrowColor
+      single: Arrow; Color
 
 
 .. _ArrowColor:
@@ -1198,7 +1156,7 @@ Arrow
 :Usage:
     :code:`ArrowColor [ #predefinedColorName | #hexColorNumber ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -1208,14 +1166,13 @@ Arrow
         zz
 
 
-:Example:    :code:`ArrowColor [ #predefinedColorName | #hexColorNumber ]`:
+:Example:    :code:`ArrowColor [ #predefinedColorName | #hexColorNumber ]`
 
     .. uml::  puml/sk-ex/ArrowColor-zz.puml
 
 
-.. index:: ArrowFontColor
-    pair: skinparam; ArrowFontColor
-      pair: Arrow; FontColor
+.. index::  skinparam; ArrowFontColor
+      single: Arrow; skinparam FontColor
 
 
 .. _ArrowFontColor:
@@ -1238,14 +1195,13 @@ Arrow
         zz
 
 
-:Example:    :code:`ArrowFontColor red`:
+:Example:    :code:`ArrowFontColor red`
 
     .. uml::  puml/sk-ex/ArrowFontColor-red.puml
 
 
-.. index:: ArrowFontName
-    pair: skinparam; ArrowFontName
-      pair: Arrow; FontName
+.. index::  skinparam; ArrowFontName
+      single: Arrow; skinparam FontName
 
 
 .. _ArrowFontName:
@@ -1269,14 +1225,13 @@ Arrow
         zz
 
 
-:Example:    :code:`ArrowFontName Papyrus`:
+:Example:    :code:`ArrowFontName Papyrus`
 
     .. uml::  puml/sk-ex/ArrowFontName-Papyrus.puml
 
 
-.. index:: ArrowFontSize
-    pair: skinparam; ArrowFontSize
-      pair: Arrow; FontSize
+.. index::  skinparam; ArrowFontSize
+      single: Arrow; skinparam FontSize
 
 
 .. _ArrowFontSize:
@@ -1299,15 +1254,14 @@ Arrow
         zz
 
 
-:Example:    :code:`ArrowFontSize 18`:
+:Example:    :code:`ArrowFontSize 18`
 
     .. uml::  puml/sk-ex/ArrowFontSize-18.puml
 
 
-.. index:: ArrowFontStyle
-    pair: skinparam; ArrowFontStyle
-      pair: Arrow; FontStyle
-      pair: Arrow; FontStyle
+.. index::  skinparam; ArrowFontStyle
+      single: Arrow; skinparam FontStyle
+      single: Arrow; skinparam FontStyle
 
 
 .. _ArrowFontStyle:
@@ -1330,14 +1284,13 @@ Arrow
         zz
 
 
-:Example:    :code:`ArrowFontStyle italic`:
+:Example:    :code:`ArrowFontStyle italic`
 
     .. uml::  puml/sk-ex/ArrowFontStyle-italic.puml
 
 
-.. index:: ArrowLollipopColor
-    pair: skinparam; ArrowLollipopColor
-      pair: Arrow; LollipopColor
+.. index::  skinparam; ArrowLollipopColor
+      single: Arrow; LollipopColor
 
 
 .. _ArrowLollipopColor:
@@ -1350,7 +1303,7 @@ Arrow
 :Usage:
     :code:`ArrowLollipopColor [ #predefinedColorName | #hexColorNumber ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -1360,14 +1313,13 @@ Arrow
         zz
 
 
-:Example:    :code:`ArrowLollipopColor [ #predefinedColorName | #hexColorNumber ]`:
+:Example:    :code:`ArrowLollipopColor [ #predefinedColorName | #hexColorNumber ]`
 
     .. uml::  puml/sk-ex/ArrowLollipopColor-zz.puml
 
 
-.. index:: ArrowMessageAlignment
-    pair: skinparam; ArrowMessageAlignment
-      pair: Arrow; MessageAlignment
+.. index::  skinparam; ArrowMessageAlignment
+      single: Arrow; MessageAlignment
 
 
 .. _ArrowMessageAlignment:
@@ -1380,7 +1332,7 @@ Arrow
 :Usage:
     :code:`ArrowMessageAlignment zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -1390,14 +1342,13 @@ Arrow
         zz
 
 
-:Example:    :code:`ArrowMessageAlignment zz`:
+:Example:    :code:`ArrowMessageAlignment zz`
 
     .. uml::  puml/sk-ex/ArrowMessageAlignment-zz.puml
 
 
-.. index:: ArrowThickness
-    pair: skinparam; ArrowThickness
-      pair: Arrow; Thickness
+.. index::  skinparam; ArrowThickness
+      single: Arrow; Thickness
 
 
 .. _ArrowThickness:
@@ -1410,7 +1361,7 @@ Arrow
 :Usage:
     :code:`ArrowThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -1420,15 +1371,14 @@ Arrow
         zz
 
 
-:Example:    :code:`ArrowThickness [ number ]`:
+:Example:    :code:`ArrowThickness [ number ]`
 
     .. uml::  puml/sk-ex/ArrowThickness-zz.puml
 
 
 
 
-.. index:: Artifact
-    pair: skinparam; Artifact
+.. index::  skinparam; Artifact
 
 
 .. _Artifact:
@@ -1436,8 +1386,10 @@ Arrow
 Artifact
 ========
 
-.. index:: ArtifactBackgroundColor
-    pair: skinparam; ArtifactBackgroundColor
+.. index::  skinparam; ArtifactBackgroundColor
+      single: Artifact; skinparam BackgroundColor
+      single: Deployment diagram; skinparam ArtifactBackgroundColor
+
 
 .. _ArtifactBackgroundColor:
 
@@ -1460,13 +1412,15 @@ Artifact
         zz
 
 
-:Example:    :code:`ArtifactBackgroundColor lawnGreen`:
+:Example:    :code:`ArtifactBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/ArtifactBackgroundColor-lawnGreen.puml
 
 
-.. index:: ArtifactBorderColor
-    pair: skinparam; ArtifactBorderColor
+.. index::  skinparam; ArtifactBorderColor
+      single: Artifact; skinparam BorderColor
+      single: Deployment diagram; skinparam ArtifactBorderColor
+
 
 .. _ArtifactBorderColor:
 
@@ -1488,13 +1442,14 @@ Artifact
         zz
 
 
-:Example:    :code:`ArtifactBorderColor red`:
+:Example:    :code:`ArtifactBorderColor red`
 
     .. uml::  puml/sk-ex/ArtifactBorderColor-red.puml
 
 
-.. index:: ArtifactFontColor
-    pair: skinparam; ArtifactFontColor
+.. index::  skinparam; ArtifactFontColor
+      single: Artifact; skinparam FontColor
+      single: Deployment diagram; skinparam ArtifactFontColor
 
 .. _ArtifactFontColor:
 
@@ -1516,13 +1471,14 @@ Artifact
         zz
 
 
-:Example:    :code:`ArtifactFontColor red`:
+:Example:    :code:`ArtifactFontColor red`
 
     .. uml::  puml/sk-ex/ArtifactFontColor-red.puml
 
 
-.. index:: ArtifactFontName
-    pair: skinparam; ArtifactFontName
+.. index::  skinparam; ArtifactFontName
+      single: Artifact; skinparam FontName
+      single: Deployment diagram; skinparam ArtifactFontName
 
 .. _ArtifactFontName:
 
@@ -1545,13 +1501,14 @@ Artifact
         zz
 
 
-:Example:    :code:`ArtifactFontName Papyrus`:
+:Example:    :code:`ArtifactFontName Papyrus`
 
     .. uml::  puml/sk-ex/ArtifactFontName-Papyrus.puml
 
 
-.. index:: ArtifactFontSize
-    pair: skinparam; ArtifactFontSize
+.. index::  skinparam; ArtifactFontSize
+      single: Artifact; skinparam FontSize
+      single: Deployment diagram; skinparam ArtifactFontSize
 
 .. _ArtifactFontSize:
 
@@ -1573,13 +1530,14 @@ Artifact
         zz
 
 
-:Example:    :code:`ArtifactFontSize 18`:
+:Example:    :code:`ArtifactFontSize 18`
 
     .. uml::  puml/sk-ex/ArtifactFontSize-18.puml
 
 
-.. index:: ArtifactFontStyle
-    pair: skinparam; ArtifactFontStyle
+.. index::  skinparam; ArtifactFontStyle
+      single: Artifact; skinparam FontStyle
+      single: Deployment diagram; skinparam ArtifactFontStyle
 
 .. _ArtifactFontStyle:
 
@@ -1601,13 +1559,14 @@ Artifact
         zz
 
 
-:Example:    :code:`ArtifactFontStyle italic`:
+:Example:    :code:`ArtifactFontStyle italic`
 
     .. uml::  puml/sk-ex/ArtifactFontStyle-italic.puml
 
 
-.. index:: ArtifactStereotypeFontColor
-    pair: skinparam; ArtifactStereotypeFontColor
+.. index::  skinparam; ArtifactStereotypeFontColor
+      single: Artifact; skinparam StereotypeFontColor
+      single: Deployment diagram; skinparam ArtifactStereotypeFontColor
 
 .. _ArtifactStereotypeFontColor:
 
@@ -1629,13 +1588,14 @@ Artifact
         zz
 
 
-:Example:    :code:`ArtifactStereotypeFontColor red`:
+:Example:    :code:`ArtifactStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/ArtifactStereotypeFontColor-red.puml
 
 
-.. index:: ArtifactStereotypeFontName
-    pair: skinparam; ArtifactStereotypeFontName
+.. index::  skinparam; ArtifactStereotypeFontName
+      single: Artifact; skinparam StereotypeFontColor
+      single: Deployment diagram; skinparam ArtifactStereotypeFontColor
 
 .. _ArtifactStereotypeFontName:
 
@@ -1658,13 +1618,14 @@ Artifact
         zz
 
 
-:Example:    :code:`ArtifactStereotypeFontName Papyrus`:
+:Example:    :code:`ArtifactStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/ArtifactStereotypeFontName-Papyrus.puml
 
 
-.. index:: ArtifactStereotypeFontSize
-    pair: skinparam; ArtifactStereotypeFontSize
+.. index::  skinparam; ArtifactStereotypeFontSize
+      single: Artifact; skinparam StereotypeFontSize
+      single: Deployment diagram; skinparam ArtifactStereotypeFontSize
 
 .. _ArtifactStereotypeFontSize:
 
@@ -1686,13 +1647,14 @@ Artifact
         zz
 
 
-:Example:    :code:`ArtifactStereotypeFontSize 18`:
+:Example:    :code:`ArtifactStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/ArtifactStereotypeFontSize-18.puml
 
 
-.. index:: ArtifactStereotypeFontStyle
-    pair: skinparam; ArtifactStereotypeFontStyle
+.. index::  skinparam; ArtifactStereotypeFontStyle
+      single: Artifact; skinparam StereotypeFontStyle
+      single: Deployment diagram; skinparam ArtifactStereotypeFontStyle
 
 .. _ArtifactStereotypeFontStyle:
 
@@ -1714,7 +1676,7 @@ Artifact
         zz
 
 
-:Example:    :code:`ArtifactStereotypeFontStyle italic`:
+:Example:    :code:`ArtifactStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/ArtifactStereotypeFontStyle-italic.puml
 
@@ -1737,8 +1699,7 @@ B
 BackgroundColor
 ===============
 
-.. index:: BackgroundColor
-    pair: skinparam; BackgroundColor
+.. index::  skinparam; skinparam BackgroundColor
 
 .. _BackgroundColor:
 
@@ -1760,15 +1721,14 @@ BackgroundColor
         zz
 
 
-:Example:    :code:`BackgroundColor GreenYellow`:
+:Example:    :code:`BackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/BackgroundColor-GreenYellow.puml
 
 
 
 
-.. index:: Biddable
-    pair: skinparam; Biddable
+.. index::  skinparam; Biddable
 
 .. _Biddable:
 
@@ -1776,8 +1736,7 @@ Biddable
 ========
 
 
-.. index:: BiddableBackgroundColor
-    pair: skinparam; BiddableBackgroundColor
+.. index::  skinparam; BiddableBackgroundColor
 
 .. _BiddableBackgroundColor:
 
@@ -1799,13 +1758,12 @@ Biddable
         zz
 
 
-:Example:    :code:`BiddableBackgroundColor GreenYellow`:
+:Example:    :code:`BiddableBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/BiddableBackgroundColor-GreenYellow.puml
 
 
-.. index:: BiddableBorderColor
-    pair: skinparam; BiddableBorderColor
+.. index::  skinparam; BiddableBorderColor
 
 .. _BiddableBorderColor:
 
@@ -1827,7 +1785,7 @@ Biddable
         zz
 
 
-:Example:    :code:`BiddableBorderColor red`:
+:Example:    :code:`BiddableBorderColor red`
 
     .. uml::  puml/sk-ex/BiddableBorderColor-red.puml
 
@@ -1835,8 +1793,7 @@ Biddable
 
 
 
-.. index:: Boundary
-    pair: skinparam; Boundary
+.. index::  skinparam; Boundary
 
 .. _Boundary:
 
@@ -1844,8 +1801,7 @@ Boundary
 ========
 
 
-.. index:: BoundaryBackgroundColor
-    pair: skinparam; BoundaryBackgroundColor
+.. index::  skinparam; BoundaryBackgroundColor
 
 .. _BoundaryBackgroundColor:
 
@@ -1867,13 +1823,12 @@ Boundary
         zz
 
 
-:Example:    :code:`BoundaryBackgroundColor lawnGreen`:
+:Example:    :code:`BoundaryBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/BoundaryBackgroundColor-lawnGreen.puml
 
 
-.. index:: BoundaryBorderColor
-    pair: skinparam; BoundaryBorderColor
+.. index::  skinparam; BoundaryBorderColor
 
 .. _BoundaryBorderColor:
 
@@ -1895,13 +1850,12 @@ Boundary
         zz
 
 
-:Example:    :code:`BoundaryBorderColor red`:
+:Example:    :code:`BoundaryBorderColor red`
 
     .. uml::  puml/sk-ex/BoundaryBorderColor-red.puml
 
 
-.. index:: BoundaryFontColor
-    pair: skinparam; BoundaryFontColor
+.. index::  skinparam; BoundaryFontColor
 
 .. _BoundaryFontColor:
 
@@ -1923,13 +1877,12 @@ Boundary
         zz
 
 
-:Example:    :code:`BoundaryFontColor red`:
+:Example:    :code:`BoundaryFontColor red`
 
     .. uml::  puml/sk-ex/BoundaryFontColor-red.puml
 
 
-.. index:: BoundaryFontName
-    pair: skinparam; BoundaryFontName
+.. index::  skinparam; BoundaryFontName
 
 .. _BoundaryFontName:
 
@@ -1952,13 +1905,12 @@ Boundary
         zz
 
 
-:Example:    :code:`BoundaryFontName Papyrus`:
+:Example:    :code:`BoundaryFontName Papyrus`
 
     .. uml::  puml/sk-ex/BoundaryFontName-Papyrus.puml
 
 
-.. index:: BoundaryFontSize
-    pair: skinparam; BoundaryFontSize
+.. index::  skinparam; BoundaryFontSize
 
 .. _BoundaryFontSize:
 
@@ -1980,13 +1932,12 @@ Boundary
         zz
 
 
-:Example:    :code:`BoundaryFontSize 18`:
+:Example:    :code:`BoundaryFontSize 18`
 
     .. uml::  puml/sk-ex/BoundaryFontSize-18.puml
 
 
-.. index:: BoundaryFontStyle
-    pair: skinparam; BoundaryFontStyle
+.. index::  skinparam; BoundaryFontStyle
 
 .. _BoundaryFontStyle:
 
@@ -2008,13 +1959,12 @@ Boundary
         zz
 
 
-:Example:    :code:`BoundaryFontStyle italic`:
+:Example:    :code:`BoundaryFontStyle italic`
 
     .. uml::  puml/sk-ex/BoundaryFontStyle-italic.puml
 
 
-.. index:: BoundaryStereotypeFontColor
-    pair: skinparam; BoundaryStereotypeFontColor
+.. index::  skinparam; BoundaryStereotypeFontColor
 
 .. _BoundaryStereotypeFontColor:
 
@@ -2036,13 +1986,12 @@ Boundary
         zz
 
 
-:Example:    :code:`BoundaryStereotypeFontColor red`:
+:Example:    :code:`BoundaryStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/BoundaryStereotypeFontColor-red.puml
 
 
-.. index:: BoundaryStereotypeFontName
-    pair: skinparam; BoundaryStereotypeFontName
+.. index::  skinparam; BoundaryStereotypeFontName
 
 .. _BoundaryStereotypeFontName:
 
@@ -2065,13 +2014,12 @@ Boundary
         zz
 
 
-:Example:    :code:`BoundaryStereotypeFontName Papyrus`:
+:Example:    :code:`BoundaryStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/BoundaryStereotypeFontName-Papyrus.puml
 
 
-.. index:: BoundaryStereotypeFontSize
-    pair: skinparam; BoundaryStereotypeFontSize
+.. index::  skinparam; BoundaryStereotypeFontSize
 
 .. _BoundaryStereotypeFontSize:
 
@@ -2093,13 +2041,12 @@ Boundary
         zz
 
 
-:Example:    :code:`BoundaryStereotypeFontSize 18`:
+:Example:    :code:`BoundaryStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/BoundaryStereotypeFontSize-18.puml
 
 
-.. index:: BoundaryStereotypeFontStyle
-    pair: skinparam; BoundaryStereotypeFontStyle
+.. index::  skinparam; BoundaryStereotypeFontStyle
 
 .. _BoundaryStereotypeFontStyle:
 
@@ -2121,7 +2068,7 @@ Boundary
         zz
 
 
-:Example:    :code:`BoundaryStereotypeFontStyle italic`:
+:Example:    :code:`BoundaryStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/BoundaryStereotypeFontStyle-italic.puml
 
@@ -2130,9 +2077,8 @@ Boundary
 BoxPadding
 ==========
 
-.. index:: BoxPadding
-    pair: skinparam; BoxPadding
-   pair: UML Sequence diagram; BoxPadding
+.. index::  skinparam; BoxPadding
+   single: UML Sequence diagram; skinparam BoxPadding
 
 .. _BoxPadding:
 
@@ -2154,7 +2100,7 @@ BoxPadding
         Sequence diagrams
 
 
-:Example:    :code:`BoxPadding 100`:
+:Example:    :code:`BoxPadding 100`
 
     .. uml::  puml/sk-ex/BoxPadding-100.puml
 
@@ -2180,8 +2126,8 @@ C
 ****
 
 
-.. index:: Caption
-    pair: skinparam; Caption
+.. index::  skinparam; Caption
+      single: All diagrams; skinparam Caption
 
 .. _Caption:
 
@@ -2189,8 +2135,8 @@ Caption
 ========
 
 
-.. index:: CaptionFontColor
-    pair: skinparam; CaptionFontColor
+.. index::  skinparam; CaptionFontColor
+    single: Caption; skinparam FontColor
 
 .. _CaptionFontColor:
 
@@ -2209,16 +2155,16 @@ Caption
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`CaptionFontColor red`:
+:Example:    :code:`CaptionFontColor red`
 
     .. uml::  puml/sk-ex/CaptionFontColor-red.puml
 
 
-.. index:: CaptionFontName
-    pair: skinparam; CaptionFontName
+.. index::  skinparam; CaptionFontName
+    single: Caption; skinparam FontName
 
 .. _CaptionFontName:
 
@@ -2238,16 +2184,16 @@ Caption
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`CaptionFontName Papyrus`:
+:Example:    :code:`CaptionFontName Papyrus`
 
     .. uml::  puml/sk-ex/CaptionFontName-Papyrus.puml
 
 
-.. index:: CaptionFontSize
-    pair: skinparam; CaptionFontSize
+.. index::  skinparam; CaptionFontSize
+    single: Caption; skinparam FontSize
 
 .. _CaptionFontSize:
 
@@ -2266,16 +2212,16 @@ Caption
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`CaptionFontSize 18`:
+:Example:    :code:`CaptionFontSize 18`
 
     .. uml::  puml/sk-ex/CaptionFontSize-18.puml
 
 
-.. index:: CaptionFontStyle
-    pair: skinparam; CaptionFontStyle
+.. index::  skinparam; CaptionFontStyle
+    single: Caption; skinparam FontStyle
 
 .. _CaptionFontStyle:
 
@@ -2294,19 +2240,17 @@ Caption
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`CaptionFontStyle italic`:
+:Example:    :code:`CaptionFontStyle italic`
 
     .. uml::  puml/sk-ex/CaptionFontStyle-italic.puml
 
 
 
 
-
-.. index:: Card
-    pair: skinparam; Card
+.. index::  skinparam; Card
 
 .. _Card:
 
@@ -2314,8 +2258,9 @@ Card
 ====
 
 
-.. index:: CardBackgroundColor
-    pair: skinparam; CardBackgroundColor
+.. index::  skinparam; CardBackgroundColor
+    single: Deployment diagram; skinparam CardBackgroundColor
+    single: Card; skinparam BackgroundColor
 
 .. _CardBackgroundColor:
 
@@ -2334,16 +2279,17 @@ Card
 
     .. container:: applies-to
 
-        zz
+        Deployment diagrams
 
 
-:Example:    :code:`CardBackgroundColor lawnGreen`:
+:Example:    :code:`CardBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/CardBackgroundColor-lawnGreen.puml
 
 
-.. index:: CardBorderColor
-    pair: skinparam; CardBorderColor
+.. index::  skinparam; CardBorderColor
+    single: Deployment diagram; skinparam CardBorderColor
+    single: Card; skinparam BorderColor
 
 .. _CardBorderColor:
 
@@ -2362,16 +2308,17 @@ Card
 
     .. container:: applies-to
 
-        zz
+        Deployment diagrams
 
 
-:Example:    :code:`CardBorderColor red`:
+:Example:    :code:`CardBorderColor red`
 
     .. uml::  puml/sk-ex/CardBorderColor-red.puml
 
 
-.. index:: CardBorderThickness
-    pair: skinparam; CardBorderThickness
+.. index::  skinparam; CardBorderThickness
+    single: Deployment diagram; skinparam CardBorderThickness
+    single: Card; skinparam BorderThickness
 
 .. _CardBorderThickness:
 
@@ -2383,23 +2330,25 @@ Card
 :Usage:
     :code:`CardBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
 
     .. container:: applies-to
 
-        zz
+        Deployment diagrams
 
 
-:Example:    :code:`CardBorderThickness [ number ]`:
+:Example:    :code:`CardBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/CardBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/CardBorderThickness-5.puml
 
 
-.. index:: CardFontColor
-    pair: skinparam; CardFontColor
+.. index::  skinparam; CardFontColor
+    single: Deployment diagram; skinparam CardFontColor
+    single: Card; skinparam FontColor
+
 
 .. _CardFontColor:
 
@@ -2418,16 +2367,17 @@ Card
 
     .. container:: applies-to
 
-        zz
+        Deployment diagrams
 
 
-:Example:    :code:`CardFontColor red`:
+:Example:    :code:`CardFontColor red`
 
     .. uml::  puml/sk-ex/CardFontColor-red.puml
 
 
-.. index:: CardFontName
-    pair: skinparam; CardFontName
+.. index::  skinparam; CardFontName
+    single: Deployment diagram; skinparam CardFontName
+    single: Card; skinparam FontName
 
 .. _CardFontName:
 
@@ -2447,16 +2397,17 @@ Card
 
     .. container:: applies-to
 
-        zz
+        Deployment diagrams
 
 
-:Example:    :code:`CardFontName Papyrus`:
+:Example:    :code:`CardFontName Papyrus`
 
     .. uml::  puml/sk-ex/CardFontName-Papyrus.puml
 
 
-.. index:: CardFontSize
-    pair: skinparam; CardFontSize
+.. index::  skinparam; CardFontSize
+    single: Deployment diagram; skinparam CardFontSize
+    single: Card; skinparam FontSize
 
 .. _CardFontSize:
 
@@ -2475,16 +2426,17 @@ Card
 
     .. container:: applies-to
 
-        zz
+        Deployment diagrams
 
 
-:Example:    :code:`CardFontSize 18`:
+:Example:    :code:`CardFontSize 18`
 
     .. uml::  puml/sk-ex/CardFontSize-18.puml
 
 
-.. index:: CardFontStyle
-    pair: skinparam; CardFontStyle
+.. index::  skinparam; CardFontStyle
+    single: Deployment diagram; skinparam CardFontStyle
+    single: Card; skinparam FontStyle
 
 .. _CardFontStyle:
 
@@ -2503,16 +2455,17 @@ Card
 
     .. container:: applies-to
 
-        zz
+        Deployment diagrams
 
 
-:Example:    :code:`CardFontStyle italic`:
+:Example:    :code:`CardFontStyle italic`
 
     .. uml::  puml/sk-ex/CardFontStyle-italic.puml
 
 
-.. index:: CardStereotypeFontColor
-    pair: skinparam; CardStereotypeFontColor
+.. index::  skinparam; CardStereotypeFontColor
+    single: Deployment diagram; skinparam CardStereotypeFontColor
+    single: Card; skinparam StereotypeFontColor
 
 .. _CardStereotypeFontColor:
 
@@ -2531,16 +2484,17 @@ Card
 
     .. container:: applies-to
 
-        zz
+        Deployment diagrams
 
 
-:Example:    :code:`CardStereotypeFontColor red`:
+:Example:    :code:`CardStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/CardStereotypeFontColor-red.puml
 
 
-.. index:: CardStereotypeFontName
-    pair: skinparam; CardStereotypeFontName
+.. index::  skinparam; CardStereotypeFontName
+    single: Deployment diagram; skinparam CardStereotypeFontName
+    single: Card; skinparam StereotypeFontName
 
 .. _CardStereotypeFontName:
 
@@ -2560,16 +2514,17 @@ Card
 
     .. container:: applies-to
 
-        zz
+        Deployment diagrams
 
 
-:Example:    :code:`CardStereotypeFontName Papyrus`:
+:Example:    :code:`CardStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/CardStereotypeFontName-Papyrus.puml
 
 
-.. index:: CardStereotypeFontSize
-    pair: skinparam; CardStereotypeFontSize
+.. index::  skinparam; CardStereotypeFontSize
+    single: Deployment diagram; skinparam CardStereotypeFontSize
+    single: Card; skinparam StereotypeFontSize
 
 .. _CardStereotypeFontSize:
 
@@ -2588,16 +2543,17 @@ Card
 
     .. container:: applies-to
 
-        zz
+        Deployment diagrams
 
 
-:Example:    :code:`CardStereotypeFontSize 18`:
+:Example:    :code:`CardStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/CardStereotypeFontSize-18.puml
 
 
-.. index:: CardStereotypeFontStyle
-    pair: skinparam; CardStereotypeFontStyle
+.. index::  skinparam; CardStereotypeFontStyle
+    single: Deployment diagram; skinparam CardStereotypeFontStyle
+    single: Card; skinparam StereotypeFontStyle
 
 .. _CardStereotypeFontStyle:
 
@@ -2616,10 +2572,10 @@ Card
 
     .. container:: applies-to
 
-        zz
+        Deployment diagrams
 
 
-:Example:    :code:`CardStereotypeFontStyle italic`:
+:Example:    :code:`CardStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/CardStereotypeFontStyle-italic.puml
 
@@ -2627,16 +2583,16 @@ Card
 
 
 
-.. index:: Circled
-    pair: skinparam; Circled
+.. index::  skinparam; CircledCharacter
 
-.. _Circled:
+.. _CircledCharacter:
 
-Circled
-=======
+CircledCharacter
+================
 
-.. index:: CircledCharacterFontColor
-    pair: skinparam; CircledCharacterFontColor
+.. index::  skinparam; CircledCharacterFontColor
+    single: CircledCharacter; skinparam FontColor
+
 
 .. _CircledCharacterFontColor:
 
@@ -2648,7 +2604,7 @@ Circled
 :Usage:
     :code:`CircledCharacterFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     The font color for text in zz. |use_colorname_hex|
+     The font color for characters in the class type circles. |use_colorname_hex|
 
 
 :Applies to:
@@ -2658,13 +2614,14 @@ Circled
         zz
 
 
-:Example:    :code:`CircledCharacterFontColor red`:
+:Example:    :code:`CircledCharacterFontColor blue`
 
-    .. uml::  puml/sk-ex/CircledCharacterFontColor-red.puml
+    .. uml::  puml/sk-ex/CircledCharacterFontColor-blue.puml
 
 
-.. index:: CircledCharacterFontName
-    pair: skinparam; CircledCharacterFontName
+.. index::  skinparam; CircledCharacterFontName
+    single: CircledCharacter; skinparam FontName
+
 
 .. _CircledCharacterFontName:
 
@@ -2676,7 +2633,7 @@ Circled
 :Usage:
     :code:`CircledCharacterFontName [ fontNameOnYourSystem ]`
 
-     The font name for text in zz. You must have the font installed on your computer.
+     The font name for text in the class type circles. You must have the font installed on your computer.
      (You can check by using the PlantUML command-line option :code:`-printfonts`.)
 
 
@@ -2687,13 +2644,13 @@ Circled
         zz
 
 
-:Example:    :code:`CircledCharacterFontName Papyrus`:
+:Example:    :code:`CircledCharacterFontName Papyrus`
 
     .. uml::  puml/sk-ex/CircledCharacterFontName-Papyrus.puml
 
 
-.. index:: CircledCharacterFontSize
-    pair: skinparam; CircledCharacterFontSize
+.. index::  skinparam; CircledCharacterFontSize
+    single: CircledCharacter; skinparam FontSize
 
 .. _CircledCharacterFontSize:
 
@@ -2705,7 +2662,7 @@ Circled
 :Usage:
     :code:`CircledCharacterFontSize [ number ]`
 
-     The font size for text in zz. 
+     The font size for text in the class type circles.
 
 
 :Applies to:
@@ -2715,13 +2672,14 @@ Circled
         zz
 
 
-:Example:    :code:`CircledCharacterFontSize 18`:
+:Example:    :code:`CircledCharacterFontSize 18`
 
     .. uml::  puml/sk-ex/CircledCharacterFontSize-18.puml
 
 
-.. index:: CircledCharacterFontStyle
-    pair: skinparam; CircledCharacterFontStyle
+.. index::  skinparam; CircledCharacterFontStyle
+    single: CircledCharacter; skinparam FontStyle
+
 
 .. _CircledCharacterFontStyle:
 
@@ -2733,7 +2691,7 @@ Circled
 :Usage:
     :code:`CircledCharacterFontStyle [ normal | plain | italic | bold ]`
 
-     The font style for text in zz. 
+     The font style for text in the class type circles.
 
 
 :Applies to:
@@ -2743,13 +2701,13 @@ Circled
         zz
 
 
-:Example:    :code:`CircledCharacterFontStyle italic`:
+:Example:    :code:`CircledCharacterFontStyle italic`
 
     .. uml::  puml/sk-ex/CircledCharacterFontStyle-italic.puml
 
 
-.. index:: CircledCharacterRadius
-    pair: skinparam; CircledCharacterRadius
+.. index::  skinparam; CircledCharacterRadius
+    single: CircledCharacter; Radius
 
 .. _CircledCharacterRadius:
 
@@ -2761,7 +2719,7 @@ Circled
 :Usage:
     :code:`CircledCharacterRadius zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -2771,24 +2729,22 @@ Circled
         zz
 
 
-:Example:    :code:`CircledCharacterRadius zz`:
+:Example:    :code:`CircledCharacterRadius zz`
 
-    .. uml::  puml/sk-ex/CircledCharacterRadius-zz.puml
-
-
+    .. uml::  puml/sk-ex/CircledCharacterRadius-15.puml
 
 
 
-.. index:: Class
-    pair: skinparam; Class
+
+
+.. index::  skinparam; Class
 
 .. _Class:
 
 Class
 =====
 
-.. index:: ClassAttributeFontColor
-    pair: skinparam; ClassAttributeFontColor
+.. index::  skinparam; ClassAttributeFontColor
 
 .. _ClassAttributeFontColor:
 
@@ -2810,13 +2766,12 @@ Class
         zz
 
 
-:Example:    :code:`ClassAttributeFontColor red`:
+:Example:    :code:`ClassAttributeFontColor red`
 
     .. uml::  puml/sk-ex/ClassAttributeFontColor-red.puml
 
 
-.. index:: ClassAttributeFontName
-    pair: skinparam; ClassAttributeFontName
+.. index::  skinparam; ClassAttributeFontName
 
 .. _ClassAttributeFontName:
 
@@ -2839,13 +2794,12 @@ Class
         zz
 
 
-:Example:    :code:`ClassAttributeFontName Papyrus`:
+:Example:    :code:`ClassAttributeFontName Papyrus`
 
     .. uml::  puml/sk-ex/ClassAttributeFontName-Papyrus.puml
 
 
-.. index:: ClassAttributeFontSize
-    pair: skinparam; ClassAttributeFontSize
+.. index::  skinparam; ClassAttributeFontSize
 
 .. _ClassAttributeFontSize:
 
@@ -2867,13 +2821,12 @@ Class
         zz
 
 
-:Example:    :code:`ClassAttributeFontSize 18`:
+:Example:    :code:`ClassAttributeFontSize 18`
 
     .. uml::  puml/sk-ex/ClassAttributeFontSize-18.puml
 
 
-.. index:: ClassAttributeFontStyle
-    pair: skinparam; ClassAttributeFontStyle
+.. index::  skinparam; ClassAttributeFontStyle
 
 .. _ClassAttributeFontStyle:
 
@@ -2895,13 +2848,12 @@ Class
         zz
 
 
-:Example:    :code:`ClassAttributeFontStyle italic`:
+:Example:    :code:`ClassAttributeFontStyle italic`
 
     .. uml::  puml/sk-ex/ClassAttributeFontStyle-italic.puml
 
 
-.. index:: ClassAttributeIconSize
-    pair: skinparam; ClassAttributeIconSize
+.. index::  skinparam; ClassAttributeIconSize
 
 .. _ClassAttributeIconSize:
 
@@ -2913,7 +2865,7 @@ Class
 :Usage:
     :code:`ClassAttributeIconSize [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -2923,13 +2875,12 @@ Class
         zz
 
 
-:Example:    :code:`ClassAttributeIconSize [ number ]`:
+:Example:    :code:`ClassAttributeIconSize [ number ]`
 
     .. uml::  puml/sk-ex/ClassAttributeIconSize-zz.puml
 
 
-.. index:: ClassBackgroundColor
-    pair: skinparam; ClassBackgroundColor
+.. index::  skinparam; ClassBackgroundColor
 
 .. _ClassBackgroundColor:
 
@@ -2951,13 +2902,12 @@ Class
         zz
 
 
-:Example:    :code:`ClassBackgroundColor GreenYellow`:
+:Example:    :code:`ClassBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/ClassBackgroundColor-GreenYellow.puml
 
 
-.. index:: ClassBorderColor
-    pair: skinparam; ClassBorderColor
+.. index::  skinparam; ClassBorderColor
 
 .. _ClassBorderColor:
 
@@ -2979,13 +2929,12 @@ Class
         zz
 
 
-:Example:    :code:`ClassBorderColor red`:
+:Example:    :code:`ClassBorderColor red`
 
     .. uml::  puml/sk-ex/ClassBorderColor-red.puml
 
 
-.. index:: ClassBorderThickness
-    pair: skinparam; ClassBorderThickness
+.. index::  skinparam; ClassBorderThickness
 
 .. _ClassBorderThickness:
 
@@ -2997,7 +2946,7 @@ Class
 :Usage:
     :code:`ClassBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -3007,13 +2956,12 @@ Class
         zz
 
 
-:Example:    :code:`ClassBorderThickness [ number ]`:
+:Example:    :code:`ClassBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/ClassBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/ClassBorderThickness-5.puml
 
 
-.. index:: ClassFontColor
-    pair: skinparam; ClassFontColor
+.. index::  skinparam; ClassFontColor
 
 .. _ClassFontColor:
 
@@ -3035,13 +2983,12 @@ Class
         zz
 
 
-:Example:    :code:`ClassFontColor red`:
+:Example:    :code:`ClassFontColor red`
 
     .. uml::  puml/sk-ex/ClassFontColor-red.puml
 
 
-.. index:: ClassFontName
-    pair: skinparam; ClassFontName
+.. index::  skinparam; ClassFontName
 
 .. _ClassFontName:
 
@@ -3064,13 +3011,12 @@ Class
         zz
 
 
-:Example:    :code:`ClassFontName Papyrus`:
+:Example:    :code:`ClassFontName Papyrus`
 
     .. uml::  puml/sk-ex/ClassFontName-Papyrus.puml
 
 
-.. index:: ClassFontSize
-    pair: skinparam; ClassFontSize
+.. index::  skinparam; ClassFontSize
 
 .. _ClassFontSize:
 
@@ -3092,13 +3038,12 @@ Class
         zz
 
 
-:Example:    :code:`ClassFontSize 18`:
+:Example:    :code:`ClassFontSize 18`
 
     .. uml::  puml/sk-ex/ClassFontSize-18.puml
 
 
-.. index:: ClassFontStyle
-    pair: skinparam; ClassFontStyle
+.. index::  skinparam; ClassFontStyle
 
 .. _ClassFontStyle:
 
@@ -3120,13 +3065,12 @@ Class
         zz
 
 
-:Example:    :code:`ClassFontStyle italic`:
+:Example:    :code:`ClassFontStyle italic`
 
     .. uml::  puml/sk-ex/ClassFontStyle-italic.puml
 
 
-.. index:: ClassHeaderBackgroundColor
-    pair: skinparam; ClassHeaderBackgroundColor
+.. index::  skinparam; ClassHeaderBackgroundColor
 
 .. _ClassHeaderBackgroundColor:
 
@@ -3148,13 +3092,12 @@ Class
         zz
 
 
-:Example:    :code:`ClassHeaderBackgroundColor GreenYellow`:
+:Example:    :code:`ClassHeaderBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/ClassHeaderBackgroundColor-GreenYellow.puml
 
 
-.. index:: ClassStereotypeFontColor
-    pair: skinparam; ClassStereotypeFontColor
+.. index::  skinparam; ClassStereotypeFontColor
 
 .. _ClassStereotypeFontColor:
 
@@ -3176,13 +3119,12 @@ Class
         zz
 
 
-:Example:    :code:`ClassStereotypeFontColor red`:
+:Example:    :code:`ClassStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/ClassStereotypeFontColor-red.puml
 
 
-.. index:: ClassStereotypeFontName
-    pair: skinparam; ClassStereotypeFontName
+.. index::  skinparam; ClassStereotypeFontName
 
 .. _ClassStereotypeFontName:
 
@@ -3205,13 +3147,12 @@ Class
         zz
 
 
-:Example:    :code:`ClassStereotypeFontName Papyrus`:
+:Example:    :code:`ClassStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/ClassStereotypeFontName-Papyrus.puml
 
 
-.. index:: ClassStereotypeFontSize
-    pair: skinparam; ClassStereotypeFontSize
+.. index::  skinparam; ClassStereotypeFontSize
 
 .. _ClassStereotypeFontSize:
 
@@ -3233,13 +3174,12 @@ Class
         zz
 
 
-:Example:    :code:`ClassStereotypeFontSize 18`:
+:Example:    :code:`ClassStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/ClassStereotypeFontSize-18.puml
 
 
-.. index:: ClassStereotypeFontStyle
-    pair: skinparam; ClassStereotypeFontStyle
+.. index::  skinparam; ClassStereotypeFontStyle
 
 .. _ClassStereotypeFontStyle:
 
@@ -3261,7 +3201,7 @@ Class
         zz
 
 
-:Example:    :code:`ClassStereotypeFontStyle italic`:
+:Example:    :code:`ClassStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/ClassStereotypeFontStyle-italic.puml
 
@@ -3269,8 +3209,10 @@ Class
 
 
 
-.. index:: Cloud
-    pair: skinparam; Cloud
+.. index::  skinparam; Cloud
+   single: Deployment diagram; skinparam Cloud
+
+
 
 .. _Cloud:
 
@@ -3278,8 +3220,10 @@ Cloud
 =====
 
 
-.. index:: CloudBackgroundColor
-    pair: skinparam; CloudBackgroundColor
+.. index::  skinparam; CloudBackgroundColor
+    single: Deployment diagram; skinparam CloudBackgroundColor
+    single: Cloud; skinparam BackgroundColor
+
 
 .. _CloudBackgroundColor:
 
@@ -3301,13 +3245,15 @@ Cloud
         zz
 
 
-:Example:    :code:`CloudBackgroundColor lawnGreen`:
+:Example:    :code:`CloudBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/CloudBackgroundColor-lawnGreen.puml
 
 
-.. index:: CloudBorderColor
-    pair: skinparam; CloudBorderColor
+.. index::  skinparam; CloudBorderColor
+    single: Deployment diagram; skinparam CloudBorderColor
+    single: Cloud; skinparam BorderColor
+
 
 .. _CloudBorderColor:
 
@@ -3329,13 +3275,15 @@ Cloud
         zz
 
 
-:Example:    :code:`CloudBorderColor red`:
+:Example:    :code:`CloudBorderColor red`
 
     .. uml::  puml/sk-ex/CloudBorderColor-red.puml
 
 
-.. index:: CloudFontColor
-    pair: skinparam; CloudFontColor
+.. index::  skinparam; CloudFontColor
+    single: Deployment diagram; skinparam CloudFontColor
+    single: Cloud; skinparam FontColor
+
 
 .. _CloudFontColor:
 
@@ -3357,13 +3305,16 @@ Cloud
         zz
 
 
-:Example:    :code:`CloudFontColor red`:
+:Example:    :code:`CloudFontColor red`
 
     .. uml::  puml/sk-ex/CloudFontColor-red.puml
 
 
-.. index:: CloudFontName
-    pair: skinparam; CloudFontName
+.. index::  skinparam; CloudFontName
+    single: Deployment diagram; skinparam CloudFontName
+    single: Cloud; skinparam FontColorName
+
+
 
 .. _CloudFontName:
 
@@ -3386,13 +3337,15 @@ Cloud
         zz
 
 
-:Example:    :code:`CloudFontName Papyrus`:
+:Example:    :code:`CloudFontName Papyrus`
 
     .. uml::  puml/sk-ex/CloudFontName-Papyrus.puml
 
 
-.. index:: CloudFontSize
-    pair: skinparam; CloudFontSize
+.. index::  skinparam; CloudFontSize
+    single: Deployment diagram; skinparam CloudFontSize
+    single: Cloud; skinparam FontColorSize
+
 
 .. _CloudFontSize:
 
@@ -3414,13 +3367,15 @@ Cloud
         zz
 
 
-:Example:    :code:`CloudFontSize 18`:
+:Example:    :code:`CloudFontSize 18`
 
     .. uml::  puml/sk-ex/CloudFontSize-18.puml
 
 
-.. index:: CloudFontStyle
-    pair: skinparam; CloudFontStyle
+.. index::  skinparam; CloudFontStyle
+    single: Deployment diagram; skinparam CloudFontStyle
+    single: Cloud; skinparam FontColorStyle
+
 
 .. _CloudFontStyle:
 
@@ -3442,13 +3397,15 @@ Cloud
         zz
 
 
-:Example:    :code:`CloudFontStyle italic`:
+:Example:    :code:`CloudFontStyle italic`
 
     .. uml::  puml/sk-ex/CloudFontStyle-italic.puml
 
 
-.. index:: CloudStereotypeFontColor
-    pair: skinparam; CloudStereotypeFontColor
+.. index::  skinparam; CloudStereotypeFontColor
+    single: Deployment diagram; skinparam CloudStereotypeFontColor
+    single: Cloud; StereotypeFontColor
+
 
 .. _CloudStereotypeFontColor:
 
@@ -3470,13 +3427,14 @@ Cloud
         zz
 
 
-:Example:    :code:`CloudStereotypeFontColor red`:
+:Example:    :code:`CloudStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/CloudStereotypeFontColor-red.puml
 
 
-.. index:: CloudStereotypeFontName
-    pair: skinparam; CloudStereotypeFontName
+.. index::  skinparam; CloudStereotypeFontName
+    single: Deployment diagram; skinparam CloudStereotypeFontName
+    single: Cloud; StereotypeFontName
 
 .. _CloudStereotypeFontName:
 
@@ -3499,13 +3457,14 @@ Cloud
         zz
 
 
-:Example:    :code:`CloudStereotypeFontName Papyrus`:
+:Example:    :code:`CloudStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/CloudStereotypeFontName-Papyrus.puml
 
 
-.. index:: CloudStereotypeFontSize
-    pair: skinparam; CloudStereotypeFontSize
+.. index::  skinparam; CloudStereotypeFontSize
+    single: Deployment diagram; skinparam CloudStereotypeFontSize
+    single: Cloud; StereotypeFontSize
 
 .. _CloudStereotypeFontSize:
 
@@ -3527,13 +3486,14 @@ Cloud
         zz
 
 
-:Example:    :code:`CloudStereotypeFontSize 18`:
+:Example:    :code:`CloudStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/CloudStereotypeFontSize-18.puml
 
 
-.. index:: CloudStereotypeFontStyle
-    pair: skinparam; CloudStereotypeFontStyle
+.. index::  skinparam; CloudStereotypeFontStyle
+    single: Deployment diagram; skinparam CloudStereotypeFontStyle
+    single: Cloud; StereotypeFontStyle
 
 .. _CloudStereotypeFontStyle:
 
@@ -3555,7 +3515,7 @@ Cloud
         zz
 
 
-:Example:    :code:`CloudStereotypeFontStyle italic`:
+:Example:    :code:`CloudStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/CloudStereotypeFontStyle-italic.puml
 
@@ -3563,8 +3523,7 @@ Cloud
 
 
 
-.. index:: Collections
-    pair: skinparam; Collections
+.. index::  skinparam; Collections
 
 .. _Collections:
 
@@ -3572,8 +3531,7 @@ Collections
 ===========
 
 
-.. index:: CollectionsBackgroundColor
-    pair: skinparam; CollectionsBackgroundColor
+.. index::  skinparam; CollectionsBackgroundColor
 
 .. _CollectionsBackgroundColor:
 
@@ -3595,13 +3553,12 @@ Collections
         zz
 
 
-:Example:    :code:`CollectionsBackgroundColor GreenYellow`:
+:Example:    :code:`CollectionsBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/CollectionsBackgroundColor-GreenYellow.puml
 
 
-.. index:: CollectionsBorderColor
-    pair: skinparam; CollectionsBorderColor
+.. index::  skinparam; CollectionsBorderColor
 
 .. _CollectionsBorderColor:
 
@@ -3623,7 +3580,7 @@ Collections
         zz
 
 
-:Example:    :code:`CollectionsBorderColor red`:
+:Example:    :code:`CollectionsBorderColor red`
 
     .. uml::  puml/sk-ex/CollectionsBorderColor-red.puml
 
@@ -3631,8 +3588,7 @@ Collections
 ColorArrowSeparationSpace
 =========================
 
-.. index:: ColorArrowSeparationSpace
-    pair: skinparam; ColorArrowSeparationSpace
+.. index::  skinparam; ColorArrowSeparationSpace
 
 .. _ColorArrowSeparationSpace:
 
@@ -3644,7 +3600,7 @@ ColorArrowSeparationSpace
 :Usage:
     :code:`ColorArrowSeparationSpace zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -3654,15 +3610,14 @@ ColorArrowSeparationSpace
         zz
 
 
-:Example:    :code:`ColorArrowSeparationSpace zz`:
+:Example:    :code:`ColorArrowSeparationSpace zz`
 
     .. uml::  puml/sk-ex/ColorArrowSeparationSpace-zz.puml
 
 
 
 
-.. index:: Component
-    pair: skinparam; Component
+.. index::  skinparam; Component
 
 .. _Component:
 
@@ -3670,8 +3625,7 @@ Component
 =========
 
 
-.. index:: ComponentBackgroundColor
-    pair: skinparam; ComponentBackgroundColor
+.. index::  skinparam; ComponentBackgroundColor
 
 .. _ComponentBackgroundColor:
 
@@ -3693,13 +3647,12 @@ Component
         zz
 
 
-:Example:    :code:`ComponentBackgroundColor lawnGreen`:
+:Example:    :code:`ComponentBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/ComponentBackgroundColor-lawnGreen.puml
 
 
-.. index:: ComponentBorderColor
-    pair: skinparam; ComponentBorderColor
+.. index::  skinparam; ComponentBorderColor
 
 .. _ComponentBorderColor:
 
@@ -3721,13 +3674,12 @@ Component
         zz
 
 
-:Example:    :code:`ComponentBorderColor red`:
+:Example:    :code:`ComponentBorderColor red`
 
     .. uml::  puml/sk-ex/ComponentBorderColor-red.puml
 
 
-.. index:: ComponentBorderThickness
-    pair: skinparam; ComponentBorderThickness
+.. index::  skinparam; ComponentBorderThickness
 
 .. _ComponentBorderThickness:
 
@@ -3739,7 +3691,7 @@ Component
 :Usage:
     :code:`ComponentBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -3749,13 +3701,12 @@ Component
         zz
 
 
-:Example:    :code:`ComponentBorderThickness [ number ]`:
+:Example:    :code:`ComponentBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/ComponentBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/ComponentBorderThickness-5.puml
 
 
-.. index:: ComponentFontColor
-    pair: skinparam; ComponentFontColor
+.. index::  skinparam; ComponentFontColor
 
 .. _ComponentFontColor:
 
@@ -3777,13 +3728,12 @@ Component
         zz
 
 
-:Example:    :code:`ComponentFontColor red`:
+:Example:    :code:`ComponentFontColor red`
 
     .. uml::  puml/sk-ex/ComponentFontColor-red.puml
 
 
-.. index:: ComponentFontName
-    pair: skinparam; ComponentFontName
+.. index::  skinparam; ComponentFontName
 
 .. _ComponentFontName:
 
@@ -3806,13 +3756,12 @@ Component
         zz
 
 
-:Example:    :code:`ComponentFontName Papyrus`:
+:Example:    :code:`ComponentFontName Papyrus`
 
     .. uml::  puml/sk-ex/ComponentFontName-Papyrus.puml
 
 
-.. index:: ComponentFontSize
-    pair: skinparam; ComponentFontSize
+.. index::  skinparam; ComponentFontSize
 
 .. _ComponentFontSize:
 
@@ -3834,13 +3783,12 @@ Component
         zz
 
 
-:Example:    :code:`ComponentFontSize 18`:
+:Example:    :code:`ComponentFontSize 18`
 
     .. uml::  puml/sk-ex/ComponentFontSize-18.puml
 
 
-.. index:: ComponentFontStyle
-    pair: skinparam; ComponentFontStyle
+.. index::  skinparam; ComponentFontStyle
 
 .. _ComponentFontStyle:
 
@@ -3862,13 +3810,12 @@ Component
         zz
 
 
-:Example:    :code:`ComponentFontStyle italic`:
+:Example:    :code:`ComponentFontStyle italic`
 
     .. uml::  puml/sk-ex/ComponentFontStyle-italic.puml
 
 
-.. index:: ComponentStereotypeFontColor
-    pair: skinparam; ComponentStereotypeFontColor
+.. index::  skinparam; ComponentStereotypeFontColor
 
 .. _ComponentStereotypeFontColor:
 
@@ -3890,13 +3837,12 @@ Component
         zz
 
 
-:Example:    :code:`ComponentStereotypeFontColor red`:
+:Example:    :code:`ComponentStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/ComponentStereotypeFontColor-red.puml
 
 
-.. index:: ComponentStereotypeFontName
-    pair: skinparam; ComponentStereotypeFontName
+.. index::  skinparam; ComponentStereotypeFontName
 
 .. _ComponentStereotypeFontName:
 
@@ -3919,13 +3865,12 @@ Component
         zz
 
 
-:Example:    :code:`ComponentStereotypeFontName Papyrus`:
+:Example:    :code:`ComponentStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/ComponentStereotypeFontName-Papyrus.puml
 
 
-.. index:: ComponentStereotypeFontSize
-    pair: skinparam; ComponentStereotypeFontSize
+.. index::  skinparam; ComponentStereotypeFontSize
 
 .. _ComponentStereotypeFontSize:
 
@@ -3947,13 +3892,12 @@ Component
         zz
 
 
-:Example:    :code:`ComponentStereotypeFontSize 18`:
+:Example:    :code:`ComponentStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/ComponentStereotypeFontSize-18.puml
 
 
-.. index:: ComponentStereotypeFontStyle
-    pair: skinparam; ComponentStereotypeFontStyle
+.. index::  skinparam; ComponentStereotypeFontStyle
 
 .. _ComponentStereotypeFontStyle:
 
@@ -3975,13 +3919,12 @@ Component
         zz
 
 
-:Example:    :code:`ComponentStereotypeFontStyle italic`:
+:Example:    :code:`ComponentStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/ComponentStereotypeFontStyle-italic.puml
 
 
-.. index:: ComponentStyle
-    pair: skinparam; ComponentStyle
+.. index::  skinparam; ComponentStyle
 
 .. _ComponentStyle:
 
@@ -3993,7 +3936,7 @@ Component
 :Usage:
     :code:`ComponentStyle [ normal | plain | italic | bold ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -4003,7 +3946,7 @@ Component
         zz
 
 
-:Example:    :code:`ComponentStyle [ normal | plain | italic | bold ]`:
+:Example:    :code:`ComponentStyle [ normal | plain | italic | bold ]`
 
     .. uml::  puml/sk-ex/ComponentStyle-zz.puml
 
@@ -4012,8 +3955,7 @@ Component
 ConditionStyle
 ==============
 
-.. index:: ConditionStyle
-    pair: skinparam; ConditionStyle
+.. index::  skinparam; ConditionStyle
 
 .. _ConditionStyle:
 
@@ -4025,7 +3967,7 @@ ConditionStyle
 :Usage:
     :code:`ConditionStyle [ normal | plain | italic | bold ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -4035,23 +3977,21 @@ ConditionStyle
         zz
 
 
-:Example:    :code:`ConditionStyle [ normal | plain | italic | bold ]`:
+:Example:    :code:`ConditionStyle [ normal | plain | italic | bold ]`
 
     .. uml::  puml/sk-ex/ConditionStyle-zz.puml
 
 
 
 
-.. index:: Control
-    pair: skinparam; Control
+.. index::  skinparam; Control
 
 .. _Control:
 
 Control
 =======
 
-.. index:: ControlBackgroundColor
-    pair: skinparam; ControlBackgroundColor
+.. index::  skinparam; ControlBackgroundColor
 
 .. _ControlBackgroundColor:
 
@@ -4073,13 +4013,12 @@ Control
         zz
 
 
-:Example:    :code:`ControlBackgroundColor lawnGreen`:
+:Example:    :code:`ControlBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/ControlBackgroundColor-lawnGreen.puml
 
 
-.. index:: ControlBorderColor
-    pair: skinparam; ControlBorderColor
+.. index::  skinparam; ControlBorderColor
 
 .. _ControlBorderColor:
 
@@ -4101,13 +4040,12 @@ Control
         zz
 
 
-:Example:    :code:`ControlBorderColor red`:
+:Example:    :code:`ControlBorderColor red`
 
     .. uml::  puml/sk-ex/ControlBorderColor-red.puml
 
 
-.. index:: ControlFontColor
-    pair: skinparam; ControlFontColor
+.. index::  skinparam; ControlFontColor
 
 .. _ControlFontColor:
 
@@ -4129,13 +4067,12 @@ Control
         zz
 
 
-:Example:    :code:`ControlFontColor red`:
+:Example:    :code:`ControlFontColor red`
 
     .. uml::  puml/sk-ex/ControlFontColor-red.puml
 
 
-.. index:: ControlFontName
-    pair: skinparam; ControlFontName
+.. index::  skinparam; ControlFontName
 
 .. _ControlFontName:
 
@@ -4158,13 +4095,12 @@ Control
         zz
 
 
-:Example:    :code:`ControlFontName Papyrus`:
+:Example:    :code:`ControlFontName Papyrus`
 
     .. uml::  puml/sk-ex/ControlFontName-Papyrus.puml
 
 
-.. index:: ControlFontSize
-    pair: skinparam; ControlFontSize
+.. index::  skinparam; ControlFontSize
 
 .. _ControlFontSize:
 
@@ -4186,13 +4122,12 @@ Control
         zz
 
 
-:Example:    :code:`ControlFontSize 18`:
+:Example:    :code:`ControlFontSize 18`
 
     .. uml::  puml/sk-ex/ControlFontSize-18.puml
 
 
-.. index:: ControlFontStyle
-    pair: skinparam; ControlFontStyle
+.. index::  skinparam; ControlFontStyle
 
 .. _ControlFontStyle:
 
@@ -4214,13 +4149,12 @@ Control
         zz
 
 
-:Example:    :code:`ControlFontStyle italic`:
+:Example:    :code:`ControlFontStyle italic`
 
     .. uml::  puml/sk-ex/ControlFontStyle-italic.puml
 
 
-.. index:: ControlStereotypeFontColor
-    pair: skinparam; ControlStereotypeFontColor
+.. index::  skinparam; ControlStereotypeFontColor
 
 .. _ControlStereotypeFontColor:
 
@@ -4242,13 +4176,12 @@ Control
         zz
 
 
-:Example:    :code:`ControlStereotypeFontColor red`:
+:Example:    :code:`ControlStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/ControlStereotypeFontColor-red.puml
 
 
-.. index:: ControlStereotypeFontName
-    pair: skinparam; ControlStereotypeFontName
+.. index::  skinparam; ControlStereotypeFontName
 
 .. _ControlStereotypeFontName:
 
@@ -4271,13 +4204,12 @@ Control
         zz
 
 
-:Example:    :code:`ControlStereotypeFontName Papyrus`:
+:Example:    :code:`ControlStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/ControlStereotypeFontName-Papyrus.puml
 
 
-.. index:: ControlStereotypeFontSize
-    pair: skinparam; ControlStereotypeFontSize
+.. index::  skinparam; ControlStereotypeFontSize
 
 .. _ControlStereotypeFontSize:
 
@@ -4299,13 +4231,12 @@ Control
         zz
 
 
-:Example:    :code:`ControlStereotypeFontSize 18`:
+:Example:    :code:`ControlStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/ControlStereotypeFontSize-18.puml
 
 
-.. index:: ControlStereotypeFontStyle
-    pair: skinparam; ControlStereotypeFontStyle
+.. index::  skinparam; ControlStereotypeFontStyle
 
 .. _ControlStereotypeFontStyle:
 
@@ -4327,7 +4258,7 @@ Control
         zz
 
 
-:Example:    :code:`ControlStereotypeFontStyle italic`:
+:Example:    :code:`ControlStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/ControlStereotypeFontStyle-italic.puml
 
@@ -4349,16 +4280,14 @@ D
 
 
 
-.. index:: Database
-    pair: skinparam; Database
+.. index::  skinparam; Database
 
 .. _Database:
 
 Database
 ========
 
-.. index:: DatabaseBackgroundColor
-    pair: skinparam; DatabaseBackgroundColor
+.. index::  skinparam; DatabaseBackgroundColor
 
 .. _DatabaseBackgroundColor:
 
@@ -4380,13 +4309,12 @@ Database
         zz
 
 
-:Example:    :code:`DatabaseBackgroundColor lawnGreen`:
+:Example:    :code:`DatabaseBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/DatabaseBackgroundColor-lawnGreen.puml
 
 
-.. index:: DatabaseBorderColor
-    pair: skinparam; DatabaseBorderColor
+.. index::  skinparam; DatabaseBorderColor
 
 .. _DatabaseBorderColor:
 
@@ -4408,13 +4336,12 @@ Database
         zz
 
 
-:Example:    :code:`DatabaseBorderColor red`:
+:Example:    :code:`DatabaseBorderColor red`
 
     .. uml::  puml/sk-ex/DatabaseBorderColor-red.puml
 
 
-.. index:: DatabaseFontColor
-    pair: skinparam; DatabaseFontColor
+.. index::  skinparam; DatabaseFontColor
 
 .. _DatabaseFontColor:
 
@@ -4436,13 +4363,12 @@ Database
         zz
 
 
-:Example:    :code:`DatabaseFontColor red`:
+:Example:    :code:`DatabaseFontColor red`
 
     .. uml::  puml/sk-ex/DatabaseFontColor-red.puml
 
 
-.. index:: DatabaseFontName
-    pair: skinparam; DatabaseFontName
+.. index::  skinparam; DatabaseFontName
 
 .. _DatabaseFontName:
 
@@ -4465,13 +4391,12 @@ Database
         zz
 
 
-:Example:    :code:`DatabaseFontName Papyrus`:
+:Example:    :code:`DatabaseFontName Papyrus`
 
     .. uml::  puml/sk-ex/DatabaseFontName-Papyrus.puml
 
 
-.. index:: DatabaseFontSize
-    pair: skinparam; DatabaseFontSize
+.. index::  skinparam; DatabaseFontSize
 
 .. _DatabaseFontSize:
 
@@ -4493,13 +4418,12 @@ Database
         zz
 
 
-:Example:    :code:`DatabaseFontSize 18`:
+:Example:    :code:`DatabaseFontSize 18`
 
     .. uml::  puml/sk-ex/DatabaseFontSize-18.puml
 
 
-.. index:: DatabaseFontStyle
-    pair: skinparam; DatabaseFontStyle
+.. index::  skinparam; DatabaseFontStyle
 
 .. _DatabaseFontStyle:
 
@@ -4521,13 +4445,12 @@ Database
         zz
 
 
-:Example:    :code:`DatabaseFontStyle italic`:
+:Example:    :code:`DatabaseFontStyle italic`
 
     .. uml::  puml/sk-ex/DatabaseFontStyle-italic.puml
 
 
-.. index:: DatabaseStereotypeFontColor
-    pair: skinparam; DatabaseStereotypeFontColor
+.. index::  skinparam; DatabaseStereotypeFontColor
 
 .. _DatabaseStereotypeFontColor:
 
@@ -4549,13 +4472,12 @@ Database
         zz
 
 
-:Example:    :code:`DatabaseStereotypeFontColor red`:
+:Example:    :code:`DatabaseStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/DatabaseStereotypeFontColor-red.puml
 
 
-.. index:: DatabaseStereotypeFontName
-    pair: skinparam; DatabaseStereotypeFontName
+.. index::  skinparam; DatabaseStereotypeFontName
 
 .. _DatabaseStereotypeFontName:
 
@@ -4578,13 +4500,12 @@ Database
         zz
 
 
-:Example:    :code:`DatabaseStereotypeFontName Papyrus`:
+:Example:    :code:`DatabaseStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/DatabaseStereotypeFontName-Papyrus.puml
 
 
-.. index:: DatabaseStereotypeFontSize
-    pair: skinparam; DatabaseStereotypeFontSize
+.. index::  skinparam; DatabaseStereotypeFontSize
 
 .. _DatabaseStereotypeFontSize:
 
@@ -4606,13 +4527,12 @@ Database
         zz
 
 
-:Example:    :code:`DatabaseStereotypeFontSize 18`:
+:Example:    :code:`DatabaseStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/DatabaseStereotypeFontSize-18.puml
 
 
-.. index:: DatabaseStereotypeFontStyle
-    pair: skinparam; DatabaseStereotypeFontStyle
+.. index::  skinparam; DatabaseStereotypeFontStyle
 
 .. _DatabaseStereotypeFontStyle:
 
@@ -4634,23 +4554,24 @@ Database
         zz
 
 
-:Example:    :code:`DatabaseStereotypeFontStyle italic`:
+:Example:    :code:`DatabaseStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/DatabaseStereotypeFontStyle-italic.puml
 
 
 
 
-.. index:: Default
-    pair: skinparam; Default
+.. index::  skinparam; Defaults
+      single: All diagrams; skinparam Defaults
+      see Defaults; skinparam Defaults
 
 .. _Default:
 
 Default
 =======
 
-.. index:: DefaultFontColor
-    pair: skinparam; DefaultFontColor
+.. index::  skinparam; DefaultFontColor
+    single: Default; skinparam FontColor
 
 .. _DefaultFontColor:
 
@@ -4662,23 +4583,22 @@ Default
 :Usage:
     :code:`DefaultFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     The font color for text in zz. |use_colorname_hex|
+     The font color for all text that does not have a color set with a skinparam. |use_colorname_hex|
 
 
 :Applies to:
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`DefaultFontColor red`:
+:Example:    :code:`DefaultFontColor red`
 
     .. uml::  puml/sk-ex/DefaultFontColor-red.puml
 
 
-.. index:: DefaultFontName
-    pair: skinparam; DefaultFontName
+.. index::  skinparam; DefaultFontName
 
 .. _DefaultFontName:
 
@@ -4690,7 +4610,7 @@ Default
 :Usage:
     :code:`DefaultFontName [ fontNameOnYourSystem ]`
 
-     The font name for text in zz. You must have the font installed on your computer.
+     The font name for all text that does not have a font name set with a skinparam. You must have the font installed on your computer.
      (You can check by using the PlantUML command-line option :code:`-printfonts`.)
 
 
@@ -4698,16 +4618,17 @@ Default
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`DefaultFontName Papyrus`:
+:Example:    :code:`DefaultFontName Papyrus`
 
     .. uml::  puml/sk-ex/DefaultFontName-Papyrus.puml
 
 
-.. index:: DefaultFontSize
-    pair: skinparam; DefaultFontSize
+.. index::  skinparam; DefaultFontSize
+    single: Default; skinparam FontSize
+
 
 .. _DefaultFontSize:
 
@@ -4719,23 +4640,25 @@ Default
 :Usage:
     :code:`DefaultFontSize [ number ]`
 
-     The font size for text in zz. 
+     The font size for all text that does not have a size set with a skinparam.
 
 
 :Applies to:
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`DefaultFontSize 18`:
+:Example:    :code:`DefaultFontSize 18`
 
     .. uml::  puml/sk-ex/DefaultFontSize-18.puml
 
 
-.. index:: DefaultFontStyle
-    pair: skinparam; DefaultFontStyle
+.. index::  skinparam; DefaultFontStyle
+    single: Default; skinparam FontStyle
+
+
 
 .. _DefaultFontStyle:
 
@@ -4747,23 +4670,25 @@ Default
 :Usage:
     :code:`DefaultFontStyle [ normal | plain | italic | bold ]`
 
-     The font style for text in zz. 
+     The font style for all text that does not have a style set with a skinparam.
 
 
 :Applies to:
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`DefaultFontStyle italic`:
+:Example:    :code:`DefaultFontStyle bold`
 
-    .. uml::  puml/sk-ex/DefaultFontStyle-italic.puml
+    .. uml::  puml/sk-ex/DefaultFontStyle-bold.puml
 
 
-.. index:: DefaultMonospacedFontName
-    pair: skinparam; DefaultMonospacedFontName
+.. index::  skinparam; DefaultMonospacedFontName
+    single: Default; MonospacedFontName
+
+
 
 .. _DefaultMonospacedFontName:
 
@@ -4775,7 +4700,7 @@ Default
 :Usage:
     :code:`DefaultMonospacedFontName [ fontNameOnYourSystem ]`
 
-     The font name for text in zz. You must have the font installed on your computer.
+     The monospaced font (name) for all text that does not have a monospaced font name set with a skinparam. You must have the font installed on your computer.
      (You can check by using the PlantUML command-line option :code:`-printfonts`.)
 
 
@@ -4783,16 +4708,17 @@ Default
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`DefaultMonospacedFontName Papyrus`:
+:Example:    :code:`DefaultMonospacedFontName Papyrus`
 
     .. uml::  puml/sk-ex/DefaultMonospacedFontName-Papyrus.puml
 
 
-.. index:: DefaultTextAlignment
-    pair: skinparam; DefaultTextAlignment
+.. index::  skinparam; DefaultTextAlignment
+    single: Default; TextAlignment
+
 
 .. _DefaultTextAlignment:
 
@@ -4802,36 +4728,36 @@ Default
 
 
 :Usage:
-    :code:`DefaultTextAlignment zz`
+    :code:`DefaultTextAlignment [left | center]`
 
-    zz_description
+    The text alignment for all text that does not have alignment set with a skinparam.
+
+    |not_working|  If you try to use :code:`right` as the value, PlantUML crashes.
 
 
 :Applies to:
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`DefaultTextAlignment zz`:
+:Example:    :code:`DefaultTextAlignment zz`
 
-    .. uml::  puml/sk-ex/DefaultTextAlignment-zz.puml
-
-
+    .. uml::  puml/sk-ex/DefaultTextAlignment-right.puml
 
 
 
-.. index:: Designed
-    pair: skinparam; Designed
+
+
+.. index::  skinparam; Designed
 
 .. _Designed:
 
 Designed
 ========
 
-.. index:: DesignedBackgroundColor
-    pair: skinparam; DesignedBackgroundColor
+.. index::  skinparam; DesignedBackgroundColor
 
 .. _DesignedBackgroundColor:
 
@@ -4853,13 +4779,12 @@ Designed
         zz
 
 
-:Example:    :code:`DesignedBackgroundColor GreenYellow`:
+:Example:    :code:`DesignedBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/DesignedBackgroundColor-GreenYellow.puml
 
 
-.. index:: DesignedBorderColor
-    pair: skinparam; DesignedBorderColor
+.. index::  skinparam; DesignedBorderColor
 
 .. _DesignedBorderColor:
 
@@ -4881,14 +4806,13 @@ Designed
         zz
 
 
-:Example:    :code:`DesignedBorderColor red`:
+:Example:    :code:`DesignedBorderColor red`
 
     .. uml::  puml/sk-ex/DesignedBorderColor-red.puml
 
 
 
-.. index:: DesignedDomain
-    pair: skinparam; DesignedDomain
+.. index::  skinparam; DesignedDomain
 
 .. _DesignedDomain:
 
@@ -4896,8 +4820,7 @@ DesignedDomain
 ==============
 
 
-.. index:: DesignedDomainBorderThickness
-    pair: skinparam; DesignedDomainBorderThickness
+.. index::  skinparam; DesignedDomainBorderThickness
 
 .. _DesignedDomainBorderThickness:
 
@@ -4909,7 +4832,7 @@ DesignedDomain
 :Usage:
     :code:`DesignedDomainBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -4919,13 +4842,12 @@ DesignedDomain
         zz
 
 
-:Example:    :code:`DesignedDomainBorderThickness [ number ]`:
+:Example:    :code:`DesignedDomainBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/DesignedDomainBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/DesignedDomainBorderThickness-5.puml
 
 
-.. index:: DesignedDomainFontColor
-    pair: skinparam; DesignedDomainFontColor
+.. index::  skinparam; DesignedDomainFontColor
 
 .. _DesignedDomainFontColor:
 
@@ -4947,13 +4869,12 @@ DesignedDomain
         zz
 
 
-:Example:    :code:`DesignedDomainFontColor red`:
+:Example:    :code:`DesignedDomainFontColor red`
 
     .. uml::  puml/sk-ex/DesignedDomainFontColor-red.puml
 
 
-.. index:: DesignedDomainFontName
-    pair: skinparam; DesignedDomainFontName
+.. index::  skinparam; DesignedDomainFontName
 
 .. _DesignedDomainFontName:
 
@@ -4976,13 +4897,12 @@ DesignedDomain
         zz
 
 
-:Example:    :code:`DesignedDomainFontName Papyrus`:
+:Example:    :code:`DesignedDomainFontName Papyrus`
 
     .. uml::  puml/sk-ex/DesignedDomainFontName-Papyrus.puml
 
 
-.. index:: DesignedDomainFontSize
-    pair: skinparam; DesignedDomainFontSize
+.. index::  skinparam; DesignedDomainFontSize
 
 .. _DesignedDomainFontSize:
 
@@ -5004,13 +4924,12 @@ DesignedDomain
         zz
 
 
-:Example:    :code:`DesignedDomainFontSize 18`:
+:Example:    :code:`DesignedDomainFontSize 18`
 
     .. uml::  puml/sk-ex/DesignedDomainFontSize-18.puml
 
 
-.. index:: DesignedDomainFontStyle
-    pair: skinparam; DesignedDomainFontStyle
+.. index::  skinparam; DesignedDomainFontStyle
 
 .. _DesignedDomainFontStyle:
 
@@ -5032,13 +4951,12 @@ DesignedDomain
         zz
 
 
-:Example:    :code:`DesignedDomainFontStyle italic`:
+:Example:    :code:`DesignedDomainFontStyle italic`
 
     .. uml::  puml/sk-ex/DesignedDomainFontStyle-italic.puml
 
 
-.. index:: DesignedDomainStereotypeFontColor
-    pair: skinparam; DesignedDomainStereotypeFontColor
+.. index::  skinparam; DesignedDomainStereotypeFontColor
 
 .. _DesignedDomainStereotypeFontColor:
 
@@ -5060,13 +4978,12 @@ DesignedDomain
         zz
 
 
-:Example:    :code:`DesignedDomainStereotypeFontColor red`:
+:Example:    :code:`DesignedDomainStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/DesignedDomainStereotypeFontColor-red.puml
 
 
-.. index:: DesignedDomainStereotypeFontName
-    pair: skinparam; DesignedDomainStereotypeFontName
+.. index::  skinparam; DesignedDomainStereotypeFontName
 
 .. _DesignedDomainStereotypeFontName:
 
@@ -5089,13 +5006,12 @@ DesignedDomain
         zz
 
 
-:Example:    :code:`DesignedDomainStereotypeFontName Papyrus`:
+:Example:    :code:`DesignedDomainStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/DesignedDomainStereotypeFontName-Papyrus.puml
 
 
-.. index:: DesignedDomainStereotypeFontSize
-    pair: skinparam; DesignedDomainStereotypeFontSize
+.. index::  skinparam; DesignedDomainStereotypeFontSize
 
 .. _DesignedDomainStereotypeFontSize:
 
@@ -5117,13 +5033,12 @@ DesignedDomain
         zz
 
 
-:Example:    :code:`DesignedDomainStereotypeFontSize 18`:
+:Example:    :code:`DesignedDomainStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/DesignedDomainStereotypeFontSize-18.puml
 
 
-.. index:: DesignedDomainStereotypeFontStyle
-    pair: skinparam; DesignedDomainStereotypeFontStyle
+.. index::  skinparam; DesignedDomainStereotypeFontStyle
 
 .. _DesignedDomainStereotypeFontStyle:
 
@@ -5145,15 +5060,14 @@ DesignedDomain
         zz
 
 
-:Example:    :code:`DesignedDomainStereotypeFontStyle italic`:
+:Example:    :code:`DesignedDomainStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/DesignedDomainStereotypeFontStyle-italic.puml
 
 
 
 
-.. index:: Diagram
-    pair: skinparam; Diagram
+.. index::  skinparam; Diagram
 
 .. _Diagram:
 
@@ -5161,8 +5075,7 @@ Diagram
 =======
 
 
-.. index:: DiagramBorderColor
-    pair: skinparam; DiagramBorderColor
+.. index::  skinparam; DiagramBorderColor
 
 .. _DiagramBorderColor:
 
@@ -5184,13 +5097,12 @@ Diagram
         zz
 
 
-:Example:    :code:`DiagramBorderColor red`:
+:Example:    :code:`DiagramBorderColor red`
 
     .. uml::  puml/sk-ex/DiagramBorderColor-red.puml
 
 
-.. index:: DiagramBorderThickness
-    pair: skinparam; DiagramBorderThickness
+.. index::  skinparam; DiagramBorderThickness
 
 .. _DiagramBorderThickness:
 
@@ -5202,7 +5114,7 @@ Diagram
 :Usage:
     :code:`DiagramBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -5212,22 +5124,20 @@ Diagram
         zz
 
 
-:Example:    :code:`DiagramBorderThickness [ number ]`:
+:Example:    :code:`DiagramBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/DiagramBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/DiagramBorderThickness-5.puml
 
 
 
-.. index:: Domain
-    pair: skinparam; Domain
+.. index::  skinparam; Domain
 
 .. _Domain:
 
 Domain
 ======
 
-.. index:: DomainBackgroundColor
-    pair: skinparam; DomainBackgroundColor
+.. index::  skinparam; DomainBackgroundColor
 
 .. _DomainBackgroundColor:
 
@@ -5249,13 +5159,12 @@ Domain
         zz
 
 
-:Example:    :code:`DomainBackgroundColor GreenYellow`:
+:Example:    :code:`DomainBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/DomainBackgroundColor-GreenYellow.puml
 
 
-.. index:: DomainBorderColor
-    pair: skinparam; DomainBorderColor
+.. index::  skinparam; DomainBorderColor
 
 .. _DomainBorderColor:
 
@@ -5277,13 +5186,12 @@ Domain
         zz
 
 
-:Example:    :code:`DomainBorderColor red`:
+:Example:    :code:`DomainBorderColor red`
 
     .. uml::  puml/sk-ex/DomainBorderColor-red.puml
 
 
-.. index:: DomainBorderThickness
-    pair: skinparam; DomainBorderThickness
+.. index::  skinparam; DomainBorderThickness
 
 .. _DomainBorderThickness:
 
@@ -5295,7 +5203,7 @@ Domain
 :Usage:
     :code:`DomainBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -5305,13 +5213,12 @@ Domain
         zz
 
 
-:Example:    :code:`DomainBorderThickness [ number ]`:
+:Example:    :code:`DomainBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/DomainBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/DomainBorderThickness-5.puml
 
 
-.. index:: DomainFontColor
-    pair: skinparam; DomainFontColor
+.. index::  skinparam; DomainFontColor
 
 .. _DomainFontColor:
 
@@ -5333,13 +5240,12 @@ Domain
         zz
 
 
-:Example:    :code:`DomainFontColor red`:
+:Example:    :code:`DomainFontColor red`
 
     .. uml::  puml/sk-ex/DomainFontColor-red.puml
 
 
-.. index:: DomainFontName
-    pair: skinparam; DomainFontName
+.. index::  skinparam; DomainFontName
 
 .. _DomainFontName:
 
@@ -5362,13 +5268,12 @@ Domain
         zz
 
 
-:Example:    :code:`DomainFontName Papyrus`:
+:Example:    :code:`DomainFontName Papyrus`
 
     .. uml::  puml/sk-ex/DomainFontName-Papyrus.puml
 
 
-.. index:: DomainFontSize
-    pair: skinparam; DomainFontSize
+.. index::  skinparam; DomainFontSize
 
 .. _DomainFontSize:
 
@@ -5390,13 +5295,12 @@ Domain
         zz
 
 
-:Example:    :code:`DomainFontSize 18`:
+:Example:    :code:`DomainFontSize 18`
 
     .. uml::  puml/sk-ex/DomainFontSize-18.puml
 
 
-.. index:: DomainFontStyle
-    pair: skinparam; DomainFontStyle
+.. index::  skinparam; DomainFontStyle
 
 .. _DomainFontStyle:
 
@@ -5418,13 +5322,12 @@ Domain
         zz
 
 
-:Example:    :code:`DomainFontStyle italic`:
+:Example:    :code:`DomainFontStyle italic`
 
     .. uml::  puml/sk-ex/DomainFontStyle-italic.puml
 
 
-.. index:: DomainStereotypeFontColor
-    pair: skinparam; DomainStereotypeFontColor
+.. index::  skinparam; DomainStereotypeFontColor
 
 .. _DomainStereotypeFontColor:
 
@@ -5446,13 +5349,12 @@ Domain
         zz
 
 
-:Example:    :code:`DomainStereotypeFontColor red`:
+:Example:    :code:`DomainStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/DomainStereotypeFontColor-red.puml
 
 
-.. index:: DomainStereotypeFontName
-    pair: skinparam; DomainStereotypeFontName
+.. index::  skinparam; DomainStereotypeFontName
 
 .. _DomainStereotypeFontName:
 
@@ -5475,13 +5377,12 @@ Domain
         zz
 
 
-:Example:    :code:`DomainStereotypeFontName Papyrus`:
+:Example:    :code:`DomainStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/DomainStereotypeFontName-Papyrus.puml
 
 
-.. index:: DomainStereotypeFontSize
-    pair: skinparam; DomainStereotypeFontSize
+.. index::  skinparam; DomainStereotypeFontSize
 
 .. _DomainStereotypeFontSize:
 
@@ -5503,13 +5404,12 @@ Domain
         zz
 
 
-:Example:    :code:`DomainStereotypeFontSize 18`:
+:Example:    :code:`DomainStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/DomainStereotypeFontSize-18.puml
 
 
-.. index:: DomainStereotypeFontStyle
-    pair: skinparam; DomainStereotypeFontStyle
+.. index::  skinparam; DomainStereotypeFontStyle
 
 .. _DomainStereotypeFontStyle:
 
@@ -5531,7 +5431,7 @@ Domain
         zz
 
 
-:Example:    :code:`DomainStereotypeFontStyle italic`:
+:Example:    :code:`DomainStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/DomainStereotypeFontStyle-italic.puml
 
@@ -5539,8 +5439,7 @@ Domain
 Dpi
 ===
 
-.. index:: Dpi
-    pair: skinparam; Dpi
+.. index::  skinparam; Dpi
 
 .. _Dpi:
 
@@ -5552,7 +5451,7 @@ Dpi
 :Usage:
     :code:`Dpi zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -5562,7 +5461,7 @@ Dpi
         zz
 
 
-:Example:    :code:`Dpi zz`:
+:Example:    :code:`Dpi zz`
 
     .. uml::  puml/sk-ex/Dpi-zz.puml
 
@@ -5584,8 +5483,7 @@ E
 
 
 
-.. index:: Entity
-    pair: skinparam; Entity
+.. index::  skinparam; Entity
 
 .. _Entity:
 
@@ -5593,8 +5491,7 @@ Entity
 ======
 
 
-.. index:: EntityBackgroundColor
-    pair: skinparam; EntityBackgroundColor
+.. index::  skinparam; EntityBackgroundColor
 
 .. _EntityBackgroundColor:
 
@@ -5616,13 +5513,12 @@ Entity
         zz
 
 
-:Example:    :code:`EntityBackgroundColor lawnGreen`:
+:Example:    :code:`EntityBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/EntityBackgroundColor-lawnGreen.puml
 
 
-.. index:: EntityBorderColor
-    pair: skinparam; EntityBorderColor
+.. index::  skinparam; EntityBorderColor
 
 .. _EntityBorderColor:
 
@@ -5644,13 +5540,12 @@ Entity
         zz
 
 
-:Example:    :code:`EntityBorderColor red`:
+:Example:    :code:`EntityBorderColor red`
 
     .. uml::  puml/sk-ex/EntityBorderColor-red.puml
 
 
-.. index:: EntityFontColor
-    pair: skinparam; EntityFontColor
+.. index::  skinparam; EntityFontColor
 
 .. _EntityFontColor:
 
@@ -5672,13 +5567,12 @@ Entity
         zz
 
 
-:Example:    :code:`EntityFontColor red`:
+:Example:    :code:`EntityFontColor red`
 
     .. uml::  puml/sk-ex/EntityFontColor-red.puml
 
 
-.. index:: EntityFontName
-    pair: skinparam; EntityFontName
+.. index::  skinparam; EntityFontName
 
 .. _EntityFontName:
 
@@ -5701,13 +5595,12 @@ Entity
         zz
 
 
-:Example:    :code:`EntityFontName Papyrus`:
+:Example:    :code:`EntityFontName Papyrus`
 
     .. uml::  puml/sk-ex/EntityFontName-Papyrus.puml
 
 
-.. index:: EntityFontSize
-    pair: skinparam; EntityFontSize
+.. index::  skinparam; EntityFontSize
 
 .. _EntityFontSize:
 
@@ -5729,13 +5622,12 @@ Entity
         zz
 
 
-:Example:    :code:`EntityFontSize 18`:
+:Example:    :code:`EntityFontSize 18`
 
     .. uml::  puml/sk-ex/EntityFontSize-18.puml
 
 
-.. index:: EntityFontStyle
-    pair: skinparam; EntityFontStyle
+.. index::  skinparam; EntityFontStyle
 
 .. _EntityFontStyle:
 
@@ -5757,13 +5649,12 @@ Entity
         zz
 
 
-:Example:    :code:`EntityFontStyle italic`:
+:Example:    :code:`EntityFontStyle italic`
 
     .. uml::  puml/sk-ex/EntityFontStyle-italic.puml
 
 
-.. index:: EntityStereotypeFontColor
-    pair: skinparam; EntityStereotypeFontColor
+.. index::  skinparam; EntityStereotypeFontColor
 
 .. _EntityStereotypeFontColor:
 
@@ -5785,13 +5676,12 @@ Entity
         zz
 
 
-:Example:    :code:`EntityStereotypeFontColor red`:
+:Example:    :code:`EntityStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/EntityStereotypeFontColor-red.puml
 
 
-.. index:: EntityStereotypeFontName
-    pair: skinparam; EntityStereotypeFontName
+.. index::  skinparam; EntityStereotypeFontName
 
 .. _EntityStereotypeFontName:
 
@@ -5814,13 +5704,12 @@ Entity
         zz
 
 
-:Example:    :code:`EntityStereotypeFontName Papyrus`:
+:Example:    :code:`EntityStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/EntityStereotypeFontName-Papyrus.puml
 
 
-.. index:: EntityStereotypeFontSize
-    pair: skinparam; EntityStereotypeFontSize
+.. index::  skinparam; EntityStereotypeFontSize
 
 .. _EntityStereotypeFontSize:
 
@@ -5842,13 +5731,12 @@ Entity
         zz
 
 
-:Example:    :code:`EntityStereotypeFontSize 18`:
+:Example:    :code:`EntityStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/EntityStereotypeFontSize-18.puml
 
 
-.. index:: EntityStereotypeFontStyle
-    pair: skinparam; EntityStereotypeFontStyle
+.. index::  skinparam; EntityStereotypeFontStyle
 
 .. _EntityStereotypeFontStyle:
 
@@ -5870,7 +5758,7 @@ Entity
         zz
 
 
-:Example:    :code:`EntityStereotypeFontStyle italic`:
+:Example:    :code:`EntityStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/EntityStereotypeFontStyle-italic.puml
 
@@ -5891,8 +5779,7 @@ F
 ****
 
 
-.. index:: File
-    pair: skinparam; File
+.. index::  skinparam; File
 
 .. _File:
 
@@ -5900,8 +5787,7 @@ File
 ====
 
 
-.. index:: FileBackgroundColor
-    pair: skinparam; FileBackgroundColor
+.. index::  skinparam; FileBackgroundColor
 
 .. _FileBackgroundColor:
 
@@ -5923,13 +5809,12 @@ File
         zz
 
 
-:Example:    :code:`FileBackgroundColor lawnGreen`:
+:Example:    :code:`FileBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/FileBackgroundColor-lawnGreen.puml
 
 
-.. index:: FileBorderColor
-    pair: skinparam; FileBorderColor
+.. index::  skinparam; FileBorderColor
 
 .. _FileBorderColor:
 
@@ -5951,13 +5836,12 @@ File
         zz
 
 
-:Example:    :code:`FileBorderColor red`:
+:Example:    :code:`FileBorderColor red`
 
     .. uml::  puml/sk-ex/FileBorderColor-red.puml
 
 
-.. index:: FileFontColor
-    pair: skinparam; FileFontColor
+.. index::  skinparam; FileFontColor
 
 .. _FileFontColor:
 
@@ -5979,13 +5863,12 @@ File
         zz
 
 
-:Example:    :code:`FileFontColor red`:
+:Example:    :code:`FileFontColor red`
 
     .. uml::  puml/sk-ex/FileFontColor-red.puml
 
 
-.. index:: FileFontName
-    pair: skinparam; FileFontName
+.. index::  skinparam; FileFontName
 
 .. _FileFontName:
 
@@ -6008,13 +5891,12 @@ File
         zz
 
 
-:Example:    :code:`FileFontName Papyrus`:
+:Example:    :code:`FileFontName Papyrus`
 
     .. uml::  puml/sk-ex/FileFontName-Papyrus.puml
 
 
-.. index:: FileFontSize
-    pair: skinparam; FileFontSize
+.. index::  skinparam; FileFontSize
 
 .. _FileFontSize:
 
@@ -6036,13 +5918,12 @@ File
         zz
 
 
-:Example:    :code:`FileFontSize 18`:
+:Example:    :code:`FileFontSize 18`
 
     .. uml::  puml/sk-ex/FileFontSize-18.puml
 
 
-.. index:: FileFontStyle
-    pair: skinparam; FileFontStyle
+.. index::  skinparam; FileFontStyle
 
 .. _FileFontStyle:
 
@@ -6064,13 +5945,12 @@ File
         zz
 
 
-:Example:    :code:`FileFontStyle italic`:
+:Example:    :code:`FileFontStyle italic`
 
     .. uml::  puml/sk-ex/FileFontStyle-italic.puml
 
 
-.. index:: FileStereotypeFontColor
-    pair: skinparam; FileStereotypeFontColor
+.. index::  skinparam; FileStereotypeFontColor
 
 .. _FileStereotypeFontColor:
 
@@ -6092,13 +5972,12 @@ File
         zz
 
 
-:Example:    :code:`FileStereotypeFontColor red`:
+:Example:    :code:`FileStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/FileStereotypeFontColor-red.puml
 
 
-.. index:: FileStereotypeFontName
-    pair: skinparam; FileStereotypeFontName
+.. index::  skinparam; FileStereotypeFontName
 
 .. _FileStereotypeFontName:
 
@@ -6121,13 +6000,12 @@ File
         zz
 
 
-:Example:    :code:`FileStereotypeFontName Papyrus`:
+:Example:    :code:`FileStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/FileStereotypeFontName-Papyrus.puml
 
 
-.. index:: FileStereotypeFontSize
-    pair: skinparam; FileStereotypeFontSize
+.. index::  skinparam; FileStereotypeFontSize
 
 .. _FileStereotypeFontSize:
 
@@ -6149,13 +6027,12 @@ File
         zz
 
 
-:Example:    :code:`FileStereotypeFontSize 18`:
+:Example:    :code:`FileStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/FileStereotypeFontSize-18.puml
 
 
-.. index:: FileStereotypeFontStyle
-    pair: skinparam; FileStereotypeFontStyle
+.. index::  skinparam; FileStereotypeFontStyle
 
 .. _FileStereotypeFontStyle:
 
@@ -6177,15 +6054,14 @@ File
         zz
 
 
-:Example:    :code:`FileStereotypeFontStyle italic`:
+:Example:    :code:`FileStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/FileStereotypeFontStyle-italic.puml
 
 
 
 
-.. index:: Folder
-    pair: skinparam; Folder
+.. index::  skinparam; Folder
 
 .. _Folder:
 
@@ -6193,8 +6069,7 @@ Folder
 ======
 
 
-.. index:: FolderBackgroundColor
-    pair: skinparam; FolderBackgroundColor
+.. index::  skinparam; FolderBackgroundColor
 
 .. _FolderBackgroundColor:
 
@@ -6216,13 +6091,12 @@ Folder
         zz
 
 
-:Example:    :code:`FolderBackgroundColor lawnGreen`:
+:Example:    :code:`FolderBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/FolderBackgroundColor-lawnGreen.puml
 
 
-.. index:: FolderBorderColor
-    pair: skinparam; FolderBorderColor
+.. index::  skinparam; FolderBorderColor
 
 .. _FolderBorderColor:
 
@@ -6244,13 +6118,12 @@ Folder
         zz
 
 
-:Example:    :code:`FolderBorderColor red`:
+:Example:    :code:`FolderBorderColor red`
 
     .. uml::  puml/sk-ex/FolderBorderColor-red.puml
 
 
-.. index:: FolderFontColor
-    pair: skinparam; FolderFontColor
+.. index::  skinparam; FolderFontColor
 
 .. _FolderFontColor:
 
@@ -6272,13 +6145,12 @@ Folder
         zz
 
 
-:Example:    :code:`FolderFontColor red`:
+:Example:    :code:`FolderFontColor red`
 
     .. uml::  puml/sk-ex/FolderFontColor-red.puml
 
 
-.. index:: FolderFontName
-    pair: skinparam; FolderFontName
+.. index::  skinparam; FolderFontName
 
 .. _FolderFontName:
 
@@ -6301,13 +6173,12 @@ Folder
         zz
 
 
-:Example:    :code:`FolderFontName Papyrus`:
+:Example:    :code:`FolderFontName Papyrus`
 
     .. uml::  puml/sk-ex/FolderFontName-Papyrus.puml
 
 
-.. index:: FolderFontSize
-    pair: skinparam; FolderFontSize
+.. index::  skinparam; FolderFontSize
 
 .. _FolderFontSize:
 
@@ -6329,13 +6200,12 @@ Folder
         zz
 
 
-:Example:    :code:`FolderFontSize 18`:
+:Example:    :code:`FolderFontSize 18`
 
     .. uml::  puml/sk-ex/FolderFontSize-18.puml
 
 
-.. index:: FolderFontStyle
-    pair: skinparam; FolderFontStyle
+.. index::  skinparam; FolderFontStyle
 
 .. _FolderFontStyle:
 
@@ -6357,13 +6227,12 @@ Folder
         zz
 
 
-:Example:    :code:`FolderFontStyle italic`:
+:Example:    :code:`FolderFontStyle italic`
 
     .. uml::  puml/sk-ex/FolderFontStyle-italic.puml
 
 
-.. index:: FolderStereotypeFontColor
-    pair: skinparam; FolderStereotypeFontColor
+.. index::  skinparam; FolderStereotypeFontColor
 
 .. _FolderStereotypeFontColor:
 
@@ -6385,13 +6254,12 @@ Folder
         zz
 
 
-:Example:    :code:`FolderStereotypeFontColor red`:
+:Example:    :code:`FolderStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/FolderStereotypeFontColor-red.puml
 
 
-.. index:: FolderStereotypeFontName
-    pair: skinparam; FolderStereotypeFontName
+.. index::  skinparam; FolderStereotypeFontName
 
 .. _FolderStereotypeFontName:
 
@@ -6414,13 +6282,12 @@ Folder
         zz
 
 
-:Example:    :code:`FolderStereotypeFontName Papyrus`:
+:Example:    :code:`FolderStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/FolderStereotypeFontName-Papyrus.puml
 
 
-.. index:: FolderStereotypeFontSize
-    pair: skinparam; FolderStereotypeFontSize
+.. index::  skinparam; FolderStereotypeFontSize
 
 .. _FolderStereotypeFontSize:
 
@@ -6442,13 +6309,12 @@ Folder
         zz
 
 
-:Example:    :code:`FolderStereotypeFontSize 18`:
+:Example:    :code:`FolderStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/FolderStereotypeFontSize-18.puml
 
 
-.. index:: FolderStereotypeFontStyle
-    pair: skinparam; FolderStereotypeFontStyle
+.. index::  skinparam; FolderStereotypeFontStyle
 
 .. _FolderStereotypeFontStyle:
 
@@ -6470,15 +6336,15 @@ Folder
         zz
 
 
-:Example:    :code:`FolderStereotypeFontStyle italic`:
+:Example:    :code:`FolderStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/FolderStereotypeFontStyle-italic.puml
 
 
 
 
-.. index:: Footer
-    pair: skinparam; Footer
+.. index::  skinparam; Footer
+      single: All diagrams; skinparam Footer
 
 .. _Footer:
 
@@ -6486,8 +6352,9 @@ Footer
 ======
 
 
-.. index:: FooterFontColor
-    pair: skinparam; FooterFontColor
+.. index::  skinparam; FooterFontColor
+      single: Footer; skinparam FontColor
+
 
 .. _FooterFontColor:
 
@@ -6499,23 +6366,25 @@ Footer
 :Usage:
     :code:`FooterFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     The font color for text in zz. |use_colorname_hex|
+     The font color for the footer text. |use_colorname_hex|
 
 
 :Applies to:
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`FooterFontColor red`:
+:Example:    :code:`FooterFontColor red`
 
     .. uml::  puml/sk-ex/FooterFontColor-red.puml
 
 
-.. index:: FooterFontName
-    pair: skinparam; FooterFontName
+.. index::  skinparam; FooterFontName
+      single: Footer; skinparam FontName
+
+
 
 .. _FooterFontName:
 
@@ -6527,7 +6396,7 @@ Footer
 :Usage:
     :code:`FooterFontName [ fontNameOnYourSystem ]`
 
-     The font name for text in zz. You must have the font installed on your computer.
+     The font name for the footer text. You must have the font installed on your computer.
      (You can check by using the PlantUML command-line option :code:`-printfonts`.)
 
 
@@ -6535,16 +6404,18 @@ Footer
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`FooterFontName Papyrus`:
+:Example:    :code:`FooterFontName Papyrus`
 
     .. uml::  puml/sk-ex/FooterFontName-Papyrus.puml
 
 
-.. index:: FooterFontSize
-    pair: skinparam; FooterFontSize
+.. index::  skinparam; FooterFontSize
+      single: Footer; skinparam FontSize
+
+
 
 .. _FooterFontSize:
 
@@ -6556,23 +6427,25 @@ Footer
 :Usage:
     :code:`FooterFontSize [ number ]`
 
-     The font size for text in zz. 
+     The font size for the footer text.
 
 
 :Applies to:
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`FooterFontSize 18`:
+:Example:    :code:`FooterFontSize 18`
 
     .. uml::  puml/sk-ex/FooterFontSize-18.puml
 
 
-.. index:: FooterFontStyle
-    pair: skinparam; FooterFontStyle
+.. index::  skinparam; FooterFontStyle
+      single: Footer; skinparam FontStyle
+
+
 
 .. _FooterFontStyle:
 
@@ -6584,25 +6457,24 @@ Footer
 :Usage:
     :code:`FooterFontStyle [ normal | plain | italic | bold ]`
 
-     The font style for text in zz. 
+     The font style for the footer text.
 
 
 :Applies to:
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`FooterFontStyle italic`:
+:Example:    :code:`FooterFontStyle bold`
 
-    .. uml::  puml/sk-ex/FooterFontStyle-italic.puml
-
-
+    .. uml::  puml/sk-ex/FooterFontStyle-bold.puml
 
 
-.. index:: Frame
-    pair: skinparam; Frame
+
+
+.. index::  skinparam; Frame
 
 .. _Frame:
 
@@ -6610,8 +6482,7 @@ Frame
 =====
 
 
-.. index:: FrameBackgroundColor
-    pair: skinparam; FrameBackgroundColor
+.. index::  skinparam; FrameBackgroundColor
 
 .. _FrameBackgroundColor:
 
@@ -6633,13 +6504,12 @@ Frame
         zz
 
 
-:Example:    :code:`FrameBackgroundColor lawnGreen`:
+:Example:    :code:`FrameBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/FrameBackgroundColor-lawnGreen.puml
 
 
-.. index:: FrameBorderColor
-    pair: skinparam; FrameBorderColor
+.. index::  skinparam; FrameBorderColor
 
 .. _FrameBorderColor:
 
@@ -6661,13 +6531,12 @@ Frame
         zz
 
 
-:Example:    :code:`FrameBorderColor red`:
+:Example:    :code:`FrameBorderColor red`
 
     .. uml::  puml/sk-ex/FrameBorderColor-red.puml
 
 
-.. index:: FrameFontColor
-    pair: skinparam; FrameFontColor
+.. index::  skinparam; FrameFontColor
 
 .. _FrameFontColor:
 
@@ -6689,13 +6558,12 @@ Frame
         zz
 
 
-:Example:    :code:`FrameFontColor red`:
+:Example:    :code:`FrameFontColor red`
 
     .. uml::  puml/sk-ex/FrameFontColor-red.puml
 
 
-.. index:: FrameFontName
-    pair: skinparam; FrameFontName
+.. index::  skinparam; FrameFontName
 
 .. _FrameFontName:
 
@@ -6718,13 +6586,12 @@ Frame
         zz
 
 
-:Example:    :code:`FrameFontName Papyrus`:
+:Example:    :code:`FrameFontName Papyrus`
 
     .. uml::  puml/sk-ex/FrameFontName-Papyrus.puml
 
 
-.. index:: FrameFontSize
-    pair: skinparam; FrameFontSize
+.. index::  skinparam; FrameFontSize
 
 .. _FrameFontSize:
 
@@ -6746,13 +6613,12 @@ Frame
         zz
 
 
-:Example:    :code:`FrameFontSize 18`:
+:Example:    :code:`FrameFontSize 18`
 
     .. uml::  puml/sk-ex/FrameFontSize-18.puml
 
 
-.. index:: FrameFontStyle
-    pair: skinparam; FrameFontStyle
+.. index::  skinparam; FrameFontStyle
 
 .. _FrameFontStyle:
 
@@ -6774,13 +6640,12 @@ Frame
         zz
 
 
-:Example:    :code:`FrameFontStyle italic`:
+:Example:    :code:`FrameFontStyle italic`
 
     .. uml::  puml/sk-ex/FrameFontStyle-italic.puml
 
 
-.. index:: FrameStereotypeFontColor
-    pair: skinparam; FrameStereotypeFontColor
+.. index::  skinparam; FrameStereotypeFontColor
 
 .. _FrameStereotypeFontColor:
 
@@ -6802,13 +6667,12 @@ Frame
         zz
 
 
-:Example:    :code:`FrameStereotypeFontColor red`:
+:Example:    :code:`FrameStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/FrameStereotypeFontColor-red.puml
 
 
-.. index:: FrameStereotypeFontName
-    pair: skinparam; FrameStereotypeFontName
+.. index::  skinparam; FrameStereotypeFontName
 
 .. _FrameStereotypeFontName:
 
@@ -6831,13 +6695,12 @@ Frame
         zz
 
 
-:Example:    :code:`FrameStereotypeFontName Papyrus`:
+:Example:    :code:`FrameStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/FrameStereotypeFontName-Papyrus.puml
 
 
-.. index:: FrameStereotypeFontSize
-    pair: skinparam; FrameStereotypeFontSize
+.. index::  skinparam; FrameStereotypeFontSize
 
 .. _FrameStereotypeFontSize:
 
@@ -6859,13 +6722,12 @@ Frame
         zz
 
 
-:Example:    :code:`FrameStereotypeFontSize 18`:
+:Example:    :code:`FrameStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/FrameStereotypeFontSize-18.puml
 
 
-.. index:: FrameStereotypeFontStyle
-    pair: skinparam; FrameStereotypeFontStyle
+.. index::  skinparam; FrameStereotypeFontStyle
 
 .. _FrameStereotypeFontStyle:
 
@@ -6887,7 +6749,7 @@ Frame
         zz
 
 
-:Example:    :code:`FrameStereotypeFontStyle italic`:
+:Example:    :code:`FrameStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/FrameStereotypeFontStyle-italic.puml
 
@@ -6908,8 +6770,7 @@ G
 ****
 
 
-.. index:: GenericDisplay
-    pair: skinparam; GenericDisplay
+.. index::  skinparam; GenericDisplay
 
 .. _GenericDisplay:
 
@@ -6924,7 +6785,7 @@ GenericDisplay
 :Usage:
     :code:`GenericDisplay zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -6934,7 +6795,7 @@ GenericDisplay
         zz
 
 
-:Example:    :code:`GenericDisplay zz`:
+:Example:    :code:`GenericDisplay zz`
 
     .. uml::  puml/sk-ex/GenericDisplay-zz.puml
 
@@ -6942,8 +6803,14 @@ GenericDisplay
 Guillemet
 =========
 
-.. index:: Guillemet
-    pair: skinparam; Guillemet
+.. index::  Guillemet
+      single: skinparam; Guillemet
+      single: UML Sequence diagram; skinparam Guillemet
+      see: «; Guillemet
+      see: »; Guillemet
+      see: >>; Guillemet
+      see: <<; Guillemet
+
 
 .. _Guillemet:
 
@@ -6953,21 +6820,25 @@ Guillemet
 
 
 :Usage:
-    :code:`Guillemet zz`
+    :code:`Guillemet [ true | false ]`
 
-    zz_description
+    Whether or not to convert "<<" and ">>" to the guillemet characters « and » respectively.  Default is :code:`true`.
 
 
 :Applies to:
 
     .. container:: applies-to
 
-        zz
+        Sequence diagrams
 
 
-:Example:    :code:`Guillemet zz`:
+:Example:    :code:`Guillemet false`
 
-    .. uml::  puml/sk-ex/Guillemet-zz.puml
+    .. uml::  puml/sk-ex/Guillemet-false.puml
+
+
+    .. uml::  puml/sk-ex/Guillemet-true.puml
+
 
 
 
@@ -6989,8 +6860,7 @@ H
 Handwritten
 ===========
 
-.. index:: Handwritten
-    pair: skinparam; Handwritten
+.. index::  skinparam; Handwritten
 
 .. _Handwritten:
 
@@ -7020,8 +6890,8 @@ Handwritten
 
 
 
-.. index:: Header
-    pair: skinparam; Header
+.. index::  skinparam; Header
+      single: All diagrams; skinparam Header
 
 .. _Header:
 
@@ -7029,8 +6899,10 @@ Header
 ======
 
 
-.. index:: HeaderFontColor
-    pair: skinparam; HeaderFontColor
+.. index::  skinparam; HeaderFontColor
+      single: Header; skinparam FontColor
+
+
 
 .. _HeaderFontColor:
 
@@ -7049,16 +6921,18 @@ Header
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`HeaderFontColor red`:
+:Example:    :code:`HeaderFontColor red`
 
     .. uml::  puml/sk-ex/HeaderFontColor-red.puml
 
 
-.. index:: HeaderFontName
-    pair: skinparam; HeaderFontName
+.. index::  skinparam; HeaderFontName
+      single: Header; skinparam FontName
+
+
 
 .. _HeaderFontName:
 
@@ -7078,16 +6952,18 @@ Header
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`HeaderFontName Papyrus`:
+:Example:    :code:`HeaderFontName Papyrus`
 
     .. uml::  puml/sk-ex/HeaderFontName-Papyrus.puml
 
 
-.. index:: HeaderFontSize
-    pair: skinparam; HeaderFontSize
+
+.. index::  skinparam; HeaderFontSize
+      single: Header; skinparam FontSize
+
 
 .. _HeaderFontSize:
 
@@ -7106,16 +6982,17 @@ Header
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`HeaderFontSize 18`:
+:Example:    :code:`HeaderFontSize 18`
 
     .. uml::  puml/sk-ex/HeaderFontSize-18.puml
 
 
-.. index:: HeaderFontStyle
-    pair: skinparam; HeaderFontStyle
+.. index::  skinparam; HeaderFontStyle
+      single: Header; skinparam FontStyle
+
 
 .. _HeaderFontStyle:
 
@@ -7134,10 +7011,10 @@ Header
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`HeaderFontStyle italic`:
+:Example:    :code:`HeaderFontStyle italic`
 
     .. uml::  puml/sk-ex/HeaderFontStyle-italic.puml
 
@@ -7145,8 +7022,7 @@ Header
 HyperlineColor
 ==============
 
-.. index:: HyperlinkColor
-    pair: skinparam; HyperlinkColor
+.. index::  skinparam; HyperlinkColor
 
 .. _HyperlinkColor:
 
@@ -7158,7 +7034,7 @@ HyperlineColor
 :Usage:
     :code:`HyperlinkColor [ #predefinedColorName | #hexColorNumber ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -7168,7 +7044,7 @@ HyperlineColor
         zz
 
 
-:Example:    :code:`HyperlinkColor [ #predefinedColorName | #hexColorNumber ]`:
+:Example:    :code:`HyperlinkColor [ #predefinedColorName | #hexColorNumber ]`
 
     .. uml::  puml/sk-ex/HyperlinkColor-zz.puml
 
@@ -7176,8 +7052,7 @@ HyperlineColor
 HyperlineUnderline
 ==================
 
-.. index:: HyperlinkUnderline
-    pair: skinparam; HyperlinkUnderline
+.. index::  skinparam; HyperlinkUnderline
 
 .. _HyperlinkUnderline:
 
@@ -7189,7 +7064,7 @@ HyperlineUnderline
 :Usage:
     :code:`HyperlinkUnderline zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -7199,7 +7074,7 @@ HyperlineUnderline
         zz
 
 
-:Example:    :code:`HyperlinkUnderline zz`:
+:Example:    :code:`HyperlinkUnderline zz`
 
     .. uml::  puml/sk-ex/HyperlinkUnderline-zz.puml
 
@@ -7219,8 +7094,7 @@ HyperlineUnderline
 I
 ****
 
-.. index:: Icon
-    pair: skinparam; Icon
+.. index::  skinparam; Icon
 
 .. _Icon:
 
@@ -7228,8 +7102,7 @@ Icon
 ====
 
 
-.. index:: IconIEMandatoryColor
-    pair: skinparam; IconIEMandatoryColor
+.. index::  skinparam; IconIEMandatoryColor
 
 .. _IconIEMandatoryColor:
 
@@ -7241,7 +7114,7 @@ Icon
 :Usage:
     :code:`IconIEMandatoryColor [ #predefinedColorName | #hexColorNumber ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -7251,13 +7124,12 @@ Icon
         zz
 
 
-:Example:    :code:`IconIEMandatoryColor [ #predefinedColorName | #hexColorNumber ]`:
+:Example:    :code:`IconIEMandatoryColor [ #predefinedColorName | #hexColorNumber ]`
 
     .. uml::  puml/sk-ex/IconIEMandatoryColor-zz.puml
 
 
-.. index:: IconPackageBackgroundColor
-    pair: skinparam; IconPackageBackgroundColor
+.. index::  skinparam; IconPackageBackgroundColor
 
 .. _IconPackageBackgroundColor:
 
@@ -7279,13 +7151,12 @@ Icon
         zz
 
 
-:Example:    :code:`IconPackageBackgroundColor GreenYellow`:
+:Example:    :code:`IconPackageBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/IconPackageBackgroundColor-GreenYellow.puml
 
 
-.. index:: IconPackageColor
-    pair: skinparam; IconPackageColor
+.. index::  skinparam; IconPackageColor
 
 .. _IconPackageColor:
 
@@ -7297,7 +7168,7 @@ Icon
 :Usage:
     :code:`IconPackageColor [ #predefinedColorName | #hexColorNumber ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -7307,13 +7178,12 @@ Icon
         zz
 
 
-:Example:    :code:`IconPackageColor [ #predefinedColorName | #hexColorNumber ]`:
+:Example:    :code:`IconPackageColor [ #predefinedColorName | #hexColorNumber ]`
 
     .. uml::  puml/sk-ex/IconPackageColor-zz.puml
 
 
-.. index:: IconPrivateBackgroundColor
-    pair: skinparam; IconPrivateBackgroundColor
+.. index::  skinparam; IconPrivateBackgroundColor
 
 .. _IconPrivateBackgroundColor:
 
@@ -7335,13 +7205,12 @@ Icon
         zz
 
 
-:Example:    :code:`IconPrivateBackgroundColor GreenYellow`:
+:Example:    :code:`IconPrivateBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/IconPrivateBackgroundColor-GreenYellow.puml
 
 
-.. index:: IconPrivateColor
-    pair: skinparam; IconPrivateColor
+.. index::  skinparam; IconPrivateColor
 
 .. _IconPrivateColor:
 
@@ -7353,7 +7222,7 @@ Icon
 :Usage:
     :code:`IconPrivateColor [ #predefinedColorName | #hexColorNumber ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -7363,13 +7232,12 @@ Icon
         zz
 
 
-:Example:    :code:`IconPrivateColor [ #predefinedColorName | #hexColorNumber ]`:
+:Example:    :code:`IconPrivateColor [ #predefinedColorName | #hexColorNumber ]`
 
     .. uml::  puml/sk-ex/IconPrivateColor-zz.puml
 
 
-.. index:: IconProtectedBackgroundColor
-    pair: skinparam; IconProtectedBackgroundColor
+.. index::  skinparam; IconProtectedBackgroundColor
 
 .. _IconProtectedBackgroundColor:
 
@@ -7391,13 +7259,12 @@ Icon
         zz
 
 
-:Example:    :code:`IconProtectedBackgroundColor GreenYellow`:
+:Example:    :code:`IconProtectedBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/IconProtectedBackgroundColor-GreenYellow.puml
 
 
-.. index:: IconProtectedColor
-    pair: skinparam; IconProtectedColor
+.. index::  skinparam; IconProtectedColor
 
 .. _IconProtectedColor:
 
@@ -7409,7 +7276,7 @@ Icon
 :Usage:
     :code:`IconProtectedColor [ #predefinedColorName | #hexColorNumber ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -7419,13 +7286,12 @@ Icon
         zz
 
 
-:Example:    :code:`IconProtectedColor [ #predefinedColorName | #hexColorNumber ]`:
+:Example:    :code:`IconProtectedColor [ #predefinedColorName | #hexColorNumber ]`
 
     .. uml::  puml/sk-ex/IconProtectedColor-zz.puml
 
 
-.. index:: IconPublicBackgroundColor
-    pair: skinparam; IconPublicBackgroundColor
+.. index::  skinparam; IconPublicBackgroundColor
 
 .. _IconPublicBackgroundColor:
 
@@ -7447,13 +7313,12 @@ Icon
         zz
 
 
-:Example:    :code:`IconPublicBackgroundColor GreenYellow`:
+:Example:    :code:`IconPublicBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/IconPublicBackgroundColor-GreenYellow.puml
 
 
-.. index:: IconPublicColor
-    pair: skinparam; IconPublicColor
+.. index::  skinparam; IconPublicColor
 
 .. _IconPublicColor:
 
@@ -7465,7 +7330,7 @@ Icon
 :Usage:
     :code:`IconPublicColor [ #predefinedColorName | #hexColorNumber ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -7475,15 +7340,14 @@ Icon
         zz
 
 
-:Example:    :code:`IconPublicColor [ #predefinedColorName | #hexColorNumber ]`:
+:Example:    :code:`IconPublicColor [ #predefinedColorName | #hexColorNumber ]`
 
     .. uml::  puml/sk-ex/IconPublicColor-zz.puml
 
 
 
 
-.. index:: Interface
-    pair: skinparam; Interface
+.. index::  skinparam; Interface
 
 .. _Interface:
 
@@ -7491,8 +7355,7 @@ Interface
 =========
 
 
-.. index:: InterfaceBackgroundColor
-    pair: skinparam; InterfaceBackgroundColor
+.. index::  skinparam; InterfaceBackgroundColor
 
 .. _InterfaceBackgroundColor:
 
@@ -7511,16 +7374,15 @@ Interface
 
     .. container:: applies-to
 
-        zz
+        UML Component diagrams, zz, and UML Use Case diagrams.  Doesn't work on Class or Object diagrams.
 
 
-:Example:    :code:`InterfaceBackgroundColor lawnGreen`:
+:Example:    :code:`InterfaceBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/InterfaceBackgroundColor-lawnGreen.puml
 
 
-.. index:: InterfaceBorderColor
-    pair: skinparam; InterfaceBorderColor
+.. index::  skinparam; InterfaceBorderColor
 
 .. _InterfaceBorderColor:
 
@@ -7539,16 +7401,15 @@ Interface
 
     .. container:: applies-to
 
-        zz
+        UML Component diagrams, zz, and UML Use Case diagrams.  Doesn't work on Class or Object diagrams.
 
 
-:Example:    :code:`InterfaceBorderColor red`:
+:Example:    :code:`InterfaceBorderColor red`
 
     .. uml::  puml/sk-ex/InterfaceBorderColor-red.puml
 
 
-.. index:: InterfaceFontColor
-    pair: skinparam; InterfaceFontColor
+.. index::  skinparam; InterfaceFontColor
 
 .. _InterfaceFontColor:
 
@@ -7567,16 +7428,15 @@ Interface
 
     .. container:: applies-to
 
-        zz
+        UML Component diagrams, zz, and UML Use Case diagrams.  Doesn't work on Class or Object diagrams.
 
 
-:Example:    :code:`InterfaceFontColor red`:
+:Example:    :code:`InterfaceFontColor red`
 
     .. uml::  puml/sk-ex/InterfaceFontColor-red.puml
 
 
-.. index:: InterfaceFontName
-    pair: skinparam; InterfaceFontName
+.. index::  skinparam; InterfaceFontName
 
 .. _InterfaceFontName:
 
@@ -7596,16 +7456,15 @@ Interface
 
     .. container:: applies-to
 
-        zz
+        UML Component diagrams, zz, and UML Use Case diagrams.  Doesn't work on Class or Object diagrams.
 
 
-:Example:    :code:`InterfaceFontName Papyrus`:
+:Example:    :code:`InterfaceFontName Papyrus`
 
     .. uml::  puml/sk-ex/InterfaceFontName-Papyrus.puml
 
 
-.. index:: InterfaceFontSize
-    pair: skinparam; InterfaceFontSize
+.. index::  skinparam; InterfaceFontSize
 
 .. _InterfaceFontSize:
 
@@ -7624,16 +7483,15 @@ Interface
 
     .. container:: applies-to
 
-        zz
+        UML Component diagrams, zz, and UML Use Case diagrams.  Doesn't work on Class or Object diagrams.
 
 
-:Example:    :code:`InterfaceFontSize 18`:
+:Example:    :code:`InterfaceFontSize 18`
 
     .. uml::  puml/sk-ex/InterfaceFontSize-18.puml
 
 
-.. index:: InterfaceFontStyle
-    pair: skinparam; InterfaceFontStyle
+.. index::  skinparam; InterfaceFontStyle
 
 .. _InterfaceFontStyle:
 
@@ -7652,16 +7510,15 @@ Interface
 
     .. container:: applies-to
 
-        zz
+        UML Component diagrams, zz, and UML Use Case diagrams.  Doesn't work on Class or Object diagrams.
 
 
-:Example:    :code:`InterfaceFontStyle italic`:
+:Example:    :code:`InterfaceFontStyle italic`
 
     .. uml::  puml/sk-ex/InterfaceFontStyle-italic.puml
 
 
-.. index:: InterfaceStereotypeFontColor
-    pair: skinparam; InterfaceStereotypeFontColor
+.. index::  skinparam; InterfaceStereotypeFontColor
 
 .. _InterfaceStereotypeFontColor:
 
@@ -7680,16 +7537,15 @@ Interface
 
     .. container:: applies-to
 
-        zz
+        UML Component diagrams, zz, and UML Use Case diagrams.  Doesn't work on Class or Object diagrams.
 
 
-:Example:    :code:`InterfaceStereotypeFontColor red`:
+:Example:    :code:`InterfaceStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/InterfaceStereotypeFontColor-red.puml
 
 
-.. index:: InterfaceStereotypeFontName
-    pair: skinparam; InterfaceStereotypeFontName
+.. index::  skinparam; InterfaceStereotypeFontName
 
 .. _InterfaceStereotypeFontName:
 
@@ -7709,16 +7565,15 @@ Interface
 
     .. container:: applies-to
 
-        zz
+        UML Component diagrams, zz, and UML Use Case diagrams.  Doesn't work on Class or Object diagrams.
 
 
-:Example:    :code:`InterfaceStereotypeFontName Papyrus`:
+:Example:    :code:`InterfaceStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/InterfaceStereotypeFontName-Papyrus.puml
 
 
-.. index:: InterfaceStereotypeFontSize
-    pair: skinparam; InterfaceStereotypeFontSize
+.. index::  skinparam; InterfaceStereotypeFontSize
 
 .. _InterfaceStereotypeFontSize:
 
@@ -7737,16 +7592,15 @@ Interface
 
     .. container:: applies-to
 
-        zz
+        UML Component diagrams, zz, and UML Use Case diagrams.  Doesn't work on Class or Object diagrams.
 
 
-:Example:    :code:`InterfaceStereotypeFontSize 18`:
+:Example:    :code:`InterfaceStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/InterfaceStereotypeFontSize-18.puml
 
 
-.. index:: InterfaceStereotypeFontStyle
-    pair: skinparam; InterfaceStereotypeFontStyle
+.. index::  skinparam; InterfaceStereotypeFontStyle
 
 .. _InterfaceStereotypeFontStyle:
 
@@ -7765,10 +7619,10 @@ Interface
 
     .. container:: applies-to
 
-        zz
+        UML Component diagrams, zz, and UML Use Case diagrams.  Doesn't work on Class or Object diagrams.
 
 
-:Example:    :code:`InterfaceStereotypeFontStyle italic`:
+:Example:    :code:`InterfaceStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/InterfaceStereotypeFontStyle-italic.puml
 
@@ -7788,8 +7642,8 @@ Interface
 L
 ****
 
-.. index:: Legend
-    pair: skinparam; Legend
+.. index::  skinparam; Legend
+      single: All diagrams; skinparam Legend
 
 .. _Legend:
 
@@ -7797,8 +7651,9 @@ Legend
 ======
 
 
-.. index:: LegendBackgroundColor
-    pair: skinparam; LegendBackgroundColor
+.. index::  skinparam; LegendBackgroundColor
+      single: Legend; skinparam BackgroundColor
+
 
 .. _LegendBackgroundColor:
 
@@ -7817,16 +7672,17 @@ Legend
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`LegendBackgroundColor GreenYellow`:
+:Example:    :code:`LegendBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/LegendBackgroundColor-GreenYellow.puml
 
 
-.. index:: LegendBorderColor
-    pair: skinparam; LegendBorderColor
+.. index::  skinparam; LegendBorderColor
+      single: Legend; skinparam BorderColor
+
 
 .. _LegendBorderColor:
 
@@ -7845,16 +7701,17 @@ Legend
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`LegendBorderColor red`:
+:Example:    :code:`LegendBorderColor red`
 
     .. uml::  puml/sk-ex/LegendBorderColor-red.puml
 
 
-.. index:: LegendBorderThickness
-    pair: skinparam; LegendBorderThickness
+.. index::  skinparam; LegendBorderThickness
+      single: Legend; skinparam BorderThickness
+
 
 .. _LegendBorderThickness:
 
@@ -7866,23 +7723,24 @@ Legend
 :Usage:
     :code:`LegendBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`LegendBorderThickness [ number ]`:
+:Example:    :code:`LegendBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/LegendBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/LegendBorderThickness-5.puml
 
 
-.. index:: LegendFontColor
-    pair: skinparam; LegendFontColor
+.. index::  skinparam; LegendFontColor
+      single: Legend; skinparam FontColor
+
 
 .. _LegendFontColor:
 
@@ -7901,16 +7759,17 @@ Legend
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`LegendFontColor red`:
+:Example:    :code:`LegendFontColor red`
 
     .. uml::  puml/sk-ex/LegendFontColor-red.puml
 
 
-.. index:: LegendFontName
-    pair: skinparam; LegendFontName
+.. index::  skinparam; LegendFontName
+      single: Legend; skinparam FontName
+
 
 .. _LegendFontName:
 
@@ -7930,16 +7789,17 @@ Legend
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`LegendFontName Papyrus`:
+:Example:    :code:`LegendFontName Papyrus`
 
     .. uml::  puml/sk-ex/LegendFontName-Papyrus.puml
 
 
-.. index:: LegendFontSize
-    pair: skinparam; LegendFontSize
+.. index::  skinparam; LegendFontSize
+      single: Legend; skinparam FontSize
+
 
 .. _LegendFontSize:
 
@@ -7958,16 +7818,17 @@ Legend
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`LegendFontSize 18`:
+:Example:    :code:`LegendFontSize 18`
 
     .. uml::  puml/sk-ex/LegendFontSize-18.puml
 
 
-.. index:: LegendFontStyle
-    pair: skinparam; LegendFontStyle
+.. index::  skinparam; LegendFontStyle
+      single: Legend; skinparam FontStyle
+
 
 .. _LegendFontStyle:
 
@@ -7986,18 +7847,17 @@ Legend
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`LegendFontStyle italic`:
+:Example:    :code:`LegendFontStyle italic`
 
     .. uml::  puml/sk-ex/LegendFontStyle-italic.puml
 
 
 
 
-.. index:: Lexical
-    pair: skinparam; Lexical
+.. index::  skinparam; Lexical
 
 .. _Lexical:
 
@@ -8005,8 +7865,7 @@ Lexical
 =======
 
 
-.. index:: LexicalBackgroundColor
-    pair: skinparam; LexicalBackgroundColor
+.. index::  skinparam; LexicalBackgroundColor
 
 .. _LexicalBackgroundColor:
 
@@ -8028,13 +7887,12 @@ Lexical
         zz
 
 
-:Example:    :code:`LexicalBackgroundColor GreenYellow`:
+:Example:    :code:`LexicalBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/LexicalBackgroundColor-GreenYellow.puml
 
 
-.. index:: LexicalBorderColor
-    pair: skinparam; LexicalBorderColor
+.. index::  skinparam; LexicalBorderColor
 
 .. _LexicalBorderColor:
 
@@ -8056,15 +7914,14 @@ Lexical
         zz
 
 
-:Example:    :code:`LexicalBorderColor red`:
+:Example:    :code:`LexicalBorderColor red`
 
     .. uml::  puml/sk-ex/LexicalBorderColor-red.puml
 
 
 Linetype
 ========
-.. index:: Linetype
-    pair: skinparam; Linetype
+.. index::  skinparam; Linetype
 
 .. _Linetype:
 
@@ -8076,7 +7933,7 @@ Linetype
 :Usage:
     :code:`Linetype zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -8086,7 +7943,7 @@ Linetype
         zz
 
 
-:Example:    :code:`Linetype zz`:
+:Example:    :code:`Linetype zz`
 
     .. uml::  puml/sk-ex/Linetype-zz.puml
 
@@ -8107,8 +7964,7 @@ M
 ****
 
 
-.. index:: Machine
-    pair: skinparam; Machine
+.. index::  skinparam; Machine
 
 .. _Machine:
 
@@ -8116,8 +7972,7 @@ Machine
 =======
 
 
-.. index:: MachineBackgroundColor
-    pair: skinparam; MachineBackgroundColor
+.. index::  skinparam; MachineBackgroundColor
 
 .. _MachineBackgroundColor:
 
@@ -8139,13 +7994,12 @@ Machine
         zz
 
 
-:Example:    :code:`MachineBackgroundColor GreenYellow`:
+:Example:    :code:`MachineBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/MachineBackgroundColor-GreenYellow.puml
 
 
-.. index:: MachineBorderColor
-    pair: skinparam; MachineBorderColor
+.. index::  skinparam; MachineBorderColor
 
 .. _MachineBorderColor:
 
@@ -8167,13 +8021,12 @@ Machine
         zz
 
 
-:Example:    :code:`MachineBorderColor red`:
+:Example:    :code:`MachineBorderColor red`
 
     .. uml::  puml/sk-ex/MachineBorderColor-red.puml
 
 
-.. index:: MachineBorderThickness
-    pair: skinparam; MachineBorderThickness
+.. index::  skinparam; MachineBorderThickness
 
 .. _MachineBorderThickness:
 
@@ -8185,7 +8038,7 @@ Machine
 :Usage:
     :code:`MachineBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -8195,13 +8048,12 @@ Machine
         zz
 
 
-:Example:    :code:`MachineBorderThickness [ number ]`:
+:Example:    :code:`MachineBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/MachineBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/MachineBorderThickness-5.puml
 
 
-.. index:: MachineFontColor
-    pair: skinparam; MachineFontColor
+.. index::  skinparam; MachineFontColor
 
 .. _MachineFontColor:
 
@@ -8223,13 +8075,12 @@ Machine
         zz
 
 
-:Example:    :code:`MachineFontColor red`:
+:Example:    :code:`MachineFontColor red`
 
     .. uml::  puml/sk-ex/MachineFontColor-red.puml
 
 
-.. index:: MachineFontName
-    pair: skinparam; MachineFontName
+.. index::  skinparam; MachineFontName
 
 .. _MachineFontName:
 
@@ -8252,13 +8103,12 @@ Machine
         zz
 
 
-:Example:    :code:`MachineFontName Papyrus`:
+:Example:    :code:`MachineFontName Papyrus`
 
     .. uml::  puml/sk-ex/MachineFontName-Papyrus.puml
 
 
-.. index:: MachineFontSize
-    pair: skinparam; MachineFontSize
+.. index::  skinparam; MachineFontSize
 
 .. _MachineFontSize:
 
@@ -8280,13 +8130,12 @@ Machine
         zz
 
 
-:Example:    :code:`MachineFontSize 18`:
+:Example:    :code:`MachineFontSize 18`
 
     .. uml::  puml/sk-ex/MachineFontSize-18.puml
 
 
-.. index:: MachineFontStyle
-    pair: skinparam; MachineFontStyle
+.. index::  skinparam; MachineFontStyle
 
 .. _MachineFontStyle:
 
@@ -8308,13 +8157,12 @@ Machine
         zz
 
 
-:Example:    :code:`MachineFontStyle italic`:
+:Example:    :code:`MachineFontStyle italic`
 
     .. uml::  puml/sk-ex/MachineFontStyle-italic.puml
 
 
-.. index:: MachineStereotypeFontColor
-    pair: skinparam; MachineStereotypeFontColor
+.. index::  skinparam; MachineStereotypeFontColor
 
 .. _MachineStereotypeFontColor:
 
@@ -8336,13 +8184,12 @@ Machine
         zz
 
 
-:Example:    :code:`MachineStereotypeFontColor red`:
+:Example:    :code:`MachineStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/MachineStereotypeFontColor-red.puml
 
 
-.. index:: MachineStereotypeFontName
-    pair: skinparam; MachineStereotypeFontName
+.. index::  skinparam; MachineStereotypeFontName
 
 .. _MachineStereotypeFontName:
 
@@ -8365,13 +8212,12 @@ Machine
         zz
 
 
-:Example:    :code:`MachineStereotypeFontName Papyrus`:
+:Example:    :code:`MachineStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/MachineStereotypeFontName-Papyrus.puml
 
 
-.. index:: MachineStereotypeFontSize
-    pair: skinparam; MachineStereotypeFontSize
+.. index::  skinparam; MachineStereotypeFontSize
 
 .. _MachineStereotypeFontSize:
 
@@ -8393,13 +8239,12 @@ Machine
         zz
 
 
-:Example:    :code:`MachineStereotypeFontSize 18`:
+:Example:    :code:`MachineStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/MachineStereotypeFontSize-18.puml
 
 
-.. index:: MachineStereotypeFontStyle
-    pair: skinparam; MachineStereotypeFontStyle
+.. index::  skinparam; MachineStereotypeFontStyle
 
 .. _MachineStereotypeFontStyle:
 
@@ -8421,7 +8266,7 @@ Machine
         zz
 
 
-:Example:    :code:`MachineStereotypeFontStyle italic`:
+:Example:    :code:`MachineStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/MachineStereotypeFontStyle-italic.puml
 
@@ -8429,8 +8274,7 @@ Machine
 MaxAsciiMessageLength
 =====================
 
-.. index:: MaxAsciiMessageLength
-    pair: skinparam; MaxAsciiMessageLength
+.. index::  skinparam; MaxAsciiMessageLength
 
 .. _MaxAsciiMessageLength:
 
@@ -8452,7 +8296,7 @@ MaxAsciiMessageLength
         Text output of Sequence diagrams
 
 
-:Example:    :code:`MaxAsciiMessageLength 10`:
+:Example:    :code:`MaxAsciiMessageLength 10`
 
    .. literalinclude:: puml/sk-ex/MaxAsciiMessageLength-asciiLimit.atxt
 
@@ -8466,9 +8310,8 @@ MaxAsciiMessageLength
 MaxMessageSize
 ==============
 
-.. index:: MaxMessageSize
-    pair: skinparam; MaxMessageSize
-      pair: UML Sequence diagram; MaxMessageSize
+.. index::  skinparam; MaxMessageSize
+      single: UML Sequence diagram; skinparam MaxMessageSize
 
 .. _MaxMessageSize:
 
@@ -8490,7 +8333,7 @@ MaxMessageSize
         Sequence diagrams
 
 
-:Example:    :code:`MaxMessageSize 100`:
+:Example:    :code:`MaxMessageSize 100`
 
     .. uml::  puml/sk-ex/MaxMessageSize-zz.puml
 
@@ -8498,8 +8341,7 @@ MaxMessageSize
 MinClassWidth
 =============
 
-.. index:: MinClassWidth
-    pair: skinparam; MinClassWidth
+.. index::  skinparam; MinClassWidth
 
 .. _MinClassWidth:
 
@@ -8511,7 +8353,7 @@ MinClassWidth
 :Usage:
     :code:`MinClassWidth zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -8521,16 +8363,20 @@ MinClassWidth
         zz
 
 
-:Example:    :code:`MinClassWidth zz`:
+:Example:    :code:`MinClassWidth zz`
 
     .. uml::  puml/sk-ex/MinClassWidth-zz.puml
+
+
+
+.. index::  skinparam; monochrome
+      single: All diagrams; skinparam monochrome
 
 
 Monochrome
 ==========
 
-.. index:: Monochrome
-    pair: skinparam; Monochrome
+.. index::  skinparam; Monochrome
 
 .. _Monochrome:
 
@@ -8542,19 +8388,19 @@ Monochrome
 :Usage:
     :code:`Monochrome zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`Monochrome zz`:
+:Example:    :code:`Monochrome true`
 
-    .. uml::  puml/sk-ex/Monochrome-zz.puml
+    .. uml::  puml/sk-ex/Monochrome-true.puml
 
 
 
@@ -8573,8 +8419,7 @@ N
 ****
 
 
-.. index:: Node
-    pair: skinparam; Node
+.. index::  skinparam; Node
 
 .. _Node:
 
@@ -8582,8 +8427,7 @@ Node
 ====
 
 
-.. index:: NodeBackgroundColor
-    pair: skinparam; NodeBackgroundColor
+.. index::  skinparam; NodeBackgroundColor
 
 .. _NodeBackgroundColor:
 
@@ -8605,13 +8449,12 @@ Node
         zz
 
 
-:Example:    :code:`NodeBackgroundColor lawnGreen`:
+:Example:    :code:`NodeBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/NodeBackgroundColor-lawnGreen.puml
 
 
-.. index:: NodeBorderColor
-    pair: skinparam; NodeBorderColor
+.. index::  skinparam; NodeBorderColor
 
 .. _NodeBorderColor:
 
@@ -8633,13 +8476,12 @@ Node
         zz
 
 
-:Example:    :code:`NodeBorderColor red`:
+:Example:    :code:`NodeBorderColor red`
 
     .. uml::  puml/sk-ex/NodeBorderColor-red.puml
 
 
-.. index:: NodeFontColor
-    pair: skinparam; NodeFontColor
+.. index::  skinparam; NodeFontColor
 
 .. _NodeFontColor:
 
@@ -8661,13 +8503,12 @@ Node
         zz
 
 
-:Example:    :code:`NodeFontColor red`:
+:Example:    :code:`NodeFontColor red`
 
     .. uml::  puml/sk-ex/NodeFontColor-red.puml
 
 
-.. index:: NodeFontName
-    pair: skinparam; NodeFontName
+.. index::  skinparam; NodeFontName
 
 .. _NodeFontName:
 
@@ -8690,13 +8531,12 @@ Node
         zz
 
 
-:Example:    :code:`NodeFontName Papyrus`:
+:Example:    :code:`NodeFontName Papyrus`
 
     .. uml::  puml/sk-ex/NodeFontName-Papyrus.puml
 
 
-.. index:: NodeFontSize
-    pair: skinparam; NodeFontSize
+.. index::  skinparam; NodeFontSize
 
 .. _NodeFontSize:
 
@@ -8718,13 +8558,12 @@ Node
         zz
 
 
-:Example:    :code:`NodeFontSize 18`:
+:Example:    :code:`NodeFontSize 18`
 
     .. uml::  puml/sk-ex/NodeFontSize-18.puml
 
 
-.. index:: NodeFontStyle
-    pair: skinparam; NodeFontStyle
+.. index::  skinparam; NodeFontStyle
 
 .. _NodeFontStyle:
 
@@ -8746,13 +8585,12 @@ Node
         zz
 
 
-:Example:    :code:`NodeFontStyle italic`:
+:Example:    :code:`NodeFontStyle italic`
 
     .. uml::  puml/sk-ex/NodeFontStyle-italic.puml
 
 
-.. index:: NodeStereotypeFontColor
-    pair: skinparam; NodeStereotypeFontColor
+.. index::  skinparam; NodeStereotypeFontColor
 
 .. _NodeStereotypeFontColor:
 
@@ -8774,13 +8612,12 @@ Node
         zz
 
 
-:Example:    :code:`NodeStereotypeFontColor red`:
+:Example:    :code:`NodeStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/NodeStereotypeFontColor-red.puml
 
 
-.. index:: NodeStereotypeFontName
-    pair: skinparam; NodeStereotypeFontName
+.. index::  skinparam; NodeStereotypeFontName
 
 .. _NodeStereotypeFontName:
 
@@ -8803,13 +8640,12 @@ Node
         zz
 
 
-:Example:    :code:`NodeStereotypeFontName Papyrus`:
+:Example:    :code:`NodeStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/NodeStereotypeFontName-Papyrus.puml
 
 
-.. index:: NodeStereotypeFontSize
-    pair: skinparam; NodeStereotypeFontSize
+.. index::  skinparam; NodeStereotypeFontSize
 
 .. _NodeStereotypeFontSize:
 
@@ -8831,13 +8667,12 @@ Node
         zz
 
 
-:Example:    :code:`NodeStereotypeFontSize 18`:
+:Example:    :code:`NodeStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/NodeStereotypeFontSize-18.puml
 
 
-.. index:: NodeStereotypeFontStyle
-    pair: skinparam; NodeStereotypeFontStyle
+.. index::  skinparam; NodeStereotypeFontStyle
 
 .. _NodeStereotypeFontStyle:
 
@@ -8859,7 +8694,7 @@ Node
         zz
 
 
-:Example:    :code:`NodeStereotypeFontStyle italic`:
+:Example:    :code:`NodeStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/NodeStereotypeFontStyle-italic.puml
 
@@ -8868,8 +8703,7 @@ Node
 Nodesep
 =======
 
-.. index:: Nodesep
-    pair: skinparam; Nodesep
+.. index::  skinparam; Nodesep
 
 .. _Nodesep:
 
@@ -8881,7 +8715,7 @@ Nodesep
 :Usage:
     :code:`Nodesep zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -8891,15 +8725,14 @@ Nodesep
         zz
 
 
-:Example:    :code:`Nodesep zz`:
+:Example:    :code:`Nodesep zz`
 
     .. uml::  puml/sk-ex/Nodesep-zz.puml
 
 
 
 
-.. index:: Note
-    pair: skinparam; Note
+.. index::  skinparam; Note
 
 .. _Note:
 
@@ -8907,8 +8740,7 @@ Note
 ====
 
 
-.. index:: NoteBackgroundColor
-    pair: skinparam; NoteBackgroundColor
+.. index::  skinparam; NoteBackgroundColor
 
 .. _NoteBackgroundColor:
 
@@ -8930,13 +8762,12 @@ Note
         zz
 
 
-:Example:    :code:`NoteBackgroundColor GreenYellow`:
+:Example:    :code:`NoteBackgroundColor PapayaWhip`
 
-    .. uml::  puml/sk-ex/NoteBackgroundColor-GreenYellow.puml
+    .. uml::  puml/sk-ex/NoteBackgroundColor-PapayaWhip.puml
 
 
-.. index:: NoteBorderColor
-    pair: skinparam; NoteBorderColor
+.. index::  skinparam; NoteBorderColor
 
 .. _NoteBorderColor:
 
@@ -8958,13 +8789,12 @@ Note
         zz
 
 
-:Example:    :code:`NoteBorderColor red`:
+:Example:    :code:`NoteBorderColor red`
 
     .. uml::  puml/sk-ex/NoteBorderColor-red.puml
 
 
-.. index:: NoteBorderThickness
-    pair: skinparam; NoteBorderThickness
+.. index::  skinparam; NoteBorderThickness
 
 .. _NoteBorderThickness:
 
@@ -8976,7 +8806,7 @@ Note
 :Usage:
     :code:`NoteBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -8986,13 +8816,12 @@ Note
         zz
 
 
-:Example:    :code:`NoteBorderThickness [ number ]`:
+:Example:    :code:`NoteBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/NoteBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/NoteBorderThickness-5.puml
 
 
-.. index:: NoteFontColor
-    pair: skinparam; NoteFontColor
+.. index::  skinparam; NoteFontColor
 
 .. _NoteFontColor:
 
@@ -9014,13 +8843,12 @@ Note
         zz
 
 
-:Example:    :code:`NoteFontColor red`:
+:Example:    :code:`NoteFontColor red`
 
     .. uml::  puml/sk-ex/NoteFontColor-red.puml
 
 
-.. index:: NoteFontName
-    pair: skinparam; NoteFontName
+.. index::  skinparam; NoteFontName
 
 .. _NoteFontName:
 
@@ -9043,13 +8871,12 @@ Note
         zz
 
 
-:Example:    :code:`NoteFontName Papyrus`:
+:Example:    :code:`NoteFontName Papyrus`
 
     .. uml::  puml/sk-ex/NoteFontName-Papyrus.puml
 
 
-.. index:: NoteFontSize
-    pair: skinparam; NoteFontSize
+.. index::  skinparam; NoteFontSize
 
 .. _NoteFontSize:
 
@@ -9071,13 +8898,12 @@ Note
         zz
 
 
-:Example:    :code:`NoteFontSize 18`:
+:Example:    :code:`NoteFontSize 18`
 
     .. uml::  puml/sk-ex/NoteFontSize-18.puml
 
 
-.. index:: NoteFontStyle
-    pair: skinparam; NoteFontStyle
+.. index::  skinparam; NoteFontStyle
 
 .. _NoteFontStyle:
 
@@ -9099,13 +8925,12 @@ Note
         zz
 
 
-:Example:    :code:`NoteFontStyle italic`:
+:Example:    :code:`NoteFontStyle bold`
 
-    .. uml::  puml/sk-ex/NoteFontStyle-italic.puml
+    .. uml::  puml/sk-ex/NoteFontStyle-bold.puml
 
 
-.. index:: NoteShadowing
-    pair: skinparam; NoteShadowing
+.. index::  skinparam; NoteShadowing
 
 .. _NoteShadowing:
 
@@ -9117,7 +8942,7 @@ Note
 :Usage:
     :code:`NoteShadowing zz`
 
-    zz_description
+    |not_working|
 
 
 :Applies to:
@@ -9127,13 +8952,12 @@ Note
         zz
 
 
-:Example:    :code:`NoteShadowing zz`:
+:Example:    :code:`NoteShadowing zz`
 
-    .. uml::  puml/sk-ex/NoteShadowing-zz.puml
+    .. uml::  puml/sk-ex/NoteShadowing-true.puml
 
 
-.. index:: NoteTextAlignment
-    pair: skinparam; NoteTextAlignment
+.. index::  skinparam; NoteTextAlignment
 
 .. _NoteTextAlignment:
 
@@ -9145,7 +8969,7 @@ Note
 :Usage:
     :code:`NoteTextAlignment zz`
 
-    zz_description
+    |not_working|
 
 
 :Applies to:
@@ -9155,9 +8979,9 @@ Note
         zz
 
 
-:Example:    :code:`NoteTextAlignment zz`:
+:Example:    :code:`NoteTextAlignment zz`
 
-    .. uml::  puml/sk-ex/NoteTextAlignment-zz.puml
+    .. uml::  puml/sk-ex/NoteTextAlignment-right.puml
 
 
 
@@ -9176,8 +9000,7 @@ O
 ****
 
 
-.. index:: Object
-    pair: skinparam; Object
+.. index::  skinparam; Object
 
 .. _Object:
 
@@ -9185,8 +9008,7 @@ Object
 ======
 
 
-.. index:: ObjectAttributeFontColor
-    pair: skinparam; ObjectAttributeFontColor
+.. index::  skinparam; ObjectAttributeFontColor
 
 .. _ObjectAttributeFontColor:
 
@@ -9208,13 +9030,12 @@ Object
         zz
 
 
-:Example:    :code:`ObjectAttributeFontColor red`:
+:Example:    :code:`ObjectAttributeFontColor red`
 
     .. uml::  puml/sk-ex/ObjectAttributeFontColor-red.puml
 
 
-.. index:: ObjectAttributeFontName
-    pair: skinparam; ObjectAttributeFontName
+.. index::  skinparam; ObjectAttributeFontName
 
 .. _ObjectAttributeFontName:
 
@@ -9237,13 +9058,12 @@ Object
         zz
 
 
-:Example:    :code:`ObjectAttributeFontName Papyrus`:
+:Example:    :code:`ObjectAttributeFontName Papyrus`
 
     .. uml::  puml/sk-ex/ObjectAttributeFontName-Papyrus.puml
 
 
-.. index:: ObjectAttributeFontSize
-    pair: skinparam; ObjectAttributeFontSize
+.. index::  skinparam; ObjectAttributeFontSize
 
 .. _ObjectAttributeFontSize:
 
@@ -9265,13 +9085,12 @@ Object
         zz
 
 
-:Example:    :code:`ObjectAttributeFontSize 18`:
+:Example:    :code:`ObjectAttributeFontSize 18`
 
     .. uml::  puml/sk-ex/ObjectAttributeFontSize-18.puml
 
 
-.. index:: ObjectAttributeFontStyle
-    pair: skinparam; ObjectAttributeFontStyle
+.. index::  skinparam; ObjectAttributeFontStyle
 
 .. _ObjectAttributeFontStyle:
 
@@ -9293,13 +9112,12 @@ Object
         zz
 
 
-:Example:    :code:`ObjectAttributeFontStyle italic`:
+:Example:    :code:`ObjectAttributeFontStyle italic`
 
     .. uml::  puml/sk-ex/ObjectAttributeFontStyle-italic.puml
 
 
-.. index:: ObjectBackgroundColor
-    pair: skinparam; ObjectBackgroundColor
+.. index::  skinparam; ObjectBackgroundColor
 
 .. _ObjectBackgroundColor:
 
@@ -9321,13 +9139,12 @@ Object
         zz
 
 
-:Example:    :code:`ObjectBackgroundColor GreenYellow`:
+:Example:    :code:`ObjectBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/ObjectBackgroundColor-GreenYellow.puml
 
 
-.. index:: ObjectBorderColor
-    pair: skinparam; ObjectBorderColor
+.. index::  skinparam; ObjectBorderColor
 
 .. _ObjectBorderColor:
 
@@ -9349,13 +9166,12 @@ Object
         zz
 
 
-:Example:    :code:`ObjectBorderColor red`:
+:Example:    :code:`ObjectBorderColor red`
 
     .. uml::  puml/sk-ex/ObjectBorderColor-red.puml
 
 
-.. index:: ObjectBorderThickness
-    pair: skinparam; ObjectBorderThickness
+.. index::  skinparam; ObjectBorderThickness
 
 .. _ObjectBorderThickness:
 
@@ -9367,7 +9183,7 @@ Object
 :Usage:
     :code:`ObjectBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -9377,13 +9193,12 @@ Object
         zz
 
 
-:Example:    :code:`ObjectBorderThickness [ number ]`:
+:Example:    :code:`ObjectBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/ObjectBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/ObjectBorderThickness-5.puml
 
 
-.. index:: ObjectFontColor
-    pair: skinparam; ObjectFontColor
+.. index::  skinparam; ObjectFontColor
 
 .. _ObjectFontColor:
 
@@ -9405,13 +9220,12 @@ Object
         zz
 
 
-:Example:    :code:`ObjectFontColor red`:
+:Example:    :code:`ObjectFontColor red`
 
     .. uml::  puml/sk-ex/ObjectFontColor-red.puml
 
 
-.. index:: ObjectFontName
-    pair: skinparam; ObjectFontName
+.. index::  skinparam; ObjectFontName
 
 .. _ObjectFontName:
 
@@ -9434,13 +9248,12 @@ Object
         zz
 
 
-:Example:    :code:`ObjectFontName Papyrus`:
+:Example:    :code:`ObjectFontName Papyrus`
 
     .. uml::  puml/sk-ex/ObjectFontName-Papyrus.puml
 
 
-.. index:: ObjectFontSize
-    pair: skinparam; ObjectFontSize
+.. index::  skinparam; ObjectFontSize
 
 .. _ObjectFontSize:
 
@@ -9462,13 +9275,12 @@ Object
         zz
 
 
-:Example:    :code:`ObjectFontSize 18`:
+:Example:    :code:`ObjectFontSize 18`
 
     .. uml::  puml/sk-ex/ObjectFontSize-18.puml
 
 
-.. index:: ObjectFontStyle
-    pair: skinparam; ObjectFontStyle
+.. index::  skinparam; ObjectFontStyle
 
 .. _ObjectFontStyle:
 
@@ -9490,13 +9302,12 @@ Object
         zz
 
 
-:Example:    :code:`ObjectFontStyle italic`:
+:Example:    :code:`ObjectFontStyle italic`
 
     .. uml::  puml/sk-ex/ObjectFontStyle-italic.puml
 
 
-.. index:: ObjectStereotypeFontColor
-    pair: skinparam; ObjectStereotypeFontColor
+.. index::  skinparam; ObjectStereotypeFontColor
 
 .. _ObjectStereotypeFontColor:
 
@@ -9518,13 +9329,12 @@ Object
         zz
 
 
-:Example:    :code:`ObjectStereotypeFontColor red`:
+:Example:    :code:`ObjectStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/ObjectStereotypeFontColor-red.puml
 
 
-.. index:: ObjectStereotypeFontName
-    pair: skinparam; ObjectStereotypeFontName
+.. index::  skinparam; ObjectStereotypeFontName
 
 .. _ObjectStereotypeFontName:
 
@@ -9547,13 +9357,12 @@ Object
         zz
 
 
-:Example:    :code:`ObjectStereotypeFontName Papyrus`:
+:Example:    :code:`ObjectStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/ObjectStereotypeFontName-Papyrus.puml
 
 
-.. index:: ObjectStereotypeFontSize
-    pair: skinparam; ObjectStereotypeFontSize
+.. index::  skinparam; ObjectStereotypeFontSize
 
 .. _ObjectStereotypeFontSize:
 
@@ -9575,13 +9384,12 @@ Object
         zz
 
 
-:Example:    :code:`ObjectStereotypeFontSize 18`:
+:Example:    :code:`ObjectStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/ObjectStereotypeFontSize-18.puml
 
 
-.. index:: ObjectStereotypeFontStyle
-    pair: skinparam; ObjectStereotypeFontStyle
+.. index::  skinparam; ObjectStereotypeFontStyle
 
 .. _ObjectStereotypeFontStyle:
 
@@ -9603,7 +9411,7 @@ Object
         zz
 
 
-:Example:    :code:`ObjectStereotypeFontStyle italic`:
+:Example:    :code:`ObjectStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/ObjectStereotypeFontStyle-italic.puml
 
@@ -9625,8 +9433,7 @@ P
 
 
 
-.. index:: Package
-    pair: skinparam; Package
+.. index::  skinparam; Package
 
 .. _Package:
 
@@ -9635,8 +9442,7 @@ Package
 
 
 
-.. index:: PackageBackgroundColor
-    pair: skinparam; PackageBackgroundColor
+.. index::  skinparam; PackageBackgroundColor
 
 .. _PackageBackgroundColor:
 
@@ -9658,13 +9464,12 @@ Package
         zz
 
 
-:Example:    :code:`PackageBackgroundColor lawnGreen`:
+:Example:    :code:`PackageBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/PackageBackgroundColor-lawnGreen.puml
 
 
-.. index:: PackageBorderColor
-    pair: skinparam; PackageBorderColor
+.. index::  skinparam; PackageBorderColor
 
 .. _PackageBorderColor:
 
@@ -9686,13 +9491,12 @@ Package
         zz
 
 
-:Example:    :code:`PackageBorderColor red`:
+:Example:    :code:`PackageBorderColor red`
 
     .. uml::  puml/sk-ex/PackageBorderColor-red.puml
 
 
-.. index:: PackageBorderThickness
-    pair: skinparam; PackageBorderThickness
+.. index::  skinparam; PackageBorderThickness
 
 .. _PackageBorderThickness:
 
@@ -9704,7 +9508,7 @@ Package
 :Usage:
     :code:`PackageBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -9714,13 +9518,12 @@ Package
         zz
 
 
-:Example:    :code:`PackageBorderThickness [ number ]`:
+:Example:    :code:`PackageBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/PackageBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/PackageBorderThickness-5.puml
 
 
-.. index:: PackageFontColor
-    pair: skinparam; PackageFontColor
+.. index::  skinparam; PackageFontColor
 
 .. _PackageFontColor:
 
@@ -9742,13 +9545,12 @@ Package
         zz
 
 
-:Example:    :code:`PackageFontColor red`:
+:Example:    :code:`PackageFontColor red`
 
     .. uml::  puml/sk-ex/PackageFontColor-red.puml
 
 
-.. index:: PackageFontName
-    pair: skinparam; PackageFontName
+.. index::  skinparam; PackageFontName
 
 .. _PackageFontName:
 
@@ -9771,13 +9573,12 @@ Package
         zz
 
 
-:Example:    :code:`PackageFontName Papyrus`:
+:Example:    :code:`PackageFontName Papyrus`
 
     .. uml::  puml/sk-ex/PackageFontName-Papyrus.puml
 
 
-.. index:: PackageFontSize
-    pair: skinparam; PackageFontSize
+.. index::  skinparam; PackageFontSize
 
 .. _PackageFontSize:
 
@@ -9799,13 +9600,12 @@ Package
         zz
 
 
-:Example:    :code:`PackageFontSize 18`:
+:Example:    :code:`PackageFontSize 18`
 
     .. uml::  puml/sk-ex/PackageFontSize-18.puml
 
 
-.. index:: PackageFontStyle
-    pair: skinparam; PackageFontStyle
+.. index::  skinparam; PackageFontStyle
 
 .. _PackageFontStyle:
 
@@ -9827,13 +9627,12 @@ Package
         zz
 
 
-:Example:    :code:`PackageFontStyle italic`:
+:Example:    :code:`PackageFontStyle italic`
 
     .. uml::  puml/sk-ex/PackageFontStyle-italic.puml
 
 
-.. index:: PackageStereotypeFontColor
-    pair: skinparam; PackageStereotypeFontColor
+.. index::  skinparam; PackageStereotypeFontColor
 
 .. _PackageStereotypeFontColor:
 
@@ -9855,13 +9654,12 @@ Package
         zz
 
 
-:Example:    :code:`PackageStereotypeFontColor red`:
+:Example:    :code:`PackageStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/PackageStereotypeFontColor-red.puml
 
 
-.. index:: PackageStereotypeFontName
-    pair: skinparam; PackageStereotypeFontName
+.. index::  skinparam; PackageStereotypeFontName
 
 .. _PackageStereotypeFontName:
 
@@ -9884,13 +9682,12 @@ Package
         zz
 
 
-:Example:    :code:`PackageStereotypeFontName Papyrus`:
+:Example:    :code:`PackageStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/PackageStereotypeFontName-Papyrus.puml
 
 
-.. index:: PackageStereotypeFontSize
-    pair: skinparam; PackageStereotypeFontSize
+.. index::  skinparam; PackageStereotypeFontSize
 
 .. _PackageStereotypeFontSize:
 
@@ -9912,13 +9709,12 @@ Package
         zz
 
 
-:Example:    :code:`PackageStereotypeFontSize 18`:
+:Example:    :code:`PackageStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/PackageStereotypeFontSize-18.puml
 
 
-.. index:: PackageStereotypeFontStyle
-    pair: skinparam; PackageStereotypeFontStyle
+.. index::  skinparam; PackageStereotypeFontStyle
 
 .. _PackageStereotypeFontStyle:
 
@@ -9940,13 +9736,12 @@ Package
         zz
 
 
-:Example:    :code:`PackageStereotypeFontStyle italic`:
+:Example:    :code:`PackageStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/PackageStereotypeFontStyle-italic.puml
 
 
-.. index:: PackageStyle
-    pair: skinparam; PackageStyle
+.. index::  skinparam; PackageStyle
 
 .. _PackageStyle:
 
@@ -9958,7 +9753,7 @@ Package
 :Usage:
     :code:`PackageStyle [ normal | plain | italic | bold ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -9968,13 +9763,12 @@ Package
         zz
 
 
-:Example:    :code:`PackageStyle [ normal | plain | italic | bold ]`:
+:Example:    :code:`PackageStyle [ normal | plain | italic | bold ]`
 
     .. uml::  puml/sk-ex/PackageStyle-zz.puml
 
 
-.. index:: PackageTitleAlignment
-    pair: skinparam; PackageTitleAlignment
+.. index::  skinparam; PackageTitleAlignment
 
 .. _PackageTitleAlignment:
 
@@ -9986,7 +9780,7 @@ Package
 :Usage:
     :code:`PackageTitleAlignment zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -9996,7 +9790,7 @@ Package
         zz
 
 
-:Example:    :code:`PackageTitleAlignment zz`:
+:Example:    :code:`PackageTitleAlignment zz`
 
     .. uml::  puml/sk-ex/PackageTitleAlignment-zz.puml
 
@@ -10005,8 +9799,7 @@ Package
 Padding
 =======
 
-.. index:: Padding
-    pair: skinparam; Padding
+.. index::  skinparam; Padding
 
 .. _Padding:
 
@@ -10018,7 +9811,7 @@ Padding
 :Usage:
     :code:`Padding zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -10028,7 +9821,7 @@ Padding
         zz
 
 
-:Example:    :code:`Padding zz`:
+:Example:    :code:`Padding zz`
 
     .. uml::  puml/sk-ex/Padding-zz.puml
 
@@ -10036,8 +9829,7 @@ Padding
 
 
 
-.. index:: Page
-    pair: skinparam; Page
+.. index::  skinparam; Page
 
 .. _Page:
 
@@ -10045,8 +9837,7 @@ Page
 ====
 
 
-.. index:: PageBorderColor
-    pair: skinparam; PageBorderColor
+.. index::  skinparam; PageBorderColor
 
 .. _PageBorderColor:
 
@@ -10068,13 +9859,12 @@ Page
         zz
 
 
-:Example:    :code:`PageBorderColor red`:
+:Example:    :code:`PageBorderColor red`
 
     .. uml::  puml/sk-ex/PageBorderColor-red.puml
 
 
-.. index:: PageExternalColor
-    pair: skinparam; PageExternalColor
+.. index::  skinparam; PageExternalColor
 
 .. _PageExternalColor:
 
@@ -10086,7 +9876,7 @@ Page
 :Usage:
     :code:`PageExternalColor [ #predefinedColorName | #hexColorNumber ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -10096,13 +9886,12 @@ Page
         zz
 
 
-:Example:    :code:`PageExternalColor [ #predefinedColorName | #hexColorNumber ]`:
+:Example:    :code:`PageExternalColor [ #predefinedColorName | #hexColorNumber ]`
 
     .. uml::  puml/sk-ex/PageExternalColor-zz.puml
 
 
-.. index:: PageMargin
-    pair: skinparam; PageMargin
+.. index::  skinparam; PageMargin
 
 .. _PageMargin:
 
@@ -10114,7 +9903,7 @@ Page
 :Usage:
     :code:`PageMargin zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -10124,15 +9913,14 @@ Page
         zz
 
 
-:Example:    :code:`PageMargin zz`:
+:Example:    :code:`PageMargin zz`
 
     .. uml::  puml/sk-ex/PageMargin-zz.puml
 
 
 
 
-.. index:: Participant
-    pair: skinparam; Participant
+.. index::  skinparam; Participant
 
 .. _Participant:
 
@@ -10140,8 +9928,7 @@ Participant
 ===========
 
 
-.. index:: ParticipantBackgroundColor
-    pair: skinparam; ParticipantBackgroundColor
+.. index::  skinparam; ParticipantBackgroundColor
 
 .. _ParticipantBackgroundColor:
 
@@ -10163,13 +9950,12 @@ Participant
         zz
 
 
-:Example:    :code:`ParticipantBackgroundColor GreenYellow`:
+:Example:    :code:`ParticipantBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/ParticipantBackgroundColor-GreenYellow.puml
 
 
-.. index:: ParticipantBorderColor
-    pair: skinparam; ParticipantBorderColor
+.. index::  skinparam; ParticipantBorderColor
 
 .. _ParticipantBorderColor:
 
@@ -10191,13 +9977,12 @@ Participant
         zz
 
 
-:Example:    :code:`ParticipantBorderColor red`:
+:Example:    :code:`ParticipantBorderColor red`
 
     .. uml::  puml/sk-ex/ParticipantBorderColor-red.puml
 
 
-.. index:: ParticipantFontColor
-    pair: skinparam; ParticipantFontColor
+.. index::  skinparam; ParticipantFontColor
 
 .. _ParticipantFontColor:
 
@@ -10219,13 +10004,12 @@ Participant
         zz
 
 
-:Example:    :code:`ParticipantFontColor red`:
+:Example:    :code:`ParticipantFontColor red`
 
     .. uml::  puml/sk-ex/ParticipantFontColor-red.puml
 
 
-.. index:: ParticipantFontName
-    pair: skinparam; ParticipantFontName
+.. index::  skinparam; ParticipantFontName
 
 .. _ParticipantFontName:
 
@@ -10248,13 +10032,12 @@ Participant
         zz
 
 
-:Example:    :code:`ParticipantFontName Papyrus`:
+:Example:    :code:`ParticipantFontName Papyrus`
 
     .. uml::  puml/sk-ex/ParticipantFontName-Papyrus.puml
 
 
-.. index:: ParticipantFontSize
-    pair: skinparam; ParticipantFontSize
+.. index::  skinparam; ParticipantFontSize
 
 .. _ParticipantFontSize:
 
@@ -10276,13 +10059,12 @@ Participant
         zz
 
 
-:Example:    :code:`ParticipantFontSize 18`:
+:Example:    :code:`ParticipantFontSize 18`
 
     .. uml::  puml/sk-ex/ParticipantFontSize-18.puml
 
 
-.. index:: ParticipantFontStyle
-    pair: skinparam; ParticipantFontStyle
+.. index::  skinparam; ParticipantFontStyle
 
 .. _ParticipantFontStyle:
 
@@ -10304,15 +10086,14 @@ Participant
         UML Sequence diagrams
 
 
-:Example:    :code:`ParticipantFontStyle italic`:
+:Example:    :code:`ParticipantFontStyle italic`
 
     .. uml::  puml/sk-ex/ParticipantFontStyle-italic.puml
 
 
-.. index:: ParticipantPadding
-    pair: skinparam; ParticipantPadding
-      pair: participant; ParticipantPadding
-      pair: UML Sequence diagram; ParticipantPadding
+.. index::  skinparam; ParticipantPadding
+      single: Participant; Padding
+      single: UML Sequence diagram; skinparam ParticipantPadding
 
 .. _ParticipantPadding:
 
@@ -10334,23 +10115,21 @@ Participant
         UML Sequence diagrams
 
 
-:Example:    :code:`ParticipantPadding 200`:
+:Example:    :code:`ParticipantPadding 200`
 
     .. uml::  puml/sk-ex/ParticipantPadding-200.puml
 
 
 
 
-.. index:: Partition
-    pair: skinparam; Partition
+.. index::  skinparam; Partition
 
 .. _Partition:
 
 Partition
 =========
 
-.. index:: PartitionBackgroundColor
-    pair: skinparam; PartitionBackgroundColor
+.. index::  skinparam; PartitionBackgroundColor
 
 .. _PartitionBackgroundColor:
 
@@ -10372,13 +10151,12 @@ Partition
         zz
 
 
-:Example:    :code:`PartitionBackgroundColor GreenYellow`:
+:Example:    :code:`PartitionBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/PartitionBackgroundColor-GreenYellow.puml
 
 
-.. index:: PartitionBorderColor
-    pair: skinparam; PartitionBorderColor
+.. index::  skinparam; PartitionBorderColor
 
 .. _PartitionBorderColor:
 
@@ -10400,13 +10178,12 @@ Partition
         zz
 
 
-:Example:    :code:`PartitionBorderColor red`:
+:Example:    :code:`PartitionBorderColor red`
 
     .. uml::  puml/sk-ex/PartitionBorderColor-red.puml
 
 
-.. index:: PartitionBorderThickness
-    pair: skinparam; PartitionBorderThickness
+.. index::  skinparam; PartitionBorderThickness
 
 .. _PartitionBorderThickness:
 
@@ -10418,7 +10195,7 @@ Partition
 :Usage:
     :code:`PartitionBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -10428,13 +10205,12 @@ Partition
         zz
 
 
-:Example:    :code:`PartitionBorderThickness [ number ]`:
+:Example:    :code:`PartitionBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/PartitionBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/PartitionBorderThickness-5.puml
 
 
-.. index:: PartitionFontColor
-    pair: skinparam; PartitionFontColor
+.. index::  skinparam; PartitionFontColor
 
 .. _PartitionFontColor:
 
@@ -10456,13 +10232,12 @@ Partition
         zz
 
 
-:Example:    :code:`PartitionFontColor red`:
+:Example:    :code:`PartitionFontColor red`
 
     .. uml::  puml/sk-ex/PartitionFontColor-red.puml
 
 
-.. index:: PartitionFontName
-    pair: skinparam; PartitionFontName
+.. index::  skinparam; PartitionFontName
 
 .. _PartitionFontName:
 
@@ -10485,13 +10260,12 @@ Partition
         zz
 
 
-:Example:    :code:`PartitionFontName Papyrus`:
+:Example:    :code:`PartitionFontName Papyrus`
 
     .. uml::  puml/sk-ex/PartitionFontName-Papyrus.puml
 
 
-.. index:: PartitionFontSize
-    pair: skinparam; PartitionFontSize
+.. index::  skinparam; PartitionFontSize
 
 .. _PartitionFontSize:
 
@@ -10513,13 +10287,12 @@ Partition
         zz
 
 
-:Example:    :code:`PartitionFontSize 18`:
+:Example:    :code:`PartitionFontSize 18`
 
     .. uml::  puml/sk-ex/PartitionFontSize-18.puml
 
 
-.. index:: PartitionFontStyle
-    pair: skinparam; PartitionFontStyle
+.. index::  skinparam; PartitionFontStyle
 
 .. _PartitionFontStyle:
 
@@ -10541,7 +10314,7 @@ Partition
         zz
 
 
-:Example:    :code:`PartitionFontStyle bold`:
+:Example:    :code:`PartitionFontStyle bold`
 
     .. uml::  puml/sk-ex/PartitionFontStyle-bold.puml
 
@@ -10549,8 +10322,7 @@ Partition
 PathHoverColor
 ==============
 
-.. index:: PathHoverColor
-    pair: skinparam; PathHoverColor
+.. index::  skinparam; PathHoverColor
 
 .. _PathHoverColor:
 
@@ -10562,7 +10334,7 @@ PathHoverColor
 :Usage:
     :code:`PathHoverColor [ #predefinedColorName | #hexColorNumber ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -10572,7 +10344,7 @@ PathHoverColor
         zz
 
 
-:Example:    :code:`PathHoverColor [ #predefinedColorName | #hexColorNumber ]`:
+:Example:    :code:`PathHoverColor [ #predefinedColorName | #hexColorNumber ]`
 
     .. uml::  puml/sk-ex/PathHoverColor-zz.puml
 
@@ -10592,16 +10364,14 @@ PathHoverColor
 Q
 ****
 
-.. index:: Queue
-    pair: skinparam; Queue
+.. index::  skinparam; Queue
 
 .. _Queue:
 
 Queue
 =====
 
-.. index:: QueueBackgroundColor
-    pair: skinparam; QueueBackgroundColor
+.. index::  skinparam; QueueBackgroundColor
 
 .. _QueueBackgroundColor:
 
@@ -10620,16 +10390,15 @@ Queue
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`QueueBackgroundColor lawnGreen`:
+:Example:    :code:`QueueBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/QueueBackgroundColor-lawnGreen.puml
 
 
-.. index:: QueueBorderColor
-    pair: skinparam; QueueBorderColor
+.. index::  skinparam; QueueBorderColor
 
 .. _QueueBorderColor:
 
@@ -10648,16 +10417,15 @@ Queue
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`QueueBorderColor red`:
+:Example:    :code:`QueueBorderColor red`
 
     .. uml::  puml/sk-ex/QueueBorderColor-red.puml
 
 
-.. index:: QueueFontColor
-    pair: skinparam; QueueFontColor
+.. index::  skinparam; QueueFontColor
 
 .. _QueueFontColor:
 
@@ -10676,16 +10444,15 @@ Queue
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`QueueFontColor red`:
+:Example:    :code:`QueueFontColor red`
 
     .. uml::  puml/sk-ex/QueueFontColor-red.puml
 
 
-.. index:: QueueFontName
-    pair: skinparam; QueueFontName
+.. index::  skinparam; QueueFontName
 
 .. _QueueFontName:
 
@@ -10705,16 +10472,15 @@ Queue
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`QueueFontName Papyrus`:
+:Example:    :code:`QueueFontName Papyrus`
 
     .. uml::  puml/sk-ex/QueueFontName-Papyrus.puml
 
 
-.. index:: QueueFontSize
-    pair: skinparam; QueueFontSize
+.. index::  skinparam; QueueFontSize
 
 .. _QueueFontSize:
 
@@ -10733,16 +10499,15 @@ Queue
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`QueueFontSize 18`:
+:Example:    :code:`QueueFontSize 18`
 
     .. uml::  puml/sk-ex/QueueFontSize-18.puml
 
 
-.. index:: QueueFontStyle
-    pair: skinparam; QueueFontStyle
+.. index::  skinparam; QueueFontStyle
 
 .. _QueueFontStyle:
 
@@ -10761,16 +10526,15 @@ Queue
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`QueueFontStyle italic`:
+:Example:    :code:`QueueFontStyle italic`
 
     .. uml::  puml/sk-ex/QueueFontStyle-italic.puml
 
 
-.. index:: QueueStereotypeFontColor
-    pair: skinparam; QueueStereotypeFontColor
+.. index::  skinparam; QueueStereotypeFontColor
 
 .. _QueueStereotypeFontColor:
 
@@ -10789,16 +10553,15 @@ Queue
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`QueueStereotypeFontColor red`:
+:Example:    :code:`QueueStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/QueueStereotypeFontColor-red.puml
 
 
-.. index:: QueueStereotypeFontName
-    pair: skinparam; QueueStereotypeFontName
+.. index::  skinparam; QueueStereotypeFontName
 
 .. _QueueStereotypeFontName:
 
@@ -10820,16 +10583,15 @@ Queue
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`QueueStereotypeFontName Papyrus`:
+:Example:    :code:`QueueStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/QueueStereotypeFontName-Papyrus.puml
 
 
-.. index:: QueueStereotypeFontSize
-    pair: skinparam; QueueStereotypeFontSize
+.. index::  skinparam; QueueStereotypeFontSize
 
 .. _QueueStereotypeFontSize:
 
@@ -10850,16 +10612,15 @@ Queue
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`QueueStereotypeFontSize 18`:
+:Example:    :code:`QueueStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/QueueStereotypeFontSize-18.puml
 
 
-.. index:: QueueStereotypeFontStyle
-    pair: skinparam; QueueStereotypeFontStyle
+.. index::  skinparam; QueueStereotypeFontStyle
 
 .. _QueueStereotypeFontStyle:
 
@@ -10880,10 +10641,10 @@ Queue
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`QueueStereotypeFontStyle italic`:
+:Example:    :code:`QueueStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/QueueStereotypeFontStyle-italic.puml
 
@@ -10906,8 +10667,7 @@ R
 Ranksep
 =======
 
-.. index:: Ranksep
-    pair: skinparam; Ranksep
+.. index::  skinparam; Ranksep
 
 .. _Ranksep:
 
@@ -10919,7 +10679,7 @@ Ranksep
 :Usage:
     :code:`Ranksep zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -10929,24 +10689,22 @@ Ranksep
         zz
 
 
-:Example:    :code:`Ranksep zz`:
+:Example:    :code:`Ranksep zz`
 
     .. uml::  puml/sk-ex/Ranksep-zz.puml
 
 
 
 
-.. index:: Rectangle
-    pair: skinparam; Rectangle
+.. index::  skinparam; Rectangle
 
 .. _Rectangle:
 
 Rectangle
 =========
 
-.. index:: RectangleBackgroundColor
-     pair: skinparam; RectangleBackgroundColor
-      pair: Deploy diagram; RectangleBorderColor
+.. index::  skinparam; RectangleBackgroundColor
+      single: Deployment diagram; skinparam RectangleBorderColor
 
 .. _RectangleBackgroundColor:
 
@@ -10965,18 +10723,17 @@ Rectangle
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`RectangleBackgroundColor lawnGreen`:
+:Example:    :code:`RectangleBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/RectangleBackgroundColor-lawnGreen.puml
 
 
 
-.. index:: RectangleBorderColor
-    pair: skinparam; RectangleBorderColor
-      pair: Deploy diagram; RectangleBorderColor
+.. index::  skinparam; RectangleBorderColor
+      single: Deployment diagram; skinparam RectangleBorderColor
 
 .. _RectangleBorderColor:
 
@@ -10995,17 +10752,16 @@ Rectangle
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`RectangleBorderColor Red`:
+:Example:    :code:`RectangleBorderColor Red`
 
     .. uml::  puml/sk-ex/RectangleBorderColor-red.puml
 
 
-.. index:: RectangleBorderThickness
-    pair: skinparam; RectangleBorderThickness
-      pair: Deploy diagram; RectangleBorderThickness
+.. index::  skinparam; RectangleBorderThickness
+      single: Deployment diagram; skinparam RectangleBorderThickness
 
 .. _RectangleBorderThickness:
 
@@ -11024,17 +10780,16 @@ Rectangle
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`RectangleBorderThickness 8`:
+:Example:    :code:`RectangleBorderThickness 8`
 
     .. uml::  puml/sk-ex/RectangleBorderThickness-8.puml
 
 
-.. index:: RectangleFontColor
-    pair: skinparam; RectangleFontColor
-      pair: Deploy diagram; RectangleFontColor
+.. index::  skinparam; RectangleFontColor
+      single: Deployment diagram; skinparam RectangleFontColor
 
 .. _RectangleFontColor:
 
@@ -11053,17 +10808,16 @@ Rectangle
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`RectangleFontColor green`:
+:Example:    :code:`RectangleFontColor green`
 
     .. uml::  puml/sk-ex/RectangleFontColor-green.puml
 
 
-.. index:: RectangleFontName
-    pair: skinparam; RectangleFontName
-      pair: Deploy diagram; RectangleFontName
+.. index::  skinparam; RectangleFontName
+      single: Deployment diagram; skinparam RectangleFontName
 
 .. _RectangleFontName:
 
@@ -11083,17 +10837,16 @@ Rectangle
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`RectangleFontName Papyrus`:
+:Example:    :code:`RectangleFontName Papyrus`
 
     .. uml::  puml/sk-ex/RectangleFontName-Papyrus.puml
 
 
-.. index:: RectangleFontSize
-    pair: skinparam; RectangleFontSize
-      pair: Deploy diagram; RectangleFontSize
+.. index::  skinparam; RectangleFontSize
+      single: Deployment diagram; skinparam RectangleFontSize
 
 
 .. _RectangleFontSize:
@@ -11113,17 +10866,16 @@ Rectangle
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`RectangleFontSize 24`:
+:Example:    :code:`RectangleFontSize 24`
 
     .. uml::  puml/sk-ex/RectangleFontSize-24.puml
 
 
-.. index:: RectangleFontStyle
-    pair: skinparam; RectangleFontStyle
-      pair: Deploy diagram; RectangleFontStyle
+.. index::  skinparam; RectangleFontStyle
+      single: Deployment diagram; skinparam RectangleFontStyle
 
 .. _RectangleFontStyle:
 
@@ -11142,17 +10894,16 @@ Rectangle
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`RectangleFontStyle italic`:
+:Example:    :code:`RectangleFontStyle italic`
 
     .. uml::  puml/sk-ex/RectangleFontStyle-italic.puml
 
 
-.. index:: RectangleStereotypeFontColor
-    pair: skinparam; RectangleStereotypeFontColor
-      pair: Deploy diagram; RectangleStereoFontColor
+.. index::  skinparam; RectangleStereotypeFontColor
+      single: Deployment diagram; skinparam RectangleStereoFontColor
 
 .. _RectangleStereotypeFontColor:
 
@@ -11175,14 +10926,13 @@ Rectangle
    the skinparam RectangleStereotypeFontColor is not applied. (It doesn't work; it's ignored.)=
 
 
-:Example:    :code:`RectangleStereotypeFontColor red`:
+:Example:    :code:`RectangleStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/RectangleStereotypeFontColor-red.puml
 
 
-.. index:: RectangleStereotypeFontName
-    pair: skinparam; RectangleStereotypeFontName
-      pair: Deploy diagram; RectangleStereoFontName
+.. index::  skinparam; RectangleStereotypeFontName
+      single: Deployment diagram; skinparam RectangleStereoFontName
 
 .. _RectangleStereotypeFontName:
 
@@ -11207,14 +10957,13 @@ Rectangle
 
 
 
-:Example:    :code:`RectangleStereotypeFontName Papyrus`:
+:Example:    :code:`RectangleStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/RectangleStereotypeFontName-Papyrus.puml
 
 
-.. index:: RectangleStereotypeFontSize
-    pair: skinparam; RectangleStereotypeFontSize
-      pair: Deploy diagram; RectangleStereoFontSize
+.. index::  skinparam; RectangleStereotypeFontSize
+      single: Deployment diagram; skinparam RectangleStereoFontSize
 
 .. _RectangleStereotypeFontSize:
 
@@ -11237,14 +10986,13 @@ Rectangle
    the skinparam RectangleStereotypeFontColor is not applied. (It doesn't work; it's ignored.)=
 
 
-:Example:    :code:`RectangleStereotypeFontSize 18`:
+:Example:    :code:`RectangleStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/RectangleStereotypeFontSize-18.puml
 
 
-.. index:: RectangleStereotypeFontStyle
-    pair: skinparam; RectangleStereotypeFontStyle
-      pair: Deploy diagram; RectangleStereoFontStyle
+.. index::  skinparam; RectangleStereotypeFontStyle
+      single: Deployment diagram; skinparam RectangleStereoFontStyle
 
 .. _RectangleStereotypeFontStyle:
 
@@ -11268,15 +11016,14 @@ Rectangle
 
 
 
-:Example:    :code:`RectangleStereotypeFontStyle italic`:
+:Example:    :code:`RectangleStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/RectangleStereotypeFontStyle-italic.puml
 
 
 
 
-.. index:: Requirement
-    pair: skinparam; Requirement
+.. index::  skinparam; Requirement
 
 .. _Requirement:
 
@@ -11284,8 +11031,7 @@ Requirement
 ===========
 
 
-.. index:: RequirementBackgroundColor
-    pair: skinparam; RequirementBackgroundColor
+.. index::  skinparam; RequirementBackgroundColor
 
 .. _RequirementBackgroundColor:
 
@@ -11307,13 +11053,12 @@ Requirement
         zz
 
 
-:Example:    :code:`RequirementBackgroundColor GreenYellow`:
+:Example:    :code:`RequirementBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/RequirementBackgroundColor-GreenYellow.puml
 
 
-.. index:: RequirementBorderColor
-    pair: skinparam; RequirementBorderColor
+.. index::  skinparam; RequirementBorderColor
 
 .. _RequirementBorderColor:
 
@@ -11335,13 +11080,12 @@ Requirement
         zz
 
 
-:Example:    :code:`RequirementBorderColor red`:
+:Example:    :code:`RequirementBorderColor red`
 
     .. uml::  puml/sk-ex/RequirementBorderColor-red.puml
 
 
-.. index:: RequirementBorderThickness
-    pair: skinparam; RequirementBorderThickness
+.. index::  skinparam; RequirementBorderThickness
 
 .. _RequirementBorderThickness:
 
@@ -11353,7 +11097,7 @@ Requirement
 :Usage:
     :code:`RequirementBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -11363,13 +11107,12 @@ Requirement
         zz
 
 
-:Example:    :code:`RequirementBorderThickness [ number ]`:
+:Example:    :code:`RequirementBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/RequirementBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/RequirementBorderThickness-5.puml
 
 
-.. index:: RequirementFontColor
-    pair: skinparam; RequirementFontColor
+.. index::  skinparam; RequirementFontColor
 
 .. _RequirementFontColor:
 
@@ -11391,13 +11134,12 @@ The font color for text in stacks. |use_colorname_hex|
         zz
 
 
-:Example:    :code:`RequirementFontColor red`:
+:Example:    :code:`RequirementFontColor red`
 
     .. uml::  puml/sk-ex/RequirementFontColor-red.puml
 
 
-.. index:: RequirementFontName
-    pair: skinparam; RequirementFontName
+.. index::  skinparam; RequirementFontName
 
 .. _RequirementFontName:
 
@@ -11420,13 +11162,12 @@ The font color for text in stacks. |use_colorname_hex|
         zz
 
 
-:Example:    :code:`RequirementFontName Papyrus`:
+:Example:    :code:`RequirementFontName Papyrus`
 
     .. uml::  puml/sk-ex/RequirementFontName-Papyrus.puml
 
 
-.. index:: RequirementFontSize
-    pair: skinparam; RequirementFontSize
+.. index::  skinparam; RequirementFontSize
 
 .. _RequirementFontSize:
 
@@ -11448,13 +11189,12 @@ The font color for text in stacks. |use_colorname_hex|
         zz
 
 
-:Example:    :code:`RequirementFontSize 18`:
+:Example:    :code:`RequirementFontSize 18`
 
     .. uml::  puml/sk-ex/RequirementFontSize-18.puml
 
 
-.. index:: RequirementFontStyle
-    pair: skinparam; RequirementFontStyle
+.. index::  skinparam; RequirementFontStyle
 
 .. _RequirementFontStyle:
 
@@ -11476,13 +11216,12 @@ The font color for text in stacks. |use_colorname_hex|
         zz
 
 
-:Example:    :code:`RequirementFontStyle italic`:
+:Example:    :code:`RequirementFontStyle italic`
 
     .. uml::  puml/sk-ex/RequirementFontStyle-italic.puml
 
 
-.. index:: RequirementStereotypeFontColor
-    pair: skinparam; RequirementStereotypeFontColor
+.. index::  skinparam; RequirementStereotypeFontColor
 
 .. _RequirementStereotypeFontColor:
 
@@ -11504,13 +11243,12 @@ The font color for text in stacks. |use_colorname_hex|
         zz
 
 
-:Example:    :code:`RequirementStereotypeFontColor red`:
+:Example:    :code:`RequirementStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/RequirementStereotypeFontColor-red.puml
 
 
-.. index:: RequirementStereotypeFontName
-    pair: skinparam; RequirementStereotypeFontName
+.. index::  skinparam; RequirementStereotypeFontName
 
 .. _RequirementStereotypeFontName:
 
@@ -11533,13 +11271,12 @@ The font color for text in stacks. |use_colorname_hex|
         zz
 
 
-:Example:    :code:`RequirementStereotypeFontName Papyrus`:
+:Example:    :code:`RequirementStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/RequirementStereotypeFontName-Papyrus.puml
 
 
-.. index:: RequirementStereotypeFontSize
-    pair: skinparam; RequirementStereotypeFontSize
+.. index::  skinparam; RequirementStereotypeFontSize
 
 .. _RequirementStereotypeFontSize:
 
@@ -11561,13 +11298,12 @@ The font color for text in stacks. |use_colorname_hex|
         zz
 
 
-:Example:    :code:`RequirementStereotypeFontSize 18`:
+:Example:    :code:`RequirementStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/RequirementStereotypeFontSize-18.puml
 
 
-.. index:: RequirementStereotypeFontStyle
-    pair: skinparam; RequirementStereotypeFontStyle
+.. index::  skinparam; RequirementStereotypeFontStyle
 
 .. _RequirementStereotypeFontStyle:
 
@@ -11589,7 +11325,7 @@ The font color for text in stacks. |use_colorname_hex|
         zz
 
 
-:Example:    :code:`RequirementStereotypeFontStyle italic`:
+:Example:    :code:`RequirementStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/RequirementStereotypeFontStyle-italic.puml
 
@@ -11597,8 +11333,7 @@ The font color for text in stacks. |use_colorname_hex|
 ResponseMessageBelowArrow
 =========================
 
-.. index:: ResponseMessageBelowArrow
-    pair: skinparam; ResponseMessageBelowArrow
+.. index::  skinparam; ResponseMessageBelowArrow
 
 .. _ResponseMessageBelowArrow:
 
@@ -11610,7 +11345,7 @@ ResponseMessageBelowArrow
 :Usage:
     :code:`ResponseMessageBelowArrow zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -11620,7 +11355,7 @@ ResponseMessageBelowArrow
         zz
 
 
-:Example:    :code:`ResponseMessageBelowArrow zz`:
+:Example:    :code:`ResponseMessageBelowArrow zz`
 
     .. uml::  puml/sk-ex/ResponseMessageBelowArrow-zz.puml
 
@@ -11628,8 +11363,7 @@ ResponseMessageBelowArrow
 RoundCorner
 ===========
 
-.. index:: RoundCorner
-    pair: skinparam; RoundCorner
+.. index::  skinparam; RoundCorner
 
 .. _RoundCorner:
 
@@ -11641,7 +11375,7 @@ RoundCorner
 :Usage:
     :code:`RoundCorner zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -11651,7 +11385,7 @@ RoundCorner
         zz
 
 
-:Example:    :code:`RoundCorner zz`:
+:Example:    :code:`RoundCorner zz`
 
     .. uml::  puml/sk-ex/RoundCorner-zz.puml
 
@@ -11674,8 +11408,7 @@ S
 SameClassWidth
 ==============
 
-.. index:: SameClassWidth
-    pair: skinparam; SameClassWidth
+.. index::  skinparam; SameClassWidth
 
 .. _SameClassWidth:
 
@@ -11687,7 +11420,7 @@ SameClassWidth
 :Usage:
     :code:`SameClassWidth zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -11697,7 +11430,7 @@ SameClassWidth
         zz
 
 
-:Example:    :code:`SameClassWidth zz`:
+:Example:    :code:`SameClassWidth zz`
 
     .. uml::  puml/sk-ex/SameClassWidth-zz.puml
 
@@ -11705,8 +11438,7 @@ SameClassWidth
 
 
 
-.. index:: Sequence
-    pair: skinparam; Sequence
+.. index::  skinparam; Sequence
 
 .. _Sequence:
 
@@ -11714,8 +11446,7 @@ Sequence
 ========
 
 
-.. index:: SequenceActorBorderThickness
-    pair: skinparam; SequenceActorBorderThickness
+.. index::  skinparam; SequenceActorBorderThickness
 
 .. _SequenceActorBorderThickness:
 
@@ -11727,7 +11458,7 @@ Sequence
 :Usage:
     :code:`SequenceActorBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -11737,13 +11468,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceActorBorderThickness [ number ]`:
+:Example:    :code:`SequenceActorBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/SequenceActorBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/SequenceActorBorderThickness-5.puml
 
 
-.. index:: SequenceArrowThickness
-    pair: skinparam; SequenceArrowThickness
+.. index::  skinparam; SequenceArrowThickness
 
 .. _SequenceArrowThickness:
 
@@ -11755,7 +11485,7 @@ Sequence
 :Usage:
     :code:`SequenceArrowThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -11765,13 +11495,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceArrowThickness [ number ]`:
+:Example:    :code:`SequenceArrowThickness [ number ]`
 
     .. uml::  puml/sk-ex/SequenceArrowThickness-zz.puml
 
 
-.. index:: SequenceBoxBackgroundColor
-    pair: skinparam; SequenceBoxBackgroundColor
+.. index::  skinparam; SequenceBoxBackgroundColor
 
 .. _SequenceBoxBackgroundColor:
 
@@ -11793,13 +11522,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceBoxBackgroundColor GreenYellow`:
+:Example:    :code:`SequenceBoxBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/SequenceBoxBackgroundColor-GreenYellow.puml
 
 
-.. index:: SequenceBoxBorderColor
-    pair: skinparam; SequenceBoxBorderColor
+.. index::  skinparam; SequenceBoxBorderColor
 
 .. _SequenceBoxBorderColor:
 
@@ -11821,13 +11549,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceBoxBorderColor red`:
+:Example:    :code:`SequenceBoxBorderColor red`
 
     .. uml::  puml/sk-ex/SequenceBoxBorderColor-red.puml
 
 
-.. index:: SequenceBoxFontColor
-    pair: skinparam; SequenceBoxFontColor
+.. index::  skinparam; SequenceBoxFontColor
 
 .. _SequenceBoxFontColor:
 
@@ -11849,13 +11576,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceBoxFontColor red`:
+:Example:    :code:`SequenceBoxFontColor red`
 
     .. uml::  puml/sk-ex/SequenceBoxFontColor-red.puml
 
 
-.. index:: SequenceBoxFontName
-    pair: skinparam; SequenceBoxFontName
+.. index::  skinparam; SequenceBoxFontName
 
 .. _SequenceBoxFontName:
 
@@ -11878,13 +11604,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceBoxFontName Papyrus`:
+:Example:    :code:`SequenceBoxFontName Papyrus`
 
     .. uml::  puml/sk-ex/SequenceBoxFontName-Papyrus.puml
 
 
-.. index:: SequenceBoxFontSize
-    pair: skinparam; SequenceBoxFontSize
+.. index::  skinparam; SequenceBoxFontSize
 
 .. _SequenceBoxFontSize:
 
@@ -11906,13 +11631,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceBoxFontSize 18`:
+:Example:    :code:`SequenceBoxFontSize 18`
 
     .. uml::  puml/sk-ex/SequenceBoxFontSize-18.puml
 
 
-.. index:: SequenceBoxFontStyle
-    pair: skinparam; SequenceBoxFontStyle
+.. index::  skinparam; SequenceBoxFontStyle
 
 .. _SequenceBoxFontStyle:
 
@@ -11934,13 +11658,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceBoxFontStyle italic`:
+:Example:    :code:`SequenceBoxFontStyle italic`
 
     .. uml::  puml/sk-ex/SequenceBoxFontStyle-italic.puml
 
 
-.. index:: SequenceDelayFontColor
-    pair: skinparam; SequenceDelayFontColor
+.. index::  skinparam; SequenceDelayFontColor
 
 .. _SequenceDelayFontColor:
 
@@ -11962,13 +11685,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceDelayFontColor red`:
+:Example:    :code:`SequenceDelayFontColor red`
 
     .. uml::  puml/sk-ex/SequenceDelayFontColor-red.puml
 
 
-.. index:: SequenceDelayFontName
-    pair: skinparam; SequenceDelayFontName
+.. index::  skinparam; SequenceDelayFontName
 
 .. _SequenceDelayFontName:
 
@@ -11991,13 +11713,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceDelayFontName Papyrus`:
+:Example:    :code:`SequenceDelayFontName Papyrus`
 
     .. uml::  puml/sk-ex/SequenceDelayFontName-Papyrus.puml
 
 
-.. index:: SequenceDelayFontSize
-    pair: skinparam; SequenceDelayFontSize
+.. index::  skinparam; SequenceDelayFontSize
 
 .. _SequenceDelayFontSize:
 
@@ -12019,13 +11740,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceDelayFontSize 18`:
+:Example:    :code:`SequenceDelayFontSize 18`
 
     .. uml::  puml/sk-ex/SequenceDelayFontSize-18.puml
 
 
-.. index:: SequenceDelayFontStyle
-    pair: skinparam; SequenceDelayFontStyle
+.. index::  skinparam; SequenceDelayFontStyle
 
 .. _SequenceDelayFontStyle:
 
@@ -12047,13 +11767,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceDelayFontStyle italic`:
+:Example:    :code:`SequenceDelayFontStyle italic`
 
     .. uml::  puml/sk-ex/SequenceDelayFontStyle-italic.puml
 
 
-.. index:: SequenceDividerBackgroundColor
-    pair: skinparam; SequenceDividerBackgroundColor
+.. index::  skinparam; SequenceDividerBackgroundColor
 
 .. _SequenceDividerBackgroundColor:
 
@@ -12075,13 +11794,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceDividerBackgroundColor GreenYellow`:
+:Example:    :code:`SequenceDividerBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/SequenceDividerBackgroundColor-GreenYellow.puml
 
 
-.. index:: SequenceDividerBorderColor
-    pair: skinparam; SequenceDividerBorderColor
+.. index::  skinparam; SequenceDividerBorderColor
 
 .. _SequenceDividerBorderColor:
 
@@ -12103,13 +11821,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceDividerBorderColor red`:
+:Example:    :code:`SequenceDividerBorderColor red`
 
     .. uml::  puml/sk-ex/SequenceDividerBorderColor-red.puml
 
 
-.. index:: SequenceDividerBorderThickness
-    pair: skinparam; SequenceDividerBorderThickness
+.. index::  skinparam; SequenceDividerBorderThickness
 
 .. _SequenceDividerBorderThickness:
 
@@ -12121,7 +11838,7 @@ Sequence
 :Usage:
     :code:`SequenceDividerBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -12131,13 +11848,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceDividerBorderThickness [ number ]`:
+:Example:    :code:`SequenceDividerBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/SequenceDividerBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/SequenceDividerBorderThickness-5.puml
 
 
-.. index:: SequenceDividerFontColor
-    pair: skinparam; SequenceDividerFontColor
+.. index::  skinparam; SequenceDividerFontColor
 
 .. _SequenceDividerFontColor:
 
@@ -12159,13 +11875,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceDividerFontColor red`:
+:Example:    :code:`SequenceDividerFontColor red`
 
     .. uml::  puml/sk-ex/SequenceDividerFontColor-red.puml
 
 
-.. index:: SequenceDividerFontName
-    pair: skinparam; SequenceDividerFontName
+.. index::  skinparam; SequenceDividerFontName
 
 .. _SequenceDividerFontName:
 
@@ -12188,13 +11903,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceDividerFontName Papyrus`:
+:Example:    :code:`SequenceDividerFontName Papyrus`
 
     .. uml::  puml/sk-ex/SequenceDividerFontName-Papyrus.puml
 
 
-.. index:: SequenceDividerFontSize
-    pair: skinparam; SequenceDividerFontSize
+.. index::  skinparam; SequenceDividerFontSize
 
 .. _SequenceDividerFontSize:
 
@@ -12216,13 +11930,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceDividerFontSize 18`:
+:Example:    :code:`SequenceDividerFontSize 18`
 
     .. uml::  puml/sk-ex/SequenceDividerFontSize-18.puml
 
 
-.. index:: SequenceDividerFontStyle
-    pair: skinparam; SequenceDividerFontStyle
+.. index::  skinparam; SequenceDividerFontStyle
 
 .. _SequenceDividerFontStyle:
 
@@ -12244,13 +11957,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceDividerFontStyle italic`:
+:Example:    :code:`SequenceDividerFontStyle italic`
 
     .. uml::  puml/sk-ex/SequenceDividerFontStyle-italic.puml
 
 
-.. index:: SequenceGroupBackgroundColor
-    pair: skinparam; SequenceGroupBackgroundColor
+.. index::  skinparam; SequenceGroupBackgroundColor
 
 .. _SequenceGroupBackgroundColor:
 
@@ -12272,13 +11984,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceGroupBackgroundColor GreenYellow`:
+:Example:    :code:`SequenceGroupBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/SequenceGroupBackgroundColor-GreenYellow.puml
 
 
-.. index:: SequenceGroupBodyBackgroundColor
-    pair: skinparam; SequenceGroupBodyBackgroundColor
+.. index::  skinparam; SequenceGroupBodyBackgroundColor
 
 .. _SequenceGroupBodyBackgroundColor:
 
@@ -12300,13 +12011,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceGroupBodyBackgroundColor GreenYellow`:
+:Example:    :code:`SequenceGroupBodyBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/SequenceGroupBodyBackgroundColor-GreenYellow.puml
 
 
-.. index:: SequenceGroupBorderColor
-    pair: skinparam; SequenceGroupBorderColor
+.. index::  skinparam; SequenceGroupBorderColor
 
 .. _SequenceGroupBorderColor:
 
@@ -12328,13 +12038,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceGroupBorderColor red`:
+:Example:    :code:`SequenceGroupBorderColor red`
 
     .. uml::  puml/sk-ex/SequenceGroupBorderColor-red.puml
 
 
-.. index:: SequenceGroupBorderThickness
-    pair: skinparam; SequenceGroupBorderThickness
+.. index::  skinparam; SequenceGroupBorderThickness
 
 .. _SequenceGroupBorderThickness:
 
@@ -12346,7 +12055,7 @@ Sequence
 :Usage:
     :code:`SequenceGroupBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -12356,13 +12065,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceGroupBorderThickness [ number ]`:
+:Example:    :code:`SequenceGroupBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/SequenceGroupBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/SequenceGroupBorderThickness-5.puml
 
 
-.. index:: SequenceGroupFontColor
-    pair: skinparam; SequenceGroupFontColor
+.. index::  skinparam; SequenceGroupFontColor
 
 .. _SequenceGroupFontColor:
 
@@ -12384,13 +12092,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceGroupFontColor red`:
+:Example:    :code:`SequenceGroupFontColor red`
 
     .. uml::  puml/sk-ex/SequenceGroupFontColor-red.puml
 
 
-.. index:: SequenceGroupFontName
-    pair: skinparam; SequenceGroupFontName
+.. index::  skinparam; SequenceGroupFontName
 
 .. _SequenceGroupFontName:
 
@@ -12413,13 +12120,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceGroupFontName Papyrus`:
+:Example:    :code:`SequenceGroupFontName Papyrus`
 
     .. uml::  puml/sk-ex/SequenceGroupFontName-Papyrus.puml
 
 
-.. index:: SequenceGroupFontSize
-    pair: skinparam; SequenceGroupFontSize
+.. index::  skinparam; SequenceGroupFontSize
 
 .. _SequenceGroupFontSize:
 
@@ -12441,13 +12147,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceGroupFontSize 18`:
+:Example:    :code:`SequenceGroupFontSize 18`
 
     .. uml::  puml/sk-ex/SequenceGroupFontSize-18.puml
 
 
-.. index:: SequenceGroupFontStyle
-    pair: skinparam; SequenceGroupFontStyle
+.. index::  skinparam; SequenceGroupFontStyle
 
 .. _SequenceGroupFontStyle:
 
@@ -12469,13 +12174,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceGroupFontStyle italic`:
+:Example:    :code:`SequenceGroupFontStyle italic`
 
     .. uml::  puml/sk-ex/SequenceGroupFontStyle-italic.puml
 
 
-.. index:: SequenceGroupHeaderFontColor
-    pair: skinparam; SequenceGroupHeaderFontColor
+.. index::  skinparam; SequenceGroupHeaderFontColor
 
 .. _SequenceGroupHeaderFontColor:
 
@@ -12497,13 +12201,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceGroupHeaderFontColor red`:
+:Example:    :code:`SequenceGroupHeaderFontColor red`
 
     .. uml::  puml/sk-ex/SequenceGroupHeaderFontColor-red.puml
 
 
-.. index:: SequenceGroupHeaderFontName
-    pair: skinparam; SequenceGroupHeaderFontName
+.. index::  skinparam; SequenceGroupHeaderFontName
 
 .. _SequenceGroupHeaderFontName:
 
@@ -12526,13 +12229,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceGroupHeaderFontName Papyrus`:
+:Example:    :code:`SequenceGroupHeaderFontName Papyrus`
 
     .. uml::  puml/sk-ex/SequenceGroupHeaderFontName-Papyrus.puml
 
 
-.. index:: SequenceGroupHeaderFontSize
-    pair: skinparam; SequenceGroupHeaderFontSize
+.. index::  skinparam; SequenceGroupHeaderFontSize
 
 .. _SequenceGroupHeaderFontSize:
 
@@ -12554,13 +12256,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceGroupHeaderFontSize 18`:
+:Example:    :code:`SequenceGroupHeaderFontSize 18`
 
     .. uml::  puml/sk-ex/SequenceGroupHeaderFontSize-18.puml
 
 
-.. index:: SequenceGroupHeaderFontStyle
-    pair: skinparam; SequenceGroupHeaderFontStyle
+.. index::  skinparam; SequenceGroupHeaderFontStyle
 
 .. _SequenceGroupHeaderFontStyle:
 
@@ -12582,13 +12283,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceGroupHeaderFontStyle italic`:
+:Example:    :code:`SequenceGroupHeaderFontStyle italic`
 
     .. uml::  puml/sk-ex/SequenceGroupHeaderFontStyle-italic.puml
 
 
-.. index:: SequenceLifeLineBackgroundColor
-    pair: skinparam; SequenceLifeLineBackgroundColor
+.. index::  skinparam; SequenceLifeLineBackgroundColor
 
 .. _SequenceLifeLineBackgroundColor:
 
@@ -12610,13 +12310,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceLifeLineBackgroundColor GreenYellow`:
+:Example:    :code:`SequenceLifeLineBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/SequenceLifeLineBackgroundColor-GreenYellow.puml
 
 
-.. index:: SequenceLifeLineBorderColor
-    pair: skinparam; SequenceLifeLineBorderColor
+.. index::  skinparam; SequenceLifeLineBorderColor
 
 .. _SequenceLifeLineBorderColor:
 
@@ -12638,13 +12337,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceLifeLineBorderColor red`:
+:Example:    :code:`SequenceLifeLineBorderColor red`
 
     .. uml::  puml/sk-ex/SequenceLifeLineBorderColor-red.puml
 
 
-.. index:: SequenceLifeLineBorderThickness
-    pair: skinparam; SequenceLifeLineBorderThickness
+.. index::  skinparam; SequenceLifeLineBorderThickness
 
 .. _SequenceLifeLineBorderThickness:
 
@@ -12656,7 +12354,7 @@ Sequence
 :Usage:
     :code:`SequenceLifeLineBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -12666,13 +12364,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceLifeLineBorderThickness [ number ]`:
+:Example:    :code:`SequenceLifeLineBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/SequenceLifeLineBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/SequenceLifeLineBorderThickness-5.puml
 
 
-.. index:: SequenceMessageAlignment
-    pair: skinparam; SequenceMessageAlignment
+.. index::  skinparam; SequenceMessageAlignment
 
 .. _SequenceMessageAlignment:
 
@@ -12684,7 +12381,7 @@ Sequence
 :Usage:
     :code:`SequenceMessageAlignment zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -12694,13 +12391,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceMessageAlignment zz`:
+:Example:    :code:`SequenceMessageAlignment zz`
 
     .. uml::  puml/sk-ex/SequenceMessageAlignment-zz.puml
 
 
-.. index:: SequenceMessageTextAlignment
-    pair: skinparam; SequenceMessageTextAlignment
+.. index::  skinparam; SequenceMessageTextAlignment
 
 .. _SequenceMessageTextAlignment:
 
@@ -12712,7 +12408,7 @@ Sequence
 :Usage:
     :code:`SequenceMessageTextAlignment zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -12722,13 +12418,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceMessageTextAlignment zz`:
+:Example:    :code:`SequenceMessageTextAlignment zz`
 
     .. uml::  puml/sk-ex/SequenceMessageTextAlignment-zz.puml
 
 
-.. index:: SequenceNewpageSeparatorColor
-    pair: skinparam; SequenceNewpageSeparatorColor
+.. index::  skinparam; SequenceNewpageSeparatorColor
 
 .. _SequenceNewpageSeparatorColor:
 
@@ -12740,7 +12435,7 @@ Sequence
 :Usage:
     :code:`SequenceNewpageSeparatorColor [ #predefinedColorName | #hexColorNumber ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -12750,13 +12445,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceNewpageSeparatorColor [ #predefinedColorName | #hexColorNumber ]`:
+:Example:    :code:`SequenceNewpageSeparatorColor [ #predefinedColorName | #hexColorNumber ]`
 
     .. uml::  puml/sk-ex/SequenceNewpageSeparatorColor-zz.puml
 
 
-.. index:: SequenceParticipant
-    pair: skinparam; SequenceParticipant
+.. index::  skinparam; SequenceParticipant
 
 .. _SequenceParticipant:
 
@@ -12768,7 +12462,7 @@ Sequence
 :Usage:
     :code:`SequenceParticipant zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -12778,13 +12472,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceParticipant zz`:
+:Example:    :code:`SequenceParticipant zz`
 
     .. uml::  puml/sk-ex/SequenceParticipant-zz.puml
 
 
-.. index:: SequenceParticipantBorderThickness
-    pair: skinparam; SequenceParticipantBorderThickness
+.. index::  skinparam; SequenceParticipantBorderThickness
 
 .. _SequenceParticipantBorderThickness:
 
@@ -12796,7 +12489,7 @@ Sequence
 :Usage:
     :code:`SequenceParticipantBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -12806,13 +12499,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceParticipantBorderThickness [ number ]`:
+:Example:    :code:`SequenceParticipantBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/SequenceParticipantBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/SequenceParticipantBorderThickness-5.puml
 
 
-.. index:: SequenceReferenceAlignment
-    pair: skinparam; SequenceReferenceAlignment
+.. index::  skinparam; SequenceReferenceAlignment
 
 .. _SequenceReferenceAlignment:
 
@@ -12824,7 +12516,7 @@ Sequence
 :Usage:
     :code:`SequenceReferenceAlignment zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -12834,13 +12526,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceReferenceAlignment zz`:
+:Example:    :code:`SequenceReferenceAlignment zz`
 
     .. uml::  puml/sk-ex/SequenceReferenceAlignment-zz.puml
 
 
-.. index:: SequenceReferenceBackgroundColor
-    pair: skinparam; SequenceReferenceBackgroundColor
+.. index::  skinparam; SequenceReferenceBackgroundColor
 
 .. _SequenceReferenceBackgroundColor:
 
@@ -12862,13 +12553,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceReferenceBackgroundColor GreenYellow`:
+:Example:    :code:`SequenceReferenceBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/SequenceReferenceBackgroundColor-GreenYellow.puml
 
 
-.. index:: SequenceReferenceBorderColor
-    pair: skinparam; SequenceReferenceBorderColor
+.. index::  skinparam; SequenceReferenceBorderColor
 
 .. _SequenceReferenceBorderColor:
 
@@ -12890,13 +12580,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceReferenceBorderColor red`:
+:Example:    :code:`SequenceReferenceBorderColor red`
 
     .. uml::  puml/sk-ex/SequenceReferenceBorderColor-red.puml
 
 
-.. index:: SequenceReferenceBorderThickness
-    pair: skinparam; SequenceReferenceBorderThickness
+.. index::  skinparam; SequenceReferenceBorderThickness
 
 .. _SequenceReferenceBorderThickness:
 
@@ -12908,7 +12597,7 @@ Sequence
 :Usage:
     :code:`SequenceReferenceBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -12918,13 +12607,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceReferenceBorderThickness [ number ]`:
+:Example:    :code:`SequenceReferenceBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/SequenceReferenceBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/SequenceReferenceBorderThickness-5.puml
 
 
-.. index:: SequenceReferenceFontColor
-    pair: skinparam; SequenceReferenceFontColor
+.. index::  skinparam; SequenceReferenceFontColor
 
 .. _SequenceReferenceFontColor:
 
@@ -12946,13 +12634,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceReferenceFontColor red`:
+:Example:    :code:`SequenceReferenceFontColor red`
 
     .. uml::  puml/sk-ex/SequenceReferenceFontColor-red.puml
 
 
-.. index:: SequenceReferenceFontName
-    pair: skinparam; SequenceReferenceFontName
+.. index::  skinparam; SequenceReferenceFontName
 
 .. _SequenceReferenceFontName:
 
@@ -12975,13 +12662,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceReferenceFontName Papyrus`:
+:Example:    :code:`SequenceReferenceFontName Papyrus`
 
     .. uml::  puml/sk-ex/SequenceReferenceFontName-Papyrus.puml
 
 
-.. index:: SequenceReferenceFontSize
-    pair: skinparam; SequenceReferenceFontSize
+.. index::  skinparam; SequenceReferenceFontSize
 
 .. _SequenceReferenceFontSize:
 
@@ -13003,13 +12689,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceReferenceFontSize 18`:
+:Example:    :code:`SequenceReferenceFontSize 18`
 
     .. uml::  puml/sk-ex/SequenceReferenceFontSize-18.puml
 
 
-.. index:: SequenceReferenceFontStyle
-    pair: skinparam; SequenceReferenceFontStyle
+.. index::  skinparam; SequenceReferenceFontStyle
 
 .. _SequenceReferenceFontStyle:
 
@@ -13031,13 +12716,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceReferenceFontStyle italic`:
+:Example:    :code:`SequenceReferenceFontStyle italic`
 
     .. uml::  puml/sk-ex/SequenceReferenceFontStyle-italic.puml
 
 
-.. index:: SequenceReferenceHeaderBackgroundColor
-    pair: skinparam; SequenceReferenceHeaderBackgroundColor
+.. index::  skinparam; SequenceReferenceHeaderBackgroundColor
 
 .. _SequenceReferenceHeaderBackgroundColor:
 
@@ -13059,13 +12743,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceReferenceHeaderBackgroundColor GreenYellow`:
+:Example:    :code:`SequenceReferenceHeaderBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/SequenceReferenceHeaderBackgroundColor-GreenYellow.puml
 
 
-.. index:: SequenceStereotypeFontColor
-    pair: skinparam; SequenceStereotypeFontColor
+.. index::  skinparam; SequenceStereotypeFontColor
 
 .. _SequenceStereotypeFontColor:
 
@@ -13087,13 +12770,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceStereotypeFontColor red`:
+:Example:    :code:`SequenceStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/SequenceStereotypeFontColor-red.puml
 
 
-.. index:: SequenceStereotypeFontName
-    pair: skinparam; SequenceStereotypeFontName
+.. index::  skinparam; SequenceStereotypeFontName
 
 .. _SequenceStereotypeFontName:
 
@@ -13116,13 +12798,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceStereotypeFontName Papyrus`:
+:Example:    :code:`SequenceStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/SequenceStereotypeFontName-Papyrus.puml
 
 
-.. index:: SequenceStereotypeFontSize
-    pair: skinparam; SequenceStereotypeFontSize
+.. index::  skinparam; SequenceStereotypeFontSize
 
 .. _SequenceStereotypeFontSize:
 
@@ -13144,13 +12825,12 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceStereotypeFontSize 18`:
+:Example:    :code:`SequenceStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/SequenceStereotypeFontSize-18.puml
 
 
-.. index:: SequenceStereotypeFontStyle
-    pair: skinparam; SequenceStereotypeFontStyle
+.. index::  skinparam; SequenceStereotypeFontStyle
 
 .. _SequenceStereotypeFontStyle:
 
@@ -13172,14 +12852,13 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceStereotypeFontStyle italic`:
+:Example:    :code:`SequenceStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/SequenceStereotypeFontStyle-italic.puml
 
 
-.. index:: SequenceTitleFontColor
-    pair: skinparam; SequenceTitleFontColor
-      pair: UML Sequence diagram; SequenceTitleFontColor
+.. index::  skinparam; SequenceTitleFontColor
+      single: UML Sequence diagram; skinparam SequenceTitleFontColor
 
 .. _SequenceTitleFontColor:
 
@@ -13201,14 +12880,13 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceTitleFontColor red`:
+:Example:    :code:`SequenceTitleFontColor red`
 
     .. uml::  puml/sk-ex/SequenceTitleFontColor-red.puml
 
 
-.. index:: SequenceTitleFontName
-    pair: skinparam; SequenceTitleFontName
-      pair: UML Sequence diagram; SequenceTitleFontName
+.. index::  skinparam; SequenceTitleFontName
+      single: UML Sequence diagram; skinparam SequenceTitleFontName
 
 .. _SequenceTitleFontName:
 
@@ -13231,14 +12909,13 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceTitleFontName Papyrus`:
+:Example:    :code:`SequenceTitleFontName Papyrus`
 
     .. uml::  puml/sk-ex/SequenceTitleFontName-Papyrus.puml
 
 
-.. index:: SequenceTitleFontSize
-    pair: skinparam; SequenceTitleFontSize
-      pair: UML Sequence diagram; SequenceTitleFontSize
+.. index::  skinparam; SequenceTitleFontSize
+      single: UML Sequence diagram; skinparam SequenceTitleFontSize
 
 .. _SequenceTitleFontSize:
 
@@ -13260,14 +12937,13 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceTitleFontSize 10`:
+:Example:    :code:`SequenceTitleFontSize 10`
 
     .. uml::  puml/sk-ex/SequenceTitleFontSize-10.puml
 
 
-.. index:: SequenceTitleFontStyle
-    pair: skinparam; SequenceTitleFontStyle
-      pair: UML Sequence diagram; SequenceTitleFontStyle
+.. index::  skinparam; SequenceTitleFontStyle
+      single: UML Sequence diagram; skinparam SequenceTitleFontStyle
 
 .. _SequenceTitleFontStyle:
 
@@ -13289,16 +12965,18 @@ Sequence
         Sequence diagrams
 
 
-:Example:    :code:`SequenceTitleFontStyle italic`:
+:Example:    :code:`SequenceTitleFontStyle italic`
 
     .. uml::  puml/sk-ex/SequenceTitleFontStyle-italic.puml
 
 
+.. index:: skinparam; shadowing
+      single: All diagrams; skinparam shadowing
+
 Shadowing
 =========
 
-.. index:: Shadowing
-    pair: skinparam; Shadowing
+.. index::  skinparam; Shadowing
 
 .. _Shadowing:
 
@@ -13320,7 +12998,7 @@ Shadowing
         All diagrams
 
 
-:Example:    :code:`Shadowing zz`:
+:Example:    :code:`Shadowing zz`
 
     .. uml::  puml/sk-ex/Shadowing-true.puml
 
@@ -13332,8 +13010,7 @@ Shadowing
 
 
 
-.. index:: Stack
-    pair: skinparam; Stack
+.. index::  skinparam; Stack
 
 .. _Stack:
 
@@ -13341,8 +13018,7 @@ Stack
 =====
 
 
-.. index:: StackBackgroundColor
-    pair: skinparam; StackBackgroundColor
+.. index::  skinparam; StackBackgroundColor
 
 .. _StackBackgroundColor:
 
@@ -13361,16 +13037,15 @@ Stack
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`StackBackgroundColor lawnGreen`:
+:Example:    :code:`StackBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/StackBackgroundColor-lawnGreen.puml
 
 
-.. index:: StackBorderColor
-    pair: skinparam; StackBorderColor
+.. index::  skinparam; StackBorderColor
 
 .. _StackBorderColor:
 
@@ -13389,16 +13064,15 @@ Stack
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`StackBorderColor red`:
+:Example:    :code:`StackBorderColor red`
 
     .. uml::  puml/sk-ex/StackBorderColor-red.puml
 
 
-.. index:: StackFontColor
-    pair: skinparam; StackFontColor
+.. index::  skinparam; StackFontColor
 
 .. _StackFontColor:
 
@@ -13417,16 +13091,15 @@ Stack
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`StackFontColor red`:
+:Example:    :code:`StackFontColor red`
 
     .. uml::  puml/sk-ex/StackFontColor-red.puml
 
 
-.. index:: StackFontName
-    pair: skinparam; StackFontName
+.. index::  skinparam; StackFontName
 
 .. _StackFontName:
 
@@ -13446,16 +13119,15 @@ Stack
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`StackFontName Papyrus`:
+:Example:    :code:`StackFontName Papyrus`
 
     .. uml::  puml/sk-ex/StackFontName-Papyrus.puml
 
 
-.. index:: StackFontSize
-    pair: skinparam; StackFontSize
+.. index::  skinparam; StackFontSize
 
 .. _StackFontSize:
 
@@ -13474,16 +13146,15 @@ Stack
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`StackFontSize 18`:
+:Example:    :code:`StackFontSize 18`
 
     .. uml::  puml/sk-ex/StackFontSize-18.puml
 
 
-.. index:: StackFontStyle
-    pair: skinparam; StackFontStyle
+.. index::  skinparam; StackFontStyle
 
 .. _StackFontStyle:
 
@@ -13502,16 +13173,15 @@ Stack
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`StackFontStyle italic`:
+:Example:    :code:`StackFontStyle italic`
 
     .. uml::  puml/sk-ex/StackFontStyle-italic.puml
 
 
-.. index:: StackStereotypeFontColor
-    pair: skinparam; StackStereotypeFontColor
+.. index::  skinparam; StackStereotypeFontColor
 
 .. _StackStereotypeFontColor:
 
@@ -13530,16 +13200,15 @@ Stack
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`StackStereotypeFontColor red`:
+:Example:    :code:`StackStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/StackStereotypeFontColor-red.puml
 
 
-.. index:: StackStereotypeFontName
-    pair: skinparam; StackStereotypeFontName
+.. index::  skinparam; StackStereotypeFontName
 
 .. _StackStereotypeFontName:
 
@@ -13559,16 +13228,15 @@ Stack
 
     .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`StackStereotypeFontName Papyrus`:
+:Example:    :code:`StackStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/StackStereotypeFontName-Papyrus.puml
 
 
-.. index:: StackStereotypeFontSize
-    pair: skinparam; StackStereotypeFontSize
+.. index::  skinparam; StackStereotypeFontSize
 
 .. _StackStereotypeFontSize:
 
@@ -13587,16 +13255,15 @@ Stack
 
    .. container:: applies-to
 
-      Deployment diagrams
+      zz
 
 
-:Example:    :code:`StackStereotypeFontSize 18`:
+:Example:    :code:`StackStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/StackStereotypeFontSize-18.puml
 
 
-.. index:: StackStereotypeFontStyle
-    pair: skinparam; StackStereotypeFontStyle
+.. index::  skinparam; StackStereotypeFontStyle
 
 .. _StackStereotypeFontStyle:
 
@@ -13615,18 +13282,17 @@ Stack
 
    .. container:: applies-to
 
-        Deployment diagrams
+        zz
 
 
-:Example:    :code:`StackStereotypeFontStyle italic`:
+:Example:    :code:`StackStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/StackStereotypeFontStyle-italic.puml
 
 
 
 
-.. index:: State
-    pair: skinparam; State
+.. index::  skinparam; State
 
 .. _State:
 
@@ -13634,8 +13300,7 @@ State
 =====
 
 
-.. index:: StateAttributeFontColor
-    pair: skinparam; StateAttributeFontColor
+.. index::  skinparam; StateAttributeFontColor
 
 .. _StateAttributeFontColor:
 
@@ -13657,13 +13322,12 @@ State
         zz
 
 
-:Example:    :code:`StateAttributeFontColor red`:
+:Example:    :code:`StateAttributeFontColor red`
 
     .. uml::  puml/sk-ex/StateAttributeFontColor-red.puml
 
 
-.. index:: StateAttributeFontName
-    pair: skinparam; StateAttributeFontName
+.. index::  skinparam; StateAttributeFontName
 
 .. _StateAttributeFontName:
 
@@ -13686,13 +13350,12 @@ State
         zz
 
 
-:Example:    :code:`StateAttributeFontName Papyrus`:
+:Example:    :code:`StateAttributeFontName Papyrus`
 
     .. uml::  puml/sk-ex/StateAttributeFontName-Papyrus.puml
 
 
-.. index:: StateAttributeFontSize
-    pair: skinparam; StateAttributeFontSize
+.. index::  skinparam; StateAttributeFontSize
 
 .. _StateAttributeFontSize:
 
@@ -13714,13 +13377,12 @@ State
         zz
 
 
-:Example:    :code:`StateAttributeFontSize 18`:
+:Example:    :code:`StateAttributeFontSize 18`
 
     .. uml::  puml/sk-ex/StateAttributeFontSize-18.puml
 
 
-.. index:: StateAttributeFontStyle
-    pair: skinparam; StateAttributeFontStyle
+.. index::  skinparam; StateAttributeFontStyle
 
 .. _StateAttributeFontStyle:
 
@@ -13742,13 +13404,12 @@ State
         zz
 
 
-:Example:    :code:`StateAttributeFontStyle italic`:
+:Example:    :code:`StateAttributeFontStyle italic`
 
     .. uml::  puml/sk-ex/StateAttributeFontStyle-italic.puml
 
 
-.. index:: StateBackgroundColor
-    pair: skinparam; StateBackgroundColor
+.. index::  skinparam; StateBackgroundColor
 
 .. _StateBackgroundColor:
 
@@ -13770,13 +13431,12 @@ State
         zz
 
 
-:Example:    :code:`StateBackgroundColor GreenYellow`:
+:Example:    :code:`StateBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/StateBackgroundColor-GreenYellow.puml
 
 
-.. index:: StateBorderColor
-    pair: skinparam; StateBorderColor
+.. index::  skinparam; StateBorderColor
 
 .. _StateBorderColor:
 
@@ -13798,13 +13458,12 @@ State
         zz
 
 
-:Example:    :code:`StateBorderColor red`:
+:Example:    :code:`StateBorderColor red`
 
     .. uml::  puml/sk-ex/StateBorderColor-red.puml
 
 
-.. index:: StateEndColor
-    pair: skinparam; StateEndColor
+.. index::  skinparam; StateEndColor
 
 .. _StateEndColor:
 
@@ -13816,7 +13475,7 @@ State
 :Usage:
     :code:`StateEndColor [ #predefinedColorName | #hexColorNumber ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -13826,13 +13485,12 @@ State
         zz
 
 
-:Example:    :code:`StateEndColor [ #predefinedColorName | #hexColorNumber ]`:
+:Example:    :code:`StateEndColor [ #predefinedColorName | #hexColorNumber ]`
 
     .. uml::  puml/sk-ex/StateEndColor-zz.puml
 
 
-.. index:: StateFontColor
-    pair: skinparam; StateFontColor
+.. index::  skinparam; StateFontColor
 
 .. _StateFontColor:
 
@@ -13854,13 +13512,12 @@ State
         zz
 
 
-:Example:    :code:`StateFontColor red`:
+:Example:    :code:`StateFontColor red`
 
     .. uml::  puml/sk-ex/StateFontColor-red.puml
 
 
-.. index:: StateFontName
-    pair: skinparam; StateFontName
+.. index::  skinparam; StateFontName
 
 .. _StateFontName:
 
@@ -13883,13 +13540,12 @@ State
         zz
 
 
-:Example:    :code:`StateFontName Papyrus`:
+:Example:    :code:`StateFontName Papyrus`
 
     .. uml::  puml/sk-ex/StateFontName-Papyrus.puml
 
 
-.. index:: StateFontSize
-    pair: skinparam; StateFontSize
+.. index::  skinparam; StateFontSize
 
 .. _StateFontSize:
 
@@ -13911,13 +13567,12 @@ State
         zz
 
 
-:Example:    :code:`StateFontSize 18`:
+:Example:    :code:`StateFontSize 18`
 
     .. uml::  puml/sk-ex/StateFontSize-18.puml
 
 
-.. index:: StateFontStyle
-    pair: skinparam; StateFontStyle
+.. index::  skinparam; StateFontStyle
 
 .. _StateFontStyle:
 
@@ -13939,13 +13594,12 @@ State
         zz
 
 
-:Example:    :code:`StateFontStyle italic`:
+:Example:    :code:`StateFontStyle italic`
 
     .. uml::  puml/sk-ex/StateFontStyle-italic.puml
 
 
-.. index:: StateStartColor
-    pair: skinparam; StateStartColor
+.. index::  skinparam; StateStartColor
 
 .. _StateStartColor:
 
@@ -13957,7 +13611,7 @@ State
 :Usage:
     :code:`StateStartColor [ #predefinedColorName | #hexColorNumber ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -13967,15 +13621,14 @@ State
         zz
 
 
-:Example:    :code:`StateStartColor [ #predefinedColorName | #hexColorNumber ]`:
+:Example:    :code:`StateStartColor [ #predefinedColorName | #hexColorNumber ]`
 
     .. uml::  puml/sk-ex/StateStartColor-zz.puml
 
 
 
 
-.. index:: Stereotype
-    pair: skinparam; Stereotype
+.. index::  skinparam; skinparam Stereotype
 
 .. _Stereotype:
 
@@ -13983,8 +13636,7 @@ Stereotype
 ==========
 
 
-.. index:: StereotypeABackgroundColor
-    pair: skinparam; StereotypeABackgroundColor
+.. index::  skinparam; skinparam StereotypeABackgroundColor
 
 .. _StereotypeABackgroundColor:
 
@@ -14006,13 +13658,12 @@ Stereotype
         zz
 
 
-:Example:    :code:`StereotypeABackgroundColor GreenYellow`:
+:Example:    :code:`StereotypeABackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/StereotypeABackgroundColor-GreenYellow.puml
 
 
-.. index:: StereotypeABorderColor
-    pair: skinparam; StereotypeABorderColor
+.. index::  skinparam; skinparam StereotypeABorderColor
 
 .. _StereotypeABorderColor:
 
@@ -14034,13 +13685,12 @@ Stereotype
         zz
 
 
-:Example:    :code:`StereotypeABorderColor red`:
+:Example:    :code:`StereotypeABorderColor red`
 
     .. uml::  puml/sk-ex/StereotypeABorderColor-red.puml
 
 
-.. index:: StereotypeCBackgroundColor
-    pair: skinparam; StereotypeCBackgroundColor
+.. index::  skinparam; skinparam StereotypeCBackgroundColor
 
 .. _StereotypeCBackgroundColor:
 
@@ -14062,13 +13712,12 @@ Stereotype
         zz
 
 
-:Example:    :code:`StereotypeCBackgroundColor GreenYellow`:
+:Example:    :code:`StereotypeCBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/StereotypeCBackgroundColor-GreenYellow.puml
 
 
-.. index:: StereotypeCBorderColor
-    pair: skinparam; StereotypeCBorderColor
+.. index::  skinparam; skinparam StereotypeCBorderColor
 
 .. _StereotypeCBorderColor:
 
@@ -14090,13 +13739,12 @@ Stereotype
         zz
 
 
-:Example:    :code:`StereotypeCBorderColor red`:
+:Example:    :code:`StereotypeCBorderColor red`
 
     .. uml::  puml/sk-ex/StereotypeCBorderColor-red.puml
 
 
-.. index:: StereotypeEBackgroundColor
-    pair: skinparam; StereotypeEBackgroundColor
+.. index::  skinparam; skinparam StereotypeEBackgroundColor
 
 .. _StereotypeEBackgroundColor:
 
@@ -14118,13 +13766,12 @@ Stereotype
         zz
 
 
-:Example:    :code:`StereotypeEBackgroundColor GreenYellow`:
+:Example:    :code:`StereotypeEBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/StereotypeEBackgroundColor-GreenYellow.puml
 
 
-.. index:: StereotypeEBorderColor
-    pair: skinparam; StereotypeEBorderColor
+.. index::  skinparam; skinparam StereotypeEBorderColor
 
 .. _StereotypeEBorderColor:
 
@@ -14146,13 +13793,12 @@ Stereotype
         zz
 
 
-:Example:    :code:`StereotypeEBorderColor red`:
+:Example:    :code:`StereotypeEBorderColor red`
 
     .. uml::  puml/sk-ex/StereotypeEBorderColor-red.puml
 
 
-.. index:: StereotypeIBackgroundColor
-    pair: skinparam; StereotypeIBackgroundColor
+.. index::  skinparam; skinparam StereotypeIBackgroundColor
 
 .. _StereotypeIBackgroundColor:
 
@@ -14174,13 +13820,12 @@ Stereotype
         zz
 
 
-:Example:    :code:`StereotypeIBackgroundColor GreenYellow`:
+:Example:    :code:`StereotypeIBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/StereotypeIBackgroundColor-GreenYellow.puml
 
 
-.. index:: StereotypeIBorderColor
-    pair: skinparam; StereotypeIBorderColor
+.. index::  skinparam; skinparam StereotypeIBorderColor
 
 .. _StereotypeIBorderColor:
 
@@ -14202,13 +13847,12 @@ Stereotype
         zz
 
 
-:Example:    :code:`StereotypeIBorderColor red`:
+:Example:    :code:`StereotypeIBorderColor red`
 
     .. uml::  puml/sk-ex/StereotypeIBorderColor-red.puml
 
 
-.. index:: StereotypeNBackgroundColor
-    pair: skinparam; StereotypeNBackgroundColor
+.. index::  skinparam; skinparam StereotypeNBackgroundColor
 
 .. _StereotypeNBackgroundColor:
 
@@ -14230,13 +13874,12 @@ Stereotype
         zz
 
 
-:Example:    :code:`StereotypeNBackgroundColor GreenYellow`:
+:Example:    :code:`StereotypeNBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/StereotypeNBackgroundColor-GreenYellow.puml
 
 
-.. index:: StereotypeNBorderColor
-    pair: skinparam; StereotypeNBorderColor
+.. index::  skinparam; skinparam StereotypeNBorderColor
 
 .. _StereotypeNBorderColor:
 
@@ -14258,13 +13901,12 @@ Stereotype
         zz
 
 
-:Example:    :code:`StereotypeNBorderColor red`:
+:Example:    :code:`StereotypeNBorderColor red`
 
     .. uml::  puml/sk-ex/StereotypeNBorderColor-red.puml
 
 
-.. index:: StereotypePosition
-    pair: skinparam; StereotypePosition
+.. index::  skinparam; skinparam StereotypePosition
 
 .. _StereotypePosition:
 
@@ -14276,7 +13918,7 @@ Stereotype
 :Usage:
     :code:`StereotypePosition zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -14286,23 +13928,21 @@ Stereotype
         zz
 
 
-:Example:    :code:`StereotypePosition zz`:
+:Example:    :code:`StereotypePosition zz`
 
     .. uml::  puml/sk-ex/StereotypePosition-zz.puml
 
 
 
 
-.. index:: Storage
-    pair: skinparam; Storage
+.. index::  skinparam; Storage
 
 .. _Storage:
 
 Storage
 =======
 
-.. index:: StorageBackgroundColor
-    pair: skinparam; StorageBackgroundColor
+.. index::  skinparam; StorageBackgroundColor
 
 .. _StorageBackgroundColor:
 
@@ -14324,13 +13964,12 @@ Storage
         zz
 
 
-:Example:    :code:`StorageBackgroundColor lawnGreen`:
+:Example:    :code:`StorageBackgroundColor lawnGreen`
 
     .. uml::  puml/sk-ex/StorageBackgroundColor-lawnGreen.puml
 
 
-.. index:: StorageBorderColor
-    pair: skinparam; StorageBorderColor
+.. index::  skinparam; StorageBorderColor
 
 .. _StorageBorderColor:
 
@@ -14352,13 +13991,12 @@ Storage
         zz
 
 
-:Example:    :code:`StorageBorderColor red`:
+:Example:    :code:`StorageBorderColor red`
 
     .. uml::  puml/sk-ex/StorageBorderColor-red.puml
 
 
-.. index:: StorageFontColor
-    pair: skinparam; StorageFontColor
+.. index::  skinparam; StorageFontColor
 
 .. _StorageFontColor:
 
@@ -14380,13 +14018,12 @@ Storage
         zz
 
 
-:Example:    :code:`StorageFontColor red`:
+:Example:    :code:`StorageFontColor red`
 
     .. uml::  puml/sk-ex/StorageFontColor-red.puml
 
 
-.. index:: StorageFontName
-    pair: skinparam; StorageFontName
+.. index::  skinparam; StorageFontName
 
 .. _StorageFontName:
 
@@ -14409,13 +14046,12 @@ Storage
         zz
 
 
-:Example:    :code:`StorageFontName Papyrus`:
+:Example:    :code:`StorageFontName Papyrus`
 
     .. uml::  puml/sk-ex/StorageFontName-Papyrus.puml
 
 
-.. index:: StorageFontSize
-    pair: skinparam; StorageFontSize
+.. index::  skinparam; StorageFontSize
 
 .. _StorageFontSize:
 
@@ -14437,13 +14073,12 @@ Storage
         zz
 
 
-:Example:    :code:`StorageFontSize 18`:
+:Example:    :code:`StorageFontSize 18`
 
     .. uml::  puml/sk-ex/StorageFontSize-18.puml
 
 
-.. index:: StorageFontStyle
-    pair: skinparam; StorageFontStyle
+.. index::  skinparam; StorageFontStyle
 
 .. _StorageFontStyle:
 
@@ -14465,13 +14100,12 @@ Storage
         zz
 
 
-:Example:    :code:`StorageFontStyle italic`:
+:Example:    :code:`StorageFontStyle italic`
 
     .. uml::  puml/sk-ex/StorageFontStyle-italic.puml
 
 
-.. index:: StorageStereotypeFontColor
-    pair: skinparam; StorageStereotypeFontColor
+.. index::  skinparam; StorageStereotypeFontColor
 
 .. _StorageStereotypeFontColor:
 
@@ -14493,13 +14127,12 @@ Storage
         zz
 
 
-:Example:    :code:`StorageStereotypeFontColor red`:
+:Example:    :code:`StorageStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/StorageStereotypeFontColor-red.puml
 
 
-.. index:: StorageStereotypeFontName
-    pair: skinparam; StorageStereotypeFontName
+.. index::  skinparam; StorageStereotypeFontName
 
 .. _StorageStereotypeFontName:
 
@@ -14522,13 +14155,12 @@ Storage
         zz
 
 
-:Example:    :code:`StorageStereotypeFontName Papyrus`:
+:Example:    :code:`StorageStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/StorageStereotypeFontName-Papyrus.puml
 
 
-.. index:: StorageStereotypeFontSize
-    pair: skinparam; StorageStereotypeFontSize
+.. index::  skinparam; StorageStereotypeFontSize
 
 .. _StorageStereotypeFontSize:
 
@@ -14550,13 +14182,12 @@ Storage
         zz
 
 
-:Example:    :code:`StorageStereotypeFontSize 18`:
+:Example:    :code:`StorageStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/StorageStereotypeFontSize-18.puml
 
 
-.. index:: StorageStereotypeFontStyle
-    pair: skinparam; StorageStereotypeFontStyle
+.. index::  skinparam; StorageStereotypeFontStyle
 
 .. _StorageStereotypeFontStyle:
 
@@ -14578,7 +14209,7 @@ Storage
         zz
 
 
-:Example:    :code:`StorageStereotypeFontStyle italic`:
+:Example:    :code:`StorageStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/StorageStereotypeFontStyle-italic.puml
 
@@ -14586,8 +14217,7 @@ Storage
 Style
 =====
 
-.. index:: Style
-    pair: skinparam; Style
+.. index::  skinparam; Style
 
 .. _Style:
 
@@ -14599,7 +14229,7 @@ Style
 :Usage:
     :code:`Style [ normal | plain | italic | bold ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -14609,7 +14239,7 @@ Style
         zz
 
 
-:Example:    :code:`Style [ normal | plain | italic | bold ]`:
+:Example:    :code:`Style [ normal | plain | italic | bold ]`
 
     .. uml::  puml/sk-ex/Style-zz.puml
 
@@ -14618,8 +14248,7 @@ Style
 SvglinkTarget
 =============
 
-.. index:: SvglinkTarget
-    pair: skinparam; SvglinkTarget
+.. index::  skinparam; SvglinkTarget
 
 .. _SvglinkTarget:
 
@@ -14631,7 +14260,7 @@ SvglinkTarget
 :Usage:
     :code:`SvglinkTarget zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -14641,23 +14270,21 @@ SvglinkTarget
         zz
 
 
-:Example:    :code:`SvglinkTarget zz`:
+:Example:    :code:`SvglinkTarget zz`
 
     .. uml::  puml/sk-ex/SvglinkTarget-zz.puml
 
 
 
 
-.. index:: Swimlane
-    pair: skinparam; Swimlane
+.. index::  skinparam; Swimlane
 
 .. _Swimlane:
 
 Swimlane
 ========
 
-.. index:: SwimlaneBorderColor
-    pair: skinparam; SwimlaneBorderColor
+.. index::  skinparam; SwimlaneBorderColor
 
 .. _SwimlaneBorderColor:
 
@@ -14679,13 +14306,12 @@ Swimlane
         zz
 
 
-:Example:    :code:`SwimlaneBorderColor red`:
+:Example:    :code:`SwimlaneBorderColor red`
 
     .. uml::  puml/sk-ex/SwimlaneBorderColor-red.puml
 
 
-.. index:: SwimlaneBorderThickness
-    pair: skinparam; SwimlaneBorderThickness
+.. index::  skinparam; SwimlaneBorderThickness
 
 .. _SwimlaneBorderThickness:
 
@@ -14697,7 +14323,7 @@ Swimlane
 :Usage:
     :code:`SwimlaneBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -14707,13 +14333,12 @@ Swimlane
         zz
 
 
-:Example:    :code:`SwimlaneBorderThickness [ number ]`:
+:Example:    :code:`SwimlaneBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/SwimlaneBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/SwimlaneBorderThickness-5.puml
 
 
-.. index:: SwimlaneTitleFontColor
-    pair: skinparam; SwimlaneTitleFontColor
+.. index::  skinparam; SwimlaneTitleFontColor
 
 .. _SwimlaneTitleFontColor:
 
@@ -14735,13 +14360,12 @@ Swimlane
         zz
 
 
-:Example:    :code:`SwimlaneTitleFontColor red`:
+:Example:    :code:`SwimlaneTitleFontColor red`
 
     .. uml::  puml/sk-ex/SwimlaneTitleFontColor-red.puml
 
 
-.. index:: SwimlaneTitleFontName
-    pair: skinparam; SwimlaneTitleFontName
+.. index::  skinparam; SwimlaneTitleFontName
 
 .. _SwimlaneTitleFontName:
 
@@ -14764,13 +14388,12 @@ Swimlane
         zz
 
 
-:Example:    :code:`SwimlaneTitleFontName Papyrus`:
+:Example:    :code:`SwimlaneTitleFontName Papyrus`
 
     .. uml::  puml/sk-ex/SwimlaneTitleFontName-Papyrus.puml
 
 
-.. index:: SwimlaneTitleFontSize
-    pair: skinparam; SwimlaneTitleFontSize
+.. index::  skinparam; SwimlaneTitleFontSize
 
 .. _SwimlaneTitleFontSize:
 
@@ -14792,13 +14415,12 @@ Swimlane
         zz
 
 
-:Example:    :code:`SwimlaneTitleFontSize 18`:
+:Example:    :code:`SwimlaneTitleFontSize 18`
 
     .. uml::  puml/sk-ex/SwimlaneTitleFontSize-18.puml
 
 
-.. index:: SwimlaneTitleFontStyle
-    pair: skinparam; SwimlaneTitleFontStyle
+.. index::  skinparam; SwimlaneTitleFontStyle
 
 .. _SwimlaneTitleFontStyle:
 
@@ -14820,13 +14442,12 @@ Swimlane
         zz
 
 
-:Example:    :code:`SwimlaneTitleFontStyle italic`:
+:Example:    :code:`SwimlaneTitleFontStyle italic`
 
     .. uml::  puml/sk-ex/SwimlaneTitleFontStyle-italic.puml
 
 
-.. index:: SwimlaneWidth
-    pair: skinparam; SwimlaneWidth
+.. index::  skinparam; SwimlaneWidth
 
 .. _SwimlaneWidth:
 
@@ -14838,7 +14459,7 @@ Swimlane
 :Usage:
     :code:`SwimlaneWidth zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -14848,13 +14469,12 @@ Swimlane
         zz
 
 
-:Example:    :code:`SwimlaneWidth zz`:
+:Example:    :code:`SwimlaneWidth zz`
 
     .. uml::  puml/sk-ex/SwimlaneWidth-zz.puml
 
 
-.. index:: SwimlaneWrapTitleWidth
-    pair: skinparam; SwimlaneWrapTitleWidth
+.. index::  skinparam; SwimlaneWrapTitleWidth
 
 .. _SwimlaneWrapTitleWidth:
 
@@ -14866,7 +14486,7 @@ Swimlane
 :Usage:
     :code:`SwimlaneWrapTitleWidth zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -14876,7 +14496,7 @@ Swimlane
         zz
 
 
-:Example:    :code:`SwimlaneWrapTitleWidth zz`:
+:Example:    :code:`SwimlaneWrapTitleWidth zz`
 
     .. uml::  puml/sk-ex/SwimlaneWrapTitleWidth-zz.puml
 
@@ -14899,8 +14519,7 @@ T
 TabSize
 =======
 
-.. index:: TabSize
-    pair: skinparam; TabSize
+.. index::  skinparam; TabSize
 
 .. _TabSize:
 
@@ -14912,7 +14531,7 @@ TabSize
 :Usage:
     :code:`TabSize [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -14922,7 +14541,7 @@ TabSize
         zz
 
 
-:Example:    :code:`TabSize [ number ]`:
+:Example:    :code:`TabSize [ number ]`
 
     .. uml::  puml/sk-ex/TabSize-zz.puml
 
@@ -14930,16 +14549,17 @@ TabSize
 
 
 
-.. index:: Title
-    pair: skinparam; Title
+.. index::  skinparam; Title
+      single: All diagrams; skinparam Title
 
 .. _Title:
 
 Title
 =====
 
-.. index:: TitleBackgroundColor
-    pair: skinparam; TitleBackgroundColor
+.. index::  skinparam; TitleBackgroundColor
+      single: Title; skinparam BackgroundColor
+
 
 .. _TitleBackgroundColor:
 
@@ -14951,23 +14571,25 @@ Title
 :Usage:
     :code:`TitleBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     Background (fill) color for a Title.
+    Background (fill) color for a Title.
+    Note that you need to have a border around the title for there to be a fill color.
 
 
 :Applies to:
 
     .. container:: applies-to
 
-        zz
+        All diagrams.
 
 
-:Example:    :code:`TitleBackgroundColor GreenYellow`:
+:Example:    :code:`TitleBackgroundColor yellow`
 
-    .. uml::  puml/sk-ex/TitleBackgroundColor-GreenYellow.puml
+    .. uml::  puml/sk-ex/TitleBackgroundColor-yellow.puml
 
 
-.. index:: TitleBorderColor
-    pair: skinparam; TitleBorderColor
+.. index::  skinparam; TitleBorderColor
+      single: Title; skinparam BorderColor
+
 
 .. _TitleBorderColor:
 
@@ -14979,23 +14601,24 @@ Title
 :Usage:
     :code:`TitleBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    Border color for a Title.
+    Border color for titles.
 
 
 :Applies to:
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`TitleBorderColor red`:
+:Example:    :code:`TitleBorderColor red`
 
     .. uml::  puml/sk-ex/TitleBorderColor-red.puml
 
 
-.. index:: TitleBorderRoundCorner
-    pair: skinparam; TitleBorderRoundCorner
+.. index::  skinparam; TitleBorderRoundCorner
+      single: Title; skinparam BorderRoundCorner
+
 
 .. _TitleBorderRoundCorner:
 
@@ -15005,25 +14628,27 @@ Title
 
 
 :Usage:
-    :code:`TitleBorderRoundCorner zz`
+    :code:`TitleBorderRoundCorner 20`
 
-    zz_description
+    How rounded the corners are for the border around the title.  A value of 0 means that the corners are completely square, not rounded at all.
+
 
 
 :Applies to:
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`TitleBorderRoundCorner zz`:
+:Example:    :code:`TitleBorderRoundCorner 20`
 
-    .. uml::  puml/sk-ex/TitleBorderRoundCorner-zz.puml
+    .. uml::  puml/sk-ex/TitleBorderRoundCorner-20.puml
 
 
-.. index:: TitleBorderThickness
-    pair: skinparam; TitleBorderThickness
+.. index::  skinparam; TitleBorderThickness
+      single: Title; skinparam BorderThickness
+
 
 .. _TitleBorderThickness:
 
@@ -15035,23 +14660,24 @@ Title
 :Usage:
     :code:`TitleBorderThickness [ number ]`
 
-    zz_description
+    All diagrams`
 
 
 :Applies to:
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`TitleBorderThickness [ number ]`:
+:Example:    :code:`TitleBorderThickness 5`
 
-    .. uml::  puml/sk-ex/TitleBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/TitleBorderThickness-5.puml
 
 
-.. index:: TitleFontColor
-    pair: skinparam; TitleFontColor
+.. index::  skinparam; TitleFontColor
+      single: Title; skinparam BorderThickness
+
 
 .. _TitleFontColor:
 
@@ -15070,16 +14696,17 @@ Title
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`TitleFontColor red`:
+:Example:    :code:`TitleFontColor red`
 
     .. uml::  puml/sk-ex/TitleFontColor-red.puml
 
 
-.. index:: TitleFontName
-    pair: skinparam; TitleFontName
+.. index::  skinparam; TitleFontName
+      single: Title; skinparam FontName
+
 
 .. _TitleFontName:
 
@@ -15099,16 +14726,17 @@ Title
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`TitleFontName Papyrus`:
+:Example:    :code:`TitleFontName Papyrus`
 
     .. uml::  puml/sk-ex/TitleFontName-Papyrus.puml
 
 
-.. index:: TitleFontSize
-    pair: skinparam; TitleFontSize
+.. index::  skinparam; TitleFontSize
+      single: Title; skinparam FontSize
+
 
 .. _TitleFontSize:
 
@@ -15127,16 +14755,17 @@ Title
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`TitleFontSize 18`:
+:Example:    :code:`TitleFontSize 18`
 
     .. uml::  puml/sk-ex/TitleFontSize-18.puml
 
 
-.. index:: TitleFontStyle
-    pair: skinparam; TitleFontStyle
+.. index::  skinparam; TitleFontStyle
+      single: Title; skinparam FontStyle
+
 
 .. _TitleFontStyle:
 
@@ -15155,10 +14784,10 @@ Title
 
     .. container:: applies-to
 
-        zz
+        All diagrams
 
 
-:Example:    :code:`TitleFontStyle italic`:
+:Example:    :code:`TitleFontStyle italic`
 
     .. uml::  puml/sk-ex/TitleFontStyle-italic.puml
 
@@ -15181,16 +14810,15 @@ U
 
 
 
-.. index:: Usecase
-    pair: skinparam; Usecase
+.. index:: Usecase, skinparam
+    
 
 .. _Usecase:
 
 Usecase
 =======
 
-.. index:: UsecaseBackgroundColor
-    pair: skinparam; UsecaseBackgroundColor
+.. index::  skinparam; UsecaseBackgroundColor
 
 .. _UsecaseBackgroundColor:
 
@@ -15209,16 +14837,15 @@ Usecase
 
     .. container:: applies-to
 
-        zz
+        zz`
 
 
-:Example:    :code:`UsecaseBackgroundColor GreenYellow`:
+:Example:    :code:`UsecaseBackgroundColor GreenYellow`
 
     .. uml::  puml/sk-ex/UsecaseBackgroundColor-GreenYellow.puml
 
 
-.. index:: UsecaseBorderColor
-    pair: skinparam; UsecaseBorderColor
+.. index::  skinparam; UsecaseBorderColor
 
 .. _UsecaseBorderColor:
 
@@ -15240,13 +14867,12 @@ Usecase
         zz
 
 
-:Example:    :code:`UsecaseBorderColor red`:
+:Example:    :code:`UsecaseBorderColor red`
 
     .. uml::  puml/sk-ex/UsecaseBorderColor-red.puml
 
 
-.. index:: UsecaseBorderThickness
-    pair: skinparam; UsecaseBorderThickness
+.. index::  skinparam; UsecaseBorderThickness
 
 .. _UsecaseBorderThickness:
 
@@ -15258,7 +14884,7 @@ Usecase
 :Usage:
     :code:`UsecaseBorderThickness [ number ]`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -15268,13 +14894,12 @@ Usecase
         zz
 
 
-:Example:    :code:`UsecaseBorderThickness [ number ]`:
+:Example:    :code:`UsecaseBorderThickness [ number ]`
 
-    .. uml::  puml/sk-ex/UsecaseBorderThickness-zz.puml
+    .. uml::  puml/sk-ex/UsecaseBorderThickness-5.puml
 
 
-.. index:: UsecaseFontColor
-    pair: skinparam; UsecaseFontColor
+.. index::  skinparam; UsecaseFontColor
 
 .. _UsecaseFontColor:
 
@@ -15296,13 +14921,12 @@ Usecase
         zz
 
 
-:Example:    :code:`UsecaseFontColor red`:
+:Example:    :code:`UsecaseFontColor red`
 
     .. uml::  puml/sk-ex/UsecaseFontColor-red.puml
 
 
-.. index:: UsecaseFontName
-    pair: skinparam; UsecaseFontName
+.. index::  skinparam; UsecaseFontName
 
 .. _UsecaseFontName:
 
@@ -15325,13 +14949,12 @@ Usecase
         zz
 
 
-:Example:    :code:`UsecaseFontName Papyrus`:
+:Example:    :code:`UsecaseFontName Papyrus`
 
     .. uml::  puml/sk-ex/UsecaseFontName-Papyrus.puml
 
 
-.. index:: UsecaseFontSize
-    pair: skinparam; UsecaseFontSize
+.. index::  skinparam; UsecaseFontSize
 
 .. _UsecaseFontSize:
 
@@ -15353,13 +14976,12 @@ Usecase
         zz
 
 
-:Example:    :code:`UsecaseFontSize 18`:
+:Example:    :code:`UsecaseFontSize 18`
 
     .. uml::  puml/sk-ex/UsecaseFontSize-18.puml
 
 
-.. index:: UsecaseFontStyle
-    pair: skinparam; UsecaseFontStyle
+.. index::  skinparam; UsecaseFontStyle
 
 .. _UsecaseFontStyle:
 
@@ -15381,13 +15003,12 @@ Usecase
         zz
 
 
-:Example:    :code:`UsecaseFontStyle italic`:
+:Example:    :code:`UsecaseFontStyle italic`
 
     .. uml::  puml/sk-ex/UsecaseFontStyle-italic.puml
 
 
-.. index:: UsecaseStereotypeFontColor
-    pair: skinparam; UsecaseStereotypeFontColor
+.. index::  skinparam; UsecaseStereotypeFontColor
 
 .. _UsecaseStereotypeFontColor:
 
@@ -15409,13 +15030,12 @@ Usecase
         zz
 
 
-:Example:    :code:`UsecaseStereotypeFontColor red`:
+:Example:    :code:`UsecaseStereotypeFontColor red`
 
     .. uml::  puml/sk-ex/UsecaseStereotypeFontColor-red.puml
 
 
-.. index:: UsecaseStereotypeFontName
-    pair: skinparam; UsecaseStereotypeFontName
+.. index::  skinparam; UsecaseStereotypeFontName
 
 .. _UsecaseStereotypeFontName:
 
@@ -15438,13 +15058,12 @@ Usecase
         zz
 
 
-:Example:    :code:`UsecaseStereotypeFontName Papyrus`:
+:Example:    :code:`UsecaseStereotypeFontName Papyrus`
 
     .. uml::  puml/sk-ex/UsecaseStereotypeFontName-Papyrus.puml
 
 
-.. index:: UsecaseStereotypeFontSize
-    pair: skinparam; UsecaseStereotypeFontSize
+.. index::  skinparam; UsecaseStereotypeFontSize
 
 .. _UsecaseStereotypeFontSize:
 
@@ -15466,13 +15085,12 @@ Usecase
         zz
 
 
-:Example:    :code:`UsecaseStereotypeFontSize 18`:
+:Example:    :code:`UsecaseStereotypeFontSize 18`
 
     .. uml::  puml/sk-ex/UsecaseStereotypeFontSize-18.puml
 
 
-.. index:: UsecaseStereotypeFontStyle
-    pair: skinparam; UsecaseStereotypeFontStyle
+.. index::  skinparam; UsecaseStereotypeFontStyle
 
 .. _UsecaseStereotypeFontStyle:
 
@@ -15494,7 +15112,7 @@ Usecase
         zz
 
 
-:Example:    :code:`UsecaseStereotypeFontStyle italic`:
+:Example:    :code:`UsecaseStereotypeFontStyle italic`
 
     .. uml::  puml/sk-ex/UsecaseStereotypeFontStyle-italic.puml
 
@@ -15517,8 +15135,7 @@ W
 WrapWidth
 =========
 
-.. index:: WrapWidth
-    pair: skinparam; WrapWidth
+.. index::  skinparam; WrapWidth
 
 .. _WrapWidth:
 
@@ -15530,7 +15147,7 @@ WrapWidth
 :Usage:
     :code:`WrapWidth zz`
 
-    zz_description
+    zz
 
 
 :Applies to:
@@ -15540,7 +15157,7 @@ WrapWidth
         zz
 
 
-:Example:    :code:`WrapWidth zz`:
+:Example:    :code:`WrapWidth zz`
 
     .. uml::  puml/sk-ex/WrapWidth-zz.puml
 

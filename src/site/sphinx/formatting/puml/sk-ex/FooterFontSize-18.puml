@@ -1,0 +1,13 @@
+@startuml
+
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam FooterFontSize 18
+
+title FooterFontSize 18
+
+!include activity-alarmrings.txt
+
+footer This is the footer for the diagram.
+
+@enduml

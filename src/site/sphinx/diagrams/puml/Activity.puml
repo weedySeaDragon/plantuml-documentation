@@ -1,14 +1,35 @@
 @startuml
-title Activity diagram
+title Activity diagram\n
+
 !include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
 
-(*)  --> "check input"
-If "input is verbose" then
---> [Yes] "turn on verbosity"
---> "run command"
-else
---> "run command"
-Endif
--->(*)
+start
+
+
+
+if (Receive Order) then (accepted)
+:Fill Order;
+:Order Accepted;
+
+
+fork
+:Ship Order;
+
+fork again
+:Send Invoice;
+
+:Receive Payment;
+
+end fork
+
+else (Order Rejected)
+:Send Order Declined Notice;
+
+endif
+
+
+:Close Order;
+
+end
 
 @enduml

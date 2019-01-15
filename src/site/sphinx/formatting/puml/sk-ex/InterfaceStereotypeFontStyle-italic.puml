@@ -1,9 +1,14 @@
 @startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam InterfaceStereotypeFontStyle italic
 
-title InterfaceStereotypeFontStyle italic
+title InterfaceStereotypeFontStyle italic\n
 
 interface Interface <<Stereotype>>
+
+component "component Z" as z
+
+z <|- Interface
+
 @enduml

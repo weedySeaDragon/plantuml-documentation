@@ -8,6 +8,10 @@
 UML Activity Diagram
 ####################
 
+
+.. uml:: puml/Activity.puml
+
+
 .. todo::
 
    Specification and Description Language (SDL) version = renders differently

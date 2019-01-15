@@ -1,0 +1,9 @@
+@startuml
+
+skinparam CircledCharacterFontColor blue
+
+title CircledCharacterFontColor blue
+
+abstract class AbstractList
+
+@enduml

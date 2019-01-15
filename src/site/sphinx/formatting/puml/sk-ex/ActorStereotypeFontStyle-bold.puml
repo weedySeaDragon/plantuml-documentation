@@ -1,6 +1,6 @@
 @startuml
 title ActorStereotypeFontStyle bold
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 skinparam ActorStereotypeFontStyle bold
 
 actor Tim <<Stereotype\ntext>>
@@ -15,4 +15,5 @@ Marsha - [Second Component]
 
 [First Component] --> Marsha
 }
+
 @enduml

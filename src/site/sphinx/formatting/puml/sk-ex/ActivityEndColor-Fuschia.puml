@@ -1,0 +1,9 @@
+@startuml
+
+title ActivityEndColor Fuchsia
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam ActivityEndColor Fuchsia
+!include activity-alarmrings.txt
+
+@enduml

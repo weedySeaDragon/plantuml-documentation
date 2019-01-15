@@ -1,0 +1,9 @@
+
+start
+:alarm rings;
+if (time to wake up?) then (yes)
+ :open eyes;
+else (no)
+ :roll over;
+endif
+stop

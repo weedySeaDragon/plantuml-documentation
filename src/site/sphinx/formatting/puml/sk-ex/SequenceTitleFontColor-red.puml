@@ -1,6 +1,6 @@
 @startuml
 title SequenceTitleFontColor red
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 skinparam SequenceTitleFontColor red
 
 !include seq-AliceBob.txt

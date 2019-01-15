@@ -1,0 +1,10 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam TitleFontName Papyrus
+
+title TitleFontName Papyrus
+
+!include activity-alarmrings.txt
+
+@enduml

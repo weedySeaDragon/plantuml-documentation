@@ -1,0 +1,10 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam TitleFontSize 18
+
+title TitleFontSize 18
+
+!include activity-alarmrings.txt
+
+@enduml

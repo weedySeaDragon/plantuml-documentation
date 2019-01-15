@@ -1,6 +1,5 @@
 @startuml
-
-skinparam Shadowing false
+!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
 
 actor a order 1
 

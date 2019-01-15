@@ -1,8 +1,7 @@
 @startuml
 title ActorStereotypeFontName Papyrus
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 skinparam ActorStereotypeFontName Papyrus
-
 
 !include usecase-2actors.txt
 actor Tim <<Stereotype text>>

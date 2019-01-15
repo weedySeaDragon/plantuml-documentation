@@ -1,0 +1,51 @@
+@startuml
+
+'!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam DefaultFontName Papyrus
+
+title DefaultFontName Papyrus
+
+!include activity-alarmrings.txt
+
+
+skinparam shadowing false
+
+!define DEFAULT_BACKGROUND_COLOR  white
+!define DEFAULT_BORDER_COLOR      #111111
+!define DEFAULT_NOT_SO_DARK       #666666
+!define DEFAULT_FONT_COLOR        Navy
+
+skinparam activity {
+
+    Arrow {
+        Color       DEFAULT_NOT_SO_DARK
+        BorderColor  DEFAULT_BORDER_COLOR
+        FontColor   DEFAULT_NOT_SO_DARK
+        FontSize    12
+        FontStyle   italic
+    }
+
+    BackgroundColor white
+    BorderColor     DEFAULT_BORDER_COLOR
+
+    ' have to specify the background color and border color for Diamond
+    ' it does not pick up the default for activity.
+    ' maybe because it is defined?  have to define everything for it?
+    Diamond {
+        FontStyle         italic  ' this is all we really want to change
+        BackgroundColor   DEFAULT_BACKGROUND_COLOR
+        BorderColor       DEFAULT_BORDER_COLOR
+        BorderColor       DEFAULT_NOT_SO_DARK
+        FontColor         DEFAULT_FONT_COLOR
+        FontSize          14
+
+    }
+    EndColor        red
+    FontSize         13
+    StartColor       ForestGreen
+    EndColor         IndianRed
+}
+
+
+@enduml

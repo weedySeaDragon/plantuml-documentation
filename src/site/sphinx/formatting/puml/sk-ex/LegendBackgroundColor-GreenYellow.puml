@@ -1,0 +1,15 @@
+@startuml
+
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam LegendBackgroundColor GreenYellow
+
+title LegendBackgroundColor GreenYellow
+
+!include activity-alarmrings.txt
+
+legend
+This is the legend for the diagram.
+end legend
+
+@enduml

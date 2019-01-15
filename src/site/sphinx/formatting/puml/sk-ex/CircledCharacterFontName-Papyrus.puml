@@ -1,0 +1,9 @@
+@startuml
+
+skinparam CircledCharacterFontName Papyrus
+
+title CircledCharacterFontColor blue
+
+abstract class AbstractList
+
+@enduml

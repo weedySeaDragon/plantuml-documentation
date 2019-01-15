@@ -1,0 +1,9 @@
+@startuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+skinparam ComponentBorderThickness 5
+
+title ComponentBorderThickness 5
+
+component Component 
+@enduml
