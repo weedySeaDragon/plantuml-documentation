@@ -2,7 +2,7 @@ plugins {
     id 'groovy'
     id 'java'
 
-    id "kr.motd.sphinx" version "2.2.3"
+    id "kr.motd.sphinx" version "2.3.1"
 }
 
 group 'com.ashleycaroline.plantuml'
