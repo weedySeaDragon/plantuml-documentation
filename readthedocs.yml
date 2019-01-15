@@ -4,16 +4,4 @@
 build:
   image: latest
 
-python:
-  version: 3.5
-  setup_py_install: true
-  use_system_site_packages: true
-  pip_install: true
-
-
-# Don't build any extra formats
-formats: []
-
-requirements_file: requirements.txt
-
 
