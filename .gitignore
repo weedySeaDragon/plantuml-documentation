@@ -1,7 +1,10 @@
 # Created by .ignore support plugin (hsz.mobi)
+
+/build/
+
 ### Gradle template
 .gradle
-/build/
+
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -42,8 +45,9 @@ hs_err_pid*
 
 .metadata
 bin/
+
 tmp/
-*.tmp
+
 *.bak
 *.swp
 *~.nib
@@ -347,3 +351,5 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 /logs/sphinx/run-log.txt
+/.gradle/buildOutputCleanup/
+/tmp/
