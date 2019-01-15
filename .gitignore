@@ -4,6 +4,9 @@
 
 ### Gradle template
 
+/.gradle/taskHistory
+/.gradle/fileHashes
+
 /.gradle/buildOutputCleanup/
 
 # Ignore Gradle GUI config
@@ -230,10 +233,6 @@ coverage.xml
 *.mo
 *.pot
 
-# Django stuff:
-local_settings.py
-db.sqlite3
-
 # Flask stuff:
 instance/
 .webassets-cache
@@ -243,6 +242,8 @@ instance/
 
 # Sphinx documentation
 docs/_build/
+build/
+
 
 # PyBuilder
 target/
