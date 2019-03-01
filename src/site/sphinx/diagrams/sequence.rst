@@ -39,6 +39,7 @@ Here is the source for the diagram:
 .. literalinclude:: puml/sequence-1simple-bob-alice.puml
 
 
+
 .. index::
    pair: keywords; UML Sequence diagram
 
