@@ -92,11 +92,9 @@ _bin = os.path.normpath(os.path.join(
 
 plantuml = 'java -Djava.awt.headless=true -jar {}/plantuml.jar'.format(_bin)
 
-plantuml_output_format = "svg"
+#plantuml_output_format = "svg"
 # -------
-
-
-plantuml = 'java -Djava.awt.headless=true -jar plantuml.jar'
+#plantuml = 'java -Djava.awt.headless=true -jar plantuml.jar'
 #plantuml = 'java -jar /Users/ashleyengelund/dev/java/plantuml/plantuml.jar'
 
 # ------------------------
