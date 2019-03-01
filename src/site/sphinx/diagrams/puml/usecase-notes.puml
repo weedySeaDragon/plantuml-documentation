@@ -1,6 +1,6 @@
 @startuml
 
-!include plantuml-ae.iuml
+'!include ../../plantuml-styles/plantuml-ae.iuml
 
 skinparam ActorBorderColor   SaddleBrown
 skinparam NoteFontStyle normal
@@ -38,6 +38,6 @@ note  as freeFloatingNote #white
 end note
 
 
-!include ae-copyright-footer.txt
+!include ../../plantuml-styles/ae-copyright-footer.txt
 
 @enduml

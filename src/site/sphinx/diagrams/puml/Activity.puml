@@ -1,8 +1,9 @@
 @startuml
 title Activity diagram\n
 
-!include plantuml-ae-noshadowing.iuml
+'!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
 
+path
 start
 
 

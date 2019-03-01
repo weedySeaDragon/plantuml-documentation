@@ -1,5 +1,5 @@
 @startuml
-!include plantuml-ae-noshadowing.iuml
+'!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
 
 title Deployment elements\n(Component = UML2 style)
 
