@@ -13,6 +13,8 @@
 .. |is_the_frame_name| replace:: is the frame name in the pentagon in the upper left hand corner.
 
 
+.. _sequence_diagram:
+
 UML Sequence Diagram
 ####################
 

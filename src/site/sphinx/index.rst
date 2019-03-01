@@ -42,34 +42,30 @@ Here are the pages that have some content right now:
    For each diagram, I've tried to include both visual (diagram) and text examples of what each keyword does.
    I'll eventually list all of the applicable `skinparams`
 
-   - **UML Use Case Diagram**
-
-      http://localhost:63342/documentation/build/site/diagrams/usecase.html
-
+   - **UML Use Case Diagram:**
+     :ref:`UMLUse Case Diagram <use_case_diagram>`
 
 
    - **UML Sequence Diagram:**
-
-
-
-     http://localhost:63342/documentation/build/site/diagrams/sequence.html
-
+     :ref:`UML Sequence Diagram <sequence_diagram>`
 
 
 - **All skin parameter settings:**
-   http://localhost:63342/documentation/build/site/formatting/all-skin-params.html
+  :ref:`All Skinparams (Skin Parameters) <skinparam>`
 
    A reference of *all* `skinparam` settings.  I'm working on writing up definitions and examples.
 
 
-- **All named colors:** a page that shows every color name with a small example (a small square swatch) of the color
-   http://localhost:63342/documentation/build/site/formatting/color-names.html
+- **All named colors:**
+  :ref:`Color Names and Samples <all_color_names>`
+
+   a page that shows every color name with a small example (a small square swatch) of the color
 
    I created this as a handy way of seeing what each named color looks like
 
 
 ======================================
-All Pages (detailed table of contents:
+All Pages (detailed table of contents):
 ======================================
 
 .. toctree::
