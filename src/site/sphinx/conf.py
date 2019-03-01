@@ -96,7 +96,7 @@ extensions = [
 #plantuml = 'java -jar /Users/ashleyengelund/dev/java/plantuml/plantuml.jar'
 
 # the following line runs plantuml but cannot include .iuml styles:
-plantuml = 'java -Djava.awt.headless=true -v -jar %s' % os.path.join(os.path.dirname(os.path.abspath(__file__)), "plantuml.jar")
+plantuml = 'java -Djava.awt.headless=true -jar %s' % os.path.join(os.path.dirname(os.path.abspath(__file__)), "plantuml.jar")
 
 
 # ------------------------
