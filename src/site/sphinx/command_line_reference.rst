@@ -494,9 +494,9 @@ encode a sprite at gray level (z for compression) from an image
 
 
 .. index:: -computeurl; command line option
-
    single: -encodeurl
    pair: command line options; -encodeurl
+
 
 .. container:: keyword commandlin-option
 
