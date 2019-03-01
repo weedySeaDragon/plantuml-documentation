@@ -95,8 +95,10 @@ extensions = [
 #plantuml = 'java -Djava.awt.headless=true -jar plantuml.jar'
 #plantuml = 'java -jar /Users/ashleyengelund/dev/java/plantuml/plantuml.jar'
 
-# per https://trustin.github.io/sphinx-maven-plugin/
-plantuml = os.getenv('plantuml')
+plantuml = 'java -Djava.awt.headless=true -jar %s' % os.path.join(os.path.dirname(__file__), "plantuml.jar")
+
+print(' >>> plantuml =' + plantuml)
+
 
 # ------------------------
 # recommonMark
