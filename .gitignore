@@ -362,4 +362,7 @@ $RECYCLE.BIN/
 *.lnk
 /logs/sphinx/run-log.txt
 /.gradle/buildOutputCleanup/
+
 /tmp/
+
+/generateDocInfo/libs/plantuml.jar
