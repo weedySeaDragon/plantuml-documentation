@@ -38,7 +38,7 @@ six
 snowballstemmer
 soupsieve
 
-Sphinx==1.8.3
+Sphinx==1.8.4
 sphinx-fontawesome==0.0.6
 sphinx-rtd-theme==0.4.1
 sphinxcontrib-plantuml
