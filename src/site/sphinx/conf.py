@@ -97,7 +97,7 @@ extensions = [
 
 plantuml = 'java -Djava.awt.headless=true -jar %s' % os.path.join(os.path.dirname(__file__), "plantuml.jar")
 
-print(' >>> plantuml =' + plantuml)
+#print(' >>> plantuml =' + plantuml)
 
 
 # ------------------------
