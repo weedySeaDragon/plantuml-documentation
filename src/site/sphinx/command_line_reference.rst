@@ -11,14 +11,14 @@ run from the command line:
 ****************
 
 
-   Java
+* Java
 
-    The latest version fo PlantUML downloaded
+* The latest version fo PlantUML downloaded
 
 
 Run::
 
-    :program:`java -jar planutml.jar`
+:program:`java -jar planutml.jar`
 
 Note:  "plantuml.jar" must either be in your PATH or you need to specify the exact path (full location with folders/directories)
 
@@ -45,7 +45,7 @@ Helpful command line options
 
 * See all of the regular expression patterns that PlantUML uses as it parses instructions::
 
-    java -jar ./Documents/dev/plantuml.1.2017.16.jar -pattern
+    java -jar plantuml.jar -pattern
 
 
 
