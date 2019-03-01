@@ -6,7 +6,7 @@
 .. _archimatediagram:
 
 Archimate Diagram
-##############
+#################
 
 
 
@@ -26,8 +26,8 @@ Keywords
 .. index::
    pair: skinparam; Archimate diagram
 
-**************************************
+*****************************************
 Skinparams specific to Archimate Diagrams
-**************************************
+*****************************************
 
 (none)

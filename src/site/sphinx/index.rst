@@ -64,9 +64,9 @@ Here are the pages that have some content right now:
    I created this as a handy way of seeing what each named color looks like
 
 
-======================================
+=======================================
 All Pages (detailed table of contents):
-======================================
+=======================================
 
 .. toctree::
    :maxdepth: 3

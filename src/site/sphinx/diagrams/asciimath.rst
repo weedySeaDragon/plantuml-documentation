@@ -26,8 +26,8 @@ Keywords
 .. index::
    pair: skinparam; AsciiMath diagram
 
-**************************************
+*****************************************
 Skinparams specific to AsciiMath Diagrams
-**************************************
+*****************************************
 
 (none)
