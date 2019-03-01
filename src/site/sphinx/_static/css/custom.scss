@@ -33,10 +33,14 @@ $theme-lt-blue2: #dbfaf4;
 // pygment code colors overrides
 $codeblock-color-default: slateblue;
 
-$fa-font-path: '../fonts';
+//$fa-font-path: './fontawesome-free-5.4.1-web/webfonts';
 
 @import "fontawesome-free-5.4.1-web/scss/fontawesome.scss";
+@import "fontawesome-free-5.4.1-web/scss/shims";
 @import "fontawesome-free-5.4.1-web/scss/solid.scss";
+@import "fontawesome-free-5.4.1-web/scss/regular";
+@import "fontawesome-free-5.4.1-web/scss/brands";
+
 
 h2, h3 {
   margin-top: 2em;
@@ -187,7 +191,7 @@ body {
 .wy-inline-validate.wy-inline-validate-danger .wy-input-context:before,
 .wy-inline-validate.wy-inline-validate-warning .wy-input-context:before,
 .wy-inline-validate.wy-inline-validate-info .wy-input-context:before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesome";
   display: inline-block;
   font-style: normal;
   font-weight: normal;
@@ -264,7 +268,7 @@ body {
       }
 
       .admonition-title:before {
-        font-family: "Font Awesome 5 Free";
+        font-family: "FontAwesome";
         font-weight: 700;
         content: fa-content($fa-var-play-circle);
         //color: lightgray;
