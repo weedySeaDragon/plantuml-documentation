@@ -79,9 +79,25 @@ extensions = [
 #   @see https://github.com/rtfd/readthedocs.org/issues/407
 #   PlantUML is now a mainstream Ubuntu package
 
-plantuml = 'java -Djava.awt.headless=true -jar /usr/share/plantuml/plantuml.jar'
-#plantuml = 'java -jar /Users/ashleyengelund/dev/java/plantuml/plantuml.jar'
+# ----------
+# from
+# this file: src/site/sphinx/conf.py
+# plantuml.jar:  src/site/sphinx/_static/bin/plantuml.jar
+# orig:
+#   docs/source/conf.py
+#   plantuml:  bin/plantuml.jar
+_bin = os.path.normpath(os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "..", "_static", "bin"
+))
 
+plantuml = 'java -Djava.awt.headless=true -jar {}/plantuml.jar'.format(_bin)
+
+plantuml_output_format = "svg"
+# -------
+
+
+plantuml = 'java -Djava.awt.headless=true -jar plantuml.jar'
+#plantuml = 'java -jar /Users/ashleyengelund/dev/java/plantuml/plantuml.jar'
 
 # ------------------------
 # recommonMark
