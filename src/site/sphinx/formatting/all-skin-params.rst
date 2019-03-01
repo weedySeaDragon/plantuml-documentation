@@ -7634,6 +7634,18 @@ Interface
    :ref:`back up to the top <top>`
 
 
+.. _J:
+
+****
+J
+****
+
+.. _K:
+
+****
+K
+****
+
 
 
 .. _L:
@@ -15125,6 +15137,13 @@ Usecase
 
 
 
+.. _V:
+
+****
+V
+****
+
+
 
 .. _W:
 
@@ -15160,6 +15179,27 @@ WrapWidth
 :Example:    :code:`WrapWidth zz`
 
     .. uml::  puml/sk-ex/WrapWidth-zz.puml
+
+
+.. _X:
+
+****
+X
+****
+
+
+.. _Y:
+
+****
+Y
+****
+
+
+.. _Z:
+
+****
+Z
+****
 
 
 

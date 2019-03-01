@@ -55,9 +55,6 @@ Internal Link Ref
 
    This is the content for the label :code:`.. _rst_internal_link_example:`.  Note that has only **one** colon (not the double ones as for most directives)
 
-and here is some meaningless content
-
-Now we can link (refer) to the :ref:`rst_internal_link_example_` just by the name without the leading underscore but **with** a trailing underscore to denote it as a *link.*
 
 
 

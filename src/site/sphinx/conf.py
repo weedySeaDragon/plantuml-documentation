@@ -76,9 +76,14 @@ extensions = [
 #   @see https://trustin.github.io/sphinx-maven-plugin/configuration.html#using-plantuml
 #   @see https://pypi.python.org/pypi/sphinxcontrib-plantuml
 
-plantuml = 'java -jar /Users/ashleyengelund/dev/java/plantuml.jar'
+#   @see https://github.com/rtfd/readthedocs.org/issues/407
+#   PlantUML is now a mainstream Ubuntu package
+
+#plantuml = 'java -Djava.awt.headless=true -jar /usr/share/plantuml/plantuml.jar'
+plantuml = 'java -jar /Users/ashleyengelund/dev/java/plantuml/plantuml.jar'
 
 
+# ------------------------
 # recommonMark
 
 
@@ -151,9 +156,9 @@ author = ASHLEY
 # built documents.
 #
 # The short X.Y version.
-version = u'1.2018.01'
+version = u'1.2019.02'
 # The full version, including alpha/beta/rc tags.
-release = u'1.2018.01'
+release = u'1.2019.02'
 
 # ---------------------------------------------------
 
