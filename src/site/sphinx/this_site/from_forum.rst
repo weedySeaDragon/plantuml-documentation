@@ -36,7 +36,7 @@ http://forum.plantuml.net/1132 !pragma horizontalLineBetweenDifferentPackageAllo
 
 http://forum.plantuml.net/2335 allow_mixing
 
-http://forum.plantuml.net/2335 mix_
+http://forum.plantuml.net/2335 mix
 
 http://forum.plantuml.net/1047 skinparam style strictuml
 

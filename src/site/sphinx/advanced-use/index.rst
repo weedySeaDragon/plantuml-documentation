@@ -49,9 +49,9 @@ Python
 :Ex:
 
 
-****
+====
 Misc
-****
+====
 
 * can show the current path by using :code:`path` as the only line in the body of a :code:`.puml` file
 

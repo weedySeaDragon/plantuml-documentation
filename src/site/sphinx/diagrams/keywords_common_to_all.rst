@@ -91,10 +91,11 @@ Also see:
 
 
 
-.. index:: rectangle
+.. index:: rectangle_shape
    pair: rectangle; keywords common to all diagrams
+   pair: rectangle; shape
 
-.. _rectangle:
+.. _rectangle_shape:
 
 =========
 Rectangle
@@ -227,7 +228,7 @@ Special Variables
 
 %date%  the current date and time
 
-* format: Date format can be specified using format specified in SimpleDataFormat documentation `https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html`_
+* format: Date format can be specified using format specified in SimpleDataFormat documentation :ref:`https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html`_
 
   ex: default format:  %date%
 
