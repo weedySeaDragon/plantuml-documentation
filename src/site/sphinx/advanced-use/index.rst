@@ -53,8 +53,17 @@ Python
 Misc
 ****
 
+* can show the current path by using :code:`path` as the only line in the body of a :code:`.puml` file
 
-Can extract the original PlantUML source from a PNG file with the :code:`-metadata` option:
+.. code-block:: text
+
+   @startuml
+   path
+   @enduml
+
+
+
+* Can extract the original PlantUML source from a PNG file with the :code:`-metadata` option:
 
 .. code-block:: text
 
