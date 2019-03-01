@@ -2,6 +2,8 @@
 
 !include plantuml-ae.iuml
 
+'!include ../../plantuml-styles/plantuml-ae.iuml
+
 skinparam Shadowing false
 
 
