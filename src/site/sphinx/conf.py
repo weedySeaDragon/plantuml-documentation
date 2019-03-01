@@ -76,9 +76,14 @@ extensions = [
 #   @see https://trustin.github.io/sphinx-maven-plugin/configuration.html#using-plantuml
 #   @see https://pypi.python.org/pypi/sphinxcontrib-plantuml
 
-plantuml = 'java -jar /Users/ashleyengelund/dev/java/plantuml.jar'
+#   @see https://github.com/rtfd/readthedocs.org/issues/407
+#   PlantUML is now a mainstream Ubuntu package
+
+#plantuml = 'java -Djava.awt.headless=true -jar /usr/share/plantuml/plantuml.jar'
+plantuml = 'java -jar /Users/ashleyengelund/dev/java/plantuml/plantuml.jar'
 
 
+# ------------------------
 # recommonMark
 
 
