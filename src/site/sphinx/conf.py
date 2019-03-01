@@ -26,10 +26,10 @@ import datetime
 # Ashley's handy constants & vars for this project
 #
 
-PROJECT_NAME = u"Ashley's PlantUML Info"
+PROJECT_NAME = u"Ashley's PlantUML Doc"
 ASHLEY = u"Ashley Engelund"
-PROJECT_TOP_FILENAME = u"AE-PlantUML-Info"
-PROJECT_DESC = u"Ashley Engelund's information and documentation for using PlantUML."
+PROJECT_TOP_FILENAME = u"AE-PlantUML-Doc"
+PROJECT_DESC = u"Ashley Engelund's documentation for PlantUML."
 
 THIS_YEAR = datetime.date.today().year
 
