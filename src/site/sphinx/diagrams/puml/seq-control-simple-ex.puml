@@ -8,4 +8,5 @@ control "Controller C" as A #lightGreen
 
 controlC -> A
 
+'!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

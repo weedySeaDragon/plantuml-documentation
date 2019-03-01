@@ -25,4 +25,5 @@ storage storage
 usecase usecase
 
 
+'!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

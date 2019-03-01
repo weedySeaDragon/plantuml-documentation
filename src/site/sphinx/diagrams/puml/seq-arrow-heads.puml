@@ -18,4 +18,5 @@ A->]:\t a "]" shows a message going to outside the scope of the diagram
 [o-> B:\t this is a found message originating outside of the scope of this diagram
 
 
+'!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

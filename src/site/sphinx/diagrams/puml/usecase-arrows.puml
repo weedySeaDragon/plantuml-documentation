@@ -28,4 +28,5 @@ Admin   -[#blue]->    (Manage Users): This arrow is -[#blue]->
 manager -[#blue]->> (Manage Users): This arrow is -[#blue]->>
 
 
+'!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

@@ -1,6 +1,6 @@
 @startuml
 
-!include plantuml-ae.iuml
+'!include plantuml-ae.iuml
 
 skinparam sequenceArrowThickness 2
 skinparam roundcorner 20
@@ -40,4 +40,5 @@ deactivate B
 A --> User: Done
 deactivate A
 
+'!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

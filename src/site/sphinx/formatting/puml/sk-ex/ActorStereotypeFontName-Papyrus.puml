@@ -1,6 +1,6 @@
 @startuml
 title ActorStereotypeFontName Papyrus
-!include plantuml-ae-skinparam-ex.iuml
+'!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 skinparam ActorStereotypeFontName Papyrus
 
 !include usecase-2actors.txt

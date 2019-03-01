@@ -7,4 +7,5 @@ A --[#939393]>  B:--[#939393]> creates a gray filled arrow with a dashed line
 A o-[#blue]>> B:o-[#blue]>> creates a blue, solid line found message
 A -[#red]>x B: -[#red]>x creates a red, solid line deletion message
 
+'!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

@@ -1,6 +1,6 @@
 @startuml
 title SequenceTitleFontName Papyrus
-!include plantuml-ae-skinparam-ex.iuml
+'!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 skinparam SequenceTitleFontName Papyrus
 
 !include seq-AliceBob.txt

@@ -13,4 +13,5 @@ FTP - [Second Component]
 [First Component] --> FTP
 }
 
+'!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

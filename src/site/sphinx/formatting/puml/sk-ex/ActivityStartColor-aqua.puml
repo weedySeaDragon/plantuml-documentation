@@ -1,7 +1,116 @@
 @startuml
 
 title ActivityStartColor aqua
-!include plantuml-ae-skinparam-ex.iuml
+'!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+
+
+!define DEFAULT_BACKGROUND_COLOR  white
+!define DEFAULT_BORDER_COLOR      #111111
+!define DEFAULT_FONT              Helvetica Neue
+!define DEFAULT_FONT_SIZE         14
+!define SMALLER_FONT_SIZE         12
+
+!define DEFAULT_FONT_COLOR        Navy
+
+!define DEFAULT_NOT_SO_DARK       #666666
+
+!define TITLE_FONT_SIZE           18
+!define TITLE_FONT_NAME           Georgia
+!define TITLE_FONT_STYLE          normal
+
+skinparam componentStyle        uml2
+
+skinparam defaultFontName       DEFAULT_FONT
+skinparam defaultTextAlignment  center
+
+skinparam handwritten           false
+skinparam monochrome            false
+skinparam shadowing             true
+
+skinparam BackgroundColor  white
+skinparam HyperlinkColor   #0000DD
+
+
+skinparam Default {
+    FontColor     DEFAULT_FONT_COLOR
+    FontName      DEFAULT_FONT
+    FontSize      DEFAULT_FONT_SIZE
+    FontStyle     plain
+}
+
+skinparam GenericArrow {
+    FontColor   #666666
+    'FontName    courier
+    FontSize    12
+    FontStyle   italic
+
+}
+
+skinparam title {
+    FontColor     black
+    FontName      TITLE_FONT_NAME
+    FontSize      TITLE_FONT_SIZE
+    FontStyle     TITLE_FONT_STYLE
+}
+
+skinparam legend {
+    BackgroundColor   white
+    BorderColor       DEFAULT_NOT_SO_DARK
+    FontColor         black
+    FontName          DEFAULT_FONT
+    FontSize          SMALLER_FONT_SIZE
+}
+
+skinparam header {
+    FontColor     DEFAULT_NOT_SO_DARK
+    FontName      DEFAULT_FONT
+    FontSize      9
+    FontStyle     plain
+}
+
+skinparam Footer {
+    FontColor     DEFAULT_NOT_SO_DARK
+    FontSize      9
+    FontName      TITLE_FONT_NAME
+    FontStyle     italic
+}
+
+
+/' .......................................................
+     Activities
+'/
+skinparam activity {
+
+    Arrow {
+        Color       DEFAULT_NOT_SO_DARK
+        BorderColor  DEFAULT_BORDER_COLOR
+        'FontColor   DEFAULT_NOT_SO_DARK
+        FontSize    12
+        FontStyle   italic
+    }
+
+    BackgroundColor white
+    BorderColor     DEFAULT_BORDER_COLOR
+
+    ' have to specify the background color and border color for Diamond
+    ' it does not pick up the default for activity.
+    ' maybe because it is defined?  have to define everything for it?
+    Diamond {
+        FontStyle         italic  ' this is all we really want to change
+        BackgroundColor   DEFAULT_BACKGROUND_COLOR
+        BorderColor       DEFAULT_BORDER_COLOR
+        BorderColor       DEFAULT_NOT_SO_DARK
+        FontColor         DEFAULT_FONT_COLOR
+        FontSize          14
+
+    }
+    'EndColor        red
+    FontSize         13
+    StartColor       ForestGreen
+    EndColor         IndianRed
+}
+
+
 
 skinparam ActivityStartColor aqua
 !include activity-alarmrings.txt

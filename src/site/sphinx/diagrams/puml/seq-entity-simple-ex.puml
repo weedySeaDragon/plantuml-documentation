@@ -9,4 +9,5 @@ entity "Authorizer" as A #lavender
 
 entityE -> A
 
+'!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

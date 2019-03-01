@@ -11,4 +11,5 @@ salt
   "Enter text here   "
   ^This is a droplist^
 }
+'!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

@@ -68,4 +68,5 @@ end
 
 
 
+'!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

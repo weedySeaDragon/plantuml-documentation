@@ -38,6 +38,5 @@ note  as freeFloatingNote #white
 end note
 
 
-!include ../../plantuml-styles/ae-copyright-footer.txt
-
+'!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

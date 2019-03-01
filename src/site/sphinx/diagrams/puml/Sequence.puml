@@ -1,6 +1,6 @@
 @startuml
 title Sequence diagram
-!include plantuml-ae-noshadowing.iuml
+'!include plantuml-ae-noshadowing.iuml
 
 Alice -> Bob: Authentication Request
 Bob --> Alice: Authentication Response
@@ -8,4 +8,5 @@ Bob --> Alice: Authentication Response
 Alice -> Bob: Another authentication Request
 Alice <-- Bob: another authentication Response
 
+'!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

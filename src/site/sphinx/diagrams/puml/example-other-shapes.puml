@@ -43,4 +43,5 @@ a <<-->> b
 a o<->o b
 
 
+'!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

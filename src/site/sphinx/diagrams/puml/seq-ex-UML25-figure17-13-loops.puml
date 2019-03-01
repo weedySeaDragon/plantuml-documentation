@@ -26,4 +26,5 @@ person->>panel:digit
 end
 end
 
+'!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

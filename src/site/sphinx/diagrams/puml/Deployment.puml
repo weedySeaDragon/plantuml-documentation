@@ -29,4 +29,5 @@ rectangle "Rectangle" <<Stereotype>> {
     actor X
 }
 
+'!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

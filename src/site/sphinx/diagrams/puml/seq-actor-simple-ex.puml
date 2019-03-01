@@ -9,4 +9,5 @@ actor "Alice" as A #SaddleBrown
 
 actorI -> A
 
+'!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml
