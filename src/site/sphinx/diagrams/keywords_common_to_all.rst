@@ -1,11 +1,13 @@
 .. index:: keywords common to all diagrams
 
 
-
 .. _global_keywords_and_options:
 
 Global Keywords and Options
 ###########################
+
+.. uml:: puml/current_path.puml
+
 
 Also see:
 
@@ -144,7 +146,6 @@ Footer
 
 .. _newpage:
 
-
 ====================
 Page Break (newpage)
 ====================
@@ -188,20 +189,88 @@ Comments
 Include files
 =============
 
+
 =========
 Constants
 =========
 
 
+.. index:: macros
+
+.. _macros:
+
 ======
 Macros
 ======
 
-- Date and Time
+(explanation)
 
-- dirpath
+A macro can include another macro (must it be previously defined?)
 
-- filename
+A macro can be polymorphic with argument count.
+
+
+-----------------
+Special Variables
+-----------------
+
+
+.. index:: %date%
+   pair date; special variables
+   pair date; current date and time
+
+.. _date:
+
+^^^^^^
+%date%
+^^^^^^
+
+%date%  the current date and time
+
+* format: Date format can be specified using format specified in SimpleDataFormat documentation `https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html`_
+
+  ex: default format:  %date%
+
+  ex: format...  %date[yyyy.MM.dd 'at' HH:mm]%
+
+
+
+.. index:: %dirpath%
+   pair dirpath; special variables
+   pair dirpath; path of a file
+
+.. _dirpath:
+
+^^^^^^^^^
+%dirpath%
+^^^^^^^^^
+
+%dirpath%	Path of the current file
+
+- for use with including files -- to specify a path
+
+- does not render anything when used in a diagram
+
+
+
+.. index:: %filename%
+   pair filename; special variables
+   pair filename; name of the current file
+
+.. _filename:
+
+^^^^^^^^^^
+%filename%
+^^^^^^^^^^
+
+%filename%	Name of the current file
+
+- for use with including files -- to specify a path
+
+- does not render anything when used in a diagram
+
+
+
 
 - default values
 
@@ -218,9 +287,6 @@ Macros
 - ## (append text to a macro)
 
 
-A macro can include another macro (must it be previously defined?)
-
-A macro can be polymorphic with argument count.
 
 You can use system environment variable or constant definition when using include:
 
