@@ -86,9 +86,7 @@ extensions = [
 # orig:
 #   docs/source/conf.py
 #   plantuml:  bin/plantuml.jar
-_bin = os.path.normpath(os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), "..", "_static", "bin"
-))
+_bin = os.path.normpath(os.path.dirname(os.path.abspath(__file__)))
 
 plantuml = 'java -Djava.awt.headless=true -jar {}/plantuml.jar'.format(_bin)
 
