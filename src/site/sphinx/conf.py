@@ -86,14 +86,17 @@ extensions = [
 # orig:
 #   docs/source/conf.py
 #   plantuml:  bin/plantuml.jar
-_bin = os.path.normpath(os.path.dirname(os.path.abspath(__file__)))
+#_bin = os.path.normpath(os.path.dirname(os.path.abspath(__file__)))
 
-plantuml = 'java -Djava.awt.headless=true -jar {}/plantuml.jar'.format(_bin)
+#plantuml = 'java -Djava.awt.headless=true -jar {}/plantuml.jar'.format(_bin)
 
 #plantuml_output_format = "svg"
 # -------
 #plantuml = 'java -Djava.awt.headless=true -jar plantuml.jar'
 #plantuml = 'java -jar /Users/ashleyengelund/dev/java/plantuml/plantuml.jar'
+
+# per https://trustin.github.io/sphinx-maven-plugin/
+plantuml = os.getenv('plantuml')
 
 # ------------------------
 # recommonMark
