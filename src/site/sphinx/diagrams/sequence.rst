@@ -29,7 +29,6 @@ The basic syntax for a line in a sequence diagram shows that one participant is 
 More formally:  :code:`<participant 1> <directional arrow> <participant 2>: <message>`
 
 
-
 **Sequence diagram showing interaction between Alice and Bob:**
 
 .. uml:: puml/sequence-1simple-bob-alice.puml
