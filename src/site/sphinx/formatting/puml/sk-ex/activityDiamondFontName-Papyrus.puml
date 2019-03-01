@@ -1,7 +1,7 @@
 @startuml
 
 title activityDiamondFontName Papyrus
-!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+!include plantuml-ae-skinparam-ex.iuml
 
 skinparam activityDiamondFontName Papyrus
 !include activity-alarmrings.txt

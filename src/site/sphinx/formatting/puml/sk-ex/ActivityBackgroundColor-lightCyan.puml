@@ -1,7 +1,7 @@
 @startuml
 
 title ActivityBackgroundColor lightCyan
-!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+!include plantuml-ae-skinparam-ex.iuml
 
 skinparam ActivityBackgroundColor lightCyan
 !include activity-alarmrings.txt

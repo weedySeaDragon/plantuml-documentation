@@ -1,6 +1,6 @@
 @startuml
 title Class diagram
-!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include plantuml-ae-noshadowing.iuml
 
 
 abstract class AbstractList

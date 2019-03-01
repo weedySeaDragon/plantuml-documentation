@@ -1,7 +1,7 @@
 @startuml
 
 title ActorBorderColor red
-!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+!include plantuml-ae-skinparam-ex.iuml
 
 skinparam ActorBorderColor red
 

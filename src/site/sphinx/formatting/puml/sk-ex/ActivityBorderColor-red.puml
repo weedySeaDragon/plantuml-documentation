@@ -1,6 +1,6 @@
 @startuml
 title ActivityBorderColor red
-!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+!include plantuml-ae-skinparam-ex.iuml
 
 skinparam ActivityBorderColor red
 

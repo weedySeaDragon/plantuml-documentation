@@ -1,6 +1,6 @@
 @startuml
 title Component diagram
-!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include plantuml-ae-noshadowing.iuml
 
 package "Some Group" {
 HTTP - [First Component]

@@ -1,7 +1,7 @@
 @startuml
 
 title ActivityStartColor aqua
-!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+!include plantuml-ae-skinparam-ex.iuml
 
 skinparam ActivityStartColor aqua
 !include activity-alarmrings.txt

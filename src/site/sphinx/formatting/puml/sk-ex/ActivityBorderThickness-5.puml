@@ -1,6 +1,6 @@
 @startuml
 title ActivityBorderThickness 5
-!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+!include plantuml-ae-skinparam-ex.iuml
 
 skinparam ActivityBorderThickness 5
 

@@ -1,6 +1,6 @@
 @startuml
 title BoxPadding: none
-!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+!include plantuml-ae-skinparam-ex.iuml
 
 
 !include seq-AliceBobKarlDB.txt

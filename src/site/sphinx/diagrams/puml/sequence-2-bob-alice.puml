@@ -1,6 +1,6 @@
 @startuml
 
-!include ../../plantuml-styles/plantuml-ae.iuml
+!include plantuml-ae.iuml
 
 participant "Request Handler" as RH  << (S,#ADD1B2) Server >> order 3
 

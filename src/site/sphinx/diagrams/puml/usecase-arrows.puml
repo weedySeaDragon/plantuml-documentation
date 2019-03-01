@@ -1,5 +1,5 @@
 @startuml
-!include ../../plantuml-styles/plantuml-ae.iuml
+!include plantuml-ae.iuml
 
 skinparam Shadowing false
 

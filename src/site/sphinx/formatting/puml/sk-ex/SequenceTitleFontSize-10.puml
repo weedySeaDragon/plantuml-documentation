@@ -1,6 +1,6 @@
 @startuml
 title SequenceTitleFontSize 10
-!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+!include plantuml-ae-skinparam-ex.iuml
 skinparam SequenceTitleFontSize 10
 
 !include seq-AliceBob.txt

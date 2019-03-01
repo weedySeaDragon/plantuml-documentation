@@ -1,7 +1,7 @@
 @startuml
 
 title activityDiamondFontSize 18
-!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+!include plantuml-ae-skinparam-ex.iuml
 
 skinparam activityDiamondFontSize 18
 !include activity-alarmrings.txt

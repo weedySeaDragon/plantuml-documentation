@@ -1,6 +1,6 @@
 @startuml
 title Sequence diagram
-!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include plantuml-ae-noshadowing.iuml
 
 Alice -> Bob: Authentication Request
 Bob --> Alice: Authentication Response

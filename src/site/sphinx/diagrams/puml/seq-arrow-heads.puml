@@ -1,6 +1,6 @@
 @startuml
 
-!include ../../plantuml-styles/plantuml-ae.iuml
+!include plantuml-ae.iuml
 
 title Arrow Heads
 

@@ -1,0 +1,12 @@
+!include plantuml-ae-noshadowing.iuml
+
+!define TITLE_FONT_SIZE           14
+!define TITLE_FONT_STYLE          normal
+
+
+skinparam title {
+    FontColor     black
+    FontName      TITLE_FONT_NAME
+    FontSize      TITLE_FONT_SIZE
+    FontStyle     TITLE_FONT_STYLE
+}

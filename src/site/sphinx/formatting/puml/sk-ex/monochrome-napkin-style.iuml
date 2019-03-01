@@ -1,0 +1,16 @@
+/'
+  @file plantuml-style.iml
+
+  @desc: styles for PlantUML files
+
+  @author: Ashley Engelund (ashley@ashleycaroline.com  weedySeaDragon @ github)
+
+  @date 2016-10-24
+
+ '/
+
+skinparam handwritten true
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false

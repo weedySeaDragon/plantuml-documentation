@@ -1,7 +1,7 @@
 @startuml
 
 title ActivityFontColor red
-!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+!include plantuml-ae-skinparam-ex.iuml
 
 skinparam ActivityFontColor red
 !include activity-alarmrings.txt

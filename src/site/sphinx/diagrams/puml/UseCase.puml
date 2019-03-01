@@ -1,6 +1,6 @@
 @startuml
 title Use Case diagram
-!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include plantuml-ae-noshadowing.iuml
 
 :Main Admin: as Admin
 (Use the application) as (Use)

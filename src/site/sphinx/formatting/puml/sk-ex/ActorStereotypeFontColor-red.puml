@@ -1,7 +1,7 @@
 @startuml
 
 title ActorStereotypeFontColor red
-!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+!include plantuml-ae-skinparam-ex.iuml
 
 skinparam ActorStereotypeFontColor red
 

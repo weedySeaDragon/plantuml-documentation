@@ -1,0 +1,23 @@
+/'
+  @file plantuml-ae-monochrome.iuml
+
+  @desc: styles for PlantUML files
+      Note that styles can be nested multiple times
+
+      There seems to be a problem if some styles for an entity are nested and some aren't.
+
+
+  @author: Ashley Engelund (ashley@ashleycaroline.com  weedySeaDragon @ github)
+
+  @since 2018-10-1
+
+  @see http://plantuml.com/skinparam
+
+'/
+
+!include plantuml-ae.iuml
+
+skinparam monochrome true
+skinparam shadowing false
+
+
