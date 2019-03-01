@@ -6,8 +6,6 @@
 Global Keywords and Options
 ###########################
 
-.. uml:: puml/current_path.puml
-
 
 Also see:
 
@@ -17,6 +15,8 @@ Also see:
 
 - Notes
 
+
+.. uml:: puml/current_path.puml
 
 
 .. index:: @start
