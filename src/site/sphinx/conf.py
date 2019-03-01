@@ -79,8 +79,8 @@ extensions = [
 #   @see https://github.com/rtfd/readthedocs.org/issues/407
 #   PlantUML is now a mainstream Ubuntu package
 
-#plantuml = 'java -Djava.awt.headless=true -jar /usr/share/plantuml/plantuml.jar'
-plantuml = 'java -jar /Users/ashleyengelund/dev/java/plantuml/plantuml.jar'
+plantuml = 'java -Djava.awt.headless=true -jar /usr/share/plantuml/plantuml.jar'
+#plantuml = 'java -jar /Users/ashleyengelund/dev/java/plantuml/plantuml.jar'
 
 
 # ------------------------
