@@ -12,9 +12,8 @@ Creating better documentation helps make it easier to use.  This is a way I can 
 Note that this is a *total work in progress.*  I'm just getting started with this.
 If you have any suggestions, corrections, questions, or contributions, please do let me know:  ashley.engelund@gmail.com
 
--------------------------
-What this is... and isn't
--------------------------
+
+**What this is... and isn't**
 
 This is documentation about how to use  PlantUML_ the commands, keywords, options, and other information you need to
 produce diagrams with  PlantUML_.
@@ -26,45 +25,37 @@ of UML as a whole: `The official UML site <http://www.uml.org/>`_ and a beginner
 This documentation is a very, very early version.  I'm still figuring out how I want to format things, how to best index terms, and
 I've just begun to documenting a few diagrams (UML Use Cases and Sequence diagrams).
 
-- **Diagrams**
+**Diagrams**
 
-   For each diagram, I've tried to include both visual (diagram) and text examples of what each keyword does.
-   I'll eventually list all of the applicable `skinparams`
+For each diagram, I've tried to include both visual (diagram) and text examples of what each keyword does.
+I'll eventually list all of the applicable `skinparams`
 
 
-========================
-Main pages with content:
-========================
+================================
+Pages the currently have content
+================================
 
---------------------
-UML Use Case Diagram
---------------------
 
+
+---------------------------------------------
 :ref:`UMLUse Case Diagram <use_case_diagram>`
+---------------------------------------------
 
-
---------------------
-UML Sequence Diagram
---------------------
-
+----------------------------------------------
 :ref:`UML Sequence Diagram <sequence_diagram>`
+----------------------------------------------
 
 
----------------------------
-All skin parameter settings
----------------------------
-
+---------------------------------------------------
 :ref:`All Skinparams (Skin Parameters) <skinparam>`
+---------------------------------------------------
 
    A reference of *all* `skinparam` settings.  I'm working on writing up definitions and examples.
 
 
---------------------------
-All colors and their names
---------------------------
-
-
+------------------------------------------------
 :ref:`Color Names and Samples <all_color_names>`
+------------------------------------------------
 
    This page that shows **every color name with a small example (a small square swatch) of the color**
 
@@ -83,16 +74,59 @@ Known problems and issues
   and I am unable to include content for many diagrams.  (For example, I use the same 'wake to an alarm clock' activity for the Activity diagram examples.)
 
 
-=======================================
-All Pages (detailed table of contents):
-=======================================
+======================================
+All Pages (detailed table of contents)
+======================================
+
 
 .. toctree::
+   :caption: Diagrams
    :maxdepth: 3
-   :glob:
 
-   *
-   */index
+   diagrams/index
+   diagrams/activity
+   diagrams/archimate
+   diagrams/asciimath
+   diagrams/class
+   diagrams/component
+   diagrams/deployment
+   diagrams/ditaa
+   diagrams/gantt
+   diagrams/graphviz-dot
+   diagrams/jlatexmath
+   diagrams/keywords_common_to_all
+   diagrams/object
+   diagrams/sequence
+   diagrams/state
+   diagrams/timing
+   diagrams/usecase
+   diagrams/wireframe
+
+
+.. toctree::
+   :caption: Style and Layout
+   :maxdepth: 3
+
+   formatting/index
+   formatting/using-skin-params
+   formatting/color-names
+   formatting/html
+   formatting/creole
+   formatting/all-skin-params
+
+
+.. toctree::
+   :caption: Advanced Use
+   :maxdepth: 3
+
+   advanced-use/index
+
+
+.. toctree::
+   :caption: Misc.
+
+   this_site/index
+   changelog
 
 
 .. comment
@@ -103,9 +137,9 @@ All Pages (detailed table of contents):
 
 
 
-******************
+------------------
 Indices and tables
-******************
+------------------
 
 
 * :ref:`genindex`
