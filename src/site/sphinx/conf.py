@@ -45,7 +45,7 @@ def setup(app):
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #
-needs_sphinx = '1.8.4'
+needs_sphinx = '1.8.1'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -115,9 +115,8 @@ todo_include_todos = True
 autosectionlabel_prefix_document = True
 
 
-
-
 # --- end Extension configurations --------------------------------------
+
 
 # ----------------------
 # ----------------------
@@ -137,10 +136,11 @@ source_encoding = 'utf-8-sig'
 # default = 'contents'
 master_doc = 'index'
 
+
 # Files to exclude
 #   List of patterns, relative to source directory, that match files and
 #   directories to ignore when looking for source files.
-#   This patterns also effect to html_static_path and html_extra_path
+#   This patterns also effects the  html_static_path and html_extra_path
 exclude_patterns = []
 
 # rst_epilog
@@ -148,9 +148,32 @@ exclude_patterns = []
 
 
 # ---------------------------------------------------
-#  Substitutions for the project:
-
+# rst_prolog: A string of reStructuredText that will be included at the beginning of every source file that is read.
+#  sphinx defines 3 substitutions: release, version, today
+#
+#  Substitutions for the project
+#
 rst_prolog = """
+.. _PlantUML: http://plantuml.com
+
+.. |cmdl_bkcolor4| replace:: The background (fill) color for
+.. |cmdl_brdcolor4| replace:: The border color for
+.. |cmdl_brdthick4| replace:: The border thickness for
+.. |cmdl_fcolor4| replace:: The font color for
+.. |cmdl_fcolor4txt| replace:: The font color for text
+.. |cmdl_fcolor4_in| replace:: The font color for text in
+.. |cmdl_fname4| replace:: The font name for
+.. |cmdl_fname4txt| replace:: The font name for text
+.. |cmdl_fname4_in| replace:: The font name for text in
+.. |cmdl_font_reqd| replace:: You must have the font installed on your computer.  (You can check by using the PlantUML_ command-line option :code:`-printfonts`.)
+.. |cmdl_fsize4| replace:: The font size for
+.. |cmdl_fsize4txt| replace:: The font size for text
+.. |cmdl_fsize4_in| replace:: The font size for text in
+.. |cmdl_fstyle4| replace:: The font style for
+.. |cmdl_fstyle4txt| replace:: The font style for text
+.. |cmdl_fstyle4_in| replace:: The font style for text in
+
+
 .. |seq| replace:: UML Sequence Diagram
 .. |skinparam_specs| replace:: Here are the specific skinparam options:
 """
