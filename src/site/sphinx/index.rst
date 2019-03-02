@@ -31,9 +31,9 @@ For each diagram, I've tried to include both visual (diagram) and text examples 
 I'll eventually list all of the applicable `skinparams`
 
 
-================================
-Pages the currently have content
-================================
+=================================
+Pages that currently have content
+=================================
 
 
 
