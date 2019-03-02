@@ -7,7 +7,7 @@
 Color Names and Samples
 #######################
 
-These are all of the defined color names in PlantUML, in alphabetical order by name.  (And yes, the little square of each color was generated using PlantUML.  The source is at the bottom of this page.)
+These are all of the defined color names in PlantUML_, in alphabetical order by name.  (And yes, the little square of each color was generated using PlantUML_.  The source is at the bottom of this page.)
 
 You can use these by putting a :code:`#` in front of the name.  See the specific keywords and options for examples.
 
@@ -15,7 +15,7 @@ You can use these by putting a :code:`#` in front of the name.  See the specific
 .. include:: puml/COLORS_RST_TABLE.TXT
 
 
-**PlantUML source for the AliceBlue square of color:**
+**PlantUML_ source for the AliceBlue square of color:**
 
 (An example of how they all look, except the color name *e.g. AliceBlue* is set to each respective color name.)
 

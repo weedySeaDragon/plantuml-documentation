@@ -8,7 +8,7 @@
 All Skin Parameters Grouped by Use
 ==================================
 
-All "skinparams" (skin parameters) available in PlantUML grouped by how they can be used (what they can be applied to).
+All "skinparams" (skin parameters) available in PlantUML_ grouped by how they can be used (what they can be applied to).
 
 Most items (types) have the following skinparams:
 

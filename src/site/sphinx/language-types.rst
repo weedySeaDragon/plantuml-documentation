@@ -17,7 +17,7 @@ Types
 
 see /Users/ashleyengelund/github/plantuml/src/net/sourceforge/plantuml/graphic/USymbol.java
 
-These are the main item *types* in the PlantUML language. They are used in .puml files.
+These are the main item *types* in the PlantUML_ language. They are used in .puml files.
 
 (Items in *italic* are not in the other list.)
 

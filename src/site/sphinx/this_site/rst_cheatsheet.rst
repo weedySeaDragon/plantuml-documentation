@@ -7,7 +7,6 @@ Great RST and Sphinx documentation:  http://openalea.gforge.inria.fr/doc/openale
 
 list of Awesome Sphinx stuff: `<https://github.com/yoloseem/awesome-sphinxdoc>`_.
 
-
 https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst
 
 https://brandons-sphinx-tutorial.readthedocs.io/en/latest/quick-sphinx.html
@@ -59,7 +58,9 @@ Internal Link Ref
 
 
 External hyperlinks, like `Python
-<http://www.python.org/>`_.
+<http://www.python.org/>`_  is written as :code:``Python
+<http://www.python.org/>`_`
+
 
 `RST Syntax <https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`_.
 

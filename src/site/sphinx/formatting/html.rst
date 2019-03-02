@@ -6,7 +6,7 @@
 HTML
 ####
 
-PlantUML supports a very small amount of basic HTML.
+PlantUML_ supports a very small amount of basic HTML.
 
 `Reference and Info on the PlantUML site <http://plantuml.com/creole>`_
 

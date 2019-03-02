@@ -97,7 +97,7 @@ Use the `participant` keyword to give a name to a message sender and optionally 
 
 If the displayed label for a |ppt| has spaces or special characters, put quotes around it.  (Ex: :code:`"Request Handler"`)
 
-You don't have to use the :code:`participant` keyword because PlantUML will automatically display a sender whenever it encounters one in the source.
+You don't have to use the :code:`participant` keyword because PlantUML_ will automatically display a sender whenever it encounters one in the source.
 But using the keyword gives you the ability to set the following options:
 
 You can use a `participant` line anywhere in your source (at any time).
@@ -138,7 +138,7 @@ This is one way you can control the order of the participant boxes across the to
       pair:  participant; order
       keyword: order
 
-  :order <number>: set the specific order for the participant.  Otherwise PlantUML just orders the participants as it encounters them.
+  :order <number>: set the specific order for the participant.  Otherwise PlantUML_ just orders the participants as it encounters them.
 
       **order must come last else you'll get a syntax error!**
 
@@ -430,7 +430,7 @@ An object creation Message has a dashed line with an open arrow head.
 
 .. note::
 
-   If you use dots :code:`...` for an arrow line, PlantUML will think you are working with a :ref:`Use Case diagram <use_case_diagram>` instead of a Sequence diagram
+   If you use dots :code:`...` for an arrow line, PlantUML_ will think you are working with a :ref:`Use Case diagram <use_case_diagram>` instead of a Sequence diagram
    and will change how it draws (renders) it.
 
 
@@ -657,7 +657,7 @@ There is a name in the upper-left corner of the frame and, in the case of a :ref
 * You can nest frames
 * You cannot use a `note` within a frame
 * See section 17.6 in the UML 2.5 Specification
-* PlantUML does not implement all InteractionOperator kinds, but you can use the :ref:`group box <seq_frame_group>` to put in the name of any InteractionOperator you want.
+* PlantUML_ does not implement all InteractionOperator kinds, but you can use the :ref:`group box <seq_frame_group>` to put in the name of any InteractionOperator you want.
 
 
 .. index::
@@ -751,7 +751,7 @@ There is a name in the upper-left corner of the frame and, in the case of a :ref
          The *else* InteractionOperator is used to show the sequence that will be used if the none of conditions for
          the *alt* alternatives can be met.  *else* |is_the_frame_name|
 
-         But in **PlantUML** this is how you label different alternatives.  You can use the :ref:`group <seq_frame_group>`
+         But in **PlantUML_** this is how you label different alternatives.  You can use the :ref:`group <seq_frame_group>`
          keyword to specifically display the word "else" and use it per the UML Specification.
 
          *text* is displayed in square brackets (:code:`[]`) at the top of the frame; it describes or labels this alternative.

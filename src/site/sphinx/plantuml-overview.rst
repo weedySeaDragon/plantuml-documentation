@@ -12,7 +12,7 @@ Generates Graphviz commands (DOT), then calls a processor  to render them as a p
 That's why you have to have ... installed for it to run
 
 
-PlantUML website:
+PlantUML_ website:
 
 
 

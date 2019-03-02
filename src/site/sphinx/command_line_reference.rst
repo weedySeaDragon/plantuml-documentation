@@ -13,7 +13,7 @@ run from the command line:
 
 * Java
 
-* The latest version fo PlantUML downloaded
+* The latest version of PlantUML_ downloaded
 
 
 Run::
@@ -43,7 +43,7 @@ Helpful command line options
    Note the this -D option has to put before the -jar option. -D options after the -jar option will be used to define constants within plantuml preprocessor.
 
 
-* See all of the regular expression patterns that PlantUML uses as it parses instructions::
+* See all of the regular expression patterns that PlantUML_ uses as it parses instructions::
 
     java -jar plantuml.jar -pattern
 
@@ -86,7 +86,7 @@ This is the same as using the :code:`!include` directive to include a file
 
    -metadata
 
-Extracts the PlantUML source from a :code:`.png` file.
+Extracts the PlantUML_ source from a :code:`.png` file.
 
 
 .. container:: keyword commandline-option
@@ -352,7 +352,7 @@ allow to overwrite read only files
 
    -p[ipe]
 
-use stdin for PlantUML source and stdout for PNG/SVG/EPS generation
+use stdin for PlantUML_ source and stdout for PNG/SVG/EPS generation
 
 
 
@@ -420,7 +420,7 @@ use a specific charset (default is UTF-8)
 
    -metadata
 
-retrieve PlantUML sources from PNG images
+retrieve PlantUML_ sources from PNG images
 
 
 
@@ -502,7 +502,7 @@ encode a sprite at gray level (z for compression) from an image
 
    -computeurl | -encodeurl
 
-compute the encoded URL of a PlantUML source file
+compute the encoded URL of a PlantUML_ source file
 
 
 
@@ -515,7 +515,7 @@ compute the encoded URL of a PlantUML source file
 
    -decodeurl
 
-retrieve the PlantUML source from an encoded URL
+retrieve the PlantUML_ source from an encoded URL
 
 
 
@@ -543,7 +543,7 @@ generate the Nth image with pipe option
 
    -extractstdlib
 
-extract PlantUML Standard Library into stdlib folder
+extract PlantUML_ Standard Library into stdlib folder
 
 
 
@@ -567,7 +567,7 @@ extract PlantUML Standard Library into stdlib folder
 .. _cmd_option_check_config_syntax:
 
 ----------------------------------
-PlantUML Configuration or Syntax
+PlantUML_ Configuration or Syntax
 ----------------------------------
 
 .. todo::
@@ -808,13 +808,13 @@ display a textual progress bar in console
 
 
 
-.. index::  print out information about PlantUML; command line option
+.. index::  print out information about PlantUML_; command line option
 
 
 .. _cmd_options_print_info:
 
 ------------------------------------
-Print Out Information about PlantUML
+Print Out Information about PlantUML_
 ------------------------------------
 
 
@@ -841,7 +841,7 @@ display this help message
 
    -language
 
-print the list of PlantUML keywords
+print the list of PlantUML_ keywords
 
 
 
@@ -854,7 +854,7 @@ print the list of PlantUML keywords
 
    -pattern
 
-print the list of Regular Expression used by PlantUML
+print the list of Regular Expression used by PlantUML_
 
 
 
@@ -880,7 +880,7 @@ print fonts available on your system
 
    -author[s]
 
-print information about PlantUML authors
+print information about PlantUML_ authors
 
 
 
@@ -893,7 +893,7 @@ print information about PlantUML authors
 
    -version
 
-display information about PlantUML and Java versions
+display information about PlantUML_ and Java versions
 
 
 

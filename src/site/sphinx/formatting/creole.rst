@@ -8,7 +8,7 @@ Creole Markup
 'Creole markup' is a small language that lets you do addition markup (styling).
 
 
-Reference on the PlantUML site: `Creole <http://plantuml.com/creole>`_
+Reference on the PlantUML_ site: `Creole <http://plantuml.com/creole>`_
 
 Wikipedia entry: `Creole markup <https://en.wikipedia.org/wiki/Creole_%28markup%29>`_
 
