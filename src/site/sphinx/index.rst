@@ -82,6 +82,7 @@ All Pages (detailed table of contents)
 .. toctree::
    :caption: Diagrams
    :maxdepth: 3
+   :collapse:
 
    diagrams/index
    diagrams/activity
