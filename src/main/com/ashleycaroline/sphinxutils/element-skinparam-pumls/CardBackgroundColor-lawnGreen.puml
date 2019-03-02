@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam CardBackgroundColor lawnGreen
-
-title CardBackgroundColor lawnGreen
-
-card Card 
-@enduml

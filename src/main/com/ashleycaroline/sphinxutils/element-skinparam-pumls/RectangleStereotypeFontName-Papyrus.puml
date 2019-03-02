@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam RectangleStereotypeFontName Papyrus
-
-title RectangleStereotypeFontName Papyrus
-
-rectangle Rectangle <<Stereotype>>
-@enduml

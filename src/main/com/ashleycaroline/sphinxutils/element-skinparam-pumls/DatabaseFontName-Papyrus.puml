@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam DatabaseFontName Papyrus
-
-title DatabaseFontName Papyrus
-
-database Database 
-@enduml

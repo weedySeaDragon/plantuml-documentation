@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam StorageFontName Papyrus
-
-title StorageFontName Papyrus
-
-storage Storage 
-@enduml

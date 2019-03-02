@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam UsecaseStereotypeFontColor red
-
-title UsecaseStereotypeFontColor red
-
-usecase Usecase <<Stereotype>>
-@enduml

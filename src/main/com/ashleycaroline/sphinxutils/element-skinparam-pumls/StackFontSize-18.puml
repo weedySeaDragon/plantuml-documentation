@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam StackFontSize 18
-
-title StackFontSize 18
-
-stack Stack 
-@enduml

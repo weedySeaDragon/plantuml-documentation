@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam InterfaceFontColor red
-
-title InterfaceFontColor red
-
-interface Interface 
-@enduml

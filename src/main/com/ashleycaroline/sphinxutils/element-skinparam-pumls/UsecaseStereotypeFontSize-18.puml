@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam UsecaseStereotypeFontSize 18
-
-title UsecaseStereotypeFontSize 18
-
-usecase Usecase <<Stereotype>>
-@enduml

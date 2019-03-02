@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam ControlStereotypeFontStyle italic
-
-title ControlStereotypeFontStyle italic
-
-control Control <<Stereotype>>
-@enduml

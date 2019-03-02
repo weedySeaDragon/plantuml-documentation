@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam StackFontColor red
-
-title StackFontColor red
-
-stack Stack 
-@enduml

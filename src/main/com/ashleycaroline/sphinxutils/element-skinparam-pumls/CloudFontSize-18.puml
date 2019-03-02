@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam CloudFontSize 18
-
-title CloudFontSize 18
-
-cloud Cloud 
-@enduml

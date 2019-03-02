@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam QueueBackgroundColor lawnGreen
-
-title QueueBackgroundColor lawnGreen
-
-queue Queue 
-@enduml

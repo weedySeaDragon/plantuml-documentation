@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam BoundaryFontColor red
-
-title BoundaryFontColor red
-
-boundary Boundary 
-@enduml

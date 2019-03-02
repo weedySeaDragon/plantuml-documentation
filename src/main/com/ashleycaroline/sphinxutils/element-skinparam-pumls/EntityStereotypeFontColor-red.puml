@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam EntityStereotypeFontColor red
-
-title EntityStereotypeFontColor red
-
-entity Entity <<Stereotype>>
-@enduml

@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam QueueStereotypeFontColor red
-
-title QueueStereotypeFontColor red
-
-queue Queue <<Stereotype>>
-@enduml

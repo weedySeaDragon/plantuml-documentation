@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam UsecaseFontColor red
-
-title UsecaseFontColor red
-
-usecase Usecase 
-@enduml

@@ -29,8 +29,8 @@ import static java.lang.Integer.min;
  * +------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+------------------------------------------------+
  *
  *
- *  @file ColorSampleRSTWriter
- *  @project documentation  (local project name)
+ *  file: ColorSampleRSTWriter
+ *  project: plantuml-documentation  (local project name)
  *
  *  @author Ashley Engelund   ashley@ashleycaroline.com | weedySeaDragon@github
  *  @since 11 Oct 2018
@@ -38,7 +38,7 @@ import static java.lang.Integer.min;
  ********************************************************************************/
 
 
-public class ColorSampleRSTWriter {
+class ColorSampleRSTWriter {
 
 
     private static final Integer TABLE_COLUMN_LENGTH = 48;
@@ -51,13 +51,13 @@ public class ColorSampleRSTWriter {
     // ================================================
 
 
-    public void add_color( String colorName ) {
+     void add_color( String colorName ) {
 
         _colors.add( colorName );
     }
 
 
-    public ArrayList< String > get_colors() {
+    ArrayList< String > get_colors() {
 
         return _colors;
     }
@@ -66,7 +66,7 @@ public class ColorSampleRSTWriter {
     /**
      * @return [String] the ReStructuredText table filled with the colors we have
      */
-    public String generate_rst_table() {
+    String generate_rst_table() {
 
         StringBuilder rstSB = new StringBuilder();
 
@@ -117,9 +117,9 @@ public class ColorSampleRSTWriter {
      * - blank_line
      * - color_name_line
      *
-     * @param colors [List<String>]  the list of colors
+     * @param colors List of String -  the list of colors
      *
-     * @return [String]
+     * @return String
      */
     protected String table_row_for( ArrayList< String > colors ) {
 
@@ -144,7 +144,7 @@ public class ColorSampleRSTWriter {
      * If the size of columnBodies is less than the number of columns in a row, create the remaining columns
      * with just blank strings.
      *
-     * @param columnStrings ArrayList<String> list of the strings that are the bodies of each of the columns in the row
+     * @param columnStrings ArrayList of String - list of the strings that are the bodies of each of the columns in the row
      *
      * @return String the entire row
      */

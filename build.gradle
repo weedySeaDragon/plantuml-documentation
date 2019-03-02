@@ -1,37 +1,28 @@
 plugins {
-    id 'groovy'
-    id 'java'
+    id "java"
+    id "groovy"
 
+    // gradle plugin for running sphinx
     id "kr.motd.sphinx" version "2.3.1"
 }
 
-group 'com.ashleycaroline.plantuml'
-version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.9
 
-repositories {
-    mavenCentral()
+description 'Sphinx site source files for my ReadTheDocs documentation site about PlantUML'
+
+allprojects {
+
+    group 'com.ashleycaroline.plantuml'
+    version '1.0.1'
+
+    repositories {
+        mavenCentral()
+    }
+
+    apply plugin: 'groovy'
+    apply plugin: 'kr.motd.sphinx'
+
 }
-
-dependencies {
-    compile 'org.codehaus.groovy:groovy-all:2.3.11'
-    
-}
-
-
-ext.vendor = "Ashley Engelund"
-ext.vendorId = "com.ashleycaroline"
-ext.specificationVendor = vendor
-ext.specificationVendorId = vendorId
-ext.implementationVendor = vendor
-ext.implementationVendorId = vendorId
-ext.specificationTitleStart = "Ashley's PlantUML Documentation"
-ext.implementationTitleStart = "AEPlantUMLDoc"
-
-ext.rootPackage = 'com.ashleycaroline.plantuml-documentation'
-
-ext.moduleName = rootPackage + '.' + project.getName();
 
 
 sphinx {

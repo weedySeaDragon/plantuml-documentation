@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam ComponentFontColor red
-
-title ComponentFontColor red
-
-component Component 
-@enduml

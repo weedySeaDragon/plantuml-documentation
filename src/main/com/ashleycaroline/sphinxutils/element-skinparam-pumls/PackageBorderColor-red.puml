@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam PackageBorderColor red
-
-title PackageBorderColor red
-
-package Package 
-@enduml

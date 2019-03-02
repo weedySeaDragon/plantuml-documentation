@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam PackageFontColor red
-
-title PackageFontColor red
-
-package Package 
-@enduml
