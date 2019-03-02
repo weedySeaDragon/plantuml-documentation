@@ -813,9 +813,9 @@ display a textual progress bar in console
 
 .. _cmd_options_print_info:
 
-------------------------------------
+-------------------------------------
 Print Out Information about PlantUML_
-------------------------------------
+-------------------------------------
 
 
 

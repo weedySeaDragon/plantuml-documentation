@@ -1,5 +1,5 @@
 PlantUML_ Version and Authors
-############################
+#############################
 
 Here is the version of PlantUML_ I used to generate this information and the PlantUML_ authors.
 

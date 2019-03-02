@@ -52,7 +52,7 @@ Activity
 :Usage:
     :code:`ActivityBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for shapes (except diamonds, start, and stop) on an Activity diagram.
+     |skn_bkcolor4| for shapes (except diamonds, start, and stop) on an Activity diagram.
 
 
 :Applies to:
@@ -109,7 +109,7 @@ Activity
 :Usage:
     :code:`ActivityBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| every shape in an Activity diagram.
+    |skn_bkcolor4| every shape in an Activity diagram.
 
 
 :Applies to:
@@ -137,7 +137,7 @@ Activity
 :Usage:
     :code:`ActivityBorderThickness [ number ]`
 
-    |cmdl_brdthick4| every shape in an Activity diagram.
+    |skn_brdthick4| every shape in an Activity diagram.
 
    Note: This only works with the 'beta' (later) version of the Activity diagram syntax.
 
@@ -167,7 +167,7 @@ Activity
 :Usage:
     :code:`activityDiamondBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a diamond on an Activity diagram.
+     |skn_bkcolor4| for a diamond on an Activity diagram.
 
       Note: "activity" must start with a *lower-case a.*
 
@@ -197,7 +197,7 @@ Activity
 :Usage:
     :code:`activityDiamondBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a diamond in an Activity diagram.
+    |skn_bkcolor4| a diamond in an Activity diagram.
 
 
 :Applies to:
@@ -225,7 +225,7 @@ Activity
 :Usage:
     :code:`activityDiamondFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a diamond in an Activity diagram. |use_colorname_hex|
+     |skn_fcolor4_in| a diamond in an Activity diagram. |use_colorname_hex|
 
 
 :Applies to:
@@ -253,7 +253,7 @@ Activity
 :Usage:
     :code:`activityDiamondFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -282,7 +282,7 @@ Activity
 :Usage:
     :code:`activityDiamondFontSize [ number ]`
 
-     |cmdl_fsize4_in| a diamond in an Activity diagram
+     |skn_fsize4_in| a diamond in an Activity diagram
 
 
 :Applies to:
@@ -311,7 +311,7 @@ Activity
 :Usage:
     :code:`activityDiamondFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a diamond in an Activity diagram.
+     |skn_fstyle4_in| a diamond in an Activity diagram.
 
 
 :Applies to:
@@ -367,7 +367,7 @@ Activity
 :Usage:
     :code:`ActivityFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4| all text except diamonds in an Activity diagram. |use_colorname_hex|
+     |skn_fcolor4| all text except diamonds in an Activity diagram. |use_colorname_hex|
 
 
 :Applies to:
@@ -396,7 +396,7 @@ Activity
 :Usage:
     :code:`ActivityFontName [ fontNameOnYourSystem ]`
 
-      |cmdl_fname4| all text except diamonds in Activity diagrams. |cmdl_font_reqd|
+      |skn_fname4| all text except diamonds in Activity diagrams. |skn_font_reqd|
 
 
 :Applies to:
@@ -425,7 +425,7 @@ Activity
 :Usage:
     :code:`ActivityFontSize [ number ]`
 
-      |cmdl_fsize4| all text except for diamonds in Activity diagrams.
+      |skn_fsize4| all text except for diamonds in Activity diagrams.
 
 
 :Applies to:
@@ -454,7 +454,7 @@ Activity
 :Usage:
     :code:`ActivityFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4txt| except for diamonds in Activity diagrams.
+     |skn_fstyle4txt| except for diamonds in Activity diagrams.
 
 
 :Applies to:
@@ -520,7 +520,7 @@ Actor
 :Usage:
     :code:`ActorBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for an Actor.
+     |skn_bkcolor4| for an Actor.
 
 
 :Applies to:
@@ -547,7 +547,7 @@ Actor
 :Usage:
     :code:`ActorBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| an Actor.
+    |skn_bkcolor4| an Actor.
 
 
 :Applies to:
@@ -575,7 +575,7 @@ Actor
 :Usage:
     :code:`ActorFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4| actor (label) text. |use_colorname_hex|
+     |skn_fcolor4| actor (label) text. |use_colorname_hex|
 
 
 :Applies to:
@@ -603,7 +603,7 @@ Actor
 :Usage:
     :code:`ActorFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_fname4_in|
+     |skn_fname4_in| zz. |skn_fname4_in|
 
 
 :Applies to:
@@ -632,7 +632,7 @@ Actor
 :Usage:
     :code:`ActorFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -661,7 +661,7 @@ Actor
 :Usage:
     :code:`ActorFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -690,7 +690,7 @@ Actor
 :Usage:
     :code:`ActorStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4| stereotype text for an actor. |use_colorname_hex|
+     |skn_fcolor4| stereotype text for an actor. |use_colorname_hex|
 
 
 :Applies to:
@@ -719,7 +719,7 @@ Actor
 :Usage:
     :code:`ActorStereotypeFontName [ fontNameOnYourSystem ]`
 
-      |cmdl_fname4| stereotype text for an actor.  |cmdl_font_reqd|
+      |skn_fname4| stereotype text for an actor.  |skn_font_reqd|
 
 
 :Applies to:
@@ -747,7 +747,7 @@ Actor
 :Usage:
     :code:`ActorStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4| stereotype text for an actor.
+     |skn_fsize4| stereotype text for an actor.
 
 
 :Applies to:
@@ -776,7 +776,7 @@ Actor
 :Usage:
     :code:`ActorStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4| stereotype text for an actor.
+     |skn_fstyle4| stereotype text for an actor.
 
 
 :Applies to:
@@ -817,7 +817,7 @@ Agent
 :Usage:
     :code:`AgentBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for an Agent element.
+     |skn_bkcolor4| for an Agent element.
 
 
 :Applies to:
@@ -846,7 +846,7 @@ Agent
 :Usage:
     :code:`AgentBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| an Agent.
+    |skn_bkcolor4| an Agent.
 
 
 :Applies to:
@@ -875,7 +875,7 @@ Agent
 :Usage:
     :code:`AgentBorderThickness [ number ]`
 
-    |cmdl_brdthick4| an agent element.
+    |skn_brdthick4| an agent element.
 
 
 :Applies to:
@@ -904,7 +904,7 @@ Agent
 :Usage:
     :code:`AgentFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| an agent. |use_colorname_hex|
+     |skn_fcolor4_in| an agent. |use_colorname_hex|
 
 
 :Applies to:
@@ -933,7 +933,7 @@ Agent
 :Usage:
     :code:`AgentFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| an agent.  |cmdl_font_reqd|
+     |skn_fname4_in| an agent.  |skn_font_reqd|
 
 
 :Applies to:
@@ -962,7 +962,7 @@ Agent
 :Usage:
     :code:`AgentFontSize [ number ]`
 
-     |cmdl_fsize4_in| an agent.
+     |skn_fsize4_in| an agent.
 
 
 :Applies to:
@@ -991,7 +991,7 @@ Agent
 :Usage:
     :code:`AgentFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| an agent.
+     |skn_fstyle4_in| an agent.
 
 
 :Applies to:
@@ -1021,7 +1021,7 @@ Agent
 :Usage:
     :code:`AgentStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4| the stereotype text for an agent. |use_colorname_hex|
+     |skn_fcolor4| the stereotype text for an agent. |use_colorname_hex|
 
 
 :Applies to:
@@ -1051,7 +1051,7 @@ Agent
 :Usage:
     :code:`AgentStereotypeFontName [ fontNameOnYourSystem ]`
 
-      |cmdl_fname4| the stereotype text for an agent.  |cmdl_font_reqd|
+      |skn_fname4| the stereotype text for an agent.  |skn_font_reqd|
 
 
 :Applies to:
@@ -1081,7 +1081,7 @@ Agent
 :Usage:
     :code:`AgentStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4| the stereotype text for an agent.
+     |skn_fsize4| the stereotype text for an agent.
 
 
 :Applies to:
@@ -1111,7 +1111,7 @@ Agent
 :Usage:
     :code:`AgentStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4| the stereotype text for an agent.
+     |skn_fstyle4| the stereotype text for an agent.
 
 
 :Applies to:
@@ -1179,7 +1179,7 @@ Arrow
 :Usage:
     :code:`ArrowFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4txt| for arrows. |use_colorname_hex|
+     |skn_fcolor4txt| for arrows. |use_colorname_hex|
 
 
 :Applies to:
@@ -1208,7 +1208,7 @@ Arrow
 :Usage:
     :code:`ArrowFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4txt| for arrows.  |cmdl_font_reqd|
+     |skn_fname4txt| for arrows.  |skn_font_reqd|
 
 
 :Applies to:
@@ -1237,7 +1237,7 @@ Arrow
 :Usage:
     :code:`ArrowFontSize [ number ]`
 
-     |cmdl_fsize4txt| for arrows.
+     |skn_fsize4txt| for arrows.
 
 
 :Applies to:
@@ -1267,7 +1267,7 @@ Arrow
 :Usage:
     :code:`ArrowFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4txt| for arrows.
+     |skn_fstyle4txt| for arrows.
 
 
 :Applies to:
@@ -1395,7 +1395,7 @@ Artifact
 :Usage:
     :code:`ArtifactBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for an Artifact.
+     |skn_bkcolor4| for an Artifact.
 
 
 :Applies to:
@@ -1425,7 +1425,7 @@ Artifact
 :Usage:
     :code:`ArtifactBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| an Artifact.
+    |skn_bkcolor4| an Artifact.
 
 
 :Applies to:
@@ -1454,7 +1454,7 @@ Artifact
 :Usage:
     :code:`ArtifactFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| an Artifact. |use_colorname_hex|
+     |skn_fcolor4_in| an Artifact. |use_colorname_hex|
 
 
 :Applies to:
@@ -1483,7 +1483,7 @@ Artifact
 :Usage:
     :code:`ArtifactFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| an Artifact.  |cmdl_font_reqd|
+     |skn_fname4_in| an Artifact.  |skn_font_reqd|
 
 
 :Applies to:
@@ -1512,7 +1512,7 @@ Artifact
 :Usage:
     :code:`ArtifactFontSize [ number ]`
 
-     |cmdl_fsize4_in| an Artifact.
+     |skn_fsize4_in| an Artifact.
 
 
 :Applies to:
@@ -1541,7 +1541,7 @@ Artifact
 :Usage:
     :code:`ArtifactFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| an Artifact.
+     |skn_fstyle4_in| an Artifact.
 
 
 :Applies to:
@@ -1570,7 +1570,7 @@ Artifact
 :Usage:
     :code:`ArtifactStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| an Artifact Stereotype. |use_colorname_hex|
+     |skn_fcolor4_in| an Artifact Stereotype. |use_colorname_hex|
 
 
 :Applies to:
@@ -1599,7 +1599,7 @@ Artifact
 :Usage:
     :code:`ArtifactStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| an Artifact Stereotype.  |cmdl_font_reqd|
+     |skn_fname4_in| an Artifact Stereotype.  |skn_font_reqd|
 
 
 :Applies to:
@@ -1628,7 +1628,7 @@ Artifact
 :Usage:
     :code:`ArtifactStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| an Artifact Stereotype.
+     |skn_fsize4_in| an Artifact Stereotype.
 
 
 :Applies to:
@@ -1657,7 +1657,7 @@ Artifact
 :Usage:
     :code:`ArtifactStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| an Artifact Stereotype.
+     |skn_fstyle4_in| an Artifact Stereotype.
 
 
 :Applies to:
@@ -1702,7 +1702,7 @@ BackgroundColor
 :Usage:
     :code:`BackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a .
+     |skn_bkcolor4| for a .
 
 
 :Applies to:
@@ -1739,7 +1739,7 @@ Biddable
 :Usage:
     :code:`BiddableBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Biddable.
+     |skn_bkcolor4| for a Biddable.
 
 
 :Applies to:
@@ -1766,7 +1766,7 @@ Biddable
 :Usage:
     :code:`BiddableBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Biddable.
+    |skn_bkcolor4| a Biddable.
 
 
 :Applies to:
@@ -1804,7 +1804,7 @@ Boundary
 :Usage:
     :code:`BoundaryBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Boundary.
+     |skn_bkcolor4| for a Boundary.
 
 
 :Applies to:
@@ -1831,7 +1831,7 @@ Boundary
 :Usage:
     :code:`BoundaryBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Boundary.
+    |skn_bkcolor4| a Boundary.
 
 
 :Applies to:
@@ -1858,7 +1858,7 @@ Boundary
 :Usage:
     :code:`BoundaryFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a Boundary. |use_colorname_hex|
+     |skn_fcolor4_in| a Boundary. |use_colorname_hex|
 
 
 :Applies to:
@@ -1885,7 +1885,7 @@ Boundary
 :Usage:
     :code:`BoundaryFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a Boundary.  |cmdl_font_reqd|
+     |skn_fname4_in| a Boundary.  |skn_font_reqd|
 
 
 :Applies to:
@@ -1912,7 +1912,7 @@ Boundary
 :Usage:
     :code:`BoundaryFontSize [ number ]`
 
-     |cmdl_fsize4_in| a Boundary.
+     |skn_fsize4_in| a Boundary.
 
 
 :Applies to:
@@ -1939,7 +1939,7 @@ Boundary
 :Usage:
     :code:`BoundaryFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a Boundary.
+     |skn_fstyle4_in| a Boundary.
 
 
 :Applies to:
@@ -1966,7 +1966,7 @@ Boundary
 :Usage:
     :code:`BoundaryStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a Boundary Stereotype. |use_colorname_hex|
+     |skn_fcolor4_in| a Boundary Stereotype. |use_colorname_hex|
 
 
 :Applies to:
@@ -1993,7 +1993,7 @@ Boundary
 :Usage:
     :code:`BoundaryStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a Boundary Stereotype.  |cmdl_font_reqd|
+     |skn_fname4_in| a Boundary Stereotype.  |skn_font_reqd|
 
 
 :Applies to:
@@ -2020,7 +2020,7 @@ Boundary
 :Usage:
     :code:`BoundaryStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| a Boundary Stereotype.
+     |skn_fsize4_in| a Boundary Stereotype.
 
 
 :Applies to:
@@ -2047,7 +2047,7 @@ Boundary
 :Usage:
     :code:`BoundaryStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a Boundary Stereotype.
+     |skn_fstyle4_in| a Boundary Stereotype.
 
 
 :Applies to:
@@ -2137,7 +2137,7 @@ Caption
 :Usage:
     :code:`CaptionFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a Caption. |use_colorname_hex|
+     |skn_fcolor4_in| a Caption. |use_colorname_hex|
 
 
 :Applies to:
@@ -2165,7 +2165,7 @@ Caption
 :Usage:
     :code:`CaptionFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a Caption.  |cmdl_font_reqd|
+     |skn_fname4_in| a Caption.  |skn_font_reqd|
 
 
 :Applies to:
@@ -2193,7 +2193,7 @@ Caption
 :Usage:
     :code:`CaptionFontSize [ number ]`
 
-     |cmdl_fsize4_in| a Caption.
+     |skn_fsize4_in| a Caption.
 
 
 :Applies to:
@@ -2221,7 +2221,7 @@ Caption
 :Usage:
     :code:`CaptionFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a Caption.
+     |skn_fstyle4_in| a Caption.
 
 
 :Applies to:
@@ -2260,7 +2260,7 @@ Card
 :Usage:
     :code:`CardBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Card.
+     |skn_bkcolor4| for a Card.
 
 
 :Applies to:
@@ -2289,7 +2289,7 @@ Card
 :Usage:
     :code:`CardBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Card.
+    |skn_bkcolor4| a Card.
 
 
 :Applies to:
@@ -2348,7 +2348,7 @@ Card
 :Usage:
     :code:`CardFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a Card. |use_colorname_hex|
+     |skn_fcolor4_in| a Card. |use_colorname_hex|
 
 
 :Applies to:
@@ -2377,7 +2377,7 @@ Card
 :Usage:
     :code:`CardFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a Card.  |cmdl_font_reqd|
+     |skn_fname4_in| a Card.  |skn_font_reqd|
 
 
 :Applies to:
@@ -2406,7 +2406,7 @@ Card
 :Usage:
     :code:`CardFontSize [ number ]`
 
-     |cmdl_fsize4_in| a Card.
+     |skn_fsize4_in| a Card.
 
 
 :Applies to:
@@ -2435,7 +2435,7 @@ Card
 :Usage:
     :code:`CardFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a Card.
+     |skn_fstyle4_in| a Card.
 
 
 :Applies to:
@@ -2464,7 +2464,7 @@ Card
 :Usage:
     :code:`CardStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a Card Stereotype. |use_colorname_hex|
+     |skn_fcolor4_in| a Card Stereotype. |use_colorname_hex|
 
 
 :Applies to:
@@ -2493,7 +2493,7 @@ Card
 :Usage:
     :code:`CardStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a Card Stereotype.  |cmdl_font_reqd|
+     |skn_fname4_in| a Card Stereotype.  |skn_font_reqd|
 
 
 :Applies to:
@@ -2522,7 +2522,7 @@ Card
 :Usage:
     :code:`CardStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| a Card Stereotype.
+     |skn_fsize4_in| a Card Stereotype.
 
 
 :Applies to:
@@ -2551,7 +2551,7 @@ Card
 :Usage:
     :code:`CardStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a Card Stereotype.
+     |skn_fstyle4_in| a Card Stereotype.
 
 
 :Applies to:
@@ -2590,7 +2590,7 @@ CircledCharacter
 :Usage:
     :code:`CircledCharacterFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4| characters in the class type circles. |use_colorname_hex|
+     |skn_fcolor4| characters in the class type circles. |use_colorname_hex|
 
 
 :Applies to:
@@ -2619,7 +2619,7 @@ CircledCharacter
 :Usage:
     :code:`CircledCharacterFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| the class type circles.  |cmdl_font_reqd|
+     |skn_fname4_in| the class type circles.  |skn_font_reqd|
 
 
 :Applies to:
@@ -2647,7 +2647,7 @@ CircledCharacter
 :Usage:
     :code:`CircledCharacterFontSize [ number ]`
 
-     |cmdl_fsize4_in| the class type circles.
+     |skn_fsize4_in| the class type circles.
 
 
 :Applies to:
@@ -2676,7 +2676,7 @@ CircledCharacter
 :Usage:
     :code:`CircledCharacterFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| the class type circles.
+     |skn_fstyle4_in| the class type circles.
 
 
 :Applies to:
@@ -2741,7 +2741,7 @@ Class
 :Usage:
     :code:`ClassAttributeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a Class attribute. |use_colorname_hex|
+     |skn_fcolor4_in| a Class attribute. |use_colorname_hex|
 
 
 :Applies to:
@@ -2768,7 +2768,7 @@ Class
 :Usage:
     :code:`ClassAttributeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a Class attribute.  |cmdl_font_reqd|
+     |skn_fname4_in| a Class attribute.  |skn_font_reqd|
 
 
 :Applies to:
@@ -2795,7 +2795,7 @@ Class
 :Usage:
     :code:`ClassAttributeFontSize [ number ]`
 
-     |cmdl_fsize4_in| a Class attribute.
+     |skn_fsize4_in| a Class attribute.
 
 
 :Applies to:
@@ -2822,7 +2822,7 @@ Class
 :Usage:
     :code:`ClassAttributeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a Class attribute.
+     |skn_fstyle4_in| a Class attribute.
 
 
 :Applies to:
@@ -2876,7 +2876,7 @@ Class
 :Usage:
     :code:`ClassBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Class.
+     |skn_bkcolor4| for a Class.
 
 
 :Applies to:
@@ -2903,7 +2903,7 @@ Class
 :Usage:
     :code:`ClassBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Class.
+    |skn_bkcolor4| a Class.
 
 
 :Applies to:
@@ -2957,7 +2957,7 @@ Class
 :Usage:
     :code:`ClassFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a Class. |use_colorname_hex|
+     |skn_fcolor4_in| a Class. |use_colorname_hex|
 
 
 :Applies to:
@@ -2984,7 +2984,7 @@ Class
 :Usage:
     :code:`ClassFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a Class.  |cmdl_font_reqd|
+     |skn_fname4_in| a Class.  |skn_font_reqd|
 
 
 :Applies to:
@@ -3011,7 +3011,7 @@ Class
 :Usage:
     :code:`ClassFontSize [ number ]`
 
-     |cmdl_fsize4_in| a Class.
+     |skn_fsize4_in| a Class.
 
 
 :Applies to:
@@ -3038,7 +3038,7 @@ Class
 :Usage:
     :code:`ClassFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a Class.
+     |skn_fstyle4_in| a Class.
 
 
 :Applies to:
@@ -3065,7 +3065,7 @@ Class
 :Usage:
     :code:`ClassHeaderBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a ClassHeader.
+     |skn_bkcolor4| for a ClassHeader.
 
 
 :Applies to:
@@ -3092,7 +3092,7 @@ Class
 :Usage:
     :code:`ClassStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a Class Stereotype. |use_colorname_hex|
+     |skn_fcolor4_in| a Class Stereotype. |use_colorname_hex|
 
 
 :Applies to:
@@ -3119,7 +3119,7 @@ Class
 :Usage:
     :code:`ClassStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a Class Stereotype.  |cmdl_font_reqd|
+     |skn_fname4_in| a Class Stereotype.  |skn_font_reqd|
 
 
 :Applies to:
@@ -3146,7 +3146,7 @@ Class
 :Usage:
     :code:`ClassStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| a Class Stereotype.
+     |skn_fsize4_in| a Class Stereotype.
 
 
 :Applies to:
@@ -3173,7 +3173,7 @@ Class
 :Usage:
     :code:`ClassStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a Class Stereotype.
+     |skn_fstyle4_in| a Class Stereotype.
 
 
 :Applies to:
@@ -3217,7 +3217,7 @@ Cloud
 :Usage:
     :code:`CloudBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Cloud.
+     |skn_bkcolor4| for a Cloud.
 
 
 :Applies to:
@@ -3247,7 +3247,7 @@ Cloud
 :Usage:
     :code:`CloudBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Cloud.
+    |skn_bkcolor4| a Cloud.
 
 
 :Applies to:
@@ -3277,7 +3277,7 @@ Cloud
 :Usage:
     :code:`CloudFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a Cloud. |use_colorname_hex|
+     |skn_fcolor4_in| a Cloud. |use_colorname_hex|
 
 
 :Applies to:
@@ -3308,7 +3308,7 @@ Cloud
 :Usage:
     :code:`CloudFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a Cloud.  |cmdl_font_reqd|
+     |skn_fname4_in| a Cloud.  |skn_font_reqd|
 
 
 :Applies to:
@@ -3338,7 +3338,7 @@ Cloud
 :Usage:
     :code:`CloudFontSize [ number ]`
 
-     |cmdl_fsize4_in| a Cloud.
+     |skn_fsize4_in| a Cloud.
 
 
 :Applies to:
@@ -3368,7 +3368,7 @@ Cloud
 :Usage:
     :code:`CloudFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a Cloud.
+     |skn_fstyle4_in| a Cloud.
 
 
 :Applies to:
@@ -3398,7 +3398,7 @@ Cloud
 :Usage:
     :code:`CloudStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a Cloud Stereotype. |use_colorname_hex|
+     |skn_fcolor4_in| a Cloud Stereotype. |use_colorname_hex|
 
 
 :Applies to:
@@ -3427,7 +3427,7 @@ Cloud
 :Usage:
     :code:`CloudStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a Cloud Stereotype.  |cmdl_font_reqd|
+     |skn_fname4_in| a Cloud Stereotype.  |skn_font_reqd|
 
 
 :Applies to:
@@ -3456,7 +3456,7 @@ Cloud
 :Usage:
     :code:`CloudStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| a Cloud Stereotype.
+     |skn_fsize4_in| a Cloud Stereotype.
 
 
 :Applies to:
@@ -3485,7 +3485,7 @@ Cloud
 :Usage:
     :code:`CloudStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a Cloud Stereotype.
+     |skn_fstyle4_in| a Cloud Stereotype.
 
 
 :Applies to:
@@ -3523,7 +3523,7 @@ Collections
 :Usage:
     :code:`CollectionsBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Collection.
+     |skn_bkcolor4| for a Collection.
 
 
 :Applies to:
@@ -3550,7 +3550,7 @@ Collections
 :Usage:
     :code:`CollectionsBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Collection.
+    |skn_bkcolor4| a Collection.
 
 
 :Applies to:
@@ -3617,7 +3617,7 @@ Component
 :Usage:
     :code:`ComponentBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Component.
+     |skn_bkcolor4| for a Component.
 
 
 :Applies to:
@@ -3644,7 +3644,7 @@ Component
 :Usage:
     :code:`ComponentBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Component.
+    |skn_bkcolor4| a Component.
 
 
 :Applies to:
@@ -3698,7 +3698,7 @@ Component
 :Usage:
     :code:`ComponentFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a Component. |use_colorname_hex|
+     |skn_fcolor4_in| a Component. |use_colorname_hex|
 
 
 :Applies to:
@@ -3725,7 +3725,7 @@ Component
 :Usage:
     :code:`ComponentFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a Component.  |cmdl_font_reqd|
+     |skn_fname4_in| a Component.  |skn_font_reqd|
 
 
 :Applies to:
@@ -3752,7 +3752,7 @@ Component
 :Usage:
     :code:`ComponentFontSize [ number ]`
 
-     |cmdl_fsize4_in| a Component.
+     |skn_fsize4_in| a Component.
 
 
 :Applies to:
@@ -3779,7 +3779,7 @@ Component
 :Usage:
     :code:`ComponentFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a Component.
+     |skn_fstyle4_in| a Component.
 
 
 :Applies to:
@@ -3806,7 +3806,7 @@ Component
 :Usage:
     :code:`ComponentStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a Component Stereotype. |use_colorname_hex|
+     |skn_fcolor4_in| a Component Stereotype. |use_colorname_hex|
 
 
 :Applies to:
@@ -3833,7 +3833,7 @@ Component
 :Usage:
     :code:`ComponentStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a Component Stereotype.  |cmdl_font_reqd|
+     |skn_fname4_in| a Component Stereotype.  |skn_font_reqd|
 
 
 :Applies to:
@@ -3860,7 +3860,7 @@ Component
 :Usage:
     :code:`ComponentStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| a Component Stereotype.
+     |skn_fsize4_in| a Component Stereotype.
 
 
 :Applies to:
@@ -3887,7 +3887,7 @@ Component
 :Usage:
     :code:`ComponentStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a Component Stereotype.
+     |skn_fstyle4_in| a Component Stereotype.
 
 
 :Applies to:
@@ -3981,7 +3981,7 @@ Control
 :Usage:
     :code:`ControlBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Control.
+     |skn_bkcolor4| for a Control.
 
 
 :Applies to:
@@ -4008,7 +4008,7 @@ Control
 :Usage:
     :code:`ControlBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Control.
+    |skn_bkcolor4| a Control.
 
 
 :Applies to:
@@ -4035,7 +4035,7 @@ Control
 :Usage:
     :code:`ControlFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a Control. |use_colorname_hex|
+     |skn_fcolor4_in| a Control. |use_colorname_hex|
 
 
 :Applies to:
@@ -4062,7 +4062,7 @@ Control
 :Usage:
     :code:`ControlFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a Control. |cmdl_font_reqd|
+     |skn_fname4_in| a Control. |skn_font_reqd|
 
 
 :Applies to:
@@ -4089,7 +4089,7 @@ Control
 :Usage:
     :code:`ControlFontSize [ number ]`
 
-     |cmdl_fsize4_in| a Control.
+     |skn_fsize4_in| a Control.
 
 
 :Applies to:
@@ -4116,7 +4116,7 @@ Control
 :Usage:
     :code:`ControlFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a Control.
+     |skn_fstyle4_in| a Control.
 
 
 :Applies to:
@@ -4143,7 +4143,7 @@ Control
 :Usage:
     :code:`ControlStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a Control. |use_colorname_hex|
+     |skn_fcolor4_in| a Control. |use_colorname_hex|
 
 
 :Applies to:
@@ -4170,7 +4170,7 @@ Control
 :Usage:
     :code:`ControlStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a Control Stereotype. |cmdl_font_reqd|
+     |skn_fname4_in| a Control Stereotype. |skn_font_reqd|
 
 
 :Applies to:
@@ -4197,7 +4197,7 @@ Control
 :Usage:
     :code:`ControlStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| a Control Stereotype.
+     |skn_fsize4_in| a Control Stereotype.
 
 
 :Applies to:
@@ -4224,7 +4224,7 @@ Control
 :Usage:
     :code:`ControlStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a Control Stereotype.
+     |skn_fstyle4_in| a Control Stereotype.
 
 
 :Applies to:
@@ -4275,7 +4275,7 @@ Database
 :Usage:
     :code:`DatabaseBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| a Database.
+     |skn_bkcolor4| a Database.
 
 
 :Applies to:
@@ -4302,7 +4302,7 @@ Database
 :Usage:
     :code:`DatabaseBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Database.
+    |skn_bkcolor4| a Database.
 
 
 :Applies to:
@@ -4329,7 +4329,7 @@ Database
 :Usage:
     :code:`DatabaseFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a Database. |use_colorname_hex|
+     |skn_fcolor4_in| a Database. |use_colorname_hex|
 
 
 :Applies to:
@@ -4356,7 +4356,7 @@ Database
 :Usage:
     :code:`DatabaseFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a Database. |cmdl_font_reqd|
+     |skn_fname4_in| a Database. |skn_font_reqd|
 
 
 :Applies to:
@@ -4383,7 +4383,7 @@ Database
 :Usage:
     :code:`DatabaseFontSize [ number ]`
 
-     |cmdl_fsize4_in| a Database.
+     |skn_fsize4_in| a Database.
 
 
 :Applies to:
@@ -4410,7 +4410,7 @@ Database
 :Usage:
     :code:`DatabaseFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a Database.
+     |skn_fstyle4_in| a Database.
 
 
 :Applies to:
@@ -4437,7 +4437,7 @@ Database
 :Usage:
     :code:`DatabaseStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a Database Stereotype. |use_colorname_hex|
+     |skn_fcolor4_in| a Database Stereotype. |use_colorname_hex|
 
 
 :Applies to:
@@ -4464,7 +4464,7 @@ Database
 :Usage:
     :code:`DatabaseStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a Database Stereotype. |cmdl_font_reqd|
+     |skn_fname4_in| a Database Stereotype. |skn_font_reqd|
 
 
 :Applies to:
@@ -4491,7 +4491,7 @@ Database
 :Usage:
     :code:`DatabaseStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| a Database Stereotype.
+     |skn_fsize4_in| a Database Stereotype.
 
 
 :Applies to:
@@ -4518,7 +4518,7 @@ Database
 :Usage:
     :code:`DatabaseStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a Database Stereotype.
+     |skn_fstyle4_in| a Database Stereotype.
 
 
 :Applies to:
@@ -4557,7 +4557,7 @@ Default
 :Usage:
     :code:`DefaultFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4| all text that does not have a color set with a skinparam. |use_colorname_hex|
+     |skn_fcolor4| all text that does not have a color set with a skinparam. |use_colorname_hex|
 
 
 :Applies to:
@@ -4584,7 +4584,7 @@ Default
 :Usage:
     :code:`DefaultFontName [ fontNameOnYourSystem ]`
 
-      |cmdl_fname4| all text that does not have a font name set with a skinparam. |cmdl_font_reqd|
+      |skn_fname4| all text that does not have a font name set with a skinparam. |skn_font_reqd|
 
 
 :Applies to:
@@ -4613,7 +4613,7 @@ Default
 :Usage:
     :code:`DefaultFontSize [ number ]`
 
-     |cmdl_fsize4| all text that does not have a size set with a skinparam.
+     |skn_fsize4| all text that does not have a size set with a skinparam.
 
 
 :Applies to:
@@ -4643,7 +4643,7 @@ Default
 :Usage:
     :code:`DefaultFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4| all text that does not have a style set with a skinparam.
+     |skn_fstyle4| all text that does not have a style set with a skinparam.
 
 
 :Applies to:
@@ -4673,7 +4673,7 @@ Default
 :Usage:
     :code:`DefaultMonospacedFontName [ fontNameOnYourSystem ]`
 
-     The monospaced font (name) for all text that does not have a monospaced font name set with a skinparam. |cmdl_font_reqd|
+     The monospaced font (name) for all text that does not have a monospaced font name set with a skinparam. |skn_font_reqd|
 
 
 :Applies to:
@@ -4741,7 +4741,7 @@ Designed
 :Usage:
     :code:`DesignedBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Designed.
+     |skn_bkcolor4| for a Designed.
 
 
 :Applies to:
@@ -4768,7 +4768,7 @@ Designed
 :Usage:
     :code:`DesignedBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Designed.
+    |skn_bkcolor4| a Designed.
 
 
 :Applies to:
@@ -4831,7 +4831,7 @@ DesignedDomain
 :Usage:
     :code:`DesignedDomainFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a DesignedDomain. |use_colorname_hex|
+     |skn_fcolor4_in| a DesignedDomain. |use_colorname_hex|
 
 
 :Applies to:
@@ -4858,7 +4858,7 @@ DesignedDomain
 :Usage:
     :code:`DesignedDomainFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a DesignedDomain. |cmdl_font_reqd|
+     |skn_fname4_in| a DesignedDomain. |skn_font_reqd|
 
 
 :Applies to:
@@ -4885,7 +4885,7 @@ DesignedDomain
 :Usage:
     :code:`DesignedDomainFontSize [ number ]`
 
-     |cmdl_fsize4_in| a DesignedDomain.
+     |skn_fsize4_in| a DesignedDomain.
 
 
 :Applies to:
@@ -4912,7 +4912,7 @@ DesignedDomain
 :Usage:
     :code:`DesignedDomainFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a DesignedDomain.
+     |skn_fstyle4_in| a DesignedDomain.
 
 
 :Applies to:
@@ -4939,7 +4939,7 @@ DesignedDomain
 :Usage:
     :code:`DesignedDomainStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a DesignedDomain. |use_colorname_hex|
+     |skn_fcolor4_in| a DesignedDomain. |use_colorname_hex|
 
 
 :Applies to:
@@ -4966,7 +4966,7 @@ DesignedDomain
 :Usage:
     :code:`DesignedDomainStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a DesignedDomain Stereotype. |cmdl_font_reqd|
+     |skn_fname4_in| a DesignedDomain Stereotype. |skn_font_reqd|
 
 
 :Applies to:
@@ -4993,7 +4993,7 @@ DesignedDomain
 :Usage:
     :code:`DesignedDomainStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| a DesignedDomain Stereotype.
+     |skn_fsize4_in| a DesignedDomain Stereotype.
 
 
 :Applies to:
@@ -5020,7 +5020,7 @@ DesignedDomain
 :Usage:
     :code:`DesignedDomainStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a DesignedDomain Stereotype.
+     |skn_fstyle4_in| a DesignedDomain Stereotype.
 
 
 :Applies to:
@@ -5057,7 +5057,7 @@ Diagram
 :Usage:
     :code:`DiagramBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Diagram.
+    |skn_bkcolor4| a Diagram.
 
 
 :Applies to:
@@ -5119,7 +5119,7 @@ Domain
 :Usage:
     :code:`DomainBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Domain.
+     |skn_bkcolor4| for a Domain.
 
 
 :Applies to:
@@ -5146,7 +5146,7 @@ Domain
 :Usage:
     :code:`DomainBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Domain.
+    |skn_bkcolor4| a Domain.
 
 
 :Applies to:
@@ -5200,7 +5200,7 @@ Domain
 :Usage:
     :code:`DomainFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a Domain. |use_colorname_hex|
+     |skn_fcolor4_in| a Domain. |use_colorname_hex|
 
 
 :Applies to:
@@ -5227,7 +5227,7 @@ Domain
 :Usage:
     :code:`DomainFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a Domain. |cmdl_font_reqd|
+     |skn_fname4_in| a Domain. |skn_font_reqd|
 
 
 :Applies to:
@@ -5254,7 +5254,7 @@ Domain
 :Usage:
     :code:`DomainFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -5281,7 +5281,7 @@ Domain
 :Usage:
     :code:`DomainFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a Domain.
+     |skn_fstyle4_in| a Domain.
 
 
 :Applies to:
@@ -5308,7 +5308,7 @@ Domain
 :Usage:
     :code:`DomainStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| a Domain Stereotype. |use_colorname_hex|
+     |skn_fcolor4_in| a Domain Stereotype. |use_colorname_hex|
 
 
 :Applies to:
@@ -5335,7 +5335,7 @@ Domain
 :Usage:
     :code:`DomainStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| a Domain Stereotype. |cmdl_font_reqd|
+     |skn_fname4_in| a Domain Stereotype. |skn_font_reqd|
 
 
 :Applies to:
@@ -5362,7 +5362,7 @@ Domain
 :Usage:
     :code:`DomainStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| a Domain Stereotype.
+     |skn_fsize4_in| a Domain Stereotype.
 
 
 :Applies to:
@@ -5389,7 +5389,7 @@ Domain
 :Usage:
     :code:`DomainStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| a Domain Stereotype.
+     |skn_fstyle4_in| a Domain Stereotype.
 
 
 :Applies to:
@@ -5471,7 +5471,7 @@ Entity
 :Usage:
     :code:`EntityBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for an Entity.
+     |skn_bkcolor4| for an Entity.
 
 
 :Applies to:
@@ -5498,7 +5498,7 @@ Entity
 :Usage:
     :code:`EntityBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| an Entity.
+    |skn_bkcolor4| an Entity.
 
 
 :Applies to:
@@ -5525,7 +5525,7 @@ Entity
 :Usage:
     :code:`EntityFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| an Entity. |use_colorname_hex|
+     |skn_fcolor4_in| an Entity. |use_colorname_hex|
 
 
 :Applies to:
@@ -5552,7 +5552,7 @@ Entity
 :Usage:
     :code:`EntityFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| an Entity. |cmdl_font_reqd|
+     |skn_fname4_in| an Entity. |skn_font_reqd|
 
 
 :Applies to:
@@ -5579,7 +5579,7 @@ Entity
 :Usage:
     :code:`EntityFontSize [ number ]`
 
-     |cmdl_fsize4_in| an Entity.
+     |skn_fsize4_in| an Entity.
 
 
 :Applies to:
@@ -5606,7 +5606,7 @@ Entity
 :Usage:
     :code:`EntityFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| an Entity.
+     |skn_fstyle4_in| an Entity.
 
 
 :Applies to:
@@ -5633,7 +5633,7 @@ Entity
 :Usage:
     :code:`EntityStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| an Entity Stereotype. |use_colorname_hex|
+     |skn_fcolor4_in| an Entity Stereotype. |use_colorname_hex|
 
 
 :Applies to:
@@ -5660,7 +5660,7 @@ Entity
 :Usage:
     :code:`EntityStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| an Entity Stereotype. |cmdl_font_reqd|
+     |skn_fname4_in| an Entity Stereotype. |skn_font_reqd|
 
 
 :Applies to:
@@ -5687,7 +5687,7 @@ Entity
 :Usage:
     :code:`EntityStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| an Entity Stereotype.
+     |skn_fsize4_in| an Entity Stereotype.
 
 
 :Applies to:
@@ -5714,7 +5714,7 @@ Entity
 :Usage:
     :code:`EntityStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| an Entity Stereotype.
+     |skn_fstyle4_in| an Entity Stereotype.
 
 
 :Applies to:
@@ -5765,7 +5765,7 @@ File
 :Usage:
     :code:`FileBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a File.
+     |skn_bkcolor4| for a File.
 
 
 :Applies to:
@@ -5792,7 +5792,7 @@ File
 :Usage:
     :code:`FileBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a File.
+    |skn_bkcolor4| a File.
 
 
 :Applies to:
@@ -5819,7 +5819,7 @@ File
 :Usage:
     :code:`FileFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -5846,7 +5846,7 @@ File
 :Usage:
     :code:`FileFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -5873,7 +5873,7 @@ File
 :Usage:
     :code:`FileFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -5900,7 +5900,7 @@ File
 :Usage:
     :code:`FileFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -5927,7 +5927,7 @@ File
 :Usage:
     :code:`FileStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -5954,7 +5954,7 @@ File
 :Usage:
     :code:`FileStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -5981,7 +5981,7 @@ File
 :Usage:
     :code:`FileStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -6008,7 +6008,7 @@ File
 :Usage:
     :code:`FileStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -6045,7 +6045,7 @@ Folder
 :Usage:
     :code:`FolderBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Folder.
+     |skn_bkcolor4| for a Folder.
 
 
 :Applies to:
@@ -6072,7 +6072,7 @@ Folder
 :Usage:
     :code:`FolderBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Folder.
+    |skn_bkcolor4| a Folder.
 
 
 :Applies to:
@@ -6099,7 +6099,7 @@ Folder
 :Usage:
     :code:`FolderFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -6126,7 +6126,7 @@ Folder
 :Usage:
     :code:`FolderFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -6153,7 +6153,7 @@ Folder
 :Usage:
     :code:`FolderFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -6180,7 +6180,7 @@ Folder
 :Usage:
     :code:`FolderFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -6207,7 +6207,7 @@ Folder
 :Usage:
     :code:`FolderStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -6234,7 +6234,7 @@ Folder
 :Usage:
     :code:`FolderStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -6261,7 +6261,7 @@ Folder
 :Usage:
     :code:`FolderStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -6288,7 +6288,7 @@ Folder
 :Usage:
     :code:`FolderStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -6328,7 +6328,7 @@ Footer
 :Usage:
     :code:`FooterFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4| the footer text. |use_colorname_hex|
+     |skn_fcolor4| the footer text. |use_colorname_hex|
 
 
 :Applies to:
@@ -6358,7 +6358,7 @@ Footer
 :Usage:
     :code:`FooterFontName [ fontNameOnYourSystem ]`
 
-      |cmdl_fname4| the footer text. |cmdl_font_reqd|
+      |skn_fname4| the footer text. |skn_font_reqd|
 
 
 :Applies to:
@@ -6388,7 +6388,7 @@ Footer
 :Usage:
     :code:`FooterFontSize [ number ]`
 
-     |cmdl_fsize4| the footer text.
+     |skn_fsize4| the footer text.
 
 
 :Applies to:
@@ -6418,7 +6418,7 @@ Footer
 :Usage:
     :code:`FooterFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4| the footer text.
+     |skn_fstyle4| the footer text.
 
 
 :Applies to:
@@ -6455,7 +6455,7 @@ Frame
 :Usage:
     :code:`FrameBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Frame.
+     |skn_bkcolor4| for a Frame.
 
 
 :Applies to:
@@ -6482,7 +6482,7 @@ Frame
 :Usage:
     :code:`FrameBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Frame.
+    |skn_bkcolor4| a Frame.
 
 
 :Applies to:
@@ -6509,7 +6509,7 @@ Frame
 :Usage:
     :code:`FrameFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -6536,7 +6536,7 @@ Frame
 :Usage:
     :code:`FrameFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -6563,7 +6563,7 @@ Frame
 :Usage:
     :code:`FrameFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -6590,7 +6590,7 @@ Frame
 :Usage:
     :code:`FrameFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -6617,7 +6617,7 @@ Frame
 :Usage:
     :code:`FrameStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -6644,7 +6644,7 @@ Frame
 :Usage:
     :code:`FrameStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -6671,7 +6671,7 @@ Frame
 :Usage:
     :code:`FrameStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -6698,7 +6698,7 @@ Frame
 :Usage:
     :code:`FrameStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -6873,7 +6873,7 @@ Header
 :Usage:
     :code:`HeaderFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -6903,7 +6903,7 @@ Header
 :Usage:
     :code:`HeaderFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -6933,7 +6933,7 @@ Header
 :Usage:
     :code:`HeaderFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -6962,7 +6962,7 @@ Header
 :Usage:
     :code:`HeaderFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -7099,7 +7099,7 @@ Icon
 :Usage:
     :code:`IconPackageBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for an IconPackage.
+     |skn_bkcolor4| for an IconPackage.
 
 
 :Applies to:
@@ -7153,7 +7153,7 @@ Icon
 :Usage:
     :code:`IconPrivateBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for an IconPrivate.
+     |skn_bkcolor4| for an IconPrivate.
 
 
 :Applies to:
@@ -7207,7 +7207,7 @@ Icon
 :Usage:
     :code:`IconProtectedBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for an IconProtected.
+     |skn_bkcolor4| for an IconProtected.
 
 
 :Applies to:
@@ -7261,7 +7261,7 @@ Icon
 :Usage:
     :code:`IconPublicBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for an IconPublic.
+     |skn_bkcolor4| for an IconPublic.
 
 
 :Applies to:
@@ -7325,7 +7325,7 @@ Interface
 :Usage:
     :code:`InterfaceBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for an Interface.
+     |skn_bkcolor4| for an Interface.
 
 
 :Applies to:
@@ -7352,7 +7352,7 @@ Interface
 :Usage:
     :code:`InterfaceBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| an Interface.
+    |skn_bkcolor4| an Interface.
 
 
 :Applies to:
@@ -7379,7 +7379,7 @@ Interface
 :Usage:
     :code:`InterfaceFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -7406,7 +7406,7 @@ Interface
 :Usage:
     :code:`InterfaceFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -7433,7 +7433,7 @@ Interface
 :Usage:
     :code:`InterfaceFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -7460,7 +7460,7 @@ Interface
 :Usage:
     :code:`InterfaceFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -7487,7 +7487,7 @@ Interface
 :Usage:
     :code:`InterfaceStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -7514,7 +7514,7 @@ Interface
 :Usage:
     :code:`InterfaceStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -7541,7 +7541,7 @@ Interface
 :Usage:
     :code:`InterfaceStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -7568,7 +7568,7 @@ Interface
 :Usage:
     :code:`InterfaceStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -7633,7 +7633,7 @@ Legend
 :Usage:
     :code:`LegendBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Legend.
+     |skn_bkcolor4| for a Legend.
 
 
 :Applies to:
@@ -7662,7 +7662,7 @@ Legend
 :Usage:
     :code:`LegendBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Legend.
+    |skn_bkcolor4| a Legend.
 
 
 :Applies to:
@@ -7720,7 +7720,7 @@ Legend
 :Usage:
     :code:`LegendFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -7749,7 +7749,7 @@ Legend
 :Usage:
     :code:`LegendFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -7778,7 +7778,7 @@ Legend
 :Usage:
     :code:`LegendFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -7807,7 +7807,7 @@ Legend
 :Usage:
     :code:`LegendFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -7844,7 +7844,7 @@ Lexical
 :Usage:
     :code:`LexicalBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Lexical.
+     |skn_bkcolor4| for a Lexical.
 
 
 :Applies to:
@@ -7871,7 +7871,7 @@ Lexical
 :Usage:
     :code:`LexicalBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Lexical.
+    |skn_bkcolor4| a Lexical.
 
 
 :Applies to:
@@ -7951,7 +7951,7 @@ Machine
 :Usage:
     :code:`MachineBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Machine.
+     |skn_bkcolor4| for a Machine.
 
 
 :Applies to:
@@ -7978,7 +7978,7 @@ Machine
 :Usage:
     :code:`MachineBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Machine.
+    |skn_bkcolor4| a Machine.
 
 
 :Applies to:
@@ -8032,7 +8032,7 @@ Machine
 :Usage:
     :code:`MachineFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -8059,7 +8059,7 @@ Machine
 :Usage:
     :code:`MachineFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -8086,7 +8086,7 @@ Machine
 :Usage:
     :code:`MachineFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -8113,7 +8113,7 @@ Machine
 :Usage:
     :code:`MachineFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -8140,7 +8140,7 @@ Machine
 :Usage:
     :code:`MachineStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -8167,7 +8167,7 @@ Machine
 :Usage:
     :code:`MachineStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -8194,7 +8194,7 @@ Machine
 :Usage:
     :code:`MachineStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -8221,7 +8221,7 @@ Machine
 :Usage:
     :code:`MachineStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -8404,7 +8404,7 @@ Node
 :Usage:
     :code:`NodeBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Node.
+     |skn_bkcolor4| for a Node.
 
 
 :Applies to:
@@ -8431,7 +8431,7 @@ Node
 :Usage:
     :code:`NodeBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Node.
+    |skn_bkcolor4| a Node.
 
 
 :Applies to:
@@ -8458,7 +8458,7 @@ Node
 :Usage:
     :code:`NodeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -8485,7 +8485,7 @@ Node
 :Usage:
     :code:`NodeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -8512,7 +8512,7 @@ Node
 :Usage:
     :code:`NodeFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -8539,7 +8539,7 @@ Node
 :Usage:
     :code:`NodeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -8566,7 +8566,7 @@ Node
 :Usage:
     :code:`NodeStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -8593,7 +8593,7 @@ Node
 :Usage:
     :code:`NodeStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -8620,7 +8620,7 @@ Node
 :Usage:
     :code:`NodeStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -8647,7 +8647,7 @@ Node
 :Usage:
     :code:`NodeStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -8715,7 +8715,7 @@ Note
 :Usage:
     :code:`NoteBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Note.
+     |skn_bkcolor4| for a Note.
 
 
 :Applies to:
@@ -8742,7 +8742,7 @@ Note
 :Usage:
     :code:`NoteBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Note.
+    |skn_bkcolor4| a Note.
 
 
 :Applies to:
@@ -8796,7 +8796,7 @@ Note
 :Usage:
     :code:`NoteFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -8823,7 +8823,7 @@ Note
 :Usage:
     :code:`NoteFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -8850,7 +8850,7 @@ Note
 :Usage:
     :code:`NoteFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -8877,7 +8877,7 @@ Note
 :Usage:
     :code:`NoteFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -8982,7 +8982,7 @@ Object
 :Usage:
     :code:`ObjectAttributeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -9009,7 +9009,7 @@ Object
 :Usage:
     :code:`ObjectAttributeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -9036,7 +9036,7 @@ Object
 :Usage:
     :code:`ObjectAttributeFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -9063,7 +9063,7 @@ Object
 :Usage:
     :code:`ObjectAttributeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -9090,7 +9090,7 @@ Object
 :Usage:
     :code:`ObjectBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for an Object.
+     |skn_bkcolor4| for an Object.
 
 
 :Applies to:
@@ -9117,7 +9117,7 @@ Object
 :Usage:
     :code:`ObjectBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| an Object.
+    |skn_bkcolor4| an Object.
 
 
 :Applies to:
@@ -9171,7 +9171,7 @@ Object
 :Usage:
     :code:`ObjectFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -9198,7 +9198,7 @@ Object
 :Usage:
     :code:`ObjectFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -9225,7 +9225,7 @@ Object
 :Usage:
     :code:`ObjectFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -9252,7 +9252,7 @@ Object
 :Usage:
     :code:`ObjectFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -9279,7 +9279,7 @@ Object
 :Usage:
     :code:`ObjectStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -9306,7 +9306,7 @@ Object
 :Usage:
     :code:`ObjectStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -9333,7 +9333,7 @@ Object
 :Usage:
     :code:`ObjectStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -9360,7 +9360,7 @@ Object
 :Usage:
     :code:`ObjectStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -9413,7 +9413,7 @@ Package
 :Usage:
     :code:`PackageBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Package.
+     |skn_bkcolor4| for a Package.
 
 
 :Applies to:
@@ -9440,7 +9440,7 @@ Package
 :Usage:
     :code:`PackageBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Package.
+    |skn_bkcolor4| a Package.
 
 
 :Applies to:
@@ -9494,7 +9494,7 @@ Package
 :Usage:
     :code:`PackageFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -9521,7 +9521,7 @@ Package
 :Usage:
     :code:`PackageFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -9548,7 +9548,7 @@ Package
 :Usage:
     :code:`PackageFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -9575,7 +9575,7 @@ Package
 :Usage:
     :code:`PackageFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -9602,7 +9602,7 @@ Package
 :Usage:
     :code:`PackageStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -9629,7 +9629,7 @@ Package
 :Usage:
     :code:`PackageStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -9656,7 +9656,7 @@ Package
 :Usage:
     :code:`PackageStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -9683,7 +9683,7 @@ Package
 :Usage:
     :code:`PackageStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -9806,7 +9806,7 @@ Page
 :Usage:
     :code:`PageBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Page.
+    |skn_bkcolor4| a Page.
 
 
 :Applies to:
@@ -9897,7 +9897,7 @@ Participant
 :Usage:
     :code:`ParticipantBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Participant.
+     |skn_bkcolor4| for a Participant.
 
 
 :Applies to:
@@ -9924,7 +9924,7 @@ Participant
 :Usage:
     :code:`ParticipantBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Participant.
+    |skn_bkcolor4| a Participant.
 
 
 :Applies to:
@@ -9951,7 +9951,7 @@ Participant
 :Usage:
     :code:`ParticipantFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -9978,7 +9978,7 @@ Participant
 :Usage:
     :code:`ParticipantFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -10005,7 +10005,7 @@ Participant
 :Usage:
     :code:`ParticipantFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -10032,7 +10032,7 @@ Participant
 :Usage:
     :code:`ParticipantFontStyle italic`
 
-    |cmdl_fstyle4| participants.
+    |skn_fstyle4| participants.
 
 
 :Applies to:
@@ -10097,7 +10097,7 @@ Partition
 :Usage:
     :code:`PartitionBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Partition.
+     |skn_bkcolor4| for a Partition.
 
 
 :Applies to:
@@ -10124,7 +10124,7 @@ Partition
 :Usage:
     :code:`PartitionBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Partition.
+    |skn_bkcolor4| a Partition.
 
 
 :Applies to:
@@ -10178,7 +10178,7 @@ Partition
 :Usage:
     :code:`PartitionFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -10205,7 +10205,7 @@ Partition
 :Usage:
     :code:`PartitionFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -10232,7 +10232,7 @@ Partition
 :Usage:
     :code:`PartitionFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -10259,7 +10259,7 @@ Partition
 :Usage:
     :code:`PartitionFontStyle [ normal | plain | italic | bold ]`
 
-    |cmdl_fstyle4| partitions.
+    |skn_fstyle4| partitions.
 
 
 :Applies to:
@@ -10338,7 +10338,7 @@ Queue
 :Usage:
     :code:`QueueBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Queue.
+     |skn_bkcolor4| for a Queue.
 
 
 :Applies to:
@@ -10365,7 +10365,7 @@ Queue
 :Usage:
     :code:`QueueBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Queue.
+    |skn_bkcolor4| a Queue.
 
 
 :Applies to:
@@ -10392,7 +10392,7 @@ Queue
 :Usage:
     :code:`QueueFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_fcolor4_in| queues. |use_colorname_hex|
+    |skn_fcolor4_in| queues. |use_colorname_hex|
 
 
 :Applies to:
@@ -10419,7 +10419,7 @@ Queue
 :Usage:
     :code:`QueueFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -10446,7 +10446,7 @@ Queue
 :Usage:
     :code:`QueueFontSize [ number ]`
 
-     |cmdl_fname4_in| queues.
+     |skn_fname4_in| queues.
 
 
 :Applies to:
@@ -10473,7 +10473,7 @@ Queue
 :Usage:
     :code:`QueueFontStyle italic`
 
-    |cmdl_fstyle4| queues.
+    |skn_fstyle4| queues.
 
 
 :Applies to:
@@ -10500,7 +10500,7 @@ Queue
 :Usage:
     :code:`QueueStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_fcolor4| stereotype text in queues. |use_colorname_hex|
+    |skn_fcolor4| stereotype text in queues. |use_colorname_hex|
 
 
 :Applies to:
@@ -10527,7 +10527,7 @@ Queue
 :Usage:
     :code:`QueueStereotypeFontName [ fontNameOnYourSystem ]`
 
-      |cmdl_fname4| the stereotype text in a queue. |cmdl_font_reqd|
+      |skn_fname4| the stereotype text in a queue. |skn_font_reqd|
 
       |not_working|
 
@@ -10556,7 +10556,7 @@ Queue
 :Usage:
     :code:`QueueStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4| the stereotype text in a queue.
+     |skn_fsize4| the stereotype text in a queue.
 
       |not_working|
 
@@ -10585,7 +10585,7 @@ Queue
 :Usage:
     :code:`QueueStereotypeFontStyle [ normal | italic | bold ]`
 
-    |cmdl_fstyle4| the stereotype text for queues.
+    |skn_fstyle4| the stereotype text for queues.
 
     |not_working|
 
@@ -10754,7 +10754,7 @@ Rectangle
 :Usage:
     :code:`RectangleFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_fcolor4_in| rectangles. |use_colorname_hex|
+    |skn_fcolor4_in| rectangles. |use_colorname_hex|
 
 
 :Applies to:
@@ -10782,7 +10782,7 @@ Rectangle
 :Usage:
     :code:`RectangleFontName [ fontName ]`
 
-    |cmdl_fname4_in| rectangles.  |cmdl_font_reqd|
+    |skn_fname4_in| rectangles.  |skn_font_reqd|
 
 
 :Applies to:
@@ -10811,7 +10811,7 @@ Rectangle
 :Usage:
     :code:`RectangleFontSize [ font size number  ]`
 
-    |cmdl_fsize4_in| rectangles.
+    |skn_fsize4_in| rectangles.
 
 
 :Applies to:
@@ -10839,7 +10839,7 @@ Rectangle
 :Usage:
     :code:`RectangleFontStyle [ normal | plain | italic | bold ]`
 
-    |cmdl_fstyle4_in| rectangles.
+    |skn_fstyle4_in| rectangles.
 
 
 :Applies to:
@@ -10867,7 +10867,7 @@ Rectangle
 :Usage:
     :code:`RectangleStereotypeFontColor [ #colorName | #hexnumber ]`
 
-    |cmdl_fcolor4| stereotype text in rectangles. |use_colorname_hex|
+    |skn_fcolor4| stereotype text in rectangles. |use_colorname_hex|
 
 
 :Applies to:
@@ -10896,7 +10896,7 @@ Rectangle
 :Usage:
     :code:`RectangleStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -10926,7 +10926,7 @@ Rectangle
 :Usage:
     :code:`RectangleStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -10994,7 +10994,7 @@ Requirement
 :Usage:
     :code:`RequirementBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Requirement.
+     |skn_bkcolor4| for a Requirement.
 
 
 :Applies to:
@@ -11021,7 +11021,7 @@ Requirement
 :Usage:
     :code:`RequirementBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Requirement.
+    |skn_bkcolor4| a Requirement.
 
 
 :Applies to:
@@ -11075,7 +11075,7 @@ Requirement
 :Usage:
     :code:`RequirementFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-|cmdl_fcolor4_in| stacks. |use_colorname_hex|
+|skn_fcolor4_in| stacks. |use_colorname_hex|
 
 
 :Applies to:
@@ -11102,7 +11102,7 @@ Requirement
 :Usage:
     :code:`RequirementFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -11129,7 +11129,7 @@ Requirement
 :Usage:
     :code:`RequirementFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -11156,7 +11156,7 @@ Requirement
 :Usage:
     :code:`RequirementFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -11183,7 +11183,7 @@ Requirement
 :Usage:
     :code:`RequirementStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-   |cmdl_fcolor4_in| stacks. |use_colorname_hex|
+   |skn_fcolor4_in| stacks. |use_colorname_hex|
 
 
 :Applies to:
@@ -11210,7 +11210,7 @@ Requirement
 :Usage:
     :code:`RequirementStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -11237,7 +11237,7 @@ Requirement
 :Usage:
     :code:`RequirementStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -11264,7 +11264,7 @@ Requirement
 :Usage:
     :code:`RequirementStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -11461,7 +11461,7 @@ Sequence
 :Usage:
     :code:`SequenceBoxBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a SequenceBox.
+     |skn_bkcolor4| for a SequenceBox.
 
 
 :Applies to:
@@ -11488,7 +11488,7 @@ Sequence
 :Usage:
     :code:`SequenceBoxBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a SequenceBox.
+    |skn_bkcolor4| a SequenceBox.
 
 
 :Applies to:
@@ -11515,7 +11515,7 @@ Sequence
 :Usage:
     :code:`SequenceBoxFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| boxes in UML Sequence diagrams. |use_colorname_hex|
+     |skn_fcolor4_in| boxes in UML Sequence diagrams. |use_colorname_hex|
 
 
 :Applies to:
@@ -11542,7 +11542,7 @@ Sequence
 :Usage:
     :code:`SequenceBoxFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -11569,7 +11569,7 @@ Sequence
 :Usage:
     :code:`SequenceBoxFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -11596,7 +11596,7 @@ Sequence
 :Usage:
     :code:`SequenceBoxFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -11623,7 +11623,7 @@ Sequence
 :Usage:
     :code:`SequenceDelayFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -11650,7 +11650,7 @@ Sequence
 :Usage:
     :code:`SequenceDelayFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -11677,7 +11677,7 @@ Sequence
 :Usage:
     :code:`SequenceDelayFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -11704,7 +11704,7 @@ Sequence
 :Usage:
     :code:`SequenceDelayFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -11731,7 +11731,7 @@ Sequence
 :Usage:
     :code:`SequenceDividerBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a SequenceDivider.
+     |skn_bkcolor4| for a SequenceDivider.
 
 
 :Applies to:
@@ -11758,7 +11758,7 @@ Sequence
 :Usage:
     :code:`SequenceDividerBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a SequenceDivider.
+    |skn_bkcolor4| a SequenceDivider.
 
 
 :Applies to:
@@ -11812,7 +11812,7 @@ Sequence
 :Usage:
     :code:`SequenceDividerFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -11839,7 +11839,7 @@ Sequence
 :Usage:
     :code:`SequenceDividerFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -11866,7 +11866,7 @@ Sequence
 :Usage:
     :code:`SequenceDividerFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -11893,7 +11893,7 @@ Sequence
 :Usage:
     :code:`SequenceDividerFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -11920,7 +11920,7 @@ Sequence
 :Usage:
     :code:`SequenceGroupBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a SequenceGroup.
+     |skn_bkcolor4| for a SequenceGroup.
 
 
 :Applies to:
@@ -11947,7 +11947,7 @@ Sequence
 :Usage:
     :code:`SequenceGroupBodyBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a SequenceGroupBody.
+     |skn_bkcolor4| for a SequenceGroupBody.
 
 
 :Applies to:
@@ -11974,7 +11974,7 @@ Sequence
 :Usage:
     :code:`SequenceGroupBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a SequenceGroup.
+    |skn_bkcolor4| a SequenceGroup.
 
 
 :Applies to:
@@ -12028,7 +12028,7 @@ Sequence
 :Usage:
     :code:`SequenceGroupFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -12055,7 +12055,7 @@ Sequence
 :Usage:
     :code:`SequenceGroupFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -12082,7 +12082,7 @@ Sequence
 :Usage:
     :code:`SequenceGroupFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -12109,7 +12109,7 @@ Sequence
 :Usage:
     :code:`SequenceGroupFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -12136,7 +12136,7 @@ Sequence
 :Usage:
     :code:`SequenceGroupHeaderFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -12163,7 +12163,7 @@ Sequence
 :Usage:
     :code:`SequenceGroupHeaderFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -12190,7 +12190,7 @@ Sequence
 :Usage:
     :code:`SequenceGroupHeaderFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -12217,7 +12217,7 @@ Sequence
 :Usage:
     :code:`SequenceGroupHeaderFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -12244,7 +12244,7 @@ Sequence
 :Usage:
     :code:`SequenceLifeLineBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a SequenceLifeLine.
+     |skn_bkcolor4| for a SequenceLifeLine.
 
 
 :Applies to:
@@ -12271,7 +12271,7 @@ Sequence
 :Usage:
     :code:`SequenceLifeLineBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a SequenceLifeLine.
+    |skn_bkcolor4| a SequenceLifeLine.
 
 
 :Applies to:
@@ -12487,7 +12487,7 @@ Sequence
 :Usage:
     :code:`SequenceReferenceBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a SequenceReference.
+     |skn_bkcolor4| for a SequenceReference.
 
 
 :Applies to:
@@ -12514,7 +12514,7 @@ Sequence
 :Usage:
     :code:`SequenceReferenceBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a SequenceReference.
+    |skn_bkcolor4| a SequenceReference.
 
 
 :Applies to:
@@ -12568,7 +12568,7 @@ Sequence
 :Usage:
     :code:`SequenceReferenceFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -12595,7 +12595,7 @@ Sequence
 :Usage:
     :code:`SequenceReferenceFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -12622,7 +12622,7 @@ Sequence
 :Usage:
     :code:`SequenceReferenceFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -12649,7 +12649,7 @@ Sequence
 :Usage:
     :code:`SequenceReferenceFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -12676,7 +12676,7 @@ Sequence
 :Usage:
     :code:`SequenceReferenceHeaderBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a SequenceReferenceHeader.
+     |skn_bkcolor4| for a SequenceReferenceHeader.
 
 
 :Applies to:
@@ -12703,7 +12703,7 @@ Sequence
 :Usage:
     :code:`SequenceStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -12730,7 +12730,7 @@ Sequence
 :Usage:
     :code:`SequenceStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -12757,7 +12757,7 @@ Sequence
 :Usage:
     :code:`SequenceStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -12784,7 +12784,7 @@ Sequence
 :Usage:
     :code:`SequenceStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -12840,7 +12840,7 @@ Sequence
 :Usage:
     :code:`SequenceTitleFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4| the title on UML Sequence Diagrams.  |cmdl_font_reqd|
+     |skn_fname4| the title on UML Sequence Diagrams.  |skn_font_reqd|
 
 
 :Applies to:
@@ -12868,7 +12868,7 @@ Sequence
 :Usage:
     :code:`SequenceTitleFontSize [ number ]`
 
-    |cmdl_fsize4| the title on UML Sequence diagrams.
+    |skn_fsize4| the title on UML Sequence diagrams.
 
 
 :Applies to:
@@ -12896,7 +12896,7 @@ Sequence
 :Usage:
     :code:`SequenceTitleFontStyle [ normal | plain | italic | bold ]`
 
-    |cmdl_fstyle4| titles on UML Sequence diagrams.
+    |skn_fstyle4| titles on UML Sequence diagrams.
 
 
 :Applies to:
@@ -12971,7 +12971,7 @@ Stack
 :Usage:
     :code:`StackBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-    Sets |cmdl_bkcolor4| a Stack.
+    Sets |skn_bkcolor4| a Stack.
 
 
 :Applies to:
@@ -12998,7 +12998,7 @@ Stack
 :Usage:
     :code:`StackBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_brdcolor4| a Stack element.
+    |skn_brdcolor4| a Stack element.
 
 
 :Applies to:
@@ -13025,7 +13025,7 @@ Stack
 :Usage:
     :code:`StackFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_fcolor4_in| stacks. |use_colorname_hex|
+    |skn_fcolor4_in| stacks. |use_colorname_hex|
 
 
 :Applies to:
@@ -13052,7 +13052,7 @@ Stack
 :Usage:
     :code:`StackFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -13079,7 +13079,7 @@ Stack
 :Usage:
     :code:`StackFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -13106,7 +13106,7 @@ Stack
 :Usage:
     :code:`StackFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -13133,7 +13133,7 @@ Stack
 :Usage:
     :code:`StackStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -13160,7 +13160,7 @@ Stack
 :Usage:
     :code:`StackStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -13187,7 +13187,7 @@ Stack
 :Usage:
     :code:`StackStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -13214,7 +13214,7 @@ Stack
 :Usage:
     :code:`StackStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -13251,7 +13251,7 @@ State
 :Usage:
     :code:`StateAttributeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -13278,7 +13278,7 @@ State
 :Usage:
     :code:`StateAttributeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -13305,7 +13305,7 @@ State
 :Usage:
     :code:`StateAttributeFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -13332,7 +13332,7 @@ State
 :Usage:
     :code:`StateAttributeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -13359,7 +13359,7 @@ State
 :Usage:
     :code:`StateBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a State.
+     |skn_bkcolor4| for a State.
 
 
 :Applies to:
@@ -13386,7 +13386,7 @@ State
 :Usage:
     :code:`StateBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a State.
+    |skn_bkcolor4| a State.
 
 
 :Applies to:
@@ -13440,7 +13440,7 @@ State
 :Usage:
     :code:`StateFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -13467,7 +13467,7 @@ State
 :Usage:
     :code:`StateFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -13494,7 +13494,7 @@ State
 :Usage:
     :code:`StateFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -13521,7 +13521,7 @@ State
 :Usage:
     :code:`StateFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -13585,7 +13585,7 @@ Stereotype
 :Usage:
     :code:`StereotypeABackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a StereotypeA.
+     |skn_bkcolor4| for a StereotypeA.
 
 
 :Applies to:
@@ -13612,7 +13612,7 @@ Stereotype
 :Usage:
     :code:`StereotypeABorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a StereotypeA.
+    |skn_bkcolor4| a StereotypeA.
 
 
 :Applies to:
@@ -13639,7 +13639,7 @@ Stereotype
 :Usage:
     :code:`StereotypeCBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a StereotypeC.
+     |skn_bkcolor4| for a StereotypeC.
 
 
 :Applies to:
@@ -13666,7 +13666,7 @@ Stereotype
 :Usage:
     :code:`StereotypeCBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a StereotypeC.
+    |skn_bkcolor4| a StereotypeC.
 
 
 :Applies to:
@@ -13693,7 +13693,7 @@ Stereotype
 :Usage:
     :code:`StereotypeEBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a StereotypeE.
+     |skn_bkcolor4| for a StereotypeE.
 
 
 :Applies to:
@@ -13720,7 +13720,7 @@ Stereotype
 :Usage:
     :code:`StereotypeEBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a StereotypeE.
+    |skn_bkcolor4| a StereotypeE.
 
 
 :Applies to:
@@ -13747,7 +13747,7 @@ Stereotype
 :Usage:
     :code:`StereotypeIBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a StereotypeI.
+     |skn_bkcolor4| for a StereotypeI.
 
 
 :Applies to:
@@ -13774,7 +13774,7 @@ Stereotype
 :Usage:
     :code:`StereotypeIBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a StereotypeI.
+    |skn_bkcolor4| a StereotypeI.
 
 
 :Applies to:
@@ -13801,7 +13801,7 @@ Stereotype
 :Usage:
     :code:`StereotypeNBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a StereotypeN.
+     |skn_bkcolor4| for a StereotypeN.
 
 
 :Applies to:
@@ -13828,7 +13828,7 @@ Stereotype
 :Usage:
     :code:`StereotypeNBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a StereotypeN.
+    |skn_bkcolor4| a StereotypeN.
 
 
 :Applies to:
@@ -13891,7 +13891,7 @@ Storage
 :Usage:
     :code:`StorageBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for a Storage.
+     |skn_bkcolor4| for a Storage.
 
 
 :Applies to:
@@ -13918,7 +13918,7 @@ Storage
 :Usage:
     :code:`StorageBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Storage.
+    |skn_bkcolor4| a Storage.
 
 
 :Applies to:
@@ -13945,7 +13945,7 @@ Storage
 :Usage:
     :code:`StorageFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -13972,7 +13972,7 @@ Storage
 :Usage:
     :code:`StorageFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -13999,7 +13999,7 @@ Storage
 :Usage:
     :code:`StorageFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -14026,7 +14026,7 @@ Storage
 :Usage:
     :code:`StorageFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -14053,7 +14053,7 @@ Storage
 :Usage:
     :code:`StorageStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -14080,7 +14080,7 @@ Storage
 :Usage:
     :code:`StorageStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -14107,7 +14107,7 @@ Storage
 :Usage:
     :code:`StorageStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -14134,7 +14134,7 @@ Storage
 :Usage:
     :code:`StorageStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -14231,7 +14231,7 @@ Swimlane
 :Usage:
     :code:`SwimlaneBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| a Swimlane.
+    |skn_bkcolor4| a Swimlane.
 
 
 :Applies to:
@@ -14285,7 +14285,7 @@ Swimlane
 :Usage:
     :code:`SwimlaneTitleFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -14312,7 +14312,7 @@ Swimlane
 :Usage:
     :code:`SwimlaneTitleFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -14339,7 +14339,7 @@ Swimlane
 :Usage:
     :code:`SwimlaneTitleFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -14366,7 +14366,7 @@ Swimlane
 :Usage:
     :code:`SwimlaneTitleFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -14505,7 +14505,7 @@ Title
 :Usage:
     :code:`TitleBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| for a Title.
+    |skn_bkcolor4| for a Title.
     Note that you need to have a border around the title for there to be a fill color.
 
 
@@ -14535,7 +14535,7 @@ Title
 :Usage:
     :code:`TitleBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| titles.
+    |skn_bkcolor4| titles.
 
 
 :Applies to:
@@ -14623,7 +14623,7 @@ Title
 :Usage:
     :code:`TitleFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -14652,7 +14652,7 @@ Title
 :Usage:
     :code:`TitleFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -14681,7 +14681,7 @@ Title
 :Usage:
     :code:`TitleFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -14710,7 +14710,7 @@ Title
 :Usage:
     :code:`TitleFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -14763,7 +14763,7 @@ Usecase
 :Usage:
     :code:`UsecaseBackgroundColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_bkcolor4| for an Usecase.
+     |skn_bkcolor4| for an Usecase.
 
 
 :Applies to:
@@ -14790,7 +14790,7 @@ Usecase
 :Usage:
     :code:`UsecaseBorderColor [ #predefinedColorName | #hexColorNumber ]`
 
-    |cmdl_bkcolor4| an Usecase.
+    |skn_bkcolor4| an Usecase.
 
 
 :Applies to:
@@ -14844,7 +14844,7 @@ Usecase
 :Usage:
     :code:`UsecaseFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -14871,7 +14871,7 @@ Usecase
 :Usage:
     :code:`UsecaseFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -14898,7 +14898,7 @@ Usecase
 :Usage:
     :code:`UsecaseFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -14925,7 +14925,7 @@ Usecase
 :Usage:
     :code:`UsecaseFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:
@@ -14952,7 +14952,7 @@ Usecase
 :Usage:
     :code:`UsecaseStereotypeFontColor [ #predefinedColorName | #hexColorNumber ]`
 
-     |cmdl_fcolor4_in| zz. |use_colorname_hex|
+     |skn_fcolor4_in| zz. |use_colorname_hex|
 
 
 :Applies to:
@@ -14979,7 +14979,7 @@ Usecase
 :Usage:
     :code:`UsecaseStereotypeFontName [ fontNameOnYourSystem ]`
 
-     |cmdl_fname4_in| zz. |cmdl_font_reqd|
+     |skn_fname4_in| zz. |skn_font_reqd|
 
 
 :Applies to:
@@ -15006,7 +15006,7 @@ Usecase
 :Usage:
     :code:`UsecaseStereotypeFontSize [ number ]`
 
-     |cmdl_fsize4_in| zz. 
+     |skn_fsize4_in| zz. 
 
 
 :Applies to:
@@ -15033,7 +15033,7 @@ Usecase
 :Usage:
     :code:`UsecaseStereotypeFontStyle [ normal | plain | italic | bold ]`
 
-     |cmdl_fstyle4_in| zz. 
+     |skn_fstyle4_in| zz. 
 
 
 :Applies to:

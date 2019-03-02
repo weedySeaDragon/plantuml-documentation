@@ -57,10 +57,6 @@ Internal Link Ref
 
 
 
-External hyperlinks, like `Python
-<http://www.python.org/>`_  is written as :code:``Python
-<http://www.python.org/>`_`
-
 
 `RST Syntax <https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`_.
 

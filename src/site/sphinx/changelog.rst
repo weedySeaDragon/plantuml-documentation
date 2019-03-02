@@ -1,12 +1,11 @@
 .. index:: release history
-   single: this documetation; release history
 
 
 .. _releases:
 
-===========================================
-Changelog for this documentation (releases)
-===========================================
+=========
+Changelog
+=========
 
 ..
    format for entries in this file (required by the releases extension):
@@ -67,10 +66,17 @@ Changelog for this documentation (releases)
       * :feature:`1` Setup and organization of the documentation with Sphinx
 
 
+*  **version v0.2.01   2019-03-01:  First announced version.**
+
+   - improve homepage
+   - global substitutions for skinparams
+
+
 *  **version 0.1.0   2018-10-12:  Initial publication**
-* *(feature)* 5 customize ReadTheDocs theme to use white backgrounds and smaller fonts
-* *(feature)* 4 initial index entries
-* *(feature)* 3 Sequence diagrams
-* *(feature)* 2 Use Case diagrams
-* *(feature)* 1 Setup and organization of the documentation with Sphinx
+
+   - customize ReadTheDocs theme to use white backgrounds and smaller fonts
+   - initial index entries
+   - Sequence diagrams
+   - Use Case diagrams
+   - Setup and organization of the documentation with Sphinx
 
