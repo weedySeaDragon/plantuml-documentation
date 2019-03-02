@@ -1,0 +1,10 @@
+@startuml
+
+skinparam Handwritten true
+skinparam DefaultTextAlignment center
+skinparam NoteBackgroundColor lightyellow
+skinparam NoteBorderColor darkgray
+
+note "This diagram still needs to be done" as tbd
+
+@enduml

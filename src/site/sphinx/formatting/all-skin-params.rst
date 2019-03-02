@@ -7082,6 +7082,8 @@ Icon
         zz
 
 
+
+
 :Example:    :code:`IconIEMandatoryColor [ #predefinedColorName | #hexColorNumber ]`
 
     .. uml::  puml/sk-ex/IconIEMandatoryColor-zz.puml
