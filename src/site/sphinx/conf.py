@@ -274,7 +274,17 @@ html_theme_path = ["_themes", ]
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+# From ReadTheDocs: https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html#theme-options
+html_theme_options = {
+    'style_external_links': True,
+    # Toc options
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
+}
+
 
 # Add any paths that contain custom themes here, relative to this directory.
 # html_theme_path = []
