@@ -396,13 +396,15 @@ Solid arrow heads represent *synchronous* messages.  Open (not filled in) arrow 
 
    :code:`/` creates the bottom half (only) of a filled arrow pointing to the right
 
-   :code:`?` means the arrow line is short; it is only as long as the label for it.  If the :code:`?` is at the end, the arrow line is connected to the start (origin) and stops when the label for it stops.
-   If the :code:`?` is at the end, then the arrow is connected to the end (target), and the arrow line is only as long as the arrow label.
+   :code:`?` means the arrow line is short; it is only as long as the label for it.
+
+       If the :code:`?` is at the end, the arrow line is connected to the start (origin) and stops when the label for it stops.
+
+       If the :code:`?` is at the end, then the arrow is connected to the end (target), and the arrow line is only as long as the arrow label.
 
    :code:`o` puts a final "o" at arrow head, denoting a *lost* message
 
    :code:`x` puts an ***X*** at the end, denoting a *destruction* message.
-
 
 
 
