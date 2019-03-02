@@ -4013,30 +4013,6 @@ body {
   color: #404040;
   background: #FFFFFF; }
 
-.wy-nav-side {
-  color: #404040;
-  background: #FFFFFF; }
-
-.wy-menu-vertical li ul li a {
-  color: #2980B9; }
-
-.wy-menu-vertical a {
-  color: #2980B9; }
-
-.wy-menu-vertical a:hover {
-  background-color: #f3f3f3;
-  cursor: pointer; }
-
-.wy-menu-vertical a:hover span.toctree-expand {
-  color: #2980B9; }
-
-.wy-menu-vertical a:active {
-  background-color: #d9d9d9;
-  color: #fff; }
-
-.wy-menu-vertical a:active span.toctree-expand {
-  color: #fff; }
-
 .fa:before,
 .wy-menu-vertical li span.toctree-expand:before,
 .wy-menu-vertical li.on a span.toctree-expand:before,
@@ -4158,5 +4134,91 @@ li.see {
 
 table.indextable > tbody > tr > td > ul > li > ul {
   margin-left: 1rem; }
+
+.wy-nav-side {
+  color: #404040;
+  background-color: #FFFFFF; }
+
+.wy-menu-vertical li ul li a {
+  color: #2980B9; }
+
+.wy-menu-vertical a {
+  color: #2980B9; }
+
+.wy-menu-vertical a:hover {
+  background-color: #647dd5;
+  color: white;
+  cursor: pointer; }
+
+.wy-menu-vertical a:hover span.toctree-expand {
+  color: #2980B9; }
+
+.wy-menu-vertical a:active {
+  background-color: #d9d9d9;
+  color: #fff; }
+
+.wy-menu-vertical a:active span.toctree-expand {
+  color: #fff; }
+
+.wy-menu-vertical li.current {
+  background-color: #e3e3e3; }
+
+.wy-menu-vertical li.current a {
+  color: white;
+  border-right: solid 1px #c9c9c9;
+  padding: .4045em 2.427em;
+  background-color: #647dd5; }
+
+.wy-menu-vertical li.current a:hover {
+  background-color: white;
+  color: #647dd5; }
+
+.wy-menu-vertical ul.current li.toctree-l1.current li.toctree-l2.current > a {
+  background-color: #647dd5;
+  color: white; }
+
+.wy-menu-vertical ul.current li.toctree-l1.current li.toctree-l2.current > a:hover {
+  background-color: #647dd5;
+  color: red; }
+
+.wy-menu-vertical ul.current li.toctree-l1.current li.toctree-l2 > a {
+  background-color: white;
+  color: #647dd5; }
+
+.wy-menu.wy-menu-vertical ul.current li.toctree-l1.current li.toctree-l2 > a:hover {
+  background-color: #ffffae;
+  color: #647dd5; }
+
+.wy-menu-vertical ul.current li.toctree-l1.current li.toctree-l2.current li.toctree-l3.current > a {
+  background-color: cornflowerblue;
+  color: white; }
+
+.wy-menu-vertical ul.currentli li.toctree-l1.current li.toctree-l2.current li.toctree-l3.current > a:hover {
+  background-color: white;
+  color: cornflowerblue; }
+
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a {
+  background-color: white;
+  color: #647dd5; }
+
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover {
+  background-color: #ffffae;
+  color: #647dd5; }
+
+.wy-menu-vertical ul.current li.toctree-l2.current li.toctree-l3.current li.toctree-l4.current > a {
+  background-color: cornflowerblue;
+  color: white; }
+
+.wy-menu-vertical ul.current li.toctree-l2.current li.toctree-l3.current li.toctree-l4.current > a:hover {
+  background-color: #ffffae;
+  color: cornflowerblue; }
+
+.wy-menu-vertical ul.current li.toctree-l2.current li.toctree-l3.current li.toctree-l4 > a {
+  background: white;
+  color: cornflowerblue; }
+
+.wy-menu-vertical ul.current li.toctree-l2.current li.toctree-l3.current li.toctree-l4 > a:hover {
+  background-color: #ffffae;
+  color: cornflowerblue; }
 
 /*# sourceMappingURL=custom.css.map */
