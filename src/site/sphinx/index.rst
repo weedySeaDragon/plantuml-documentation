@@ -38,7 +38,7 @@ Pages the currently have content
 
 
 ---------------------------------------------
-:ref:`UMLUse Case Diagram <use_case_diagram>`
+:ref:`UML Use Case Diagram <use_case_diagram>`
 ---------------------------------------------
 
 ----------------------------------------------
