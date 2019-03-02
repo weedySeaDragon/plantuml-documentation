@@ -187,7 +187,7 @@ rst_prolog = """
 #
 
 project = PROJECT_NAME
-copyright = u'' + str(THIS_YEAR) + ' ' + ASHLEY + '. (PlantUML copyright 2017 Arnaud Roques)'
+copyright = u'' + str(THIS_YEAR) + ' ' + ASHLEY + '. (PlantUML copyright '+ str(THIS_YEAR) + ' Arnaud Roques)'
 author = ASHLEY
 
 # The version info for the project you're documenting, acts as replacement for
@@ -195,9 +195,9 @@ author = ASHLEY
 # built documents.
 #
 # The short X.Y version.
-version = u'1.2019.02'
+version = u'0.2.01'
 # The full version, including alpha/beta/rc tags.
-release = u'1.2019.02'
+release = u'0.2.01'
 
 # ---------------------------------------------------
 
