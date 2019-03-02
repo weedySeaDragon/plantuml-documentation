@@ -10,12 +10,15 @@ A -\\ B: "\\\" creates just the top half
 A -\ B: "\" creates a filled top half
 A -// B: "//" creates just the bottom half
 A -/ B: "/" creates a filled bottom half
+A ->? : ? at the end means the arrow that stops when the label ends
+?-> B: ? at the start means the arrow will be at the ending line
 A ->>o B: a circle at the end denotes a lost message
 A o->> B: a circle at the start denotes a found message
 A ->x B: an X at the end denotes a deletion message
 [->>B:\t a "[" shows a message coming from outside the scope of the diagram
 A->]:\t a "]" shows a message going to outside the scope of the diagram
 [o-> B:\t this is a found message originating outside of the scope of this diagram
+
 
 
 '!include ../../plantuml-styles/ae-copyright-footer.txt
