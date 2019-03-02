@@ -74,6 +74,7 @@ Known problems and issues
   and I am unable to include content for many diagrams.  (For example, I use the same 'wake to an alarm clock' activity for the Activity diagram examples.)
 
 
+
 ======================================
 All Pages (detailed table of contents)
 ======================================
@@ -82,7 +83,6 @@ All Pages (detailed table of contents)
 .. toctree::
    :caption: Diagrams
    :maxdepth: 3
-   :collapse:
 
    diagrams/index
    diagrams/activity
@@ -121,6 +121,7 @@ All Pages (detailed table of contents)
    :maxdepth: 3
 
    advanced-use/index
+   command_line_reference
 
 
 .. toctree::

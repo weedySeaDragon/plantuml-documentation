@@ -23,6 +23,10 @@ Run::
 Note:  "plantuml.jar" must either be in your PATH or you need to specify the exact path (full location with folders/directories)
 
 
+%dirpath%	Path of the current file
+
+
+%filename%	Name of the current file
 
 ****************************
 Helpful command line options
@@ -40,7 +44,7 @@ Helpful command line options
 
    :code:`java -Dplantuml.include.path="c:/mydir" -jar plantuml.jar atest1.txt`
 
-   Note the this -D option has to put before the -jar option. -D options after the -jar option will be used to define constants within plantuml preprocessor.
+   :note:`The this -D option has to put before the -jar option. -D options after the -jar option will be used to define constants within plantuml preprocessor.`
 
 
 * See all of the regular expression patterns that PlantUML_ uses as it parses instructions::
