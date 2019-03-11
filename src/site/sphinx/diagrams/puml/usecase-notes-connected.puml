@@ -19,5 +19,5 @@ note "This note is connected to \n two use cases \n and the User actor."  as N2 
 N2 .[#magenta].|> (Use)
 User <==[#DeepSkyBlue]==> N2
 
-'!include ../../plantuml-styles/ae-copyright-footer.txt
+!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

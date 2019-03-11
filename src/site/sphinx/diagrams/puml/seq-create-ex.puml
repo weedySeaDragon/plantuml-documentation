@@ -7,5 +7,5 @@ Alice -> authSys: Authentication Request
 create wrappedRequest
 authSys -> wrappedRequest: new request()
 Alice <-- authSys: response
-'!include ../../plantuml-styles/ae-copyright-footer.txt
+!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

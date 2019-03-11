@@ -1,5 +1,5 @@
 @startuml
-'!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
 
 actor a order 1
 
@@ -43,5 +43,5 @@ a <<-->> b
 a o<->o b
 
 
-'!include ../../plantuml-styles/ae-copyright-footer.txt
+!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

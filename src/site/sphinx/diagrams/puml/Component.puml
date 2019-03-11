@@ -1,6 +1,6 @@
 @startuml
 title Component diagram
-'!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
 
 package "Some Group" {
 HTTP - [First Component]
@@ -13,5 +13,5 @@ FTP - [Second Component]
 [First Component] --> FTP
 }
 
-'!include ../../plantuml-styles/ae-copyright-footer.txt
+!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

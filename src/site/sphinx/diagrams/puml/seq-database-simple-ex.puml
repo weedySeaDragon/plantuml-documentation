@@ -9,5 +9,5 @@ database "Auth DB" as A #AliceBlue
 
 db -> A
 
-'!include ../../plantuml-styles/ae-copyright-footer.txt
+!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

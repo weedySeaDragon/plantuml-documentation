@@ -1,6 +1,6 @@
 @startuml
 title BoxPadding 100
-'!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam BoxPadding 100
 

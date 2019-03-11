@@ -17,5 +17,5 @@ Bob --> RH: formatted Authenticated Request (INVALID)
 RH --> Bob: Request Authenticated Response (DENIED)
 Alice <-- Bob: Authentication Response (DENIED)
 
-'!include ../../plantuml-styles/ae-copyright-footer.txt
+!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

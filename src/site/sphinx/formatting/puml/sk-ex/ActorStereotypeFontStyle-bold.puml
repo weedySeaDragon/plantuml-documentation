@@ -1,6 +1,6 @@
 @startuml
 title ActorStereotypeFontStyle bold
-'!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 skinparam ActorStereotypeFontStyle bold
 
 actor Tim <<Stereotype\ntext>>
