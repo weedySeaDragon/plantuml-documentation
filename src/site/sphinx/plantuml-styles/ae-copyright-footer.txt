@@ -1,1 +1,1 @@
-left footer Copyright 2019 Ashley Engelund
+left footer \nCopyright 2019 Ashley Engelund
