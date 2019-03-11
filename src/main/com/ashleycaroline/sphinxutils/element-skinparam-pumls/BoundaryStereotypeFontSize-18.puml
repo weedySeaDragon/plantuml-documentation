@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam BoundaryStereotypeFontSize 18
-
-title BoundaryStereotypeFontSize 18
-
-boundary Boundary <<Stereotype>>
-@enduml

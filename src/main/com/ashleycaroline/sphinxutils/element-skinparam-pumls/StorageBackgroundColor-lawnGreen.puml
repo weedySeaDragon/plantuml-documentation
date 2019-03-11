@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam StorageBackgroundColor lawnGreen
-
-title StorageBackgroundColor lawnGreen
-
-storage Storage 
-@enduml

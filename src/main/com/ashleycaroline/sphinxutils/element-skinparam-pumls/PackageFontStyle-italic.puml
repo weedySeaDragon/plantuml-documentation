@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam PackageFontStyle italic
-
-title PackageFontStyle italic
-
-package Package 
-@enduml

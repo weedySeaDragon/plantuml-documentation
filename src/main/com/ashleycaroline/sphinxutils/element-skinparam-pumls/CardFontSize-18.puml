@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam CardFontSize 18
-
-title CardFontSize 18
-
-card Card 
-@enduml

@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam CloudFontColor red
-
-title CloudFontColor red
-
-cloud Cloud 
-@enduml

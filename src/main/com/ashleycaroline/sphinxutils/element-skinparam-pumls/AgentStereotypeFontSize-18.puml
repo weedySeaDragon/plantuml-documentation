@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam AgentStereotypeFontSize 18
-
-title AgentStereotypeFontSize 18
-
-agent Agent <<Stereotype>>
-@enduml

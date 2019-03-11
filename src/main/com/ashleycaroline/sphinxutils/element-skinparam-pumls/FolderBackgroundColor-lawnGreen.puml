@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam FolderBackgroundColor lawnGreen
-
-title FolderBackgroundColor lawnGreen
-
-folder Folder 
-@enduml

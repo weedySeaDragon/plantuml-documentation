@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam QueueStereotypeFontName Papyrus
-
-title QueueStereotypeFontName Papyrus
-
-queue Queue <<Stereotype>>
-@enduml

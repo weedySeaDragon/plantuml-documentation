@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam CloudStereotypeFontStyle italic
-
-title CloudStereotypeFontStyle italic
-
-cloud Cloud <<Stereotype>>
-@enduml

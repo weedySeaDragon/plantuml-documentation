@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam RectangleFontStyle italic
-
-title RectangleFontStyle italic
-
-rectangle Rectangle 
-@enduml

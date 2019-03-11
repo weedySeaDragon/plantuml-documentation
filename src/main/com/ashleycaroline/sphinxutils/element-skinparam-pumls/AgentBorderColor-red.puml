@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam AgentBorderColor red
-
-title AgentBorderColor red
-
-agent Agent 
-@enduml

@@ -15,8 +15,8 @@ import java.nio.file.Paths;
  *  Responsibility: Hold all constant definitions needed for this package/module.
  *
  *
- *  @file GeneratorConsts
- *  @project documentation  (local project name)
+ *  file GeneratorConsts
+ *  project: plantuml-documentation  (local project name)
  *
  *  @author Ashley Engelund   ashley@ashleycaroline.com | weedySeaDragon@github
  *  @since 02 Oct 2018

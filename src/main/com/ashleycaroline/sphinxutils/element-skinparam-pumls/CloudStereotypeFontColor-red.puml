@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam CloudStereotypeFontColor red
-
-title CloudStereotypeFontColor red
-
-cloud Cloud <<Stereotype>>
-@enduml

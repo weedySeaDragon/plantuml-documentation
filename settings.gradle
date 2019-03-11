@@ -1,4 +1,4 @@
-rootProject.name = 'documentation'
+rootProject.name = 'plantuml-documentation'
 
 include 'generateDocInfo'
 

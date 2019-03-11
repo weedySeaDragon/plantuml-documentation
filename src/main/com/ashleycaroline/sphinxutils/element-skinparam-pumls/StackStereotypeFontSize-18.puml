@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam StackStereotypeFontSize 18
-
-title StackStereotypeFontSize 18
-
-stack Stack <<Stereotype>>
-@enduml

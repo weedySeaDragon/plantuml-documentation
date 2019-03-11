@@ -113,9 +113,9 @@ public class PlantUmlInfoGenerator {
      * | color name           | example                                        |
      * | Grey                 | .. uml:: source/puml/Grey.puml                 |
      *
-     * @param colorNames
+     * @param colorNames The list of names of all of the colors recognized by PlantUML
      *
-     * @throws IOException
+     * @exception  IOException if there is any kind of IO problem writing the files
      */
     public static void writePUMLColorFilesFor( List< String > colorNames ) throws IOException {
 
@@ -284,7 +284,7 @@ public class PlantUmlInfoGenerator {
 
     /**
      *
-     *
+     * @return a Map of PlantUML diagrams and all of the regular expressions for each
      */
     public static Map< String, List< String > > getPlantUMLDiagramRegexPatterns() {
 

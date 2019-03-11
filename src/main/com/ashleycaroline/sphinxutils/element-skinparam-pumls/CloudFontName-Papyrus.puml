@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam CloudFontName Papyrus
-
-title CloudFontName Papyrus
-
-cloud Cloud 
-@enduml

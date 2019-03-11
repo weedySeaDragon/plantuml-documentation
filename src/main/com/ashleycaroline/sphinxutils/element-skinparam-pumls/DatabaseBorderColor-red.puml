@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam DatabaseBorderColor red
-
-title DatabaseBorderColor red
-
-database Database 
-@enduml

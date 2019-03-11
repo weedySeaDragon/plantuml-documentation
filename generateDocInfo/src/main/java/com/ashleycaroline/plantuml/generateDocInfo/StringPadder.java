@@ -13,8 +13,8 @@ import java.util.Arrays;
  *      - given a string, pad it with spaces so that the string is length X
  *
  *
- *  @file StringPadder.java
- *  @project documentation  (local project name)
+ *  file: StringPadder.java
+ *  project: plantuml-documentation  (local project name)
  *
  *  @author Ashley Engelund   ashley@ashleycaroline.com | weedySeaDragon@github
  *  @since 11 Oct 2018

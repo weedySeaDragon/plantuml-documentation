@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam ComponentBackgroundColor lawnGreen
-
-title ComponentBackgroundColor lawnGreen
-
-component Component 
-@enduml

@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam FrameFontColor red
-
-title FrameFontColor red
-
-frame Frame 
-@enduml

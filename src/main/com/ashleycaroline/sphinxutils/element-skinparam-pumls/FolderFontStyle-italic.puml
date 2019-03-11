@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam FolderFontStyle italic
-
-title FolderFontStyle italic
-
-folder Folder 
-@enduml

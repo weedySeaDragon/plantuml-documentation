@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam CardStereotypeFontColor red
-
-title CardStereotypeFontColor red
-
-card Card <<Stereotype>>
-@enduml

@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam RectangleBackgroundColor lawnGreen
-
-title RectangleBackgroundColor lawnGreen
-
-rectangle Rectangle 
-@enduml

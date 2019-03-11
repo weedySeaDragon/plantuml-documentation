@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam EntityFontColor red
-
-title EntityFontColor red
-
-entity Entity 
-@enduml

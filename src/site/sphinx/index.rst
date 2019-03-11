@@ -121,6 +121,7 @@ All Pages (detailed table of contents)
    :maxdepth: 3
 
    advanced-use/index
+   advanced-use/language_reference
    command_line_reference
 
 

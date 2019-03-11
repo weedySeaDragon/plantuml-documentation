@@ -17,12 +17,19 @@ $code-color-default: royalblue;
 
 // default text color
 $default-color: #404040;
+$default-text-color: $default-color;
+
 
 // used for menus and navigation:
 $light-gray: #f3f3f3;
 $light-med-gray: #d9d9d9;
 $dark-gray: #4e4a4a;
 $slate-blue: #2980B9;
+
+$darker-cornflowerblue: #647dd5;
+
+$nav-menu-link: $slate-blue;
+$nav-menu-background: #FFFFFF;
 
 $theme-med-blue: #6ab0de;
 $theme-lt-orange: #ffedcc;
@@ -132,41 +139,6 @@ body {
   background: #FFFFFF //background: #edf0f2
 }
 
-// ------------------------
-// side navigation section:
-
-.wy-nav-side {
-
-  color: $default-color; //color: #9b9b9b;
-  background: #FFFFFF; //background: #343131;
-
-}
-
-.wy-menu-vertical li ul li a {
-  color: $slate-blue; // color: $light-med-gray;
-}
-
-.wy-menu-vertical a {
-  color: $slate-blue; // color: $light-med-gray;
-}
-
-.wy-menu-vertical a:hover {
-  background-color: $light-gray; // background-color: $dark-gray;
-  cursor: pointer
-}
-
-.wy-menu-vertical a:hover span.toctree-expand {
-  color: $slate-blue; // color: $light-med-gray;
-}
-
-.wy-menu-vertical a:active {
-  background-color: $light-med-gray; // background-color: $slate-blue;
-  color: #fff
-}
-
-.wy-menu-vertical a:active span.toctree-expand {
-  color: #fff
-}
 
 .fa:before,
 .wy-menu-vertical li span.toctree-expand:before,
@@ -387,3 +359,153 @@ table.indextable > tbody > tr > td > ul > li > ul {
 
 // footer
 
+
+// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
+// ------------------------
+// side navigation section:
+
+.wy-nav-side {
+  color: $default-text-color; //color: #9b9b9b;
+  background-color: $nav-menu-background; //background: #343131;
+}
+
+
+
+.wy-menu-vertical li ul li a {
+  color: $nav-menu-link; // color: $light-med-gray;
+}
+
+.wy-menu-vertical a {
+  color: $nav-menu-link; // color: $light-med-gray;
+}
+
+.wy-menu-vertical a:hover {
+  background-color: $darker-cornflowerblue; //$light-gray; // background-color: $dark-gray;
+  color: white;
+  cursor: pointer
+}
+
+.wy-menu-vertical a:hover span.toctree-expand {
+  color: $nav-menu-link; // color: $light-med-gray;
+}
+
+.wy-menu-vertical a:active {
+  background-color: $light-med-gray; // background-color: $slate-blue;
+  color: #fff
+}
+
+.wy-menu-vertical a:active span.toctree-expand {
+  color: #fff
+}
+
+.wy-menu-vertical li.current {
+  background-color: #e3e3e3
+}
+
+// Nav menu: current (selected) items:
+//  at each level, 3 colors are needed:
+//   1) li.current
+//   2) li.current > a
+//   3) li.current > a:hover
+//
+//  Need to ensure the (parent) level above the current (selected) items:
+//   ex: li.toctree-l2.current li.toctree-l3 > a
+//
+//  TODO: DRY up: can combine many of the statements
+//  TODO: improve colors
+//  TODO: :focus, :active should be the same
+
+
+$light-cornflowerblue: #8fb7f0;
+$lighter-yellow:  #ffffae;
+
+// Top Level
+.wy-menu-vertical li.current a {
+  color: white;
+  border-right: solid 1px #c9c9c9;
+  padding: .4045em 2.427em;
+  background-color: $darker-cornflowerblue;
+}
+.wy-menu-vertical li.current a:hover {
+  background-color: white; //#d6d6d6
+  color: $darker-cornflowerblue;
+}
+
+// .wy-menu.wy-menu-vertical >  li.toctree-l1.current > li:nth-child(1) > a
+// Level 2
+// selected (current):
+.wy-menu-vertical  ul.current  li.toctree-l1.current  li.toctree-l2.current > a {
+  background-color: $darker-cornflowerblue;
+  color: white;
+}
+// hover
+.wy-menu-vertical  ul.current  li.toctree-l1.current  li.toctree-l2.current > a:hover {
+  background-color: $darker-cornflowerblue;
+  color: red;
+}
+// not selected
+.wy-menu-vertical  ul.current  li.toctree-l1.current  li.toctree-l2 > a {
+  background-color: white;
+  color: $darker-cornflowerblue;
+}
+// not selected a:hover
+.wy-menu.wy-menu-vertical   ul.current  li.toctree-l1.current  li.toctree-l2 > a:hover {
+  background-color: $lighter-yellow;
+  color: $darker-cornflowerblue;
+}
+
+
+// Level 3
+// selected (current):
+.wy-menu-vertical  ul.current  li.toctree-l1.current  li.toctree-l2.current  li.toctree-l3.current > a {
+  background-color: cornflowerblue;
+  color: white;
+}
+// hover
+.wy-menu-vertical ul.currentli li.toctree-l1.current  li.toctree-l2.current  li.toctree-l3.current  > a:hover {
+  background-color: white;
+  color:cornflowerblue;
+}
+// not selected
+
+
+// these are the other items at the parent current level
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a {
+  background-color: white;
+  color: $darker-cornflowerblue;
+}
+
+// these are the other items at the parent current level
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover {
+  background-color: $lighter-yellow;
+  color: $darker-cornflowerblue;
+}
+
+// Really do need the ul.current in there!
+
+// Level 4
+// selected (current)
+.wy-menu-vertical ul.current li.toctree-l2.current  li.toctree-l3.current  li.toctree-l4.current > a {
+  background-color: cornflowerblue;
+  color: white;
+}
+// hover
+.wy-menu-vertical ul.current li.toctree-l2.current  li.toctree-l3.current li.toctree-l4.current > a:hover {
+  background-color: $lighter-yellow;;
+  color: cornflowerblue;
+}
+
+// not selected
+.wy-menu-vertical ul.current li.toctree-l2.current  li.toctree-l3.current li.toctree-l4 > a {
+  background: white;
+  color: cornflowerblue;
+}
+// not selected hover
+.wy-menu-vertical ul.current li.toctree-l2.current  li.toctree-l3.current li.toctree-l4 > a:hover {
+  background-color: $lighter-yellow;;
+  color: cornflowerblue;
+}
+
+// these are the other items at the parent current level

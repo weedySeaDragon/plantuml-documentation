@@ -1,9 +1,0 @@
-@startuml
-!include ../../../plantuml-styles/plantuml-ae-noshadowing.iuml
-
-skinparam DatabaseBackgroundColor lawnGreen
-
-title DatabaseBackgroundColor lawnGreen
-
-database Database 
-@enduml
