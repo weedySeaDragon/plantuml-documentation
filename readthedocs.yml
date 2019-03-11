@@ -13,6 +13,4 @@ python:
   install:
     - requirements: requirements.txt
     - requirements: src/site/sphinx/requirements.txt
-    - method: pip
-      path: .
   system_packages: true
