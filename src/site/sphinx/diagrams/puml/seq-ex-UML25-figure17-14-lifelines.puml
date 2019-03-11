@@ -52,5 +52,5 @@ ob1c1->[: opti
 
 deactivate ob1c1
 
-'!include ../../plantuml-styles/ae-copyright-footer.txt
+!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

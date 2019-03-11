@@ -2,5 +2,5 @@
 ' This prints the current directory (Current Dir) of... ??
 '  and the "default path" (which is really the current directory!)
 path
-'!include ../../plantuml-styles/ae-copyright-footer.txt
+!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml
