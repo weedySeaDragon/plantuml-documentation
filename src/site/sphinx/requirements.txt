@@ -6,6 +6,7 @@ chardet
 dataclasses
 dectate
 docutils
+entrypoints
 filelock
 flake8
 future
@@ -27,7 +28,10 @@ Pillow
 pipenv
 pluggy
 py
+pycodestyle
+pydantic
 pydash
+pyflakes
 Pygments
 pyparsing
 pytz
@@ -37,12 +41,12 @@ semantic-version
 six
 snowballstemmer
 soupsieve
-
 Sphinx==1.8.4
 sphinx-fontawesome==0.0.6
 sphinx-rtd-theme==0.4.1
 sphinxcontrib-plantuml
 sphinxcontrib-websupport
-
 urllib3
+virtualenv
+virtualenv-clone
 wrapt
