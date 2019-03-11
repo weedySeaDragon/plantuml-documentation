@@ -1,10 +1,12 @@
 @startuml
 
 title ActorBackgroundColor GreenYellow
-'!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 
 skinparam ActorBackgroundColor GreenYellow
 
 !include usecase-2actors.txt
 
+
+!include ../../../plantuml-styles/ae-copyright-footer.txt
 @enduml

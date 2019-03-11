@@ -1,6 +1,6 @@
 @startuml
 title SequenceTitleFontStyle italic
-'!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
+!include ../../../plantuml-styles/plantuml-ae-skinparam-ex.iuml
 skinparam SequenceTitleFontStyle italic
 
 !include seq-AliceBob.txt
