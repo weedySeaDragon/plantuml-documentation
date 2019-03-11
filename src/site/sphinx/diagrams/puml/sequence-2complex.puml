@@ -40,5 +40,5 @@ deactivate B
 A --> User: Done
 deactivate A
 
-'!include ../../plantuml-styles/ae-copyright-footer.txt
+!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

@@ -9,5 +9,5 @@ boundary "System Boundary" as sysBoundary #orange
 
 boundaryB -> sysBoundary
 
-'!include ../../plantuml-styles/ae-copyright-footer.txt
+!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

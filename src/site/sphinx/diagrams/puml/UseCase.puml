@@ -1,6 +1,6 @@
 @startuml
 title Use Case diagram
-'!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
 
 :Main Admin: as Admin
 (Use the application) as (Use)
@@ -21,5 +21,5 @@ note "This note is connected\nto several objects." as N2
 (Start) .. N2
 N2 .. (Use)
 
-'!include ../../plantuml-styles/ae-copyright-footer.txt
+!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

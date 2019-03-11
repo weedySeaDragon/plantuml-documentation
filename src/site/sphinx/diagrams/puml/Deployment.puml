@@ -1,5 +1,5 @@
 @startuml
-'!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
 
 
 title Deployment diagram: elements
@@ -29,5 +29,5 @@ rectangle "Rectangle" <<Stereotype>> {
     actor X
 }
 
-'!include ../../plantuml-styles/ae-copyright-footer.txt
+!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

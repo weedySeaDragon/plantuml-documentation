@@ -1,5 +1,5 @@
 @startuml
-'!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
+!include ../../plantuml-styles/plantuml-ae-noshadowing.iuml
 
 title Object diagram
 
@@ -20,5 +20,5 @@ Object03 *-- Object04
 Object05 o-- "4" Object06
 Object07 .. Object08 : some labels
 
-'!include ../../plantuml-styles/ae-copyright-footer.txt
+!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml

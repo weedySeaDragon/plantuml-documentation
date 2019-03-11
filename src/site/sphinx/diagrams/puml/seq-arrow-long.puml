@@ -16,5 +16,5 @@ A <- D
 
 caption: \nEven though you made the arrow line\n from A to B the longest,\n their lengths are calculated and this\n calculated length is what's drawn.
 
-'!include ../../plantuml-styles/ae-copyright-footer.txt
+!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml
