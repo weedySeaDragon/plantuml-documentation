@@ -46,7 +46,7 @@ sphinx-fontawesome==0.0.6
 sphinx-rtd-theme==0.4.1
 sphinxcontrib-plantuml==0.14
 sphinxcontrib-websupport==1.1.0
-urllib3==1.24.1
+urllib3==1.26.5
 virtualenv==16.4.3
 virtualenv-clone==0.5.1
 wrapt==1.11.1
